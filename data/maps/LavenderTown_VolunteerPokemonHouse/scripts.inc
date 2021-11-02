@@ -1,0 +1,82 @@
+LavenderTown_VolunteerPokemonHouse_MapScripts:: @ 816B149
+	.byte 0
+
+LavenderTown_VolunteerPokemonHouse_EventScript_MrFuji:: @ 816B14A
+	lock
+	faceplayer
+	goto_if_set FLAG_GOT_POKE_FLUTE, LavenderTown_VolunteerPokemonHouse_EventScript_AlreadyHavePokeFlute
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis
+	checkitemspace ITEM_POKE_FLUTE, 1
+	compare VAR_RESULT, FALSE
+	goto_if_eq LavenderTown_VolunteerPokemonHouse_EventScript_NoRoomForPokeFlute
+	setflag FLAG_GOT_POKE_FLUTE
+	giveitem_msg LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji, ITEM_POKE_FLUTE, 1, MUS_OBTAIN_KEY_ITEM
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute
+	release
+	end
+
+LavenderTown_VolunteerPokemonHouse_EventScript_AlreadyHavePokeFlute:: @ 816B196
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_HasPokeFluteHelpedYou
+	release
+	end
+
+LavenderTown_VolunteerPokemonHouse_EventScript_NoRoomForPokeFlute:: @ 816B1A0
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis
+	release
+	end
+
+LavenderTown_VolunteerPokemonHouse_EventScript_LittleGirl:: @ 816B1AA
+	lock
+	faceplayer
+	famechecker FAMECHECKER_MRFUJI, 0
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_MrFujiLooksAfterOrphanedMons
+	release
+	end
+
+LavenderTown_VolunteerPokemonHouse_EventScript_LittleBoy:: @ 816B1C3
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug, MSGBOX_NPC
+	end
+
+LavenderTown_VolunteerPokemonHouse_EventScript_Youngster:: @ 816B1CC
+	lock
+	faceplayer
+	goto_if_set FLAG_RESCUED_MR_FUJI, LavenderTown_VolunteerPokemonHouse_EventScript_YoungsterFujiBack
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_WhereDidMrFujiGo
+	release
+	end
+
+LavenderTown_VolunteerPokemonHouse_EventScript_YoungsterFujiBack:: @ 816B1E1
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_MrFujiWasPrayingForCubonesMother
+	release
+	end
+
+LavenderTown_VolunteerPokemonHouse_EventScript_Nidorino:: @ 816B1EB
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_NIDORINO, 0
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_Nidorino
+	waitmoncry
+	release
+	end
+
+LavenderTown_VolunteerPokemonHouse_EventScript_Psyduck:: @ 816B1FE
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_PSYDUCK, 0
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_Psyduck
+	waitmoncry
+	release
+	end
+
+LavenderTown_VolunteerPokemonHouse_EventScript_PokemonFanMagazine:: @ 816B211
+	lockall
+	famechecker FAMECHECKER_MRFUJI, 2
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped
+	releaseall
+	end
+
+LavenderTown_VolunteerPokemonHouse_EventScript_Bookshelf:: @ 816B229
+	msgbox LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf, MSGBOX_SIGN
+	end

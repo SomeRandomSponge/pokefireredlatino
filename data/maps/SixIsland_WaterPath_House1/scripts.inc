@@ -1,0 +1,84 @@
+SixIsland_WaterPath_House1_MapScripts:: @ 817206C
+	.byte 0
+
+SixIsland_WaterPath_House1_EventScript_Beauty:: @ 817206D
+	lock
+	faceplayer
+	goto_if_questlog EventScript_ReleaseEnd
+	special QuestLog_CutRecording
+	setvar VAR_0x8004, SPECIES_HERACROSS
+	specialvar VAR_RESULT, DoesPlayerPartyContainSpecies
+	compare VAR_RESULT, FALSE
+	goto_if_eq SixIsland_WaterPath_House1_EventScript_NoHeracrossInParty
+	special GetHeracrossSizeRecordInfo
+	msgbox SixIsland_WaterPath_House1_Text_MayIMeasureHeracross
+	special ChoosePartyMon
+	waitstate
+	copyvar VAR_RESULT, VAR_0x8004
+	compare VAR_RESULT, PARTY_SIZE
+	goto_if_ge SixIsland_WaterPath_House1_EventScript_DontShowMon
+	special CompareHeracrossSize
+	compare VAR_RESULT, 1
+	goto_if_eq SixIsland_WaterPath_House1_EventScript_ShownNonHeracross
+	compare VAR_RESULT, 2
+	goto_if_eq SixIsland_WaterPath_House1_EventScript_ShownSmallHeracross
+	compare VAR_RESULT, 3
+	goto_if_eq SixIsland_WaterPath_House1_EventScript_ShownBigHeracross
+	compare VAR_RESULT, 4
+	goto_if_eq SixIsland_WaterPath_House1_EventScript_ShownTiedHeracross
+	release
+	end
+
+SixIsland_WaterPath_House1_EventScript_NoHeracrossInParty:: @ 81720E5
+	msgbox SixIsland_WaterPath_House1_Text_LoveItNeedItHeracross
+	release
+	end
+
+SixIsland_WaterPath_House1_EventScript_DontShowMon:: @ 81720EF
+	release
+	end
+
+SixIsland_WaterPath_House1_EventScript_ShownNonHeracross:: @ 81720F1
+	msgbox SixIsland_WaterPath_House1_Text_ThisWontDo
+	release
+	end
+
+SixIsland_WaterPath_House1_EventScript_ShownSmallHeracross:: @ 81720FB
+	goto_if_unset FLAG_GOT_NEST_BALL_FROM_WATER_PATH_HOUSE_1, SixIsland_WaterPath_House1_EventScript_ShownBigHeracross
+	msgbox SixIsland_WaterPath_House1_Text_ItsXInchesYInchesWasBiggest
+	release
+	end
+
+SixIsland_WaterPath_House1_EventScript_ShownTiedHeracross:: @ 817210E
+	goto_if_unset FLAG_GOT_NEST_BALL_FROM_WATER_PATH_HOUSE_1, SixIsland_WaterPath_House1_EventScript_ShownBigHeracross
+	msgbox SixIsland_WaterPath_House1_Text_ItsXInchesSameAsBefore
+	release
+	end
+
+SixIsland_WaterPath_House1_EventScript_ShownBigHeracross:: @ 8172121
+	setflag FLAG_GOT_NEST_BALL_FROM_WATER_PATH_HOUSE_1
+	msgbox SixIsland_WaterPath_House1_Text_ItsXInchesDeserveReward
+	giveitem ITEM_NEST_BALL
+	compare VAR_RESULT, FALSE
+	goto_if_eq SixIsland_WaterPath_House1_EventScript_NoRoomForNestBall
+	msgbox SixIsland_WaterPath_House1_Text_WantToSeeBiggerOne
+	release
+	end
+
+SixIsland_WaterPath_House1_EventScript_NoRoomForNestBall:: @ 817214D
+	msgbox SixIsland_WaterPath_House1_Text_YourBagIsFull
+	release
+	end
+
+SixIsland_WaterPath_House1_EventScript_SizeRecord:: @ 8172157
+	lockall
+	goto_if_set FLAG_GOT_NEST_BALL_FROM_WATER_PATH_HOUSE_1, SixIsland_WaterPath_House1_EventScript_SizeRecordNonEmpty
+	msgbox SixIsland_WaterPath_House1_Text_BlankChartOfSomeSort
+	releaseall
+	end
+
+SixIsland_WaterPath_House1_EventScript_SizeRecordNonEmpty:: @ 817216B
+	special GetHeracrossSizeRecordInfo
+	msgbox SixIsland_WaterPath_House1_Text_BiggestHeracrossIsXInches
+	releaseall
+	end

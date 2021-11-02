@@ -1,0 +1,87 @@
+CeruleanCity_House1_MapScripts:: @ 816A7EF
+	.byte 0
+
+CeruleanCity_House1_EventScript_BadgeGuy:: @ 816A7F0
+	lock
+	faceplayer
+	msgbox CeruleanCity_House1_Text_BadgesHaveAmazingSecrets
+	message CeruleanCity_House1_Text_DescribeWhichBadge
+	waitmessage
+	setvar VAR_0x8004, LISTMENU_BADGES
+	special ListMenu
+	waitstate
+	switch VAR_RESULT
+	case 0, CeruleanCity_House1_EventScript_DescribeBoulderBadge
+	case 1, CeruleanCity_House1_EventScript_DescribeCascadeBadge
+	case 2, CeruleanCity_House1_EventScript_DescribeThunderBadge
+	case 3, CeruleanCity_House1_EventScript_DescribeRainbowBadge
+	case 4, CeruleanCity_House1_EventScript_DescribeSoulBadge
+	case 5, CeruleanCity_House1_EventScript_DescribeMarshBadge
+	case 6, CeruleanCity_House1_EventScript_DescribeVolcanoBadge
+	case 7, CeruleanCity_House1_EventScript_DescribeEarthBadge
+	case 8, CeruleanCity_House1_EventScript_StopDescribingBadges
+	case 127, CeruleanCity_House1_EventScript_StopDescribingBadges
+	end
+
+CeruleanCity_House1_EventScript_DescribeAnotherBadge:: @ 816A87D
+	message CeruleanCity_House1_Text_DescribeWhichBadge
+	waitmessage
+	special ReturnToListMenu
+	waitstate
+	switch VAR_RESULT
+	case 0, CeruleanCity_House1_EventScript_DescribeBoulderBadge
+	case 1, CeruleanCity_House1_EventScript_DescribeCascadeBadge
+	case 2, CeruleanCity_House1_EventScript_DescribeThunderBadge
+	case 3, CeruleanCity_House1_EventScript_DescribeRainbowBadge
+	case 4, CeruleanCity_House1_EventScript_DescribeSoulBadge
+	case 5, CeruleanCity_House1_EventScript_DescribeMarshBadge
+	case 6, CeruleanCity_House1_EventScript_DescribeVolcanoBadge
+	case 7, CeruleanCity_House1_EventScript_DescribeEarthBadge
+	case 8, CeruleanCity_House1_EventScript_StopDescribingBadges
+	case 127, CeruleanCity_House1_EventScript_StopDescribingBadges
+	end
+
+CeruleanCity_House1_EventScript_DescribeBoulderBadge:: @ 816A8FB
+	msgbox CeruleanCity_House1_Text_AttackStatFlash
+	goto CeruleanCity_House1_EventScript_DescribeAnotherBadge
+	end
+
+CeruleanCity_House1_EventScript_DescribeCascadeBadge:: @ 816A909
+	msgbox CeruleanCity_House1_Text_ObeyLv30Cut
+	goto CeruleanCity_House1_EventScript_DescribeAnotherBadge
+	end
+
+CeruleanCity_House1_EventScript_DescribeThunderBadge:: @ 816A917
+	msgbox CeruleanCity_House1_Text_SpeedStatFly
+	goto CeruleanCity_House1_EventScript_DescribeAnotherBadge
+	end
+
+CeruleanCity_House1_EventScript_DescribeRainbowBadge:: @ 816A925
+	msgbox CeruleanCity_House1_Text_ObeyLv50Strength
+	goto CeruleanCity_House1_EventScript_DescribeAnotherBadge
+	end
+
+CeruleanCity_House1_EventScript_DescribeSoulBadge:: @ 816A933
+	msgbox CeruleanCity_House1_Text_DefenseStatSurf
+	goto CeruleanCity_House1_EventScript_DescribeAnotherBadge
+	end
+
+CeruleanCity_House1_EventScript_DescribeMarshBadge:: @ 816A941
+	msgbox CeruleanCity_House1_Text_ObeyLv70RockSmash
+	goto CeruleanCity_House1_EventScript_DescribeAnotherBadge
+	end
+
+CeruleanCity_House1_EventScript_DescribeVolcanoBadge:: @ 816A94F
+	msgbox CeruleanCity_House1_Text_SpStatsWaterfall
+	goto CeruleanCity_House1_EventScript_DescribeAnotherBadge
+	end
+
+CeruleanCity_House1_EventScript_DescribeEarthBadge:: @ 816A95D
+	msgbox CeruleanCity_House1_Text_AllMonsWillObeyYou
+	goto CeruleanCity_House1_EventScript_DescribeAnotherBadge
+	end
+
+CeruleanCity_House1_EventScript_StopDescribingBadges:: @ 816A96B
+	msgbox CeruleanCity_House1_Text_ComeVisitAnytime
+	release
+	end

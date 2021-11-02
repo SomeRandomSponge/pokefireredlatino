@@ -1,0 +1,80 @@
+SixIsland_PatternBush_MapScripts:: @ 8164559
+	map_script MAP_SCRIPT_ON_TRANSITION, SixIsland_PatternBush_OnTransition
+	.byte 0
+
+SixIsland_PatternBush_OnTransition:: @ 816455F
+	setworldmapflag FLAG_WORLD_MAP_SIX_ISLAND_PATTERN_BUSH
+	getplayerxy VAR_TEMP_1, VAR_TEMP_2
+	compare VAR_TEMP_1, 50
+	call_if_ge SixIsland_PatternBush_EventScript_SetEscapeRightExit
+	compare VAR_TEMP_1, 49
+	call_if_le SixIsland_PatternBush_EventScript_SetEscapeLeftExit
+	end
+
+SixIsland_PatternBush_EventScript_SetEscapeRightExit:: @ 816457E
+	setescapewarp MAP_SIX_ISLAND_GREEN_PATH, 255, 64, 10
+	return
+
+SixIsland_PatternBush_EventScript_SetEscapeLeftExit:: @ 8164587
+	setescapewarp MAP_SIX_ISLAND_GREEN_PATH, 255, 45, 10
+	return
+
+SixIsland_PatternBush_EventScript_Bethany:: @ 8164590
+	trainerbattle_single TRAINER_PKMN_BREEDER_BETHANY, SixIsland_PatternBush_Text_BethanyIntro, SixIsland_PatternBush_Text_BethanyDefeat
+	msgbox SixIsland_PatternBush_Text_BethanyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SixIsland_PatternBush_EventScript_Allison:: @ 81645A7
+	trainerbattle_single TRAINER_PKMN_BREEDER_ALLISON, SixIsland_PatternBush_Text_AllisonIntro, SixIsland_PatternBush_Text_AllisonDefeat
+	msgbox SixIsland_PatternBush_Text_AllisonPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SixIsland_PatternBush_EventScript_Garret:: @ 81645BE
+	trainerbattle_single TRAINER_BUG_CATCHER_GARRET, SixIsland_PatternBush_Text_GarretIntro, SixIsland_PatternBush_Text_GarretDefeat
+	msgbox SixIsland_PatternBush_Text_GarretPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SixIsland_PatternBush_EventScript_Jonah:: @ 81645D5
+	trainerbattle_single TRAINER_BUG_CATCHER_JONAH, SixIsland_PatternBush_Text_JonahIntro, SixIsland_PatternBush_Text_JonahDefeat
+	msgbox SixIsland_PatternBush_Text_JonahPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SixIsland_PatternBush_EventScript_Vance:: @ 81645EC
+	trainerbattle_single TRAINER_BUG_CATCHER_VANCE, SixIsland_PatternBush_Text_VanceIntro, SixIsland_PatternBush_Text_VanceDefeat
+	msgbox SixIsland_PatternBush_Text_VancePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SixIsland_PatternBush_EventScript_Nash:: @ 8164603
+	trainerbattle_single TRAINER_YOUNGSTER_NASH, SixIsland_PatternBush_Text_NashIntro, SixIsland_PatternBush_Text_NashDefeat
+	msgbox SixIsland_PatternBush_Text_NashPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SixIsland_PatternBush_EventScript_Cordell:: @ 816461A
+	trainerbattle_single TRAINER_YOUNGSTER_CORDELL, SixIsland_PatternBush_Text_CordellIntro, SixIsland_PatternBush_Text_CordellDefeat
+	msgbox SixIsland_PatternBush_Text_CordellPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SixIsland_PatternBush_EventScript_Dalia:: @ 8164631
+	trainerbattle_single TRAINER_LASS_DALIA, SixIsland_PatternBush_Text_DaliaIntro, SixIsland_PatternBush_Text_DaliaDefeat
+	msgbox SixIsland_PatternBush_Text_DaliaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SixIsland_PatternBush_EventScript_Joana:: @ 8164648
+	trainerbattle_single TRAINER_LASS_JOANA, SixIsland_PatternBush_Text_JoanaIntro, SixIsland_PatternBush_Text_JoanaDefeat
+	msgbox SixIsland_PatternBush_Text_JoanaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SixIsland_PatternBush_EventScript_Riley:: @ 816465F
+	trainerbattle_single TRAINER_CAMPER_RILEY, SixIsland_PatternBush_Text_RileyIntro, SixIsland_PatternBush_Text_RileyDefeat
+	msgbox SixIsland_PatternBush_Text_RileyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SixIsland_PatternBush_EventScript_Marcy:: @ 8164676
+	trainerbattle_single TRAINER_PICNICKER_MARCY, SixIsland_PatternBush_Text_MarcyIntro, SixIsland_PatternBush_Text_MarcyDefeat
+	msgbox SixIsland_PatternBush_Text_MarcyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SixIsland_PatternBush_EventScript_Layton:: @ 816468D
+	trainerbattle_single TRAINER_RUIN_MANIAC_LAYTON, SixIsland_PatternBush_Text_LaytonIntro, SixIsland_PatternBush_Text_LaytonDefeat
+	msgbox SixIsland_PatternBush_Text_LaytonPostBattle, MSGBOX_AUTOCLOSE
+	end

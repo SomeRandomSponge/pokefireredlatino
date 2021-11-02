@@ -1,0 +1,586 @@
+.equ LOCALID_BILL,  2
+.equ LOCALID_CELIO, 3
+
+OneIsland_PokemonCenter_1F_MapScripts:: @ 8170BF8
+	map_script MAP_SCRIPT_ON_TRANSITION, OneIsland_PokemonCenter_1F_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	map_script MAP_SCRIPT_ON_LOAD, OneIsland_PokemonCenter_1F_OnLoad
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, OneIsland_PokemonCenter_1F_OnFrame
+	.byte 0
+
+OneIsland_PokemonCenter_1F_OnLoad:: @ 8170C0D
+	compare VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 5
+	call_if_ge OneIsland_PokemonCenter_1F_EventScript_SetRubyMetatile
+	call_if_set FLAG_SYS_CAN_LINK_WITH_RS, OneIsland_PokemonCenter_1F_EventScript_SetNetworkMachineOn
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_SetRubyMetatile:: @ 8170C22
+	setmetatile 13, 4, METATILE_PokemonCenter_NetworkMachine_Ruby, 1
+	return
+
+OneIsland_PokemonCenter_1F_EventScript_SetSapphireMetatile:: @ 8170C2C
+	setmetatile 16, 4, METATILE_PokemonCenter_NetworkMachine_Sapphire, 1
+	return
+
+OneIsland_PokemonCenter_1F_EventScript_SetNetworkMachineOn:: @ 8170C36
+	call OneIsland_PokemonCenter_1F_EventScript_SetSapphireMetatile
+	setmetatile 14, 4, METATILE_PokemonCenter_NetworkMachine_ScreenLeft_On, 1
+	setmetatile 15, 4, METATILE_PokemonCenter_NetworkMachine_ScreenRight_On, 1
+	return
+
+OneIsland_PokemonCenter_1F_OnTransition:: @ 8170C4E
+	setrespawn SPAWN_ONE_ISLAND
+	compare VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 6
+	call_if_eq OneIsland_PokemonCenter_1F_EventScript_SetCelioQuestDone
+	compare VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 0
+	call_if_eq OneIsland_PokemonCenter_1F_EventScript_SetBillCelioFirstMeetingPos
+	compare VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 2
+	call_if_eq OneIsland_PokemonCenter_1F_EventScript_SetBillCelioReadyToLeavePos
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_SetCelioQuestDone:: @ 8170C73
+	setvar VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 7
+	return
+
+OneIsland_PokemonCenter_1F_EventScript_SetBillCelioFirstMeetingPos:: @ 8170C79
+	setobjectxyperm LOCALID_BILL, 9, 8
+	setobjectmovementtype LOCALID_BILL, MOVEMENT_TYPE_FACE_UP
+	setobjectxyperm LOCALID_CELIO, 15, 6
+	setobjectmovementtype LOCALID_CELIO, MOVEMENT_TYPE_FACE_UP
+	return
+
+OneIsland_PokemonCenter_1F_EventScript_SetBillCelioReadyToLeavePos:: @ 8170C90
+	setobjectxyperm LOCALID_BILL, 14, 7
+	setobjectmovementtype LOCALID_BILL, MOVEMENT_TYPE_FACE_LEFT
+	setobjectxyperm LOCALID_CELIO, 14, 8
+	setobjectmovementtype LOCALID_CELIO, MOVEMENT_TYPE_FACE_LEFT
+	return
+
+OneIsland_PokemonCenter_1F_OnFrame:: @ 8170CA7
+	map_script_2 VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 0, OneIsland_PokemonCenter_1F_EventScript_MeetCelioScene
+	.2byte 0
+
+OneIsland_PokemonCenter_1F_EventScript_MeetCelioScene:: @ 8170CB1
+	lockall
+	textcolor 0
+	applymovement OBJ_EVENT_ID_PLAYER, OneIsland_PokemonCenter_1F_Movement_PlayerWalkToCelio
+	applymovement LOCALID_BILL, OneIsland_PokemonCenter_1F_Movement_BillWalkToCelio
+	waitmovement 0
+	msgbox OneIsland_PokemonCenter_1F_Text_BillHeyThereCelio
+	applymovement OBJ_EVENT_ID_PLAYER, Movement_WalkInPlaceFastestRight
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_CELIO, Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_CELIO, Movement_WalkInPlaceFastestLeft
+	waitmovement 0
+	applymovement LOCALID_CELIO, Movement_Delay48
+	waitmovement 0
+	msgbox OneIsland_PokemonCenter_1F_Text_CelioCantBelieveYouCameOut
+	msgbox OneIsland_PokemonCenter_1F_Text_BillHowsYourResearchComing
+	applymovement LOCALID_BILL, Movement_WalkInPlaceFastestDown
+	applymovement OBJ_EVENT_ID_PLAYER, Movement_WalkInPlaceFastestUp
+	waitmovement 0
+	msgbox OneIsland_PokemonCenter_1F_Text_ThisIsMyBuddyCelio
+	applymovement LOCALID_BILL, Movement_WalkInPlaceFastestRight
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Movement_WalkInPlaceFastestRight
+	waitmovement 0
+	call_if_set FLAG_SYS_GAME_CLEAR, OneIsland_PokemonCenter_1F_EventScript_IntroducePlayerChamp
+	call_if_unset FLAG_SYS_GAME_CLEAR, OneIsland_PokemonCenter_1F_EventScript_IntroducePlayerNotChamp
+	applymovement LOCALID_CELIO, Movement_WalkInPlaceFastestDown
+	waitmovement 0
+	msgbox OneIsland_PokemonCenter_1F_Text_CelioThatsReallyImpressive
+	msgbox OneIsland_PokemonCenter_1F_Text_BillBringMeUpToSpeed
+	applymovement LOCALID_CELIO, Movement_WalkInPlaceFastestLeft
+	waitmovement 0
+	msgbox OneIsland_PokemonCenter_1F_Text_CelioPCsCantLinkWithYours
+	closemessage
+	applymovement LOCALID_BILL, Movement_WalkInPlaceFastestUp
+	waitmovement 0
+	msgbox OneIsland_PokemonCenter_1F_Text_BillLetMeHelpYou
+	applymovement LOCALID_BILL, Movement_WalkInPlaceFastestDown
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Movement_WalkInPlaceFastestUp
+	waitmovement 0
+	msgbox OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer
+	msgreceiveditem OneIsland_PokemonCenter_1F_Text_AcceptedMeteoriteFromBill, ITEM_METEORITE, 1, MUS_OBTAIN_KEY_ITEM
+	additem ITEM_METEORITE
+	applymovement LOCALID_CELIO, Movement_WalkInPlaceFastestDown
+	waitmovement 0
+	msgbox OneIsland_PokemonCenter_1F_Text_CelioPleaseTakeThis
+	giveitem_msg OneIsland_PokemonCenter_1F_Text_ObtainedTriPass, ITEM_TRI_PASS, 1, MUS_OBTAIN_KEY_ITEM
+	msgbox OneIsland_PokemonCenter_1F_Text_PassLetsYouTravelBetweenIslands
+	compare VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 2
+	call_if_ge OneIsland_PokemonCenter_1F_EventScript_ReceiveTownMapPage
+	compare VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 2
+	call_if_lt OneIsland_PokemonCenter_1F_EventScript_ReceiveTownMap
+	setflag FLAG_SYS_SEVII_MAP_123
+	msgbox OneIsland_PokemonCenter_1F_Text_BillCatchYouLater
+	closemessage
+	applymovement LOCALID_BILL, Movement_WalkInPlaceFastestUp
+	waitmovement 0
+	applymovement LOCALID_CELIO, Movement_WalkInPlaceFastestUp
+	waitmovement 0
+	setflag FLAG_SYS_PC_STORAGE_DISABLED
+	setvar VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 1
+	releaseall
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_IntroducePlayerChamp:: @ 8170E34
+	msgbox OneIsland_PokemonCenter_1F_Text_PlayerIsReigningPokemonChamp
+	return
+
+OneIsland_PokemonCenter_1F_EventScript_IntroducePlayerNotChamp:: @ 8170E3D
+	msgbox OneIsland_PokemonCenter_1F_Text_PlayerIsRisingPokemonChamp
+	return
+
+OneIsland_PokemonCenter_1F_EventScript_ReceiveTownMapPage:: @ 8170E46
+	textcolor 3
+	playfanfare MUS_OBTAIN_KEY_ITEM
+	message OneIsland_PokemonCenter_1F_Text_ReceivedExtraPageForTownMap
+	waitmessage
+	waitfanfare
+	call EventScript_RestorePrevTextColor
+	return
+
+OneIsland_PokemonCenter_1F_EventScript_ReceiveTownMap:: @ 8170E58
+	setflag FLAG_HIDE_TOWN_MAP
+	setvar VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 2
+	giveitem_msg OneIsland_PokemonCenter_1F_Text_ReceivedTownMap, ITEM_TOWN_MAP, 1, MUS_OBTAIN_KEY_ITEM
+	return
+
+OneIsland_PokemonCenter_1F_Movement_PlayerWalkToCelio:: @ 8170E7D
+	walk_up
+	walk_up
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_in_place_fastest_up
+	step_end
+
+OneIsland_PokemonCenter_1F_Movement_BillWalkToCelio:: @ 8170E86
+	walk_up
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_up
+	walk_in_place_fastest_right
+	step_end
+
+@ Unused
+Movement_170E8F:: @ 8170E8F
+	walk_up
+	step_end
+
+@ Unused
+Movement_170E91:: @ 8170E91
+	walk_left
+	walk_in_place_fastest_right
+	step_end
+
+OneIsland_PokemonCenter_1F_EventScript_Nurse:: @ 8170E94
+	lock
+	faceplayer
+	call EventScript_PkmnCenterNurse
+	release
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_Bill:: @ 8170E9D
+	lock
+	goto_if_set FLAG_SEVII_DETOUR_FINISHED, OneIsland_PokemonCenter_1F_EventScript_BillGoTakeStroll
+	msgbox OneIsland_PokemonCenter_1F_Text_HmmHowAboutLikeThis
+	release
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_BillGoTakeStroll:: @ 8170EB1
+	applymovement LOCALID_BILL, Movement_FacePlayer
+	waitmovement 0
+	msgbox OneIsland_PokemonCenter_1F_Text_GotPCWorkingStrollAWhileMore
+	release
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_Celio:: @ 8170EC5
+	lock
+	faceplayer
+	compare VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 7
+	goto_if_eq OneIsland_PokemonCenter_1F_EventScript_CelioGiveBillFact
+	compare VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 6
+	goto_if_eq OneIsland_PokemonCenter_1F_EventScript_CelioJustGivenSapphire
+	goto_if_set FLAG_RECOVERED_SAPPHIRE, OneIsland_PokemonCenter_1F_EventScript_GiveCelioSapphire
+	compare VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 5
+	goto_if_eq OneIsland_PokemonCenter_1F_EventScript_ExplainRainbowPass
+	goto_if_set FLAG_GOT_RUBY, OneIsland_PokemonCenter_1F_EventScript_GiveCelioRuby
+	compare VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 4
+	goto_if_eq OneIsland_PokemonCenter_1F_EventScript_CelioWaitingForRuby
+	specialvar VAR_RESULT, IsNationalPokedexEnabled
+	compare VAR_RESULT, TRUE
+	goto_if_eq OneIsland_PokemonCenter_1F_EventScript_CelioRequestRuby
+	compare VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 3
+	goto_if_eq OneIsland_PokemonCenter_1F_EventScript_CelioPlayerMissingNationalDex
+	msgbox OneIsland_PokemonCenter_1F_Text_SorryForBeingPoorHost
+	closemessage
+	applymovement LOCALID_CELIO, Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_CelioGiveBillFact:: @ 8170F35
+	msgbox OneIsland_PokemonCenter_1F_Text_CelioHearingRumorsAboutYou
+	random 3
+	compare VAR_RESULT, 0
+	goto_if_eq OneIsland_PokemonCenter_1F_EventScript_BillFact1
+	compare VAR_RESULT, 1
+	goto_if_eq OneIsland_PokemonCenter_1F_EventScript_BillFact2
+	famechecker FAMECHECKER_BILL, 5
+	msgbox OneIsland_PokemonCenter_1F_Text_BillCantStomachMilk
+	release
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_BillFact1:: @ 8170F6D
+	famechecker FAMECHECKER_BILL, 3
+	msgbox OneIsland_PokemonCenter_1F_Text_BillsFirstMonWasAbra
+	release
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_BillFact2:: @ 8170F84
+	famechecker FAMECHECKER_BILL, 4
+	msgbox OneIsland_PokemonCenter_1F_Text_BillsHometownInGoldenrod
+	release
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_CelioJustGivenSapphire:: @ 8170F9B
+	msgbox OneIsland_PokemonCenter_1F_Text_WishYouBestOfLuck
+	release
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_GiveCelioSapphire:: @ 8170FA5
+	textcolor 3
+	playfanfare MUS_OBTAIN_TMHM
+	message OneIsland_PokemonCenter_1F_Text_HandedSapphireToCelio
+	waitmessage
+	waitfanfare
+	call EventScript_RestorePrevTextColor
+	removeitem ITEM_SAPPHIRE, 1
+	msgbox OneIsland_PokemonCenter_1F_Text_ThankYouGiveMeTime
+	closemessage
+	applymovement LOCALID_CELIO, OneIsland_PokemonCenter_1F_Movement_CelioPutGemInMachine
+	waitmovement 0
+	playse SE_CLICK
+	call OneIsland_PokemonCenter_1F_EventScript_SetSapphireMetatile
+	special DrawWholeMapView
+	msgbox OneIsland_PokemonCenter_1F_Text_OkayThisIsGood
+	closemessage
+	delay 60
+	applymovement LOCALID_CELIO, OneIsland_PokemonCenter_1F_Movement_CelioCheckMachine
+	waitmovement 0
+	delay 30
+	applymovement LOCALID_CELIO, OneIsland_PokemonCenter_1F_Movement_CelioCheckMachine
+	waitmovement 0
+	delay 40
+	playse SE_PC_ON
+	call OneIsland_PokemonCenter_1F_EventScript_SetNetworkMachineOn
+	special DrawWholeMapView
+	msgbox OneIsland_PokemonCenter_1F_Text_LinkedUpWithLanette
+	applymovement LOCALID_CELIO, Movement_FacePlayer
+	waitmovement 0
+	msgbox OneIsland_PokemonCenter_1F_Text_ManagedToLinkWithHoennThankYou
+	special SetPostgameFlags
+	setflag FLAG_SYS_CAN_LINK_WITH_RS
+	setflag FLAG_HIDE_CERULEAN_CAVE_GUARD
+	setflag FLAG_HIDE_LORELEI_IN_HER_HOUSE
+	setvar VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 6
+	special InitRoamer
+	release
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_ExplainRainbowPass:: @ 817103A
+	msgbox OneIsland_PokemonCenter_1F_Text_PassLetYouGetToAllIslands
+	release
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_GiveCelioRuby:: @ 8171044
+	msgbox OneIsland_PokemonCenter_1F_Text_OhThats
+	textcolor 3
+	playfanfare MUS_OBTAIN_TMHM
+	message OneIsland_PokemonCenter_1F_Text_HandedRubyToCelio
+	waitmessage
+	waitfanfare
+	call EventScript_RestorePrevTextColor
+	closemessage
+	applymovement LOCALID_CELIO, OneIsland_PokemonCenter_1F_Movement_CelioPutGemInMachine
+	waitmovement 0
+	playse SE_CLICK
+	call OneIsland_PokemonCenter_1F_EventScript_SetRubyMetatile
+	special DrawWholeMapView
+	delay 30
+	applymovement LOCALID_CELIO, Movement_FacePlayer
+	waitmovement 0
+	msgbox OneIsland_PokemonCenter_1F_Text_MayIAskOneMoreFavor, MSGBOX_YESNO
+	compare VAR_RESULT, NO
+	goto_if_eq OneIsland_PokemonCenter_1F_EventScript_DeclineHelpCelio
+	goto OneIsland_PokemonCenter_1F_EventScript_GiveRainbowPass
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_DeclineHelpCelio:: @ 8171099
+	msgbox OneIsland_PokemonCenter_1F_Text_PleaseINeedYourHelp, MSGBOX_YESNO
+	compare VAR_RESULT, NO
+	goto_if_eq OneIsland_PokemonCenter_1F_EventScript_DeclineHelpCelio
+	goto OneIsland_PokemonCenter_1F_EventScript_GiveRainbowPass
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_GiveRainbowPass:: @ 81710B2
+	msgbox OneIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands
+	removeitem ITEM_RUBY, 1
+	removeitem ITEM_TRI_PASS, 1
+	setvar VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 5
+	additem ITEM_RAINBOW_PASS
+	setflag FLAG_SYS_SEVII_MAP_4567
+	textcolor 3
+	playfanfare MUS_OBTAIN_KEY_ITEM
+	message OneIsland_PokemonCenter_1F_Text_ReturnedTriPassForRainbowPass
+	waitmessage
+	waitfanfare
+	playfanfare MUS_OBTAIN_KEY_ITEM
+	message OneIsland_PokemonCenter_1F_Text_ObtainedExtraMapPage
+	waitmessage
+	waitfanfare
+	call EventScript_RestorePrevTextColor
+	goto OneIsland_PokemonCenter_1F_EventScript_ExplainRainbowPass
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_CelioWaitingForRuby:: @ 81710F2
+	msgbox OneIsland_PokemonCenter_1F_Text_TryingToFindGem
+	release
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_CelioRequestRuby:: @ 81710FC
+	msgbox OneIsland_PokemonCenter_1F_Text_CelioCaughtMoreMonMaybeICanBeUseful
+	applymovement LOCALID_CELIO, Movement_WalkInPlaceFastestUp
+	waitmovement 0
+	msgbox OneIsland_PokemonCenter_1F_Text_YoullBeTradingFromTrainersFarAway
+	applymovement LOCALID_CELIO, Movement_FacePlayer
+	waitmovement 0
+	msgbox OneIsland_PokemonCenter_1F_Text_NeedsSpecialGemstone
+	setvar VAR_MAP_SCENE_MT_EMBER_EXTERIOR, 1
+	setvar VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 4
+	release
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_CelioPlayerMissingNationalDex:: @ 8171134
+	msgbox OneIsland_PokemonCenter_1F_Text_CelioImModifyingMyNetworkMachine
+	release
+	end
+
+OneIsland_PokemonCenter_1F_Movement_CelioCheckMachine:: @ 817113E
+	walk_in_place_up
+	delay_8
+	walk_in_place_up
+	step_end
+
+OneIsland_PokemonCenter_1F_Movement_CelioPutGemInMachine:: @ 8171142
+	walk_in_place_fastest_up
+	walk_in_place_up
+	delay_16
+	walk_in_place_up
+	walk_in_place_up
+	step_end
+
+OneIsland_PokemonCenter_1F_EventScript_LittleBoy:: @ 8171148
+	msgbox OneIsland_PokemonCenter_1F_Text_CameFromPalletDontKnowIt, MSGBOX_NPC
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_Hiker:: @ 8171151
+	msgbox OneIsland_PokemonCenter_1F_Text_EnormousVolcanoOnIsland, MSGBOX_NPC
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_BattleGirl:: @ 817115A
+	lock
+	faceplayer
+	goto_if_set FLAG_SYS_CAN_LINK_WITH_RS, OneIsland_PokemonCenter_1F_EventScript_BattleGirlHoennLinked
+	msgbox OneIsland_PokemonCenter_1F_Text_WishICouldTradeWithBoyfriend
+	release
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_BattleGirlHoennLinked:: @ 817116F
+	msgbox OneIsland_PokemonCenter_1F_Text_TradedWithFarAwayBoyfriend
+	release
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_NetworkMachine:: @ 8171179
+	lockall
+	goto_if_set FLAG_SYS_CAN_LINK_WITH_RS, OneIsland_PokemonCenter_1F_EventScript_NetworkMachineLinkedWithHoenn
+	goto_if_set FLAG_SEVII_DETOUR_FINISHED, OneIsland_PokemonCenter_1F_EventScript_NetworkMachineLinkedWithKanto
+	msgbox OneIsland_PokemonCenter_1F_Text_MachineUnderAdjustment
+	releaseall
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_NetworkMachineLinkedWithKanto:: @ 8171196
+	msgbox OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKanto
+	releaseall
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_NetworkMachineLinkedWithHoenn:: @ 81711A0
+	msgbox OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKantoAndHoenn
+	releaseall
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerTop:: @ 81711AA
+	lockall
+	setvar VAR_TEMP_1, 1
+	goto OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandScene
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerMidTop:: @ 81711B6
+	lockall
+	setvar VAR_TEMP_1, 2
+	goto OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandScene
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerMidBottom:: @ 81711C2
+	lockall
+	setvar VAR_TEMP_1, 3
+	goto OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandScene
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerBottom:: @ 81711CE
+	lockall
+	setvar VAR_TEMP_1, 4
+	goto OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandScene
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandScene:: @ 81711DA
+	textcolor 0
+	playse SE_PIN
+	applymovement LOCALID_BILL, Movement_ExclamationMark
+	waitmovement 0
+	msgbox OneIsland_PokemonCenter_1F_Text_BillOhHeyPlayer
+	closemessage
+	compare VAR_TEMP_1, 1
+	call_if_eq OneIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillTop
+	compare VAR_TEMP_1, 2
+	call_if_eq OneIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillMidTop
+	compare VAR_TEMP_1, 3
+	call_if_eq OneIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillMidBottom
+	compare VAR_TEMP_1, 4
+	call_if_eq OneIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillBottom
+	delay 10
+	msgbox OneIsland_PokemonCenter_1F_Text_BillWeGotItDone
+	applymovement OBJ_EVENT_ID_PLAYER, Movement_WalkInPlaceFastestDown
+	waitmovement 0
+	msgbox OneIsland_PokemonCenter_1F_Text_CelioJobWentQuick
+	applymovement LOCALID_BILL, Movement_WalkInPlaceFastestDown
+	waitmovement 0
+	applymovement LOCALID_CELIO, Movement_WalkInPlaceFastestUp
+	waitmovement 0
+	msgbox OneIsland_PokemonCenter_1F_Text_BillYouveLearnedALot
+	msgbox OneIsland_PokemonCenter_1F_Text_CelioOhReallyEhehe
+	closemessage
+	applymovement LOCALID_BILL, Movement_WalkInPlaceFastestLeft
+	waitmovement 0
+	delay 10
+	applymovement OBJ_EVENT_ID_PLAYER, Movement_WalkInPlaceFastestRight
+	waitmovement 0
+	delay 15
+	msgbox OneIsland_PokemonCenter_1F_Text_BillWeShouldHeadBackToKanto
+	closemessage
+	applymovement LOCALID_BILL, Movement_WalkInPlaceFastestDown
+	waitmovement 0
+	delay 15
+	applymovement LOCALID_CELIO, Movement_WalkInPlaceFastestLeft
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Movement_WalkInPlaceFastestDown
+	waitmovement 0
+	msgbox OneIsland_PokemonCenter_1F_Text_CelioPromiseIllShowYouAroundSometime
+	closemessage
+	delay 25
+	applymovement OBJ_EVENT_ID_PLAYER, OneIsland_PokemonCenter_1F_Movement_PlayerExit
+	applymovement LOCALID_BILL, OneIsland_PokemonCenter_1F_Movement_BillExit
+	waitmovement 0
+	playse SE_EXIT
+	setflag FLAG_HIDE_ONE_ISLAND_POKECENTER_BILL
+	setvar VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 3
+	clearflag FLAG_HIDE_CINNABAR_BILL
+	setvar VAR_MAP_SCENE_CINNABAR_ISLAND, 3
+	setvar VAR_0x8004, SEAGALLOP_ONE_ISLAND
+	setvar VAR_0x8006, SEAGALLOP_CINNABAR_ISLAND
+	goto EventScript_SetSail
+	end
+
+OneIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillTop:: @ 81712E4
+	applymovement OBJ_EVENT_ID_PLAYER, OneIsland_PokemonCenter_1F_Movement_PlayerWalkToBillTop
+	waitmovement 0
+	return
+
+OneIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillMidTop:: @ 81712EF
+	applymovement OBJ_EVENT_ID_PLAYER, OneIsland_PokemonCenter_1F_Movement_PlayerWalkToBillMidTop
+	waitmovement 0
+	return
+
+OneIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillMidBottom:: @ 81712FA
+	applymovement OBJ_EVENT_ID_PLAYER, OneIsland_PokemonCenter_1F_Movement_PlayerWalkToBillMidBottom
+	waitmovement 0
+	return
+
+OneIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillBottom:: @ 8171305
+	applymovement OBJ_EVENT_ID_PLAYER, OneIsland_PokemonCenter_1F_Movement_PlayerWalkToBillBottom
+	waitmovement 0
+	return
+
+OneIsland_PokemonCenter_1F_Movement_PlayerWalkToBillTop:: @ 8171310
+	walk_right
+	walk_down
+	walk_in_place_fastest_right
+	step_end
+
+OneIsland_PokemonCenter_1F_Movement_PlayerWalkToBillMidTop:: @ 8171314
+	walk_right
+	step_end
+
+OneIsland_PokemonCenter_1F_Movement_PlayerWalkToBillMidBottom:: @ 8171316
+	walk_right
+	walk_up
+	walk_in_place_fastest_right
+	step_end
+
+OneIsland_PokemonCenter_1F_Movement_PlayerWalkToBillBottom:: @ 817131A
+	walk_right
+	walk_up
+	walk_up
+	walk_in_place_fastest_right
+	step_end
+
+@ Unused
+Movement_17131F:: @ 817131F
+	delay_16
+	delay_16
+	delay_4
+	walk_in_place_fastest_left
+	step_end
+
+@ Unused
+Movement_171324:: @ 8171324
+	walk_in_place_fast_down
+	step_end
+
+OneIsland_PokemonCenter_1F_Movement_PlayerExit:: @ 8171326
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_down
+	walk_down
+	step_end
+
+OneIsland_PokemonCenter_1F_Movement_BillExit:: @ 817132D
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_down
+	step_end

@@ -1,0 +1,18 @@
+CinnabarIsland_PokemonLab_ResearchRoom_MapScripts:: @ 816E3DE
+	.byte 0
+
+CinnabarIsland_PokemonLab_ResearchRoom_EventScript_MetronomeTutor:: @ 816E3DF
+	goto EventScript_MetronomeTutor
+	end
+
+CinnabarIsland_PokemonLab_ResearchRoom_EventScript_Scientist:: @ 816E3E5
+	msgbox CinnabarIsland_PokemonLab_ResearchRoom_Text_EeveeCanEvolveIntroThreeMons, MSGBOX_NPC
+	end
+
+CinnabarIsland_PokemonLab_ResearchRoom_EventScript_Computer:: @ 816E3EE
+	msgbox CinnabarIsland_PokemonLab_ResearchRoom_Text_LegendaryBirdEmail, MSGBOX_SIGN
+	end
+
+CinnabarIsland_PokemonLab_ResearchRoom_EventScript_AmberPipe:: @ 816E3F7
+	msgbox CinnabarIsland_PokemonLab_ResearchRoom_Text_AnAmberPipe, MSGBOX_SIGN
+	end
