@@ -4,11 +4,11 @@
 SomeRandomSponge (mi persona) por el proyecto en si + las ediciones mencionadas abajo a varios aportes, me puedes encontrar en Discord cómo RandomSponge#0458.
 
 
-Variaciones semánticas de acuerdo al género gramatical en español/semantica_genero_esp por:
+* Variaciones semánticas de acuerdo al género gramatical en español/semantica_genero_esp por:
 
-Juanjo en Whack a Hack!/J2M2 en Github
+* Juanjo en Whack a Hack!/J2M2 en Github
 
-Porteado a pokefirered y editado por mi
+* Porteado a pokefirered y editado por mi
 
 
 16-Character Move Names Using the CFRU (Nombres de movimientos de 16 carácteres usando CFRU) por:
