@@ -1,7 +1,8 @@
-**Si quieres usar esta traducción en algún proyecto, por favor da creditos a las personas aquí mencionadas, gracias a sus aportes esta traducción es posible.**
+***Si quieres usar esta traducción en algún proyecto, por favor da creditos a las personas aquí mencionadas, gracias a sus aportes esta traducción es posible.***
 
 
 SomeRandomSponge (mi persona) por el proyecto en si + las ediciones mencionadas abajo a varios aportes, me puedes encontrar en Discord cómo RandomSponge#0458.
+
 
 Variaciones semánticas de acuerdo al género gramatical en español/semantica_genero_esp por:
 
@@ -34,7 +35,8 @@ InmortalKaktus, por la Decompilation Setup Tool
 Los contruibuidores de Pret, por la decompilación de pokefirered
 
 
-**Los creditos a partir de aquí son a gente que trabajo oficialmente en los juegos/anime, no es 100% obligatorio mencionar a las personas en esta sección, pero se aprecia su contribución a la franquicia de todas formas. :)**
+***Los creditos a partir de aquí son a gente que trabajo oficialmente en los juegos/anime, no es 100% obligatorio mencionar a las personas en esta sección, pero se aprecia su contribución a la franquicia de todas formas. :)***
+
 
 La traducción española original de Pokémon Rojo Fuego/Verde Hoja fue hecha por:
 
