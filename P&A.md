@@ -108,7 +108,7 @@ y sería interesante tenerlos en español, pero no pienso tocar pokered o pokeye
 
 
 
-12-¿Por que no porteaste el texto y gráficos de la versión española original y ya?
+***12-¿Por que no porteaste el texto y gráficos de la versión española original y ya?***
 
 A: Lee la respuesta a la pregunta 1 de nuevo.
  
