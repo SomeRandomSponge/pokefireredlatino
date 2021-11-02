@@ -1,4 +1,4 @@
-# Pokémon FireRed and LeafGreen
+# Pokémon RojoFuego y VerdeHoja Latino
 
 [![Build Status][travis-badge]][travis]
 
