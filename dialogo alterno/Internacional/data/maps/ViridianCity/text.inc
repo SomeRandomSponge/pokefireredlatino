@@ -30,11 +30,9 @@ ViridianCity_Text_ExplainCaterpieWeedle:: @ 817DBE4
 
 ViridianCity_Text_GrandpaHasntHadCoffeeYet:: @ 817DC4E
     .string "¡Oh, Abuelo!\n"
-    .string "¡Durmiendo aquí, de todos los\l"
-    .string "lugares!\p"
-    .string "No podemos hacer nada…\n"
-    .string "Tendremos que esperar a\l"
-    .string "que deje de estar ebrio…$"
+    .string "¡No seas tan grosero!\p"
+    .string "Lo siento tanto.\n"
+    .string "Todavía no se ha tomado su café.$"
 
 ViridianCity_Text_GoShoppingInPewterOccasionally:: @ 817DC99
     .string "De vez en cuando voy de compras\n"
@@ -43,15 +41,13 @@ ViridianCity_Text_GoShoppingInPewterOccasionally:: @ 817DC99
     .string "sinuoso camino del BOSQUE VERDE.$"
 
 ViridianCity_Text_ThisIsPrivateProperty:: @ 817DD03
-    .string "¡Aagh…! Hip… ¡Quedate justo ahí!\n"
-    .string "¡Escucha lo que tengo que decir!\p"
-    .string "…¡Oye!\n"
-    .string "¡Dije que no te vayas!$"
+    .string "¡Tienes absolutamente prohibido\n"
+    .string "pasar por aquí!\p"
+    .string "¡Ésta es propiedad privada!$"
 
 ViridianCity_Text_ShowYouHowToCatchMons:: @ 817DD4E
-    .string "Mmm…\n"
-    .string "¡Parece que estaba bastante\l"
-    .string "borracho!\p"
+    .string "Bueno, ya tomé mi café, ¡y era lo\n"
+    .string "que necesitaba para reactivarme!\p"
     .string "¿Oh?\n"
     .string "¿Qué es esa caja roja?\p"
     .string "Ah, así que estás trabajando\n"
@@ -77,9 +73,10 @@ ViridianCity_Text_WatchThatToLearnBasics:: @ 817DEEB
     .string "ENTRENADOR{AM} POKéMON.$"
 
 ViridianCity_Text_WeakenMonsFirstToCatch:: @ 817DF61
-    .string "¡Parece que estaba bastante\n"
-    .string "borracho!\p"
-    .string "Me duele la cabeza…\p"
+    .string "Bueno, ya tomé mi café, ¡y era lo\n"
+    .string "que necesitaba para reactivarme!\p"
+    .string "Pero lo hice muy cargado.\n"
+    .string "Me dio dolor de cabeza…\p"
     .string "Por cierto, ¿estás llenando tu\n"
     .string "POKéDEX?\p"
     .string "Primero, concentrate en debilitar\n"
@@ -87,9 +84,10 @@ ViridianCity_Text_WeakenMonsFirstToCatch:: @ 817DF61
     .string "atraparlo.$"
 
 ViridianCity_Text_HowsTeachyTVHelping:: @ 817E046
-    .string "¡Parece que estaba bastante\n"
-    .string "borracho!\p"
-    .string "Me duele la cabeza…\p"
+    .string "Bueno, ya tomé mi café, ¡y era lo\n"
+    .string "que necesitaba para reactivarme!\p"
+    .string "Pero lo hice muy cargado.\n"
+    .string "Me dio dolor de cabeza…\p"
     .string "Por cierto, ¿te esta ayudando\n"
     .string "mi vieja ENSEÑAME TV?$"
 
