@@ -5,7 +5,7 @@
 [travis]: https://travis-ci.org/pret/pokefirered
 [travis-badge]: https://travis-ci.org/pret/pokefirered.svg?branch=master
 
-Esta es una traducción al español latino de la decompilación de Pokemon FireRed & LeafGreen (pokefirered)
+Esta es una traducción al español latino de la decompilación de Pokemon FireRed & LeafGreen (pokefirered).
 El proyecto esta en progreso actualmente.
 
 To set up the repository, see [INSTALL.md](INSTALL.md).
