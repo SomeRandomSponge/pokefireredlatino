@@ -8,8 +8,7 @@
 Esta es una traducción al español latino de la decompilación de Pokemon FireRed & LeafGreen (pokefirered).
 El proyecto esta en progreso actualmente.
 
-To set up the repository, see [INSTALL.md](INSTALL.md).
-
+Para instalar el repositorio, revisa [INSTALL.md](INSTALL.md) (en inglés), o busca un tutorial en español por internet, hay varios muy buenos.
 
 ## Véase también
 
