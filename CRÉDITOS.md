@@ -20,7 +20,7 @@ Porteado a pokefirered por mi
 
 
 * El tutorial de Traduciendo textos (que realmente solo aplica para los mensajes en batalla, 
-* ese nombre es un poco ambiguo xd) fue echo por:
+ese nombre es un poco ambiguo xd) fue echo por:
 
 kakarotto en WaH
 
