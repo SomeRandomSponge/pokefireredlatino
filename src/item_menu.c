@@ -66,7 +66,7 @@ EWRAM_DATA struct BagStruct gBagMenuState = {};
 static EWRAM_DATA struct BagMenuAlloc * sBagMenuDisplay = NULL;
 static EWRAM_DATA void * sBagBgTilemapBuffer = NULL;
 static EWRAM_DATA struct ListMenuItem * sListMenuItems = NULL;
-static EWRAM_DATA u8 (*sListMenuItemStrings)[24] = NULL;
+static EWRAM_DATA u8 (*sListMenuItemStrings)[19] = NULL;
 static EWRAM_DATA u8 sContextMenuItemsBuffer[4] = {};
 static EWRAM_DATA const u8 *sContextMenuItemsPtr = NULL;
 static EWRAM_DATA u8 sContextMenuNumItems = 0;
@@ -684,7 +684,7 @@ static void BagListMenuMoveCursorFunc(s32 itemIndex, bool8 onInit, struct ListMe
     if (onInit != TRUE)
     {
         PlaySE(SE_BAG_CURSOR);
-        sub_8098580();
+        ShakeBagSprite();
     }
     if (sBagMenuDisplay->itemOriginalLocation == 0xFF)
     {
@@ -1167,7 +1167,7 @@ static void SwitchPockets(u8 taskId, s16 direction, bool16 a2)
     }
     FillBgTilemapBufferRect_Palette0(1, 0x02D, 11, 1, 18, 12);
     ScheduleBgCopyTilemapToVram(1);
-    sub_8098528(gBagMenuState.pocket + direction);
+    SetBagVisualPocketId(gBagMenuState.pocket + direction);
     SetTaskFuncWithFollowupFunc(taskId, Task_AnimateSwitchPockets, gTasks[taskId].func);
 }
 

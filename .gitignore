@@ -1,52 +1,57 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
+*.1bpp
+*.4bpp
+*.8bpp
+*.DS_Store
+*.bak
+*.bat
+*.diff
+*.dump
 *.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
+*.fwjpnfont
+*.gba
+*.sgm
+*.sa1
+*.sg1
+*.gbapal
+*.hwjpnfont
+*.i
 *.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+*.id0
+*.id1
+*.id2
+*.latfont
+*.ld
+*.lz
+*.map
+*.nam
+*.o
+*.pcm
+*.pl
+*.rl
+*.s.old
+*.s.old2
+*.sa*
+*.swo
+*.swp
+*.til
+.fuse*
+.idea/
+Thumbs.db
+build/
+cmake-build-*
+ld_script_ruby.txt
+ld_script_sapphire.txt
+sound/**/*.bin
+sound/songs/midi/*.s
+src/data/items.h
+src/data/wild_encounters.h
+tags
+tools/agbcc
+tools/binutils
+types_*.taghl
+!.github/calcrom/calcrom.pl
+!sound/programmable_wave_samples/*.pcm
+_Deparsed_XSubs.pm
+porymap.project.cfg
+.vscode/*.*

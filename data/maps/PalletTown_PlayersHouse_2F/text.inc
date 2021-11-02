@@ -1,9 +1,10 @@
 PalletTown_PlayersHouse_2F_Text_PlayedWithNES:: @ 818D50B
-    .string "{PLAYER} está jugando a la NES.\p"
-    .string "…¡Bien!\n"
-    .string "¡Es hora de irse!$"
+    .string "{PLAYER} played with the NES.\p"
+    .string "…Okay!\n"
+    .string "It's time to go!$"
 
 PalletTown_PlayersHouse_2F_Text_PressLRForHelp:: @ 818D53B
-    .string "Vaya, una nota…\p"
-    .string "¡Si estás confundid{OA}, pide AYUDA!\n"
-    .string "¡Presiona el Botón L or R!$"
+    .string "It's a posted notice…\p"
+    .string "If you're confused, ask for HELP!\n"
+    .string "Press the L or R Button!$"
+

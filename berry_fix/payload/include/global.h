@@ -6,17 +6,18 @@
 // global.h from pokemon ruby
 
 // IDE support
-#if defined(__APPLE__) || defined(__CYGWIN__)
-#define _(x) x
-#define __(x) x
-#define INCBIN(x) {0}
-#define INCBIN_U8 INCBIN
-#define INCBIN_U16 INCBIN
-#define INCBIN_U32 INCBIN
-#define INCBIN_S8 INCBIN
-#define INCBIN_S16 INCBIN
-#define INCBIN_S32 INCBIN
-#endif
+#if defined(__APPLE__) || defined(__CYGWIN__) || defined(__INTELLISENSE__)
+// We define these when using certain IDEs to fool preproc
+#define _(x)        (x)
+#define __(x)       (x)
+#define INCBIN(...) {0}
+#define INCBIN_U8   INCBIN
+#define INCBIN_U16  INCBIN
+#define INCBIN_U32  INCBIN
+#define INCBIN_S8   INCBIN
+#define INCBIN_S16  INCBIN
+#define INCBIN_S32  INCBIN
+#endif // IDE support
 
 // Prevent cross-jump optimization.
 #define BLOCK_CROSS_JUMP asm("");
@@ -713,7 +714,7 @@ struct SaveBlock1 /* 0x02025734 */
     /*0x2F9C*/ struct DayCare daycare;
     /*0x30B8*/ struct LinkBattleRecord linkBattleRecords[5];
     struct {
-        /*0x3108*/ u8 unknown1[8];
+        /*0x3108*/ u8 mode[8];
         /*0x3110*/ u8 giftRibbons[11];
         /*0x311B*/ u8 unknown2[8];
         /*0x3123*/ u32 currentPokeCoupons;
@@ -742,7 +743,7 @@ struct Time
 struct Pokedex
 {
     /*0x00*/ u8 order;
-    /*0x01*/ u8 unknown1;
+    /*0x01*/ u8 mode;
     /*0x02*/ u8 nationalMagic; // must equal 0xDA in order to have National mode
     /*0x03*/ u8 unknown2;
     /*0x04*/ u32 unownPersonality; // set when you first see Unown

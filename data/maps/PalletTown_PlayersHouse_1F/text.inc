@@ -1,37 +1,38 @@
 PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou:: @ 818D2F0
-    .string "MAMÁ: …Claro.\n"
-    .string "Todos los niños se van de casa\l"
-    .string "algún día. O eso dice la TV.\p"
-    .string "Ah, nuestro vecino, el PROF. OAK,\n"
-    .string "estaba buscándote.$"
+    .string "MOM: …Right.\n"
+    .string "All boys leave home someday.\l"
+    .string "It said so on TV.\p"
+    .string "Oh, yes. PROF. OAK, next door, was\n"
+    .string "looking for you.$"
 
 PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou:: @ 818D360
-    .string "MAMÁ: …Claro.\n"
-    .string "Todas las niñas sueñan con viajar.\l"
-    .string "O eso dice la TV.\p"
-    .string "Ah, nuestro vecino, el PROF. OAK,\n"
-    .string "estaba buscándote.$"
-    
+    .string "MOM: …Right.\n"
+    .string "All girls dream of traveling.\l"
+    .string "It said so on TV.\p"
+    .string "Oh, yes. PROF. OAK, next door, was\n"
+    .string "looking for you.$"
+
 PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest:: @ 818D3D1
-    .string "MAMÁ: ¡{PLAYER}!\n"
-    .string "Deberías tomar un pequeño descanso.$"
+    .string "MOM: {PLAYER}!\n"
+    .string "You should take a quick rest.$"
 
 PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare:: @ 818D3F8
-    .string "MAMÁ: ¡Oh, bien! Tú y tus POKéMON\n"
-    .string "se ven muy bien.\l"
-    .string "¡Quídate!$"
+    .string "MOM: Oh, good! You and your\n"
+    .string "POKéMON are looking great.\l"
+    .string "Take care now!$"
 
 PalletTown_PlayersHouse_1F_Text_MovieOnTVFourBoysOnRailroad:: @ 818D43E
-    .string "Hay una película en la TV.\n"
-    .string "Cuatro niños están caminando por\l"
-    .string "las vías del tren.\p"
-    .string "…Bueno, yo tambien debería irme.$"
+    .string "There's a movie on TV.\n"
+    .string "Four boys are walking on railroad\l"
+    .string "tracks.\p"
+    .string "…I better go, too.$"
 
 PalletTown_PlayersHouse_1F_Text_MovieOnTVGirlOnBrickRoad:: @ 818D492
-    .string "Hay una película en la TV.\n"
-    .string "Una niña con coletas esta caminando\l"
-    .string "por un camino de ladrillos.\p"
-    .string "…Bueno, yo tambien debería irme.$"
+    .string "There's a movie on TV.\n"
+    .string "A girl with her hair in pigtails is\l"
+    .string "walking up a brick road.\p"
+    .string "…I better go, too.$"
 
 PalletTown_PlayersHouse_1F_Text_OopsWrongSide:: @ 818D4F9
-    .string "Oops, lado equivocado…$"
+    .string "Oops, wrong side…$"
+

@@ -17,7 +17,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BOLA MAESTRA",
+      "english": "MASTER BALL",
       "itemId": "ITEM_MASTER_BALL",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -33,7 +33,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ULTRABOLA",
+      "english": "ULTRA BALL",
       "itemId": "ITEM_ULTRA_BALL",
       "price": 1200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -49,7 +49,7 @@
       "secondaryId": 1
     },
     {
-      "english": "SÚPERBOLA",
+      "english": "GREAT BALL",
       "itemId": "ITEM_GREAT_BALL",
       "price": 600,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -65,7 +65,7 @@
       "secondaryId": 2
     },
     {
-      "english": "POK\u00e9BOLA",
+      "english": "POK\u00e9 BALL",
       "itemId": "ITEM_POKE_BALL",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -81,7 +81,7 @@
       "secondaryId": 3
     },
     {
-      "english": "BOLA SAFARI",
+      "english": "SAFARI BALL",
       "itemId": "ITEM_SAFARI_BALL",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -97,7 +97,7 @@
       "secondaryId": 4
     },
     {
-      "english": "MALLABOLA",
+      "english": "NET BALL",
       "itemId": "ITEM_NET_BALL",
       "price": 1000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -113,7 +113,7 @@
       "secondaryId": 5
     },
     {
-      "english": "BUCEOBOLA",
+      "english": "DIVE BALL",
       "itemId": "ITEM_DIVE_BALL",
       "price": 1000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -129,7 +129,7 @@
       "secondaryId": 6
     },
     {
-      "english": "NIDOBOLA",
+      "english": "NEST BALL",
       "itemId": "ITEM_NEST_BALL",
       "price": 1000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -145,7 +145,7 @@
       "secondaryId": 7
     },
     {
-      "english": "REPETIBOLA",
+      "english": "REPEAT BALL",
       "itemId": "ITEM_REPEAT_BALL",
       "price": 1000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -161,7 +161,7 @@
       "secondaryId": 8
     },
     {
-      "english": "TEMPOBOLA",
+      "english": "TIMER BALL",
       "itemId": "ITEM_TIMER_BALL",
       "price": 1000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -177,7 +177,7 @@
       "secondaryId": 9
     },
     {
-      "english": "LUJOBOLA",
+      "english": "LUXURY BALL",
       "itemId": "ITEM_LUXURY_BALL",
       "price": 1000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -193,7 +193,7 @@
       "secondaryId": 10
     },
     {
-      "english": "HONORBOLA",
+      "english": "PREMIER BALL",
       "itemId": "ITEM_PREMIER_BALL",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -209,7 +209,7 @@
       "secondaryId": 11
     },
     {
-      "english": "POCIÓN",
+      "english": "POTION",
       "itemId": "ITEM_POTION",
       "price": 300,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -225,7 +225,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ANTÍDOTO",
+      "english": "ANTIDOTE",
       "itemId": "ITEM_ANTIDOTE",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -241,7 +241,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ANTIQUEMADURAS",
+      "english": "BURN HEAL",
       "itemId": "ITEM_BURN_HEAL",
       "price": 250,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -257,7 +257,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ANTICONGELANTE",
+      "english": "ICE HEAL",
       "itemId": "ITEM_ICE_HEAL",
       "price": 250,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -273,7 +273,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ANTISUEÑO",
+      "english": "AWAKENING",
       "itemId": "ITEM_AWAKENING",
       "price": 250,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -289,7 +289,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ANTIPARÁLISIS",
+      "english": "PARLYZ HEAL",
       "itemId": "ITEM_PARALYZE_HEAL",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -305,7 +305,7 @@
       "secondaryId": 0
     },
     {
-      "english": "RESTAURA TODO",
+      "english": "FULL RESTORE",
       "itemId": "ITEM_FULL_RESTORE",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -321,7 +321,7 @@
       "secondaryId": 0
     },
     {
-      "english": "POCIÓN MÁXIMA",
+      "english": "MAX POTION",
       "itemId": "ITEM_MAX_POTION",
       "price": 2500,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -337,7 +337,7 @@
       "secondaryId": 0
     },
     {
-      "english": "HIPERPOCIÓN",
+      "english": "HYPER POTION",
       "itemId": "ITEM_HYPER_POTION",
       "price": 1200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -353,7 +353,7 @@
       "secondaryId": 0
     },
     {
-      "english": "SUPERPOCIÓN",
+      "english": "SUPER POTION",
       "itemId": "ITEM_SUPER_POTION",
       "price": 700,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -369,7 +369,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CURA TOTAL",
+      "english": "FULL HEAL",
       "itemId": "ITEM_FULL_HEAL",
       "price": 600,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -385,7 +385,7 @@
       "secondaryId": 0
     },
     {
-      "english": "REVIVIR",
+      "english": "REVIVE",
       "itemId": "ITEM_REVIVE",
       "price": 1500,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -401,7 +401,7 @@
       "secondaryId": 0
     },
     {
-      "english": "REVIVIR MÁXIMO",
+      "english": "MAX REVIVE",
       "itemId": "ITEM_MAX_REVIVE",
       "price": 4000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -417,7 +417,7 @@
       "secondaryId": 0
     },
     {
-      "english": "AGUA FRESCA",
+      "english": "FRESH WATER",
       "itemId": "ITEM_FRESH_WATER",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -433,7 +433,7 @@
       "secondaryId": 0
     },
     {
-      "english": "SODA",
+      "english": "SODA POP",
       "itemId": "ITEM_SODA_POP",
       "price": 300,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -449,7 +449,7 @@
       "secondaryId": 0
     },
     {
-      "english": "LIMONADA",
+      "english": "LEMONADE",
       "itemId": "ITEM_LEMONADE",
       "price": 350,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -465,7 +465,7 @@
       "secondaryId": 0
     },
     {
-      "english": "LECHE MUMU",
+      "english": "MOOMOO MILK",
       "itemId": "ITEM_MOOMOO_MILK",
       "price": 500,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -481,7 +481,7 @@
       "secondaryId": 0
     },
     {
-      "english": "POLVO ENERGÍA",
+      "english": "ENERGYPOWDER",
       "itemId": "ITEM_ENERGY_POWDER",
       "price": 500,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -497,7 +497,7 @@
       "secondaryId": 0
     },
     {
-      "english": "RAÍZ ENERGÍA",
+      "english": "ENERGY ROOT",
       "itemId": "ITEM_ENERGY_ROOT",
       "price": 800,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -513,7 +513,7 @@
       "secondaryId": 0
     },
     {
-      "english": "POLVO CURACIÓN",
+      "english": "HEAL POWDER",
       "itemId": "ITEM_HEAL_POWDER",
       "price": 450,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -529,7 +529,7 @@
       "secondaryId": 0
     },
     {
-      "english": "HIERBA REVIVIR",
+      "english": "REVIVAL HERB",
       "itemId": "ITEM_REVIVAL_HERB",
       "price": 2800,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -545,7 +545,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ÉTER",
+      "english": "ETHER",
       "itemId": "ITEM_ETHER",
       "price": 1200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -561,7 +561,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ÉTER MÁXIMO",
+      "english": "MAX ETHER",
       "itemId": "ITEM_MAX_ETHER",
       "price": 2000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -593,7 +593,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ELIXIR MÁXIMO",
+      "english": "MAX ELIXIR",
       "itemId": "ITEM_MAX_ELIXIR",
       "price": 4500,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -609,7 +609,7 @@
       "secondaryId": 0
     },
     {
-      "english": "GALLETA LAVA",
+      "english": "LAVA COOKIE",
       "itemId": "ITEM_LAVA_COOKIE",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -625,7 +625,7 @@
       "secondaryId": 0
     },
     {
-      "english": "FLAUTA AZUL",
+      "english": "BLUE FLUTE",
       "itemId": "ITEM_BLUE_FLUTE",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -641,7 +641,7 @@
       "secondaryId": 0
     },
     {
-      "english": "FLAUTA AMARILLA",
+      "english": "YELLOW FLUTE",
       "itemId": "ITEM_YELLOW_FLUTE",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -657,7 +657,7 @@
       "secondaryId": 0
     },
     {
-      "english": "FLAUTA ROJA",
+      "english": "RED FLUTE",
       "itemId": "ITEM_RED_FLUTE",
       "price": 300,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -673,7 +673,7 @@
       "secondaryId": 0
     },
     {
-      "english": "FLAUTA NEGRA",
+      "english": "BLACK FLUTE",
       "itemId": "ITEM_BLACK_FLUTE",
       "price": 400,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -689,7 +689,7 @@
       "secondaryId": 0
     },
     {
-      "english": "FLAUTA BLANCA",
+      "english": "WHITE FLUTE",
       "itemId": "ITEM_WHITE_FLUTE",
       "price": 500,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -705,7 +705,7 @@
       "secondaryId": 0
     },
     {
-      "english": "JUGO DE BAYA",
+      "english": "BERRY JUICE",
       "itemId": "ITEM_BERRY_JUICE",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_RESTORE_HP",
@@ -721,7 +721,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CENIZA SAGRADA",
+      "english": "SACRED ASH",
       "itemId": "ITEM_SACRED_ASH",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -737,7 +737,7 @@
       "secondaryId": 0
     },
     {
-      "english": "SAL CARDUMEN",
+      "english": "SHOAL SALT",
       "itemId": "ITEM_SHOAL_SALT",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -753,7 +753,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CONCHA CARDUMEN",
+      "english": "SHOAL SHELL",
       "itemId": "ITEM_SHOAL_SHELL",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -769,7 +769,7 @@
       "secondaryId": 0
     },
     {
-      "english": "TROZO ROJO",
+      "english": "RED SHARD",
       "itemId": "ITEM_RED_SHARD",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -785,7 +785,7 @@
       "secondaryId": 0
     },
     {
-      "english": "TROZO AZUL",
+      "english": "BLUE SHARD",
       "itemId": "ITEM_BLUE_SHARD",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -801,7 +801,7 @@
       "secondaryId": 0
     },
     {
-      "english": "TROZO AMARILLO",
+      "english": "YELLOW SHARD",
       "itemId": "ITEM_YELLOW_SHARD",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -817,7 +817,7 @@
       "secondaryId": 0
     },
     {
-      "english": "TROZO VERDE",
+      "english": "GREEN SHARD",
       "itemId": "ITEM_GREEN_SHARD",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1009,7 +1009,7 @@
       "secondaryId": 0
     },
     {
-      "english": "MÁS PS",
+      "english": "HP UP",
       "itemId": "ITEM_HP_UP",
       "price": 9800,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1025,7 +1025,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PROTEÍNA",
+      "english": "PROTEIN",
       "itemId": "ITEM_PROTEIN",
       "price": 9800,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1041,7 +1041,7 @@
       "secondaryId": 0
     },
     {
-      "english": "HIERRO",
+      "english": "IRON",
       "itemId": "ITEM_IRON",
       "price": 9800,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1057,7 +1057,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CARBURANTE",
+      "english": "CARBOS",
       "itemId": "ITEM_CARBOS",
       "price": 9800,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1073,7 +1073,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CALCIO",
+      "english": "CALCIUM",
       "itemId": "ITEM_CALCIUM",
       "price": 9800,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1089,7 +1089,7 @@
       "secondaryId": 0
     },
     {
-      "english": "DULCE MISTERIOSO",
+      "english": "RARE CANDY",
       "itemId": "ITEM_RARE_CANDY",
       "price": 4800,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1105,7 +1105,7 @@
       "secondaryId": 0
     },
     {
-      "english": "MÁS PP",
+      "english": "PP UP",
       "itemId": "ITEM_PP_UP",
       "price": 9800,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1137,7 +1137,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PP MÁXIMOS",
+      "english": "PP MAX",
       "itemId": "ITEM_PP_MAX",
       "price": 9800,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1169,7 +1169,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PROTECCIÓN",
+      "english": "GUARD SPEC.",
       "itemId": "ITEM_GUARD_SPEC",
       "price": 700,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1185,7 +1185,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CRÍTICO X",
+      "english": "DIRE HIT",
       "itemId": "ITEM_DIRE_HIT",
       "price": 650,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1201,7 +1201,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ATAQUE X",
+      "english": "X ATTACK",
       "itemId": "ITEM_X_ATTACK",
       "price": 500,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1217,7 +1217,7 @@
       "secondaryId": 0
     },
     {
-      "english": "DEFENSA X",
+      "english": "X DEFEND",
       "itemId": "ITEM_X_DEFEND",
       "price": 550,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1233,7 +1233,7 @@
       "secondaryId": 0
     },
     {
-      "english": "VELOCIDAD X",
+      "english": "X SPEED",
       "itemId": "ITEM_X_SPEED",
       "price": 350,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1249,7 +1249,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PRECISIÓN",
+      "english": "X ACCURACY",
       "itemId": "ITEM_X_ACCURACY",
       "price": 950,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1265,7 +1265,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ATAQ. ESPECIAL X",
+      "english": "X SPECIAL",
       "itemId": "ITEM_X_SPECIAL",
       "price": 350,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1281,7 +1281,7 @@
       "secondaryId": 0
     },
     {
-      "english": "POK\u00e9 MUÑECO",
+      "english": "POK\u00e9 DOLL",
       "itemId": "ITEM_POKE_DOLL",
       "price": 1000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1297,7 +1297,7 @@
       "secondaryId": 0
     },
     {
-      "english": "COLA SKITTY",
+      "english": "FLUFFY TAIL",
       "itemId": "ITEM_FLUFFY_TAIL",
       "price": 1000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1329,7 +1329,7 @@
       "secondaryId": 0
     },
     {
-      "english": "SUPER REPELENTE",
+      "english": "SUPER REPEL",
       "itemId": "ITEM_SUPER_REPEL",
       "price": 500,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1345,7 +1345,7 @@
       "secondaryId": 0
     },
     {
-      "english": "REPELENTE MÁXIMO",
+      "english": "MAX REPEL",
       "itemId": "ITEM_MAX_REPEL",
       "price": 700,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1361,7 +1361,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CUERDA HUIDA",
+      "english": "ESCAPE ROPE",
       "itemId": "ITEM_ESCAPE_ROPE",
       "price": 550,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1377,7 +1377,7 @@
       "secondaryId": 0
     },
     {
-      "english": "REPELENTE",
+      "english": "REPEL",
       "itemId": "ITEM_REPEL",
       "price": 350,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1489,7 +1489,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PIEDRA SOLAR",
+      "english": "SUN STONE",
       "itemId": "ITEM_SUN_STONE",
       "price": 2100,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1505,7 +1505,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PIEDRA LUNAR",
+      "english": "MOON STONE",
       "itemId": "ITEM_MOON_STONE",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1521,7 +1521,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PIEDRA FUEGO",
+      "english": "FIRE STONE",
       "itemId": "ITEM_FIRE_STONE",
       "price": 2100,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1537,7 +1537,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PIEDRA TRUENO",
+      "english": "THUNDERSTONE",
       "itemId": "ITEM_THUNDER_STONE",
       "price": 2100,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1553,7 +1553,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PIEDRA AGUA",
+      "english": "WATER STONE",
       "itemId": "ITEM_WATER_STONE",
       "price": 2100,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1569,7 +1569,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PIEDRA HOJA",
+      "english": "LEAF STONE",
       "itemId": "ITEM_LEAF_STONE",
       "price": 2100,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1649,7 +1649,7 @@
       "secondaryId": 0
     },
     {
-      "english": "HONGO PEQUEÑO",
+      "english": "TINYMUSHROOM",
       "itemId": "ITEM_TINY_MUSHROOM",
       "price": 500,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1665,7 +1665,7 @@
       "secondaryId": 0
     },
     {
-      "english": "HONGO GRANDE",
+      "english": "BIG MUSHROOM",
       "itemId": "ITEM_BIG_MUSHROOM",
       "price": 5000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1697,7 +1697,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PERLA",
+      "english": "PEARL",
       "itemId": "ITEM_PEARL",
       "price": 1400,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1713,7 +1713,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PERLA GRANDE",
+      "english": "BIG PEARL",
       "itemId": "ITEM_BIG_PEARL",
       "price": 7500,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1729,7 +1729,7 @@
       "secondaryId": 0
     },
     {
-      "english": "POLVO ESTELAR",
+      "english": "STARDUST",
       "itemId": "ITEM_STARDUST",
       "price": 2000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1745,7 +1745,7 @@
       "secondaryId": 0
     },
     {
-      "english": "TROZO ESTRELLA",
+      "english": "STAR PIECE",
       "itemId": "ITEM_STAR_PIECE",
       "price": 9800,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1761,7 +1761,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PEPITA",
+      "english": "NUGGET",
       "itemId": "ITEM_NUGGET",
       "price": 10000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1777,7 +1777,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ESCAMA CORAZÓN",
+      "english": "HEART SCALE",
       "itemId": "ITEM_HEART_SCALE",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1937,7 +1937,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CARTA NARANJA",
+      "english": "ORANGE MAIL",
       "itemId": "ITEM_ORANGE_MAIL",
       "price": 50,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1953,7 +1953,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CARTA PUERTO",
+      "english": "HARBOR MAIL",
       "itemId": "ITEM_HARBOR_MAIL",
       "price": 50,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1969,7 +1969,7 @@
       "secondaryId": 1
     },
     {
-      "english": "CARTA BRILLANTE",
+      "english": "GLITTER MAIL",
       "itemId": "ITEM_GLITTER_MAIL",
       "price": 50,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -1985,7 +1985,7 @@
       "secondaryId": 2
     },
     {
-      "english": "CARTA MECÁNICA",
+      "english": "MECH MAIL",
       "itemId": "ITEM_MECH_MAIL",
       "price": 50,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2001,7 +2001,7 @@
       "secondaryId": 3
     },
     {
-      "english": "CARTA MADERA",
+      "english": "WOOD MAIL",
       "itemId": "ITEM_WOOD_MAIL",
       "price": 50,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2017,7 +2017,7 @@
       "secondaryId": 4
     },
     {
-      "english": "CARTA OLA",
+      "english": "WAVE MAIL",
       "itemId": "ITEM_WAVE_MAIL",
       "price": 50,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2033,7 +2033,7 @@
       "secondaryId": 5
     },
     {
-      "english": "CARTA IMAGEN",
+      "english": "BEAD MAIL",
       "itemId": "ITEM_BEAD_MAIL",
       "price": 50,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2049,7 +2049,7 @@
       "secondaryId": 6
     },
     {
-      "english": "CARTA SOMBRA",
+      "english": "SHADOW MAIL",
       "itemId": "ITEM_SHADOW_MAIL",
       "price": 50,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2065,7 +2065,7 @@
       "secondaryId": 7
     },
     {
-      "english": "CARTA TROPICAL",
+      "english": "TROPIC MAIL",
       "itemId": "ITEM_TROPIC_MAIL",
       "price": 50,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2081,7 +2081,7 @@
       "secondaryId": 8
     },
     {
-      "english": "CARTA SUEÑO",
+      "english": "DREAM MAIL",
       "itemId": "ITEM_DREAM_MAIL",
       "price": 50,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2097,7 +2097,7 @@
       "secondaryId": 9
     },
     {
-      "english": "CARTA FABULOSA",
+      "english": "FAB MAIL",
       "itemId": "ITEM_FAB_MAIL",
       "price": 50,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2113,7 +2113,7 @@
       "secondaryId": 10
     },
     {
-      "english": "CARTA RETRO",
+      "english": "RETRO MAIL",
       "itemId": "ITEM_RETRO_MAIL",
       "price": 50,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2129,7 +2129,7 @@
       "secondaryId": 11
     },
     {
-      "english": "BAYA ZREZA",
+      "english": "CHERI BERRY",
       "itemId": "ITEM_CHERI_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_CURE_PAR",
@@ -2145,7 +2145,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA ATANIA",
+      "english": "CHESTO BERRY",
       "itemId": "ITEM_CHESTO_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_CURE_SLP",
@@ -2161,7 +2161,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA MELOC",
+      "english": "PECHA BERRY",
       "itemId": "ITEM_PECHA_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_CURE_PSN",
@@ -2177,7 +2177,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA SAFRE",
+      "english": "RAWST BERRY",
       "itemId": "ITEM_RAWST_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_CURE_BRN",
@@ -2193,7 +2193,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA PERASI",
+      "english": "ASPEAR BERRY",
       "itemId": "ITEM_ASPEAR_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_CURE_FRZ",
@@ -2209,7 +2209,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA ZANAMA",
+      "english": "LEPPA BERRY",
       "itemId": "ITEM_LEPPA_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_RESTORE_PP",
@@ -2225,7 +2225,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA ARANJA",
+      "english": "ORAN BERRY",
       "itemId": "ITEM_ORAN_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_RESTORE_HP",
@@ -2241,7 +2241,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA CAQUIC",
+      "english": "PERSIM BERRY",
       "itemId": "ITEM_PERSIM_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_CURE_CONFUSION",
@@ -2257,7 +2257,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA ZIUELA",
+      "english": "LUM BERRY",
       "itemId": "ITEM_LUM_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_CURE_STATUS",
@@ -2273,7 +2273,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA ZIDRA",
+      "english": "SITRUS BERRY",
       "itemId": "ITEM_SITRUS_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_RESTORE_HP",
@@ -2289,7 +2289,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA HIGOG",
+      "english": "FIGY BERRY",
       "itemId": "ITEM_FIGY_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_CONFUSE_SPICY",
@@ -2305,7 +2305,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA WIKI",
+      "english": "WIKI BERRY",
       "itemId": "ITEM_WIKI_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_CONFUSE_DRY",
@@ -2321,7 +2321,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA ANGO",
+      "english": "MAGO BERRY",
       "itemId": "ITEM_MAGO_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_CONFUSE_SWEET",
@@ -2337,7 +2337,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA GUAYA",
+      "english": "AGUAV BERRY",
       "itemId": "ITEM_AGUAV_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_CONFUSE_BITTER",
@@ -2353,7 +2353,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA PABAYA",
+      "english": "IAPAPA BERRY",
       "itemId": "ITEM_IAPAPA_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_CONFUSE_SOUR",
@@ -2369,7 +2369,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA FRAMBU",
+      "english": "RAZZ BERRY",
       "itemId": "ITEM_RAZZ_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2385,7 +2385,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA ORAM",
+      "english": "BLUK BERRY",
       "itemId": "ITEM_BLUK_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2401,7 +2401,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA LATANO",
+      "english": "NANAB BERRY",
       "itemId": "ITEM_NANAB_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2417,7 +2417,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA PERAGU",
+      "english": "WEPEAR BERRY",
       "itemId": "ITEM_WEPEAR_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2433,7 +2433,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA PINIA",
+      "english": "PINAP BERRY",
       "itemId": "ITEM_PINAP_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2449,7 +2449,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA GRANA",
+      "english": "POMEG BERRY",
       "itemId": "ITEM_POMEG_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2465,7 +2465,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA ALGAMA",
+      "english": "KELPSY BERRY",
       "itemId": "ITEM_KELPSY_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2481,7 +2481,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA ISPERO",
+      "english": "QUALOT BERRY",
       "itemId": "ITEM_QUALOT_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2497,7 +2497,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA MELUCE",
+      "english": "HONDEW BERRY",
       "itemId": "ITEM_HONDEW_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2513,7 +2513,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA UVAV",
+      "english": "GREPA BERRY",
       "itemId": "ITEM_GREPA_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2529,7 +2529,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA TAMATE",
+      "english": "TAMATO BERRY",
       "itemId": "ITEM_TAMATO_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2545,7 +2545,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA MAIS",
+      "english": "CORNN BERRY",
       "itemId": "ITEM_CORNN_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2561,7 +2561,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA AOSTAN",
+      "english": "MAGOST BERRY",
       "itemId": "ITEM_MAGOST_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2577,7 +2577,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA RAUTAN",
+      "english": "RABUTA BERRY",
       "itemId": "ITEM_RABUTA_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2593,7 +2593,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA MONLI",
+      "english": "NOMEL BERRY",
       "itemId": "ITEM_NOMEL_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2609,7 +2609,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA WIKANO",
+      "english": "SPELON BERRY",
       "itemId": "ITEM_SPELON_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2625,7 +2625,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA PLAMA",
+      "english": "PAMTRE BERRY",
       "itemId": "ITEM_PAMTRE_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2641,7 +2641,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA SAMBIA",
+      "english": "WATMEL BERRY",
       "itemId": "ITEM_WATMEL_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2657,7 +2657,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA RUDION",
+      "english": "DURIN BERRY",
       "itemId": "ITEM_DURIN_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2673,7 +2673,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ANDANO BERRY",
+      "english": "BELUE BERRY",
       "itemId": "ITEM_BELUE_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2689,7 +2689,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA LICHI",
+      "english": "LIECHI BERRY",
       "itemId": "ITEM_LIECHI_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_ATTACK_UP",
@@ -2705,7 +2705,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA GONLAN",
+      "english": "GANLON BERRY",
       "itemId": "ITEM_GANLON_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_DEFENSE_UP",
@@ -2721,7 +2721,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA ASLAC",
+      "english": "SALAC BERRY",
       "itemId": "ITEM_SALAC_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_SPEED_UP",
@@ -2737,7 +2737,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA YAPATI",
+      "english": "PETAYA BERRY",
       "itemId": "ITEM_PETAYA_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_SP_ATTACK_UP",
@@ -2753,7 +2753,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA ARICOC",
+      "english": "APICOT BERRY",
       "itemId": "ITEM_APICOT_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_SP_DEFENSE_UP",
@@ -2769,7 +2769,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA ZONLAN",
+      "english": "LANSAT BERRY",
       "itemId": "ITEM_LANSAT_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_CRITICAL_UP",
@@ -2785,7 +2785,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA ARABOL",
+      "english": "STARF BERRY",
       "itemId": "ITEM_STARF_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_RANDOM_STAT_UP",
@@ -2801,7 +2801,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BAYA ENIGMA",
+      "english": "ENIGMA BERRY",
       "itemId": "ITEM_ENIGMA_BERRY",
       "price": 20,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2865,7 +2865,7 @@
       "secondaryId": 0
     },
     {
-      "english": "POLVO BRILLO",
+      "english": "BRIGHTPOWDER",
       "itemId": "ITEM_BRIGHT_POWDER",
       "price": 10,
       "holdEffect": "HOLD_EFFECT_EVASION_UP",
@@ -2881,7 +2881,7 @@
       "secondaryId": 0
     },
     {
-      "english": "HIERBA BLANCA",
+      "english": "WHITE HERB",
       "itemId": "ITEM_WHITE_HERB",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_RESTORE_STATS",
@@ -2897,7 +2897,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ARNÉS FIRME",
+      "english": "MACHO BRACE",
       "itemId": "ITEM_MACHO_BRACE",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_MACHO_BRACE",
@@ -2913,7 +2913,7 @@
       "secondaryId": 0
     },
     {
-      "english": "REPARTIR EXP.",
+      "english": "EXP. SHARE",
       "itemId": "ITEM_EXP_SHARE",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_EXP_SHARE",
@@ -2929,7 +2929,7 @@
       "secondaryId": 0
     },
     {
-      "english": "GARRA RÁPIDA",
+      "english": "QUICK CLAW",
       "itemId": "ITEM_QUICK_CLAW",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_QUICK_CLAW",
@@ -2945,7 +2945,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CAMPANA ALIVIO",
+      "english": "SOOTHE BELL",
       "itemId": "ITEM_SOOTHE_BELL",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_HAPPINESS_UP",
@@ -2961,7 +2961,7 @@
       "secondaryId": 0
     },
     {
-      "english": "HIERBA MENTAL",
+      "english": "MENTAL HERB",
       "itemId": "ITEM_MENTAL_HERB",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_CURE_ATTRACT",
@@ -2977,7 +2977,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CINTA ELECCIÓN",
+      "english": "CHOICE BAND",
       "itemId": "ITEM_CHOICE_BAND",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_CHOICE_BAND",
@@ -2993,7 +2993,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ROCA DEL REY",
+      "english": "KING'S ROCK",
       "itemId": "ITEM_KINGS_ROCK",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_FLINCH",
@@ -3009,7 +3009,7 @@
       "secondaryId": 0
     },
     {
-      "english": "POLVO PLATEADO",
+      "english": "SILVERPOWDER",
       "itemId": "ITEM_SILVER_POWDER",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_BUG_POWER",
@@ -3025,7 +3025,7 @@
       "secondaryId": 0
     },
     {
-      "english": "MONEDA AMULETO",
+      "english": "AMULET COIN",
       "itemId": "ITEM_AMULET_COIN",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_DOUBLE_PRIZE",
@@ -3041,7 +3041,7 @@
       "secondaryId": 0
     },
     {
-      "english": "TALISMÁN",
+      "english": "CLEANSE TAG",
       "itemId": "ITEM_CLEANSE_TAG",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_REPEL",
@@ -3057,7 +3057,7 @@
       "secondaryId": 0
     },
     {
-      "english": "JOYA ALMA",
+      "english": "SOUL DEW",
       "itemId": "ITEM_SOUL_DEW",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_SOUL_DEW",
@@ -3073,7 +3073,7 @@
       "secondaryId": 0
     },
     {
-      "english": "DIENTE MAR PROF.",
+      "english": "DEEPSEATOOTH",
       "itemId": "ITEM_DEEP_SEA_TOOTH",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_DEEP_SEA_TOOTH",
@@ -3089,7 +3089,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ESCALA MAR PROF.",
+      "english": "DEEPSEASCALE",
       "itemId": "ITEM_DEEP_SEA_SCALE",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_DEEP_SEA_SCALE",
@@ -3105,7 +3105,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BOLA DE HUMO",
+      "english": "SMOKE BALL",
       "itemId": "ITEM_SMOKE_BALL",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_CAN_ALWAYS_RUN",
@@ -3121,7 +3121,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PIEDRA ETERNA",
+      "english": "EVERSTONE",
       "itemId": "ITEM_EVERSTONE",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_PREVENT_EVOLVE",
@@ -3137,7 +3137,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CINTA ENFOQUE",
+      "english": "FOCUS BAND",
       "itemId": "ITEM_FOCUS_BAND",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_FOCUS_BAND",
@@ -3153,7 +3153,7 @@
       "secondaryId": 0
     },
     {
-      "english": "HUEVO SUERTE",
+      "english": "LUCKY EGG",
       "itemId": "ITEM_LUCKY_EGG",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_LUCKY_EGG",
@@ -3169,7 +3169,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PERISCOPIO",
+      "english": "SCOPE LENS",
       "itemId": "ITEM_SCOPE_LENS",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_SCOPE_LENS",
@@ -3185,7 +3185,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CAPA METÁLICA",
+      "english": "METAL COAT",
       "itemId": "ITEM_METAL_COAT",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_STEEL_POWER",
@@ -3201,7 +3201,7 @@
       "secondaryId": 0
     },
     {
-      "english": "RESTOS",
+      "english": "LEFTOVERS",
       "itemId": "ITEM_LEFTOVERS",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_LEFTOVERS",
@@ -3217,7 +3217,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ESCAMA DE DRAGÓN",
+      "english": "DRAGON SCALE",
       "itemId": "ITEM_DRAGON_SCALE",
       "price": 2100,
       "holdEffect": "HOLD_EFFECT_DRAGON_SCALE",
@@ -3233,7 +3233,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BOLA LUMINOSA",
+      "english": "LIGHT BALL",
       "itemId": "ITEM_LIGHT_BALL",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_LIGHT_BALL",
@@ -3249,7 +3249,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ARENA SUAVE",
+      "english": "SOFT SAND",
       "itemId": "ITEM_SOFT_SAND",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_GROUND_POWER",
@@ -3265,7 +3265,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PIEDRA DURA",
+      "english": "HARD STONE",
       "itemId": "ITEM_HARD_STONE",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_ROCK_POWER",
@@ -3281,7 +3281,7 @@
       "secondaryId": 0
     },
     {
-      "english": "SEMILLA MILAGRO",
+      "english": "MIRACLE SEED",
       "itemId": "ITEM_MIRACLE_SEED",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_GRASS_POWER",
@@ -3297,7 +3297,7 @@
       "secondaryId": 0
     },
     {
-      "english": "LENTES DE SOL",
+      "english": "BLACKGLASSES",
       "itemId": "ITEM_BLACK_GLASSES",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_DARK_POWER",
@@ -3313,7 +3313,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CINTURÓN NEGRO",
+      "english": "BLACK BELT",
       "itemId": "ITEM_BLACK_BELT",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_FIGHTING_POWER",
@@ -3329,7 +3329,7 @@
       "secondaryId": 0
     },
     {
-      "english": "IMÁN",
+      "english": "MAGNET",
       "itemId": "ITEM_MAGNET",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_ELECTRIC_POWER",
@@ -3345,7 +3345,7 @@
       "secondaryId": 0
     },
     {
-      "english": "AGUA MÍSTICA",
+      "english": "MYSTIC WATER",
       "itemId": "ITEM_MYSTIC_WATER",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_WATER_POWER",
@@ -3361,7 +3361,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PICO AFILADO",
+      "english": "SHARP BEAK",
       "itemId": "ITEM_SHARP_BEAK",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_FLYING_POWER",
@@ -3377,7 +3377,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PÚA VENENOSA",
+      "english": "POISON BARB",
       "itemId": "ITEM_POISON_BARB",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_POISON_POWER",
@@ -3393,7 +3393,7 @@
       "secondaryId": 0
     },
     {
-      "english": "HIELO ETERNO",
+      "english": "NEVERMELTICE",
       "itemId": "ITEM_NEVER_MELT_ICE",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_ICE_POWER",
@@ -3409,7 +3409,7 @@
       "secondaryId": 0
     },
     {
-      "english": "TALISMÁN MALDITO",
+      "english": "SPELL TAG",
       "itemId": "ITEM_SPELL_TAG",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_GHOST_POWER",
@@ -3425,7 +3425,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CUCHARA TORCIDA",
+      "english": "TWISTEDSPOON",
       "itemId": "ITEM_TWISTED_SPOON",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_PSYCHIC_POWER",
@@ -3441,7 +3441,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CARBÓN",
+      "english": "CHARCOAL",
       "itemId": "ITEM_CHARCOAL",
       "price": 9800,
       "holdEffect": "HOLD_EFFECT_FIRE_POWER",
@@ -3457,7 +3457,7 @@
       "secondaryId": 0
     },
     {
-      "english": "COLMILLO DRAGÓN",
+      "english": "DRAGON FANG",
       "itemId": "ITEM_DRAGON_FANG",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_DRAGON_POWER",
@@ -3473,7 +3473,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PAÑUELO DE SEDA",
+      "english": "SILK SCARF",
       "itemId": "ITEM_SILK_SCARF",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_NORMAL_POWER",
@@ -3489,7 +3489,7 @@
       "secondaryId": 0
     },
     {
-      "english": "MEJORA",
+      "english": "UP-GRADE",
       "itemId": "ITEM_UP_GRADE",
       "price": 2100,
       "holdEffect": "HOLD_EFFECT_UP_GRADE",
@@ -3505,7 +3505,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CASCABEL ALMEJA",
+      "english": "SHELL BELL",
       "itemId": "ITEM_SHELL_BELL",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_SHELL_BELL",
@@ -3521,7 +3521,7 @@
       "secondaryId": 0
     },
     {
-      "english": "INCIENSO MARINO",
+      "english": "SEA INCENSE",
       "itemId": "ITEM_SEA_INCENSE",
       "price": 9600,
       "holdEffect": "HOLD_EFFECT_WATER_POWER",
@@ -3537,7 +3537,7 @@
       "secondaryId": 0
     },
     {
-      "english": "INCIENSO SUAVE",
+      "english": "LAX INCENSE",
       "itemId": "ITEM_LAX_INCENSE",
       "price": 9600,
       "holdEffect": "HOLD_EFFECT_EVASION_UP",
@@ -3553,7 +3553,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PUÑO SUERTE",
+      "english": "LUCKY PUNCH",
       "itemId": "ITEM_LUCKY_PUNCH",
       "price": 10,
       "holdEffect": "HOLD_EFFECT_LUCKY_PUNCH",
@@ -3569,7 +3569,7 @@
       "secondaryId": 0
     },
     {
-      "english": "POLVO METÁLICO",
+      "english": "METAL POWDER",
       "itemId": "ITEM_METAL_POWDER",
       "price": 10,
       "holdEffect": "HOLD_EFFECT_METAL_POWDER",
@@ -3585,7 +3585,7 @@
       "secondaryId": 0
     },
     {
-      "english": "HUESO GRUESO",
+      "english": "THICK CLUB",
       "itemId": "ITEM_THICK_CLUB",
       "price": 500,
       "holdEffect": "HOLD_EFFECT_THICK_CLUB",
@@ -3601,7 +3601,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PUERRO",
+      "english": "STICK",
       "itemId": "ITEM_STICK",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_STICK",
@@ -4065,7 +4065,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PAÑUELO ROJO",
+      "english": "RED SCARF",
       "itemId": "ITEM_RED_SCARF",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4081,7 +4081,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PAÑUELO AZUL",
+      "english": "BLUE SCARF",
       "itemId": "ITEM_BLUE_SCARF",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4097,7 +4097,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PAÑUELO ROSA",
+      "english": "PINK SCARF",
       "itemId": "ITEM_PINK_SCARF",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4113,7 +4113,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PAÑUELO VERDE",
+      "english": "GREEN SCARF",
       "itemId": "ITEM_GREEN_SCARF",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4129,7 +4129,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PAÑUELO AMARILLO",
+      "english": "YELLOW SCARF",
       "itemId": "ITEM_YELLOW_SCARF",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4145,7 +4145,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BICI DE CARRERAS",
+      "english": "MACH BIKE",
       "itemId": "ITEM_MACH_BIKE",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4161,7 +4161,7 @@
       "secondaryId": 0
     },
     {
-      "english": "MONEDERO",
+      "english": "COIN CASE",
       "itemId": "ITEM_COIN_CASE",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4177,7 +4177,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BUSCA OBJETOS",
+      "english": "ITEMFINDER",
       "itemId": "ITEM_ITEMFINDER",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4193,7 +4193,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CAÑA VIEJA",
+      "english": "OLD ROD",
       "itemId": "ITEM_OLD_ROD",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4209,7 +4209,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CAÑA BUENA",
+      "english": "GOOD ROD",
       "itemId": "ITEM_GOOD_ROD",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4225,7 +4225,7 @@
       "secondaryId": 1
     },
     {
-      "english": "SUPER CAÑA",
+      "english": "SUPER ROD",
       "itemId": "ITEM_SUPER_ROD",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4241,7 +4241,7 @@
       "secondaryId": 2
     },
     {
-      "english": "BOLETO SANTA ANA",
+      "english": "S.S. TICKET",
       "itemId": "ITEM_SS_TICKET",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4257,7 +4257,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PASE DE CONCURSO",
+      "english": "CONTEST PASS",
       "itemId": "ITEM_CONTEST_PASS",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4289,7 +4289,7 @@
       "secondaryId": 0
     },
     {
-      "english": "WAILMEGADERA",
+      "english": "WAILMER PAIL",
       "itemId": "ITEM_WAILMER_PAIL",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4305,7 +4305,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PIEZAS DEVON",
+      "english": "DEVON GOODS",
       "itemId": "ITEM_DEVON_GOODS",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4321,7 +4321,7 @@
       "secondaryId": 0
     },
     {
-      "english": "SACO DE CENIZA",
+      "english": "SOOT SACK",
       "itemId": "ITEM_SOOT_SACK",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4337,7 +4337,7 @@
       "secondaryId": 0
     },
     {
-      "english": "LLAVE DEL SÓTANO",
+      "english": "BASEMENT KEY",
       "itemId": "ITEM_BASEMENT_KEY",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4353,7 +4353,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BICI ACROBÁTICA",
+      "english": "ACRO BIKE",
       "itemId": "ITEM_ACRO_BIKE",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4369,7 +4369,7 @@
       "secondaryId": 1
     },
     {
-      "english": "ESTUCHE {POKEBLOCK}",
+      "english": "{POKEBLOCK} CASE",
       "itemId": "ITEM_POKEBLOCK_CASE",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4385,7 +4385,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CARTA",
+      "english": "LETTER",
       "itemId": "ITEM_LETTER",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4401,7 +4401,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BOLETO EÓN",
+      "english": "EON TICKET",
       "itemId": "ITEM_EON_TICKET",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4417,7 +4417,7 @@
       "secondaryId": 1
     },
     {
-      "english": "ESFERA ROJA",
+      "english": "RED ORB",
       "itemId": "ITEM_RED_ORB",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4433,7 +4433,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ESFERA AZUL",
+      "english": "BLUE ORB",
       "itemId": "ITEM_BLUE_ORB",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4449,7 +4449,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ESCÁNER",
+      "english": "SCANNER",
       "itemId": "ITEM_SCANNER",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4465,7 +4465,7 @@
       "secondaryId": 0
     },
     {
-      "english": "LENTES AISLANTES",
+      "english": "GO-GOGGLES",
       "itemId": "ITEM_GO_GOGGLES",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4481,7 +4481,7 @@
       "secondaryId": 0
     },
     {
-      "english": "METEORITO",
+      "english": "METEORITE",
       "itemId": "ITEM_METEORITE",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4497,7 +4497,7 @@
       "secondaryId": 0
     },
     {
-      "english": "LLAVE HAB. 1",
+      "english": "RM. 1 KEY",
       "itemId": "ITEM_ROOM_1_KEY",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4513,7 +4513,7 @@
       "secondaryId": 0
     },
     {
-      "english": "LLAVE HAB. 2",
+      "english": "RM. 2 KEY",
       "itemId": "ITEM_ROOM_2_KEY",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4529,7 +4529,7 @@
       "secondaryId": 0
     },
     {
-      "english": "LLAVE HAB. 4",
+      "english": "RM. 4 KEY",
       "itemId": "ITEM_ROOM_4_KEY",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4545,7 +4545,7 @@
       "secondaryId": 0
     },
     {
-      "english": "LLAVE HAB. 6",
+      "english": "RM. 6 KEY",
       "itemId": "ITEM_ROOM_6_KEY",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4561,7 +4561,7 @@
       "secondaryId": 0
     },
     {
-      "english": "LLAVE ALMACÉN",
+      "english": "STORAGE KEY",
       "itemId": "ITEM_STORAGE_KEY",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4577,7 +4577,7 @@
       "secondaryId": 0
     },
     {
-      "english": "FÓSIL RAÍZ",
+      "english": "ROOT FOSSIL",
       "itemId": "ITEM_ROOT_FOSSIL",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4593,7 +4593,7 @@
       "secondaryId": 0
     },
     {
-      "english": "FÓSIL GARRA",
+      "english": "CLAW FOSSIL",
       "itemId": "ITEM_CLAW_FOSSIL",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4609,7 +4609,7 @@
       "secondaryId": 0
     },
     {
-      "english": "DETECTOR DEVON",
+      "english": "DEVON SCOPE",
       "itemId": "ITEM_DEVON_SCOPE",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4625,7 +4625,7 @@
       "secondaryId": 0
     },
     {
-      "english": "MT01",
+      "english": "TM01",
       "itemId": "ITEM_TM01",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4642,7 +4642,7 @@
       "moveId": "FocusPunch"
     },
     {
-      "english": "MT02",
+      "english": "TM02",
       "itemId": "ITEM_TM02",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4659,7 +4659,7 @@
       "moveId": "DragonClaw"
     },
     {
-      "english": "MT03",
+      "english": "TM03",
       "itemId": "ITEM_TM03",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4676,7 +4676,7 @@
       "moveId": "WaterPulse"
     },
     {
-      "english": "MT04",
+      "english": "TM04",
       "itemId": "ITEM_TM04",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4693,7 +4693,7 @@
       "moveId": "CalmMind"
     },
     {
-      "english": "MT05",
+      "english": "TM05",
       "itemId": "ITEM_TM05",
       "price": 1000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4710,7 +4710,7 @@
       "moveId": "Roar"
     },
     {
-      "english": "MT06",
+      "english": "TM06",
       "itemId": "ITEM_TM06",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4727,7 +4727,7 @@
       "moveId": "Toxic"
     },
     {
-      "english": "MT07",
+      "english": "TM07",
       "itemId": "ITEM_TM07",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4744,7 +4744,7 @@
       "moveId": "Hail"
     },
     {
-      "english": "MT08",
+      "english": "TM08",
       "itemId": "ITEM_TM08",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4761,7 +4761,7 @@
       "moveId": "BulkUp"
     },
     {
-      "english": "MT09",
+      "english": "TM09",
       "itemId": "ITEM_TM09",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4778,7 +4778,7 @@
       "moveId": "BulletSeed"
     },
     {
-      "english": "MT10",
+      "english": "TM10",
       "itemId": "ITEM_TM10",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4795,7 +4795,7 @@
       "moveId": "HiddenPower"
     },
     {
-      "english": "MT11",
+      "english": "TM11",
       "itemId": "ITEM_TM11",
       "price": 2000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4812,7 +4812,7 @@
       "moveId": "SunnyDay"
     },
     {
-      "english": "MT12",
+      "english": "TM12",
       "itemId": "ITEM_TM12",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4829,7 +4829,7 @@
       "moveId": "Taunt"
     },
     {
-      "english": "MT13",
+      "english": "TM13",
       "itemId": "ITEM_TM13",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4846,7 +4846,7 @@
       "moveId": "IceBeam"
     },
     {
-      "english": "MT14",
+      "english": "TM14",
       "itemId": "ITEM_TM14",
       "price": 5500,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4863,7 +4863,7 @@
       "moveId": "Blizzard"
     },
     {
-      "english": "MT15",
+      "english": "TM15",
       "itemId": "ITEM_TM15",
       "price": 7500,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4880,7 +4880,7 @@
       "moveId": "HyperBeam"
     },
     {
-      "english": "MT16",
+      "english": "TM16",
       "itemId": "ITEM_TM16",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4897,7 +4897,7 @@
       "moveId": "LightScreen"
     },
     {
-      "english": "MT17",
+      "english": "TM17",
       "itemId": "ITEM_TM17",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4914,7 +4914,7 @@
       "moveId": "Protect"
     },
     {
-      "english": "MT18",
+      "english": "TM18",
       "itemId": "ITEM_TM18",
       "price": 2000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4931,7 +4931,7 @@
       "moveId": "RainDance"
     },
     {
-      "english": "MT19",
+      "english": "TM19",
       "itemId": "ITEM_TM19",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4948,7 +4948,7 @@
       "moveId": "GigaDrain"
     },
     {
-      "english": "MT20",
+      "english": "TM20",
       "itemId": "ITEM_TM20",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4965,7 +4965,7 @@
       "moveId": "Safeguard"
     },
     {
-      "english": "MT21",
+      "english": "TM21",
       "itemId": "ITEM_TM21",
       "price": 1000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4982,7 +4982,7 @@
       "moveId": "Frustration"
     },
     {
-      "english": "MT22",
+      "english": "TM22",
       "itemId": "ITEM_TM22",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4999,7 +4999,7 @@
       "moveId": "SolarBeam"
     },
     {
-      "english": "MT23",
+      "english": "TM23",
       "itemId": "ITEM_TM23",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5016,7 +5016,7 @@
       "moveId": "IronTail"
     },
     {
-      "english": "MT24",
+      "english": "TM24",
       "itemId": "ITEM_TM24",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5033,7 +5033,7 @@
       "moveId": "Thunderbolt"
     },
     {
-      "english": "MT25",
+      "english": "TM25",
       "itemId": "ITEM_TM25",
       "price": 5500,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5050,7 +5050,7 @@
       "moveId": "Thunder"
     },
     {
-      "english": "MT26",
+      "english": "TM26",
       "itemId": "ITEM_TM26",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5067,7 +5067,7 @@
       "moveId": "Earthquake"
     },
     {
-      "english": "MT27",
+      "english": "TM27",
       "itemId": "ITEM_TM27",
       "price": 1000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5084,7 +5084,7 @@
       "moveId": "Return"
     },
     {
-      "english": "MT28",
+      "english": "TM28",
       "itemId": "ITEM_TM28",
       "price": 2000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5101,7 +5101,7 @@
       "moveId": "Dig"
     },
     {
-      "english": "MT29",
+      "english": "TM29",
       "itemId": "ITEM_TM29",
       "price": 2000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5118,7 +5118,7 @@
       "moveId": "Psychic"
     },
     {
-      "english": "MT30",
+      "english": "TM30",
       "itemId": "ITEM_TM30",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5135,7 +5135,7 @@
       "moveId": "ShadowBall"
     },
     {
-      "english": "MT31",
+      "english": "TM31",
       "itemId": "ITEM_TM31",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5152,7 +5152,7 @@
       "moveId": "BrickBreak"
     },
     {
-      "english": "MT32",
+      "english": "TM32",
       "itemId": "ITEM_TM32",
       "price": 2000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5169,7 +5169,7 @@
       "moveId": "DoubleTeam"
     },
     {
-      "english": "MT33",
+      "english": "TM33",
       "itemId": "ITEM_TM33",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5186,7 +5186,7 @@
       "moveId": "Reflect"
     },
     {
-      "english": "MT34",
+      "english": "TM34",
       "itemId": "ITEM_TM34",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5203,7 +5203,7 @@
       "moveId": "ShockWave"
     },
     {
-      "english": "MT35",
+      "english": "TM35",
       "itemId": "ITEM_TM35",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5220,7 +5220,7 @@
       "moveId": "Flamethrower"
     },
     {
-      "english": "MT36",
+      "english": "TM36",
       "itemId": "ITEM_TM36",
       "price": 1000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5237,7 +5237,7 @@
       "moveId": "SludgeBomb"
     },
     {
-      "english": "MT37",
+      "english": "TM37",
       "itemId": "ITEM_TM37",
       "price": 2000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5254,7 +5254,7 @@
       "moveId": "Sandstorm"
     },
     {
-      "english": "MT38",
+      "english": "TM38",
       "itemId": "ITEM_TM38",
       "price": 5500,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5271,7 +5271,7 @@
       "moveId": "FireBlast"
     },
     {
-      "english": "MT39",
+      "english": "TM39",
       "itemId": "ITEM_TM39",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5288,7 +5288,7 @@
       "moveId": "RockTomb"
     },
     {
-      "english": "MT40",
+      "english": "TM40",
       "itemId": "ITEM_TM40",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5305,7 +5305,7 @@
       "moveId": "AerialAce"
     },
     {
-      "english": "MT41",
+      "english": "TM41",
       "itemId": "ITEM_TM41",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5322,7 +5322,7 @@
       "moveId": "Torment"
     },
     {
-      "english": "MT42",
+      "english": "TM42",
       "itemId": "ITEM_TM42",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5339,7 +5339,7 @@
       "moveId": "Facade"
     },
     {
-      "english": "MT43",
+      "english": "TM43",
       "itemId": "ITEM_TM43",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5356,7 +5356,7 @@
       "moveId": "SecretPower"
     },
     {
-      "english": "MT44",
+      "english": "TM44",
       "itemId": "ITEM_TM44",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5373,7 +5373,7 @@
       "moveId": "Rest"
     },
     {
-      "english": "MT45",
+      "english": "TM45",
       "itemId": "ITEM_TM45",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5390,7 +5390,7 @@
       "moveId": "Attract"
     },
     {
-      "english": "MT46",
+      "english": "TM46",
       "itemId": "ITEM_TM46",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5407,7 +5407,7 @@
       "moveId": "Thief"
     },
     {
-      "english": "MT47",
+      "english": "TM47",
       "itemId": "ITEM_TM47",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5424,7 +5424,7 @@
       "moveId": "SteelWing"
     },
     {
-      "english": "MT48",
+      "english": "TM48",
       "itemId": "ITEM_TM48",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5441,7 +5441,7 @@
       "moveId": "SkillSwap"
     },
     {
-      "english": "MT49",
+      "english": "TM49",
       "itemId": "ITEM_TM49",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5458,7 +5458,7 @@
       "moveId": "Snatch"
     },
     {
-      "english": "MT50",
+      "english": "TM50",
       "itemId": "ITEM_TM50",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5475,7 +5475,7 @@
       "moveId": "Overheat"
     },
     {
-      "english": "MO01",
+      "english": "HM01",
       "itemId": "ITEM_HM01",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5492,7 +5492,7 @@
       "moveId": "Cut"
     },
     {
-      "english": "MO02",
+      "english": "HM02",
       "itemId": "ITEM_HM02",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5509,7 +5509,7 @@
       "moveId": "Fly"
     },
     {
-      "english": "MO03",
+      "english": "HM03",
       "itemId": "ITEM_HM03",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5526,7 +5526,7 @@
       "moveId": "Surf"
     },
     {
-      "english": "MO04",
+      "english": "HM04",
       "itemId": "ITEM_HM04",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5543,7 +5543,7 @@
       "moveId": "Strength"
     },
     {
-      "english": "MO05",
+      "english": "HM05",
       "itemId": "ITEM_HM05",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5560,7 +5560,7 @@
       "moveId": "Flash"
     },
     {
-      "english": "MO06",
+      "english": "HM06",
       "itemId": "ITEM_HM06",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5577,7 +5577,7 @@
       "moveId": "RockSmash"
     },
     {
-      "english": "MO07",
+      "english": "HM07",
       "itemId": "ITEM_HM07",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5594,7 +5594,7 @@
       "moveId": "Waterfall"
     },
     {
-      "english": "MO08",
+      "english": "HM08",
       "itemId": "ITEM_HM08",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5643,7 +5643,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PAQUETE DE OAK",
+      "english": "OAK'S PARCEL",
       "itemId": "ITEM_OAKS_PARCEL",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5659,7 +5659,7 @@
       "secondaryId": 0
     },
     {
-      "english": "POK\u00e9 FLAUTA",
+      "english": "POK\u00e9 FLUTE",
       "itemId": "ITEM_POKE_FLUTE",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5675,7 +5675,7 @@
       "secondaryId": 0
     },
     {
-      "english": "LLAVE SECRETA",
+      "english": "SECRET KEY",
       "itemId": "ITEM_SECRET_KEY",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5691,7 +5691,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BONO BICICLETA",
+      "english": "BIKE VOUCHER",
       "itemId": "ITEM_BIKE_VOUCHER",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5707,7 +5707,7 @@
       "secondaryId": 0
     },
     {
-      "english": "DENTADURA DE ORO",
+      "english": "GOLD TEETH",
       "itemId": "ITEM_GOLD_TEETH",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5723,7 +5723,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ÁMBAR VIEJO",
+      "english": "OLD AMBER",
       "itemId": "ITEM_OLD_AMBER",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5739,7 +5739,7 @@
       "secondaryId": 0
     },
     {
-      "english": "LLAVE MAGNÉTICA",
+      "english": "CARD KEY",
       "itemId": "ITEM_CARD_KEY",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5755,7 +5755,7 @@
       "secondaryId": 0
     },
     {
-      "english": "LLAVE ASCENSOR",
+      "english": "LIFT KEY",
       "itemId": "ITEM_LIFT_KEY",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5771,7 +5771,7 @@
       "secondaryId": 0
     },
     {
-      "english": "FÓSIL HÉLIX",
+      "english": "HELIX FOSSIL",
       "itemId": "ITEM_HELIX_FOSSIL",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5787,7 +5787,7 @@
       "secondaryId": 0
     },
     {
-      "english": "FÓSIL DOMO",
+      "english": "DOME FOSSIL",
       "itemId": "ITEM_DOME_FOSSIL",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5803,7 +5803,7 @@
       "secondaryId": 0
     },
     {
-      "english": "VISOR SILPH",
+      "english": "SILPH SCOPE",
       "itemId": "ITEM_SILPH_SCOPE",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5819,7 +5819,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BICICLETA",
+      "english": "BICYCLE",
       "itemId": "ITEM_BICYCLE",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5835,7 +5835,7 @@
       "secondaryId": 0
     },
     {
-      "english": "MAPA REGIONAL",
+      "english": "TOWN MAP",
       "itemId": "ITEM_TOWN_MAP",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5851,7 +5851,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BUSCA PELEAS",
+      "english": "VS SEEKER",
       "itemId": "ITEM_VS_SEEKER",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5867,7 +5867,7 @@
       "secondaryId": 0
     },
     {
-      "english": "MEMORÍN",
+      "english": "FAME CHECKER",
       "itemId": "ITEM_FAME_CHECKER",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5883,12 +5883,12 @@
       "secondaryId": 0
     },
     {
-      "english": "ESTUCHE DE MTS",
+      "english": "TM CASE",
       "itemId": "ITEM_TM_CASE",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "A case that holds MTs and MOs.\\nIt is attached to the BAG's\\ncompartment for important items.",
+      "description_english": "A case that holds TMs and HMs.\\nIt is attached to the BAG's\\ncompartment for important items.",
       "importance": 1,
       "exitsBagOnUse": 1,
       "pocket": "POCKET_KEY_ITEMS",
@@ -5899,7 +5899,7 @@
       "secondaryId": 0
     },
     {
-      "english": "SACO DE BAYAS",
+      "english": "BERRY POUCH",
       "itemId": "ITEM_BERRY_POUCH",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5915,7 +5915,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ENSÉÑAME TV",
+      "english": "TEACHY TV",
       "itemId": "ITEM_TEACHY_TV",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5931,7 +5931,7 @@
       "secondaryId": 0
     },
     {
-      "english": "TRI-PASE",
+      "english": "TRI-PASS",
       "itemId": "ITEM_TRI_PASS",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5947,7 +5947,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PASE ARCOÍRIS",
+      "english": "RAINBOW PASS",
       "itemId": "ITEM_RAINBOW_PASS",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5963,7 +5963,7 @@
       "secondaryId": 0
     },
     {
-      "english": "TÉ",
+      "english": "TEA",
       "itemId": "ITEM_TEA",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5979,7 +5979,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BOLETO MÍSTICO",
+      "english": "MYSTICTICKET",
       "itemId": "ITEM_MYSTIC_TICKET",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5995,7 +5995,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BOLETO AURORA",
+      "english": "AURORATICKET",
       "itemId": "ITEM_AURORA_TICKET",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -6011,7 +6011,7 @@
       "secondaryId": 0
     },
     {
-      "english": "FRASCO DE POLVO",
+      "english": "POWDER JAR",
       "itemId": "ITEM_POWDER_JAR",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -6027,7 +6027,7 @@
       "secondaryId": 0
     },
     {
-      "english": "RUBÍ",
+      "english": "RUBY",
       "itemId": "ITEM_RUBY",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -6043,7 +6043,7 @@
       "secondaryId": 0
     },
     {
-      "english": "ZAFIRO",
+      "english": "SAPPHIRE",
       "itemId": "ITEM_SAPPHIRE",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",

@@ -1,23 +1,23 @@
 gOtherText_NewName:: @ 81C574F
-    .string "OTRO NOMBRE$"
-             
+    .string "NEW NAME$"
+
 gNameChoice_Green:: @ 81C5758
-    .string "AZUL$"
-             
+    .string "GREEN$"
+
 gNameChoice_Red:: @ 81C575E
-    .string "ROJO$"
+    .string "RED$"
 
 gNameChoice_Leaf:: @ 81C5762
-    .string "HOJA$"
+    .string "LEAF$"
 
 gNameChoice_Fire:: @ 81C5767
-    .string "FUEGO$"
+    .string "FIRE$"
 
 gNameChoice_Gary:: @ 81C576C
     .string "GARY$"
 
 gNameChoice_Kaz:: @ 81C5771
-    .string "VERDE$"
+    .string "KAZ$"
 
 gNameChoice_Toru:: @ 81C5775
     .string "TORU$"
@@ -125,108 +125,110 @@ gNameChoice_Suzi:: @ 81C5828
     .string "SUZI$"
 
 gNewGame_HelpDocs1:: @ 81C582D
-    .string "La explicación de los botones\n"
-    .string "se dará por orden de importancia.$"
+    .string "The various buttons will be explained in\n"
+    .string "the order of their importance.$"
 
 gNewGame_HelpDocs2:: @ 81C5875
-    .string "Mueve al protagonista.\n"
-    .string "También se usa para seleccionar\n"
-    .string "opciones.$"
+    .string "Moves the main character.\n"
+    .string "Also used to choose various data\n"
+    .string "headings.$"
 
 gNewGame_HelpDocs3:: @ 81C58BA
-    .string "Confirma opciones, revisa\n"
-    .string "cosas, chatea y lee texto.$"
-             
+    .string "Used to confirm a choice, check\n"
+    .string "things, chat, and scroll text.$"
+
 gNewGame_HelpDocs4:: @ 81C58F9
-    .string "Retrocede, cancela opciones\n"
-    .string "y ayuda a salir de varios menús.$"
-            
+    .string "Used to exit, cancel a choice,\n"
+    .string "and cancel a mode.$"
+
 gNewGame_HelpDocs5:: @ 81C592B
-    .string "Este botón abre el menú.$"
+    .string "Press this button to open the\n"
+    .string "MENU.$"
 
 gNewGame_HelpDocs6:: @ 81C594F
-    .string "Cambia objetos de lugar y usa\n"
-    .string "el que se haya registrado.$"
-             
+    .string "Used to shift items and to use\n"
+    .string "a registered item.$"
+
 gNewGame_HelpDocs7:: @ 81C5981
-    .string "Si necesitas AYUDA jugando,\n"
-    .string "presiona uno de estos botones.$"
+    .string "If you need help playing the\n"
+    .string "game, or on how to do things,\n"
+    .string "press the L or R Button.$"
 
 gOakText_AskPlayerGender:: @ 81C59D5
-    .string "Primero dime. ¿Eres un chico?\n"
-    .string "¿O eres una chica?$"
+    .string "Now tell me. Are you a boy?\n"
+    .string "Or are you a girl?$"
 
 gNewGameAdventureIntro1::
-    .string "Estás a punto de sumergirte en un\n"
-    .string "mundo de fantasía, donde serás\n"
-    .string "protagonista de una gran aventura.\n"
+    .string "In the world which you are about to\n"
+    .string "enter, you will embark on a grand\n"
+    .string "adventure with you as the hero.\n"
     .string "\n"
-    .string "Habla con la gente y revisa cosas\n"
-    .string "estés donde estés, ya sea pueblos,\n"
-    .string "caminos o cuevas. Reúne información\n"
-    .string "y pistas de cada fuente.$"
-             
+    .string "Speak to people and check things\n"
+    .string "wherever you go, be it towns, roads,\n"
+    .string "or caves. Gather information and\n"
+    .string "hints from every source.$"
+
 gNewGameAdventureIntro2::
-    .string "Nuevos caminos se abrirán al ayudar a\n"
-    .string "gente necesitada, enfrentar desafíos\n"
-    .string "y resolver misterios.\n"
+    .string "New paths will open to you by helping\n"
+    .string "people in need, overcoming challenges,\n"
+    .string "and solving mysteries.\n"
     .string "\n"
-    .string "A veces, otros te desafiarán y\n"
-    .string "criaturas salvajes te atacarán.\n"
-    .string "Se valiente y sigue adelante.$"
-             
+    .string "At times, you will be challenged by\n"
+    .string "others and attacked by wild creatures.\n"
+    .string "Be brave and keep pushing on.$"
+
 gNewGameAdventureIntro3::
-    .string "Esperamos que durante tu aventura\n"
-    .string "interactúes con todo tipo de gente\n"
-    .string "y logres crecer como persona.\n"
-    .string "Ese es nuestro objetivo principal.\n"
+    .string "Through your adventure, we hope\n"
+    .string "that you will interact with all sorts\n"
+    .string "of people and achieve personal growth.\n"
+    .string "That is our biggest objective.\n"
     .string "\n"
-    .string "Presiona el Botón A, ¡y deja que\n"
-    .string "tu aventura comience!$"
-           
+    .string "Press the A Button, and let your\n"
+    .string "adventure begin!$"
+
 gOakText_WelcomeToTheWorld:: @ 81C5C78
-    .string "¡Hola!\n"
-    .string "¡Encantado de conocerte!\p¡Este es el mundo de POKéMON!\pMi nombre es OAK.\pPero la gente me llama\n"
-    .string "PROFESOR POKéMON.\p$"
-    
+    .string "Hello, there!\n"
+    .string "Glad to meet you!\pWelcome to the world of POKéMON!\pMy name is OAK.\pPeople affectionately refer to me\n"
+    .string "as the POKéMON PROFESSOR.\p$"
+
 gOakText_WorldInhabited1:: @ 81C5D06
-    .string "Este mundo…$"
+    .string "This world…$"
 
 gOakText_WorldInhabited2:: @ 81C5D12
-    .string "…está habitado por unas\n"
-    .string "criaturas llamadas POKéMON.\p$"
-             
+    .string "…is inhabited far and wide by\n"
+    .string "creatures called POKéMON.\p$"
+
 gOakText_PetsBattlingStudy:: @ 81C5D4B
-    .string "Para algunos, los POKéMON son\n"
-    .string "mascotas. Pero otros los usan\l"
-    .string "para pelear.\pEn cuanto a mí…\pEstudio a los POKéMON como\n"
-    .string "profesión.\p$"
-                                           
+    .string "For some people, POKéMON are pets.\n"
+    .string "Others use them for battling.\pAs for myself…\pI study POKéMON as a profession.\p$"
+
 gOakText_TellMeALittleAboutYourself:: @ 81C5DBD
-    .string "Antes de seguir, cuéntame sobre ti.\p$"
+    .string "But first, tell me a little about\n"
+    .string "yourself.\p$"
 
 gOakText_AskPlayerName:: @ 81C5DEA
-    .string "Sigamos con tu nombre.\p$"
+    .string "Let's begin with your name.\n"
+    .string "What is it?\p$"
 
 gOakText_FinalizePlayerName:: @ 81C5E13
-    .string "Bien…\n"
-    .string "Así que tu nombre es {PLAYER}.$"
+    .string "Right…\n"
+    .string "So your name is {PLAYER}.$"
 
 gOakText_IntroduceRival:: @ 81C5E2E
-    .string "Éste es mi nieto.\pHa sido tu rival desde que erán\n"
-    .string "pequeños.\pMmm… ¿Cuál era su nombre?$"
+    .string "This is my grandson.\pHe's been your rival since you both\n"
+    .string "were babies.\p…Erm, what was his name now?$"
 
 gOakText_AskRivalName:: @ 81C5E91
-    .string "¿Cuál era el nombre de tu rival?$"
+    .string "Your rival's name, what was it now?$"
 
 gOakText_ConfirmRivalName:: @ 81C5EB5
-    .string "…Eh, ¿era {RIVAL}?$"
+    .string "…Er, was it {RIVAL}?$"
 
 gOakText_RememberRivalName:: @ 81C5EC5
-    .string "¡Es verdad! ¡Ya lo recuerdo!\n"
-    .string "¡Su nombre es {RIVAL}!\p$"
+    .string "That's right! I remember now!\n"
+    .string "His name is {RIVAL}!\p$"
 
 gOakText_LegendAboutToUnfold:: @ 81C5EF4
-    .string "¡{PLAYER}!\p¡Tu propia leyenda POKéMON está\n"
-    .string "apunto de comenzar!\p¡Te espera un mundo de sueños y\n"
-    .string "aventuras con los POKéMON! ¡Vamos!$"
+    .string "{PLAYER}!\pYour very own POKéMON legend is\n"
+    .string "about to unfold!\pA world of dreams and adventures\n"
+    .string "with POKéMON awaits! Let's go!$"

@@ -63,7 +63,7 @@ static EWRAM_DATA struct UnkStruct_203B118 * sTMCaseDynamicResources = NULL;
 static EWRAM_DATA struct UnkStruct_203B11C * sPokedudePackBackup = NULL;
 static EWRAM_DATA void * sTilemapBuffer = NULL; // tilemap buffer
 static EWRAM_DATA struct ListMenuItem * sListMenuItemsBuffer = NULL;
-static EWRAM_DATA u8 (* sListMenuStringsBuffer)[35] = NULL;
+static EWRAM_DATA u8 (* sListMenuStringsBuffer)[29] = NULL;
 static EWRAM_DATA u16 * sTMSpritePaletteBuffer = NULL;
 
 static void CB2_SetUpTMCaseUI_Blocking(void);
@@ -532,7 +532,7 @@ static void GetTMNumberAndMoveString(u8 * dest, u16 itemId)
     }
     StringAppend(gStringVar4, sText_SingleSpace);
     StringAppend(gStringVar4, gText_FontSize2);
-    StringAppend(gStringVar4, gLongMoveNames[ItemIdToBattleMoveId(itemId)]);
+    StringAppend(gStringVar4, gMoveNames[ItemIdToBattleMoveId(itemId)]);
     StringCopy(dest, gStringVar4);
 }
 

@@ -125,19 +125,6 @@
 #define PLACEHOLDER_ID_GROUDON       0xC
 #define PLACEHOLDER_ID_KYOGRE        0xD
 
-#define PLACEHOLDER_ID_OA            0xE
-#define PLACEHOLDER_ID_A             0xF
-#define PLACEHOLDER_ID_ELLA          0x10
-#define PLACEHOLDER_ID_ElLa          0x11
-#define PLACEHOLDER_ID_ITA           0x12
-#define PLACEHOLDER_ID_ITOITA        0x13
-#define PLACEHOLDER_ID_EA            0x14
-#define PLACEHOLDER_ID_OAM           0x15
-#define PLACEHOLDER_ID_AM            0x16
-#define PLACEHOLDER_ID_EAM           0x17
-#define PLACEHOLDER_ID_ONONA         0x18
-#define PLACEHOLDER_ID_ONONAM        0x19
-
 // battle placeholders are located in battle_message.h
 #define EXT_CTRL_CODE_COLOR                   0x1
 #define EXT_CTRL_CODE_HIGHLIGHT               0x2

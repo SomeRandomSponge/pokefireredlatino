@@ -21,7 +21,7 @@ enum
 
 struct PokedexEntry
 {
-    /*0x00*/ u8 categoryName[16];
+    /*0x00*/ u8 categoryName[12];
     /*0x0C*/ u16 height; //in decimeters
     /*0x0E*/ u16 weight; //in hectograms
     /*0x10*/ const u8 *description;
@@ -42,7 +42,6 @@ bool16 HasAllMons(void);
 u8 CreateDexDisplayMonDataTask(u16 dexNum, u32 trainerId, u32 personality);
 s8 GetSetPokedexFlag(u16 nationalNum, u8 caseId);
 u16 GetNationalPokedexCount(u8);
-u16 sub_80C0844(u8);
 u16 GetKantoPokedexCount(u8);
 bool16 HasAllHoennMons(void);
 bool16 HasAllKantoMons(void);

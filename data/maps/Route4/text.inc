@@ -1,6 +1,6 @@
 Route4_Text_TrippedOverGeodude:: @ 81838D7
-    .string "¡Ouch! ¡Tropecé con un POKéMON\n"
-    .string "rocoso, GEODUDE!$"
+    .string "Ouch! I tripped over a rocky\n"
+    .string "POKéMON, GEODUDE!$"
 
 Route4_Text_CrissyIntro:: @ 8183906
     .string "I came to MT. MOON in search of\n"
@@ -15,65 +15,65 @@ Route4_Text_CrissyPostBattle:: @ 8183957
     .string "I think I got them all.$"
 
 Route4_Text_MtMoonEntrance:: @ 818399B
-    .string "MONTE LUNA\n"
-    .string "Entrada al túnel$"
+    .string "MT. MOON\n"
+    .string "Tunnel Entrance$"
 
 Route4_Text_RouteSign:: @ 81839B4
-    .string "RUTA 4\n"
-    .string "MONTE LUNA - CIUDAD CELESTE$"
+    .string "ROUTE 4\n"
+    .string "MT. MOON - CERULEAN CITY$"
 
 Text_MegaPunchTeach:: @ 81839D5
-    .string "¡Un puño de ferocidad rugiente!\p"
-    .string "¡Lleno de poder destructivo!\p"
-    .string "¡Cuando no queda energía,\n"
-    .string "MEGA PUÑO es el ataque definitivo!\l"
-    .string "¿Estás de acuerdo?\p"
-    .string "¡Ahora!\n" 
-    .string "¡Déjame enseñarselo a un POKéMON!$"
+    .string "A punch of roaring ferocity!\p"
+    .string "Packed with destructive power!\p"
+    .string "When the chips are down,\n"
+    .string "MEGA PUNCH is the ultimate attack!\l"
+    .string "You agree, yes?\p"
+    .string "Now!\n"
+    .string "Let me teach it to your POKéMON!$"
 
 Text_MegaPunchDeclined:: @ 8183A83
-    .string "Regresarás cuando entiendas el\n"
-    .string "valor del MEGA PUÑO.$"
+    .string "You'll be back when you understand\n"
+    .string "the worth of MEGA PUNCH.$"
 
 Text_MegaPunchWhichMon:: @ 8183ABF
-    .string "¡Bien!\n"
-    .string "¿Qué POKéMON quiere aprenderlo?$"
+    .string "Fine!\n"
+    .string "Which POKéMON will learn it?$"
 
 Text_MegaPunchTaught:: @ 8183AE2
-    .string "¡Ahora somos camaradas en el\n"
-    .string "camino del puño!\p"
-    .string "Deberías irte antes de que te vea\n"
-    .string "ese bobo malencaminado de ahí que\l"
-    .string "solo entrena sus tontas patadas.$"
+    .string "Now, we are comrades in the way of\n"
+    .string "punching!\p"
+    .string "You should go before you're seen\n"
+    .string "by the misguided fool who trains\l"
+    .string "only his silly kicking over there.$"
 
 Text_MegaKickTeach:: @ 8183B74
-    .string "¡Una patada de ferocidad brutal!\p"
-    .string "¡Llena de poder destructivo!\p"
-    .string "Cuando quieres ser direct{OA},\n"
-    .string "MEGA PATADA es el ataque definitivo!\l"
-    .string "¿No estás de acuerdo?\p"
-    .string "¡Bien!\n"
-    .string "¡Déjame enseñarselo a un POKéMON!$"
+    .string "A kick of brutal ferocity!\p"
+    .string "Packed with destructive power!\p"
+    .string "When you get right down to it,\n"
+    .string "MEGA KICK is the ultimate attack!\l"
+    .string "Don't you agree?\p"
+    .string "Okay!\n"
+    .string "I'll teach it to your POKéMON!$"
 
 Text_MegaKickDeclined:: @ 8183C25
-    .string "Vendrás arrastrandote cuando\n"
-    .string "entiendas el valor de MEGA PATADA.$"
+    .string "You'll come crawling back when you\n"
+    .string "realize the value of MEGA KICK.$"
 
 Text_MegaKickWhichMon:: @ 8183C68
-    .string "¡De acuerdo!\n"
-    .string "¿Qué POKéMON quiere aprenderla?$"
+    .string "All right!\n"
+    .string "Which POKéMON wants to learn it?$"
 
 Text_MegaKickTaught:: @ 8183C94
-    .string "¡Ahora somos almas gemelas en el\n"
-    .string "camino de las patadas!\p"
-    .string "Deberías correr antes de que seas\n"
-    .string "vist{OA} por ese iluso de ahí que\l"
-    .string "solo entrena sus simples puños.$"
+    .string "Now, we are soul mates in the way\n"
+    .string "of kicking!\p"
+    .string "You should run before you're seen\n"
+    .string "by the deluded nitwit who trains\l"
+    .string "only simple punching over there.$"
 
 Route4_Text_PeopleLikeAndRespectBrock:: @ 8183D26
-    .string "¡Vaya, esa es la MEDALLA ROCA!\n"
-    .string "Te la dio BROCK, ¿cierto?\p"
-    .string "Brock es además de fuerte, genial.\n"
-    .string "Todos lo respetan y admiran.\p"
-    .string "Quiero convertirme en\n"
-    .string "LÍDER de GIMNASIO como él.$"
+    .string "Oh, wow, that's the BOULDERBADGE!\n"
+    .string "You got it from BROCK, didn't you?\p"
+    .string "BROCK is cool. He's not just tough.\n"
+    .string "People like and respect him.\p"
+    .string "I want to become a GYM LEADER\n"
+    .string "like him.$"

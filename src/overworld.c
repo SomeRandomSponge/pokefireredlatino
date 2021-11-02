@@ -148,7 +148,7 @@ static void MoveSaveBlocks_ResetHeap_(void);
 static void sub_8056E80(void);
 static void sub_8056F08(void);
 static void InitOverworldGraphicsRegisters(void);
-static void sub_8057024(bool32 a0);
+static void ResumeMap(bool32 a0);
 static void sub_8057074(void);
 static void mli4_mapscripts_and_other(void);
 static void ReloadObjectsAndRunReturnToFieldMapScript(void);
@@ -477,8 +477,8 @@ void Overworld_SetObjEventTemplateMovementType(u8 localId, u8 movementType)
 static void mapdata_load_assets_to_gpu_and_full_redraw(void)
 {
     move_tilemap_camera_to_upper_left_corner();
-    copy_map_tileset1_tileset2_to_vram(gMapHeader.mapLayout);
-    apply_map_tileset1_tileset2_palette(gMapHeader.mapLayout);
+    CopyMapTilesetsToVram(gMapHeader.mapLayout);
+    LoadMapTilesetPalettes(gMapHeader.mapLayout);
     DrawWholeMapView();
     InitTilesetAnimations();
 }
@@ -766,8 +766,8 @@ void LoadMapFromCameraTransition(u8 mapGroup, u8 mapNum)
     RunOnTransitionMapScript();
     TryRegenerateRenewableHiddenItems();
     InitMap();
-    copy_map_tileset2_to_vram_2(gMapHeader.mapLayout);
-    apply_map_tileset2_palette(gMapHeader.mapLayout);
+    CopySecondaryTilesetToVramUsingHeap(gMapHeader.mapLayout);
+    LoadSecondaryTilesetPalette(gMapHeader.mapLayout);
     for (paletteIndex = 7; paletteIndex < 13; paletteIndex++)
         ApplyWeatherGammaShiftToPal(paletteIndex);
     InitSecondaryTilesetAnimation();
@@ -1346,7 +1346,7 @@ static void InitOverworldBgs(void)
     SetBgTilemapBuffer(3, gBGTilemapBuffers3);
     InitStandardTextBoxWindows();
     InitTextBoxGfxAndPrinters();
-    sub_8069348();
+    InitFieldMessageBox();
 }
 
 static void InitOverworldBgs_NoResetHeap(void)
@@ -1364,7 +1364,7 @@ static void InitOverworldBgs_NoResetHeap(void)
     SetBgTilemapBuffer(3, gBGTilemapBuffers3);
     InitStandardTextBoxWindows();
     InitTextBoxGfxAndPrinters();
-    sub_8069348();
+    InitFieldMessageBox();
 }
 
 void CleanupOverworldWindowsAndTilemaps(void)
@@ -1775,7 +1775,7 @@ static bool32 map_loading_iteration_3(u8 *state)
         (*state)++;
         break;
     case 2:
-        sub_8057024(TRUE);
+        ResumeMap(TRUE);
         (*state)++;
         break;
     case 3:
@@ -1796,17 +1796,17 @@ static bool32 map_loading_iteration_3(u8 *state)
         (*state)++;
         break;
     case 6:
-        copy_map_tileset1_to_vram(gMapHeader.mapLayout);
+        CopyPrimaryTilesetToVram(gMapHeader.mapLayout);
         (*state)++;
         break;
     case 7:
-        copy_map_tileset2_to_vram(gMapHeader.mapLayout);
+        CopySecondaryTilesetToVram(gMapHeader.mapLayout);
         (*state)++;
         break;
     case 8:
         if (FreeTempTileDataBuffersIfPossible() != TRUE)
         {
-            apply_map_tileset1_tileset2_palette(gMapHeader.mapLayout);
+            LoadMapTilesetPalettes(gMapHeader.mapLayout);
             (*state)++;
         }
         break;
@@ -1852,7 +1852,7 @@ static bool32 load_map_stuff(u8 *state, bool32 a1)
         (*state)++;
         break;
     case 2:
-        sub_8057024(a1);
+        ResumeMap(a1);
         (*state)++;
         break;
     case 3:
@@ -1881,17 +1881,17 @@ static bool32 load_map_stuff(u8 *state, bool32 a1)
         (*state)++;
         break;
     case 7:
-        copy_map_tileset1_to_vram(gMapHeader.mapLayout);
+        CopyPrimaryTilesetToVram(gMapHeader.mapLayout);
         (*state)++;
         break;
     case 8:
-        copy_map_tileset2_to_vram(gMapHeader.mapLayout);
+        CopySecondaryTilesetToVram(gMapHeader.mapLayout);
         (*state)++;
         break;
     case 9:
         if (FreeTempTileDataBuffersIfPossible() != TRUE)
         {
-            apply_map_tileset1_tileset2_palette(gMapHeader.mapLayout);
+            LoadMapTilesetPalettes(gMapHeader.mapLayout);
             (*state)++;
         }
         break;
@@ -1932,7 +1932,7 @@ static bool32 sub_8056CD8(u8 *state)
     case 0:
         InitOverworldBgs();
         QuestLog_InitPalettesBackup();
-        sub_8057024(FALSE);
+        ResumeMap(FALSE);
         ReloadObjectsAndRunReturnToFieldMapScript();
         sub_8057114();
         (*state)++;
@@ -1966,7 +1966,7 @@ static bool32 map_loading_iteration_2_link(u8 *state)
         break;
     case 1:
         QuestLog_InitPalettesBackup();
-        sub_8057024(1);
+        ResumeMap(1);
         (*state)++;
         break;
     case 2:
@@ -1986,17 +1986,17 @@ static bool32 map_loading_iteration_2_link(u8 *state)
         (*state)++;
         break;
     case 5:
-        copy_map_tileset1_to_vram(gMapHeader.mapLayout);
+        CopyPrimaryTilesetToVram(gMapHeader.mapLayout);
         (*state)++;
         break;
     case 6:
-        copy_map_tileset2_to_vram(gMapHeader.mapLayout);
+        CopySecondaryTilesetToVram(gMapHeader.mapLayout);
         (*state)++;
         break;
     case 7:
         if (FreeTempTileDataBuffersIfPossible() != TRUE)
         {
-            apply_map_tileset1_tileset2_palette(gMapHeader.mapLayout);
+            LoadMapTilesetPalettes(gMapHeader.mapLayout);
             (*state)++;
         }
         break;
@@ -2093,7 +2093,7 @@ static void InitOverworldGraphicsRegisters(void)
     ChangeBgY(3, 0, 0);
 }
 
-static void sub_8057024(u32 a1)
+static void ResumeMap(u32 a1)
 {
     ResetTasks();
     ResetSpriteData();
@@ -2263,7 +2263,7 @@ static bool32 LoadMap_QLPlayback(u8 *state)
         (*state)++;
         break;
     case 2:
-        sub_8057024(0);
+        ResumeMap(0);
         (*state)++;
         break;
     case 3:
@@ -2281,17 +2281,17 @@ static bool32 LoadMap_QLPlayback(u8 *state)
         (*state)++;
         break;
     case 6:
-        copy_map_tileset1_to_vram(gMapHeader.mapLayout);
+        CopyPrimaryTilesetToVram(gMapHeader.mapLayout);
         (*state)++;
         break;
     case 7:
-        copy_map_tileset2_to_vram(gMapHeader.mapLayout);
+        CopySecondaryTilesetToVram(gMapHeader.mapLayout);
         (*state)++;
         break;
     case 8:
         if (FreeTempTileDataBuffersIfPossible() != TRUE)
         {
-            apply_map_tileset1_tileset2_palette(gMapHeader.mapLayout);
+            LoadMapTilesetPalettes(gMapHeader.mapLayout);
             (*state)++;
         }
         break;
@@ -2349,7 +2349,7 @@ void Overworld_CreditsMainCB(void)
         SetVBlankCallback(NULL);
     RunTasks();
     AnimateSprites();
-    sub_805ACF0();
+    CameraUpdateNoObjectRefresh();
     UpdateCameraPanning();
     BuildOamBuffer();
     UpdatePaletteFade();
@@ -2450,17 +2450,17 @@ static bool8 MapLdr_Credits(void)
         (*state)++;
         break;
     case 4:
-        copy_map_tileset1_to_vram(gMapHeader.mapLayout);
+        CopyPrimaryTilesetToVram(gMapHeader.mapLayout);
         (*state)++;
         break;
     case 5:
-        copy_map_tileset2_to_vram(gMapHeader.mapLayout);
+        CopySecondaryTilesetToVram(gMapHeader.mapLayout);
         (*state)++;
         break;
     case 6:
         if (FreeTempTileDataBuffersIfPossible() != TRUE)
         {
-            apply_map_tileset1_tileset2_palette(gMapHeader.mapLayout);
+            LoadMapTilesetPalettes(gMapHeader.mapLayout);
             (*state)++;
         }
         break;
