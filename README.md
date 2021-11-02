@@ -12,8 +12,8 @@ Para instalar el repositorio por su cuenta, revisa [INSTALL.md](INSTALL.md) (en 
 o busca un tutorial en español por internet, hay varios muy buenos.
 También puedes combinarlo con tu propio proyecto si así lo deseas.
 
-Si piensas usar esta traducción en tu proyecto, ya sea con cambios o no, por favor da creditos a las personas mencionadas en CREDITOS,  
-pues sin sus aportes esto no seria posible
+Si piensas usar esta traducción en tu proyecto, ya sea con cambios o no, por favor da creditos a las personas mencionadas en [CRÉDITOS.md](CRÉDITOS.md),  
+pues sin sus aportes esto no seria posible.
 
 ## Véase también
 
