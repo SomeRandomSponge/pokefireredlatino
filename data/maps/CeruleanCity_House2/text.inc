@@ -1,22 +1,22 @@
 CeruleanCity_House2_Text_RocketsStoleTMForDig:: @ 8191E13
-    .string "Those miserable ROCKETS!\p"
-    .string "Look what they've done to my\n"
-    .string "house!\p"
-    .string "They stole a TM for teaching\n"
-    .string "POKéMON how to DIG holes!\p"
-    .string "I was going to use it on a\n"
-    .string "MANKEY or a SANDSHREW…\p"
-    .string "That cost me a bundle, it did!$"
+    .string "¡Esos miserables ROCKETS!\p"
+    .string "¡Mira lo que le hicieron a\n"
+    .string "mi casa!\p"
+    .string "¡Robaron una MT para enseñar\n"
+    .string "POKéMON a CAVAR agujeros!\p"
+    .string "Iba a usarla en un MANKEY\n" 
+    .string "o en un SANDSHREW…\p"
+    .string "¡Y esa MT me costó mucho!$"
 
 CeruleanCity_House2_Text_TeachDiglettDigWithoutTM:: @ 8191ED8
-    .string "I figure what's lost is lost.\p"
-    .string "I decided to teach DIGLETT how to\n"
-    .string "DIG without a TM.$"
+    .string "Creo que lo se perdió se perdió.\p"
+    .string "Decidí que le enseñaré a DIGLETT\n"
+    .string "cómo CAVAR sin una MT.$"
 
 CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood:: @ 8191F2A
-    .string "TEAM ROCKET must be trying to DIG\n"
-    .string "their way into no good!$"
+    .string "¡El EQUIPO ROCKET está intentando\n"
+    .string "CAVAR su camino hacia una maldad!$"
 
 CeruleanCity_House2_Text_TeamRocketLeftWayOut:: @ 8191F64
-    .string "TEAM ROCKET left a way out!$"
+    .string "¡El EQUIPO ROCKET dejó una salida!$"
 

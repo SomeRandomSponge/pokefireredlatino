@@ -9,6 +9,22 @@
 
 // Exported ROM declarations
 
+extern const u8 gExpandedPlaceholder_O[];
+extern const u8 gExpandedPlaceholder_A[];
+extern const u8 gExpandedPlaceholder_E[];
+extern const u8 gExpandedPlaceholder_EL[];
+extern const u8 gExpandedPlaceholder_LA[];
+extern const u8 gExpandedPlaceholder_El[];
+extern const u8 gExpandedPlaceholder_La[];
+extern const u8 gExpandedPlaceholder_ITA[];
+extern const u8 gExpandedPlaceholder_ITO[];
+extern const u8 gExpandedPlaceholder_OM[];
+extern const u8 gExpandedPlaceholder_AM[];
+extern const u8 gExpandedPlaceholder_EM[];
+extern const u8 gExpandedPlaceholder_ON[];
+extern const u8 gExpandedPlaceholder_ONA[];
+extern const u8 gExpandedPlaceholder_ONM[];
+extern const u8 gExpandedPlaceholder_ONAM[];
 extern const u8 gText_FromSpace[];
 extern const u8 gText_Lv50[];
 extern const u8 gText_OpenLevel[];

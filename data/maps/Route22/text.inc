@@ -1,25 +1,25 @@
 Route22_Text_EarlyRivalIntro:: @ 8188890
-	.string "{RIVAL}: Hey! {PLAYER}!\p"
-	.string "You're off to the POKéMON LEAGUE?\n"
-	.string "Forget about it!\p"
-	.string "You probably don't have any\n"
-	.string "BADGES, do you?\p"
-	.string "The guard won't let you through\n"
-	.string "without them.\p"
-	.string "By the way, did your POKéMON get\n"
-	.string "any stronger?$"
+	.string "{RIVAL}: ¡Hey! ¡{PLAYER}!\p"
+	.string "¿Piensas ir a la LIGA POKéMON?\n"
+	.string "¡Olvídalo!\p"
+	.string "Problemente no tienes ninguna\n"
+	.string "MEDALLA, ¿verdad?\p"
+	.string "El guardia no te dejará pasar\n"
+	.string "sin ellas.\p"
+	.string "Por cierto, ¿tus POKéMON se han\n"
+	.string "vuelto más fuertes?$"
 
 Route22_Text_EarlyRivalDefeat:: @ 8188959
-	.string "Awww!\n"
-	.string "You just lucked out!$"
+	.string "¡Auuu!\n"
+	.string "¡Sólo tuviste suerte!$"
 
 Route22_Text_EarlyRivalPostBattle:: @ 8188974
-	.string "I heard the POKéMON LEAGUE is\n"
-	.string "crawling with tough TRAINERS.\p"
-	.string "I have to figure out how to get\n"
-	.string "past them.\p"
-	.string "You should quit dawdling and get a\n"
-	.string "move on!$"
+	.string "Escuché que la LIGA POKéMON está\n"
+	.string "llena de ENTRENADORES fuertes.\p"
+	.string "Tengo que buscar una forma\n"
+	.string "de superarlos.\p"
+	.string "¡Deberías dejar de perder\n"
+	.string "el tiempo y empezar a moverte!$"
 
 @ Translated in RB as "{RIVAL}: What? Why do I have 2 POKéMON? You should catch some more too!"
 Route22_Text_RivalShouldCatchSomeMons:: @ 8188A07
@@ -61,6 +61,5 @@ Route22_Text_LateRivalVictory:: @ 8188BAF
 	.string "あははーッ！$"
 
 Route22_Text_LeagueGateSign:: @ 8188BFF
-	.string "POKéMON LEAGUE\n"
-	.string "Front Gate$"
-
+	.string "LIGA POKéMON\n"
+	.string "Entrada Frontal$"

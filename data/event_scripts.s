@@ -832,7 +832,7 @@ Text_WelcomeTimeCapsule:: @ 81A5160
 	.string "TIME CAPSULE.$"
 
 Text_PleaseComeAgain:: @ 81A5190
-	.string "Please come again!$"
+	.string "¡Vuelve cuando quieras!$"
 
 @ Unused
 Text_HavingDiscountSaleToday:: @ 81A51A3
@@ -850,10 +850,10 @@ Text_MakingPreparations:: @ 81A5351
 	.string "じゅんびちゅうです！$"
 
 Text_WantWhichFloor:: @ 81A535C
-	.string "Which floor do you want?$"
+	.string "¿Qué piso quieres?$"
 
 Text_BagItemCanBeRegistered:: @ 81A5375
-	.string "An item in the BAG can be\n"
+	.string "Puedes registrar un objeto en la\n"
 	.string "registered to SELECT for easy use.$"
 
 @ Unused (email from R/S Rivals computer)
@@ -868,7 +868,7 @@ Text_TrainerSchoolEmail:: @ 81A53B2
 	.string "‥‥　‥‥　‥‥$"
 
 Text_PlayerBootedUpPC:: @ 81A5420
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER} encendió la PC.$"
 
 @ Unused
 Text_LinkWasCanceled:: @ 81A5435
@@ -876,29 +876,29 @@ Text_LinkWasCanceled:: @ 81A5435
 
 @ Unused
 Text_GiveNicknameToReceivedMon:: @ 81A5446
-	.string "Want to give a nickname to the\n"
-	.string "{STR_VAR_2} you received?$"
+	.string "¿Quieres darle un apodo al\n"
+	.string "{STR_VAR_2} que recibiste?$"
 
 gText_PkmnFainted3:: @ 81A5476
-	.string "{STR_VAR_1} fainted…\p"
+	.string "{STR_VAR_1} se debilitó…\p"
 	.string "$"
 
 Text_WelcomeWantToHealPkmn:: @ 81A5483
-	.string "Welcome to our POKéMON CENTER!\p"
-	.string "Would you like me to heal your\n"
-	.string "POKéMON back to perfect health?$"
+	.string "¡Bienvenid{OA} al CENTRO POKéMON!\p"
+	.string "¿Quieres que nos ocupemos de los\n"
+	.string "POKéMON de tu equipo?$"
 
 Text_TakeYourPkmnForFewSeconds:: @ 81A54E1
-	.string "Okay, I'll take your POKéMON for a\n"
-	.string "few seconds.$"
+	.string "Muy bien, tomaré a tus POKéMON por\n"
+	.string "unos segundos.$"
 
 Text_WeHopeToSeeYouAgain:: @ 81A5511
-	.string "We hope to see you again!$"
+	.string "¡Vuelve siempre que quieras!$"
 
 Text_RestoredPkmnToFullHealth:: @ 81A552B
-	.string "Thank you for waiting.\n"
-	.string "We've restored your POKéMON to\l"
-	.string "full health.$"
+	.string "Gracias por esperar.\n"
+	.string "Restauramos la salud de tus\l"
+	.string "POKéMON por completo.$"
 
 	.include "data/text/surf.inc"
 
@@ -922,12 +922,12 @@ Text_AppearsToBeUndergoingAdjustments:: @ 81A5667
 	.string "adjustments…$"
 
 Text_HandedOverItem:: @ 81A5690
-	.string "{PLAYER} handed over the\n"
+	.string "{PLAYER} entregó\n"
 	.string "{STR_VAR_1}.$"
 
 Text_GiveNicknameToThisMon:: @ 81A56A7
-	.string "Do you want to give a nickname to\n"
-	.string "this {STR_VAR_1}?$"
+	.string "¿Quieres darle un apodo a\n"
+	.string "este {STR_VAR_1}?$"
 
 	.include "data/text/itemfinder.inc"
 	.include "data/text/route23.inc"
@@ -935,12 +935,13 @@ Text_GiveNicknameToThisMon:: @ 81A56A7
 	.include "data/text/ingame_trade.inc"
 
 Text_CardKeyOpenedDoor:: @ 81A5B88
-	.string "Bingo!\n"
-	.string "The CARD KEY opened the door!$"
+	.string "¡Bingo!\n"
+	.string "¡La LLAVE MAGNÉTICA abrió\l"
+	.string "la puerta!$"
 
 Text_ItNeedsCardKey:: @ 81A5BAD
-	.string "No!\n"
-	.string "It needs a CARD KEY!$"
+	.string "¡No!\n"
+	.string "¡Necesita una LLAVE MAGNÉTICA!$"
 
 Text_AccessedProfOaksPC:: @ 81A5BC6
 	.string "Accessed PROF. OAK's PC…\p"
@@ -981,32 +982,32 @@ Text_TheDoorIsClosed:: @ 81A5CD3
 	.string "ドアは　しまっている‥$"
 
 Text_TheDoorIsOpen:: @ 81A5CDF
-	.string "The door is open…$"
+	.string "La puerta esta abierta…$"
 
 	.include "data/text/pc_transfer.inc"
 	.include "data/text/white_out.inc"
 	.include "data/text/poke_mart.inc"
 
 Text_MonFlewAway:: @ 81A63C4
-	.string "The {STR_VAR_1} flew away!$"
+	.string "¡{STR_VAR_1} huyó!$"
 
 Text_TheresBedLetsRest:: @ 81A63D6
 	.string "ベッドが　ある‥‥\n"
 	.string "やすんでいこう$"
 
 Text_FoundTMHMContainsMove:: @ 81A63E8
-	.string "{PLAYER} found a {STR_VAR_2}!\n"
-	.string "It contains {STR_VAR_1}.$"
+	.string "¡{PLAYER} encontró {STR_VAR_2}!\n"
+	.string "Contiene {STR_VAR_1}.$"
 
 	.include "data/text/seagallop.inc"
 
 @ Call for legendary bird trio
 Text_Gyaoo:: @ 81A6448
-	.string "Gyaoo!$"
+	.string "¡Gyaoo!$"
 
 Text_MoveCanOnlyBeLearnedOnce:: @ 81A644F
-	.string "This move can be learned only\n"
-	.string "once. Is that okay?$"
+	.string "Este movimiento solo puede ser\n"
+	.string "aprendido una vez. ¿Eso está bien?$"
 
 EventScript_ResetAllMapFlags:: @ 81A6481
 	setflag FLAG_HIDE_OAK_IN_HIS_LAB

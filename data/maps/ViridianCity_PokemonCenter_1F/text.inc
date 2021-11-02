@@ -1,18 +1,18 @@
 ViridianCity_PokemonCenter_1F_Text_FeelFreeToUsePC:: @ 8190384
-    .string "Please feel free to use that PC in\n"
-    .string "the corner.\p"
-    .string "The receptionist told me so.\n"
-    .string "It's so kind of her!$"
+    .string "Puedes usar esa PC en la esquina\n"
+    .string "tanto como quieras.\p"
+    .string "Me lo dijo la recepcionista.\n"
+    .string "¡Eso es muy amable de su parte!$"
 
 ViridianCity_PokemonCenter_1F_Text_PokeCenterInEveryTown:: @ 81903E5
-    .string "There's a POKéMON CENTER in every\n"
-    .string "town ahead.\p"
-    .string "They charge no money, so don't\n"
-    .string "be shy about healing POKéMON.$"
+    .string "Hay un CENTRO POKéMON en todos\n"
+    .string "los pueblos y ciudades.\p"
+    .string "Todos son gratuitos, así que\n"
+    .string "no temas curar a tus POKéMON.$"
 
 ViridianCity_PokemonCenter_1F_Text_PokeCentersHealMons:: @ 8190450
-    .string "POKéMON CENTERS heal your tired,\n"
-    .string "hurt, or fainted POKéMON.\p"
-    .string "They make all POKéMON completely\n"
-    .string "healthy.$"
-
+    .string "Los CENTROS POKéMON curan a tus\n"
+    .string "POKéMON cansados, heridos\l"
+    .string "o debilitados.\p"
+    .string "Dejan a todos los POKéMON\n"
+    .string "completamente sanos.$"

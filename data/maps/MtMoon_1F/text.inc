@@ -1,92 +1,93 @@
 MtMoon_1F_Text_MarcosIntro:: @ 817279D
-    .string "WHOA!\n"
-    .string "You shocked me!\l"
-    .string "…Oh, you're just a kid!$"
+    .string "¡WHOA!\n"
+    .string "¡Me sorprendiste!\l"
+    .string "…Oh, ¡solo eres un{A} niñ{OA}!$"
 
 MtMoon_1F_Text_MarcosDefeat:: @ 81727CB
-    .string "Wow!\n"
-    .string "Shocked again!$"
+    .string "¡Wow!\n"
+    .string "¡Sorprendido otra vez!$"
 
 MtMoon_1F_Text_MarcosPostBattle:: @ 81727DF
-    .string "Kids like you shouldn't be\n"
-    .string "wandering around here in the dark.$"
+    .string "Niñ{OA}s cómo tu no deberían\n"
+    .string "merodear por aquí.$"
 
 MtMoon_1F_Text_JoshIntro:: @ 817281D
-    .string "Did you come to explore the cave,\n"
-    .string "too?$"
+    .string "¿También viniste para explorar\n"
+    .string "la cueva?$"
 
 MtMoon_1F_Text_JoshDefeat:: @ 8172844
-    .string "Losing stinks!\n"
-    .string "It's so uncool.$"
+    .string "¡Perder apesta!\n"
+    .string "Es de lo peor.$"
 
 MtMoon_1F_Text_JoshPostBattle:: @ 8172863
-    .string "I came all the way down here to\n"
-    .string "show off to girls.$"
+    .string "Vine hasta aquí para impresionar\n"
+    .string "a las chicas.$"
 
 MtMoon_1F_Text_MiriamIntro:: @ 8172896
-    .string "Wow! It's way bigger in here than\n"
-    .string "I thought!$"
+    .string "¡Wow! ¡Este lugar es mucho más\n"
+    .string "grande de lo que creía!$"
 
 MtMoon_1F_Text_MiriamDefeat:: @ 81728C3
-    .string "Oh!\n"
-    .string "I lost it!$"
+    .string "¡Oh!\n"
+    .string "¡Perdí la batalla!$"
 
 MtMoon_1F_Text_MiriamPostBattle:: @ 81728D2
-    .string "How do you get out of here?\n"
-    .string "It's so big, I may get lost.$"
+    .string "¿Cómo se sale de aquí?\n"
+    .string "Es muy grande, tal vez me pierda.$"
 
 MtMoon_1F_Text_JovanIntro:: @ 817290B
-    .string "What!\n"
-    .string "Don't sneak up on me!$"
+    .string "¡Eh!\n"
+    .string "¡No intentes escabullirte!$"
 
 MtMoon_1F_Text_JovanDefeat:: @ 8172927
-    .string "My POKéMON won't do!$"
+    .string "¡Mis POKéMON no lo lograron!$"
 
 MtMoon_1F_Text_JovanPostBattle:: @ 817293C
-    .string "I have to find stronger POKéMON.\n"
-    .string "Where might they be?$"
+    .string "Debo encontrar POKéMON\n"
+    .string "más fuertes. ¿Dónde estarán?$"
 
 MtMoon_1F_Text_IrisIntro:: @ 8172972
-    .string "What?\n"
-    .string "I'm waiting for my friends to find\l"
-    .string "me here.$"
+    .string "¿Qué?\n"
+    .string "Estoy esperando a que mis amigos\l"
+    .string "me encuentren aquí.$"
 
 MtMoon_1F_Text_IrisDefeat:: @ 81729A4
-    .string "I lost?$"
+    .string "¿Perdí?$"
 
 MtMoon_1F_Text_IrisPostBattle:: @ 81729AC
-    .string "I came because I heard there are\n"
-    .string "some very rare fossils here.$"
+    .string "Vine porque escuche por aquí hay\n"
+    .string "unos fósiles muy raros.$"
 
 MtMoon_1F_Text_KentIntro:: @ 81729EA
-    .string "Suspicious men are in the cave.\n"
-    .string "What about you?$"
+    .string "Hay hombres sospechosos en la cueva.\n"
+    .string "¿Qué hay de ti?$"
 
 MtMoon_1F_Text_KentDefeat:: @ 8172A1A
-    .string "You got me!$"
+    .string "¡Me venciste!$"
 
 MtMoon_1F_Text_KentPostBattle:: @ 8172A26
-    .string "I saw them!\n"
-    .string "I'm sure they're from TEAM ROCKET!$"
+    .string "¡Los ví!\n"
+    .string "¡Estoy seguro de que son del\l"
+    .string "EQUIPO ROCKET!$"
 
 MtMoon_1F_Text_RobbyIntro:: @ 8172A55
-    .string "You need to go through this cave\n"
-    .string "to get to CERULEAN CITY.$"
+    .string "Necesitas cruzar esta cueva para\n"
+    .string "llegar a CIUDAD CELESTE.$"
 
 MtMoon_1F_Text_RobbyDefeat:: @ 8172A8F
-    .string "I lost.$"
+    .string "Perdí.$"
 
 MtMoon_1F_Text_RobbyPostBattle:: @ 8172A97
-    .string "ZUBAT is tough!\n"
-    .string "But if you can catch one, you'll\l"
-    .string "be able to count on it.$"
+    .string "¡ZUBAT is duro!\n"
+    .string "Pero si atrapas uno, podrás contar\l"
+    .string "con el.$"
 
 MtMoon_1F_Text_ZubatIsABloodsucker:: @ 8172AE0
-    .string "Beware!\n"
-    .string "ZUBAT is a bloodsucker!$"
+    .string "¡Cuidado!\n"
+    .string "¡Los ZUBAT chupan sangre!$"
 
 MtMoon_1F_Text_BrockHelpsExcavateFossils:: @ 8172B00
-    .string "Hi, I'm excavating for fossils here\n"
-    .string "under MT. MOON.\p"
-    .string "Sometimes, BROCK of PEWTER GYM\n"
-    .string "lends me a hand.$"
+    .string "Hola, estoy excavando para buscar\n"
+    .string "fósiles aquí en el MONTE LUNA.\p"
+    .string "A veces me ayuda BROCK,\n"
+    .string "del GIMNASIO de PLATEADA.$"

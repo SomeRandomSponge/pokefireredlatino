@@ -585,7 +585,7 @@ static const struct WindowTemplate sWindowTemplate_CategoryMonInfo = {
     .bg = 1,
     .tilemapLeft = 0,
     .tilemapTop = 0,
-    .width = 8,
+    .width = 30,
     .height = 5,
     .paletteNum = 0,
     .baseBlock = 0x0000
@@ -2327,7 +2327,7 @@ bool8 DexScreen_DrawMonPicInCategoryPage(u16 species, u8 slot, u8 numSlots)
             sPokedexScreenData->categoryMonInfoWindowIds[slot] = AddWindow(&template);
             CopyToWindowPixelBuffer(sPokedexScreenData->categoryMonInfoWindowIds[slot], sCategoryMonInfoBgTiles, 0, 0);
             DexScreen_PrintMonDexNo(sPokedexScreenData->categoryMonInfoWindowIds[slot], 0, species, 12, 0);
-            DexScreen_AddTextPrinterParameterized(sPokedexScreenData->categoryMonInfoWindowIds[slot], 2, gSpeciesNames[species], 2, 13, 0);
+            DexScreen_AddTextPrinterParameterized(sPokedexScreenData->categoryMonInfoWindowIds[slot], 2, gSpeciesNames[species], 2, 32, 0);
             if (DexScreen_GetSetPokedexFlag(species, FLAG_GET_CAUGHT, TRUE))
                 BlitBitmapRectToWindow(sPokedexScreenData->categoryMonInfoWindowIds[slot], sDexScreen_CaughtIcon, 0, 0, 8, 8, 2, 3, 8, 8);
             PutWindowTilemap(sPokedexScreenData->categoryMonInfoWindowIds[slot]);
@@ -2665,7 +2665,7 @@ void DexScreen_DexPageZoomEffectFrame(u8 bg, u8 scale)
 void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
 {
     u8 * categoryName;
-    u8 index, categoryStr[12];
+    u8 index, categoryStr[17];
 
     species = SpeciesToNationalPokedexNum(species);
 
@@ -2674,9 +2674,9 @@ void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
     if (DexScreen_GetSetPokedexFlag(species, FLAG_GET_CAUGHT, FALSE))
     {
 #if REVISION == 0
-        while ((categoryName[index] != CHAR_SPACE) && (index < 11))
+        while ((categoryName[index] != CHAR_SPACE) && (index < 15))
 #else
-        while ((categoryName[index] != EOS) && (index < 11))
+        while ((categoryName[index] != EOS) && (index < 14))
 #endif
         {
             categoryStr[index] = categoryName[index];
@@ -2685,7 +2685,7 @@ void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
     }
     else
     {
-        while (index < 11)
+        while (index < 14)
         {
             categoryStr[index] = CHAR_QUESTION_MARK;
             index++;
@@ -2694,9 +2694,9 @@ void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
 
     categoryStr[index] = EOS;
 
-    DexScreen_AddTextPrinterParameterized(windowId, 0, categoryStr, x, y, 0);
+    DexScreen_AddTextPrinterParameterized(windowId, 0, gText_PokedexPokemon, -5, y, 0);
     x += GetStringWidth(0, categoryStr, 0);
-    DexScreen_AddTextPrinterParameterized(windowId, 0, gText_PokedexPokemon, x, y, 0);
+    DexScreen_AddTextPrinterParameterized(windowId, 0, categoryStr, 40, y, 0);
 }
 
 void DexScreen_PrintMonHeight(u8 windowId, u16 species, u8 x, u8 y)
@@ -2938,7 +2938,7 @@ static u8 DexScreen_DrawMonDexPage(bool8 justRegistered)
     FillWindowPixelBuffer(sPokedexScreenData->windowIds[1], PIXEL_FILL(0));
     DexScreen_PrintMonDexNo(sPokedexScreenData->windowIds[1], 0, sPokedexScreenData->dexSpecies, 0, 8);
     DexScreen_AddTextPrinterParameterized(sPokedexScreenData->windowIds[1], 2, gSpeciesNames[sPokedexScreenData->dexSpecies], 28, 8, 0);
-    DexScreen_PrintMonCategory(sPokedexScreenData->windowIds[1], sPokedexScreenData->dexSpecies, 0, 24);
+    DexScreen_PrintMonCategory(sPokedexScreenData->windowIds[1], sPokedexScreenData->dexSpecies, 0, 28);
     DexScreen_PrintMonHeight(sPokedexScreenData->windowIds[1], sPokedexScreenData->dexSpecies, 0, 36);
     DexScreen_PrintMonWeight(sPokedexScreenData->windowIds[1], sPokedexScreenData->dexSpecies, 0, 48);
     DexScreen_DrawMonFootprint(sPokedexScreenData->windowIds[1], sPokedexScreenData->dexSpecies, 88, 40);

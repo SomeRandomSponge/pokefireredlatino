@@ -1,87 +1,88 @@
 PewterCity_Museum_1F_Text_Its50YForChildsTicket:: @ 81904B5
-    .string "Yes, yes.\n"
-    .string "It's ¥50 for a child's ticket.\p"
-    .string "Would you like to come in?$"
+    .string "Sí, sí.\n"
+    .string "Son ¥50 por un boleto para niños.\p"
+    .string "¿Te gustaría entrar?$"
 
 PewterCity_Museum_1F_Text_ComeAgain:: @ 81904F9
-    .string "Come again!$"
+    .string "¡Vuelva pronto!$"
 
 PewterCity_Museum_1F_Text_Right50YThankYou:: @ 8190505
-    .string "Right, ¥50!\n"
-    .string "Thank you!$"
+    .string "¡De acuerdo, ¥50!\n"
+    .string "¡Gracias!$"
 
 PewterCity_Museum_1F_Text_DontHaveEnoughMoney:: @ 819051C
-    .string "You don't have enough money.$"
+    .string "No tienes suficiente dinero.$"
 
 PewterCity_Museum_1F_Text_PleaseEnjoyYourself:: @ 8190539
-    .string "Please enjoy yourself.$"
+    .string "Disfruta tu visita.$"
 
 PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs:: @ 8190550
-    .string "You can't sneak in the back way!\n"
-    .string "Nice try, kid, but no.\p"
-    .string "Oh, whatever!\n"
-    .string "Do you know what AMBER is?$"
-
+    .string "¡No puedes entar por detrás!\n"
+    .string "Buen intento, niño, pero no.\p"
+    .string "¡Oh, da igual!\n"
+    .string "¿Sabes qué es el ÁMBAR?$"
+ 
 PewterCity_Museum_1F_Text_AmberContainsGeneticMatter:: @ 81905B1
-    .string "AMBER contains the genetic matter\n"
-    .string "of ancient POKéMON.\p"
-    .string "There's a LAB somewhere trying to\n"
-    .string "resurrect POKéMON from AMBER.$"
+    .string "El ÁMBAR contiene el material\n"
+    .string "genético de POKéMON antiguos.\p"
+    .string "Hay un LABORATORIO en algún lugar\n"
+    .string "que trata de revivir POKéMON\l"
+    .string "a partir del ÁMBAR.$"
 
 PewterCity_Museum_1F_Text_AmberIsFossilizedSap:: @ 8190627
-    .string "AMBER is actually sap, that gooey\n"
-    .string "stuff that oozes from trees.\p"
-    .string "The ancient sap fossilized over\n"
-    .string "time to become rock-hard AMBER.$"
+    .string "El ÁMBAR en realidad es savia,\n"
+    .string "esa cosa pegajosa que sale\l"
+    .string "de los árboles.\p"
+    .string "La savia antigua se fosilizo con\n"
+    .string "el tiempo y se convirtio en ÁMBAR.$"
 
 @ Unused
 PewterCity_Museum_1F_Text_PleaseGoAround:: @ 81906A6
     .string "あちらへ　おまわりください$"
 
 PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife:: @ 81906B4
-    .string "I should be grateful for my long\n"
-    .string "life.\p"
-    .string "Never did I think I would get to\n"
-    .string "see the bones of a dragon!$"
+    .string "Deberia ser agradecido por mi\n"
+    .string "larga vida.\p"
+    .string "¡Nunca pensé que llegaría a ver\n"
+    .string "los huesos de un dragón!$"
 
 PewterCity_Museum_1F_Text_WantYouToGetAmberExamined:: @ 8190717
-    .string "Ssh! Listen, I need to share a\n"
-    .string "secret with someone.\p"
-    .string "I think that this chunk of AMBER\n"
-    .string "contains POKéMON DNA!\p"
-    .string "It would be a shattering scientific\n"
-    .string "breakthrough if POKéMON could be\l"
-    .string "resurrected from it.\p"
-    .string "But, my colleagues just ignore\n"
-    .string "what I have to say.\p"
-    .string "So, I have a favor to ask!\p"
-    .string "I want you to get this examined at\n"
-    .string "a POKéMON LAB somewhere.$"
+    .string "¡Ssh! Escucha, necesito compartir\n"
+    .string "un secreto con alguien.\p"
+    .string "¡Creo que este pedazo de ÁMBAR\n"
+    .string "contiene ADN de POKéMON!\p"
+    .string "Seria un enorme progreso\n"
+    .string "cientifico si se pudiera revivir\l"
+    .string "a un POKéMON de el.\p"
+    .string "Pero, mis compañeros solo ignoran\n"
+    .string "lo que tengo que decir.\p"
+    .string "Así que, ¡tengo un favor que pedirte!\p"
+    .string "Quiero que lleves esto a analizar\n"
+    .string "en algún CENTRO POKéMON.$"
 
 PewterCity_Museum_1F_Text_ReceivedOldAmberFromMan:: @ 8190866
-    .string "{PLAYER} received the OLD AMBER\n"
-    .string "from the man.$"
+    .string "{PLAYER} recibio el ÁMBAR VIEJO\n"
+    .string "del hombre.$"
 
 PewterCity_Museum_1F_Text_GetOldAmberChecked:: @ 819088E
-    .string "Ssh!\n"
-    .string "Get the OLD AMBER checked!$"
+    .string "¡Ssh!\n"
+    .string "¡Haz que analicen el ÁMBAR VIEJO!$"
 
 PewterCity_Museum_1F_Text_DontHaveSpaceForThis:: @ 81908AE
-    .string "You don't have space for this.$"
+    .string "No tienes espacio para esto.$"
 
 PewterCity_Museum_1F_Text_WeHaveTwoFossilsOnExhibit:: @ 81908CD
-    .string "We have two fossils of rare,\n"
-    .string "prehistoric POKéMON on exhibit.$"
+    .string "Tenemos los fósiles de dos POKéMON\n"
+    .string "prehistóricos en excibición.$"
 
 PewterCity_Museum_1F_Text_BeautifulPieceOfAmber:: @ 819090A
-    .string "There is a beautiful piece of\n"
-    .string "AMBER in a clear gold color.$"
+    .string "Hay una hermosa pieza de ÁMBAR\n"
+    .string "en un color dorado claro.$"
 
 PewterCity_Museum_1F_Text_AerodactylFossil:: @ 8190945
-    .string "AERODACTYL Fossil\n"
-    .string "A primitive and rare POKéMON.$"
+    .string "Fósil de AERODACTYL.\n"
+    .string "Un POKéMON raro y primitivo.$"
 
 PewterCity_Museum_1F_Text_KabutopsFossil:: @ 8190975
-    .string "KABUTOPS Fossil\n"
-    .string "A primitive and rare POKéMON.$"
-
+    .string "Fósil de KABUTOPS.\n"
+    .string "Un POKéMON raro y primitivo.$"

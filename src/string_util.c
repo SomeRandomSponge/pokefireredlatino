@@ -36,6 +36,22 @@ extern u8 gExpandedPlaceholder_Kyogre[];
 extern u8 gExpandedPlaceholder_Groudon[];
 extern u8 gExpandedPlaceholder_Red[];
 extern u8 gExpandedPlaceholder_Green[];
+extern u8 gExpandedPlaceholder_O[];
+extern u8 gExpandedPlaceholder_A[];
+extern u8 gExpandedPlaceholder_E[];
+extern u8 gExpandedPlaceholder_EL[];
+extern u8 gExpandedPlaceholder_LA[];
+extern u8 gExpandedPlaceholder_El[];
+extern u8 gExpandedPlaceholder_La[];
+extern u8 gExpandedPlaceholder_ITA[];
+extern u8 gExpandedPlaceholder_ITO[];
+extern u8 gExpandedPlaceholder_OM[];
+extern u8 gExpandedPlaceholder_AM[];
+extern u8 gExpandedPlaceholder_EM[];
+extern u8 gExpandedPlaceholder_ON[];
+extern u8 gExpandedPlaceholder_ONA[];
+extern u8 gExpandedPlaceholder_ONM[];
+extern u8 gExpandedPlaceholder_ONAM[];
 
 u8 *StringCopy10(u8 *dest, const u8 *src)
 {
@@ -387,6 +403,103 @@ static u8 *ExpandPlaceholder_KunChan(void)
         return gExpandedPlaceholder_Chan;
 }
 
+//Género (Linea 406)
+static u8 *ExpandPlaceholder_OA(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gExpandedPlaceholder_O;
+    else
+        return gExpandedPlaceholder_A;
+}
+
+static u8 *ExpandPlaceholder_A(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gExpandedPlaceholder_Kun;
+    else
+        return gExpandedPlaceholder_A;
+}
+
+static u8 *ExpandPlaceholder_ElLa(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gExpandedPlaceholder_El;
+    else
+        return gExpandedPlaceholder_La;
+}
+
+static u8 *ExpandPlaceholder_ELLA(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gExpandedPlaceholder_EL;
+    else
+        return gExpandedPlaceholder_LA;
+}
+
+static u8 *ExpandPlaceholder_ITA(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gExpandedPlaceholder_Kun;
+    else
+        return gExpandedPlaceholder_ITA;
+}
+
+static u8 *ExpandPlaceholder_ITOITA(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gExpandedPlaceholder_ITO;
+    else
+        return gExpandedPlaceholder_ITA;
+}
+
+static u8 *ExpandPlaceholder_EA(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gExpandedPlaceholder_E;
+    else
+        return gExpandedPlaceholder_A;
+}
+
+static u8 *ExpandPlaceholder_OAM(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gExpandedPlaceholder_OM;
+    else
+        return gExpandedPlaceholder_AM;
+}
+
+static u8 *ExpandPlaceholder_AM(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gExpandedPlaceholder_Kun;
+    else
+        return gExpandedPlaceholder_AM;
+}
+
+static u8 *ExpandPlaceholder_EAM(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gExpandedPlaceholder_EM;
+    else
+        return gExpandedPlaceholder_AM;
+}
+
+static u8 *ExpandPlaceholder_ONONA(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gExpandedPlaceholder_ON;
+    else
+        return gExpandedPlaceholder_ONA;
+}
+
+static u8 *ExpandPlaceholder_ONONAM(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gExpandedPlaceholder_ONM;
+    else
+        return gExpandedPlaceholder_ONAM;
+}
+
 static u8 *ExpandPlaceholder_RivalName(void)
 {
     if (gSaveBlock1Ptr->rivalName[0] == EOS)
@@ -485,6 +598,18 @@ u8 *GetExpandedPlaceholder(u32 id)
         [PLACEHOLDER_ID_ARCHIE]       = ExpandPlaceholder_Archie,
         [PLACEHOLDER_ID_GROUDON]      = ExpandPlaceholder_Groudon,
         [PLACEHOLDER_ID_KYOGRE]       = ExpandPlaceholder_Kyogre,
+        [PLACEHOLDER_ID_OA]           = ExpandPlaceholder_OA,
+        [PLACEHOLDER_ID_A]            = ExpandPlaceholder_A,
+        [PLACEHOLDER_ID_ELLA]         = ExpandPlaceholder_ELLA,
+        [PLACEHOLDER_ID_ElLa]         = ExpandPlaceholder_ElLa,
+        [PLACEHOLDER_ID_ITA]          = ExpandPlaceholder_ITA,
+        [PLACEHOLDER_ID_ITOITA]       = ExpandPlaceholder_ITOITA,
+        [PLACEHOLDER_ID_EA]           = ExpandPlaceholder_EA,
+        [PLACEHOLDER_ID_OAM]          = ExpandPlaceholder_OAM,
+        [PLACEHOLDER_ID_AM]           = ExpandPlaceholder_AM,
+        [PLACEHOLDER_ID_EAM]          = ExpandPlaceholder_EAM,
+        [PLACEHOLDER_ID_ONONA]        = ExpandPlaceholder_ONONA,
+        [PLACEHOLDER_ID_ONONAM]       = ExpandPlaceholder_ONONAM,
     };
 
     if (id >= NELEMS(funcs))
