@@ -51,58 +51,59 @@ Route25_SeaCottage_Text_NoPleaseBeautiful:: @ 81A00B6
     .string "¡De acuerdo!$"
 
 Route25_SeaCottage_Text_ThanksBudTakeThis:: @ 81A013B
-    .string "BILL: Yeehah!\n"
-    .string "Thanks, bud! I owe you one!\p"
-    .string "So, did you come to see my\n"
-    .string "POKéMON collection?\p"
-    .string "You didn't?\n"
-    .string "That's a bummer.\p"
-    .string "I've got to thank you…\n"
-    .string "Oh, here, maybe this'll do.$"
+    .string "BILL: ¡Yiijah!\n"
+    .string "¡Gracias, amigo! ¡Te debo una!\p"
+    .string "Así que, ¿viniste a ver mi\n"
+    .string "colección de POKéMON?\p"
+    .string "¿No lo hiciste?\n"
+    .string "Eso es una pena.\p"
+    .string "Tengo que agradecerte…\n"
+    .string "Oh, aquí, puede que esto sirva.$"
 
 Route25_SeaCottage_Text_ThanksLadyTakeThis:: @ 81A01E4
-    .string "BILL: Yeehah!\n"
-    .string "Thanks, lady! I owe you one!\p"
-    .string "So, did you come to see my\n"
-    .string "POKéMON collection?\p"
-    .string "You didn't?\n"
-    .string "That's a bummer.\p"
-    .string "I've got to thank you…\n"
-    .string "Oh, here, maybe this'll do.$"
+    .string "BILL: ¡Yiijah!\n"
+    .string "¡Gracias, señorita! ¡Te debo una!\p"
+    .string "Así que, ¿viniste a ver mi\n"
+    .string "colección de POKéMON?\p"
+    .string "¿No lo hiciste?\n"
+    .string "Eso es una pena.\p"
+    .string "Tengo que agradecerte…\n"
+    .string "Oh, aquí, puede que esto sirva.$"
 
 Route25_SeaCottage_Text_ReceivedSSTicketFromBill:: @ 81A028E
-    .string "{PLAYER} received an S.S. TICKET\n"
-    .string "from BILL.$"
+    .string "{PLAYER} recibió un BOLETO SANTA\n"
+    .string "ANA de BILL.$"
 
 Route25_SeaCottage_Text_YouveGotTooMuchStuff:: @ 81A02B4
-    .string "You've got too much stuff!$"
+    .string "¡Llevas demasiadas cosas!$"
 
 Route25_SeaCottage_Text_SSAnnePartyYouGoInstead:: @ 81A02CF
-    .string "That cruise ship S.S. ANNE is in\n"
-    .string "VERMILION CITY.\p"
-    .string "I hear there are lots of TRAINERS\n"
-    .string "on board, too.\p"
-    .string "They invited me to their party, but\n"
-    .string "I can't stand fancy do's.\p"
-    .string "Why don't you go instead of me?\n"
-    .string "Go on and have a good time.$"
+    .string "Ese crucero llamado SANTA ANA\n"
+    .string "está en CIUDAD CARMÍN.\p"
+    .string "También oí que hay muchos\n"
+    .string "ENTRENADORES a bordo.p"
+    .string "Me invitaron a la fiesta, pero no\n"
+    .string "soporto los eventos lujosos.\p"
+    .string "¿Por qué no vas en mi lugar?\n"
+    .string "Ve y ten un buen rato.$"
 
 Route25_SeaCottage_Text_CheckOutRareMonsOnPC:: @ 81A03AB
-    .string "BILL: Feel like checking out some\n"
-    .string "of my rare POKéMON on my PC?\p"
-    .string "Go on, check out my PC.$"
+    .string "BILL: ¿Quieres ver algunos de mis\n"
+    .string "POKéMON raros en mi PC?\p"
+    .string "Adelante, revisa mi PC.$"
 
 Route25_SeaCottage_Text_TeleporterIsDisplayed:: @ 81A0402
-    .string "TELEPORTER is displayed on the PC\n"
-    .string "monitor.$"
+    .string ""TELETRANSPORTADOR" aparece en el\n"
+    .string "monitor de la PC.$"
 
 Route25_SeaCottage_Text_InitiatedTeleportersCellSeparator:: @ 81A042D
     .string "{PLAYER} inició el Separador\n"
     .string "Celular del TELETRANSPORTADOR.$"
 
 Route25_SeaCottage_Text_BillsFavoriteMonList:: @ 81A045B
-    .string "BILL's favorite POKéMON list!$"
+    .string "¡La lista de POKéMON favoritos\n"
+    .string "de BILL!$"
 
 Route25_SeaCottage_Text_SeeWhichMon:: @ 81A0479
-    .string "Which POKéMON do you want to see?$"
+    .string "¿A qué POKéMON quieres ver?$"
 
