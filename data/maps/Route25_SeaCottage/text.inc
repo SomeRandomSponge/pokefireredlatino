@@ -42,8 +42,8 @@ Route25_SeaCottage_Text_NoPleaseChief:: @ 81A0035
 
 Route25_SeaCottage_Text_NoPleaseBeautiful:: @ 81A00B6
     .string "¿¡No!?\n"
-    .string "¡No seas tan fria ahora!\p"
-    .string "Vamos, ¡tienes que ayudar a un\n"
+    .string "¡No seas tan frio ahora!\p"
+    .string "Come on, you gotta help a guy in\n"
     .string "chico en un gran, gran problema!\p"
     .string "¿Que dices, dulzura?\n"
     .string "¿Por favor?\l"
@@ -81,7 +81,7 @@ Route25_SeaCottage_Text_SSAnnePartyYouGoInstead:: @ 81A02CF
     .string "Ese crucero llamado SANTA ANA\n"
     .string "está en CIUDAD CARMÍN.\p"
     .string "También oí que hay muchos\n"
-    .string "ENTRENADORES a bordo.p"
+    .string "ENTRENADORES a bordo.\p"
     .string "Me invitaron a la fiesta, pero no\n"
     .string "soporto los eventos lujosos.\p"
     .string "¿Por qué no vas en mi lugar?\n"
@@ -93,8 +93,8 @@ Route25_SeaCottage_Text_CheckOutRareMonsOnPC:: @ 81A03AB
     .string "Adelante, revisa mi PC.$"
 
 Route25_SeaCottage_Text_TeleporterIsDisplayed:: @ 81A0402
-    .string ""TELETRANSPORTADOR" aparece en el\n"
-    .string "monitor de la PC.$"
+    .string "En el monitor de la PC aparece\n"
+    .string "el texto: TELETRANSPORTADOR$"
 
 Route25_SeaCottage_Text_InitiatedTeleportersCellSeparator:: @ 81A042D
     .string "{PLAYER} inició el Separador\n"
