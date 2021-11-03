@@ -43,7 +43,7 @@ Route25_SeaCottage_Text_NoPleaseChief:: @ 81A0035
 Route25_SeaCottage_Text_NoPleaseBeautiful:: @ 81A00B6
     .string "¿¡No!?\n"
     .string "¡No seas tan frio ahora!\p"
-    .string "Come on, you gotta help a guy in\n"
+    .string "Vamos, ¡tienes que ayudar a un\n"
     .string "chico en un gran, gran problema!\p"
     .string "¿Que dices, dulzura?\n"
     .string "¿Por favor?\l"
