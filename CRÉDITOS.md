@@ -19,10 +19,10 @@ Z-nogyroP en Pokécommunity
 Porteado a pokefirered por mí
 
 
-* El tutorial de Traduciendo textos (que realmente solo aplica para los mensajes en batalla, 
+* El tutorial de "Traduciendo textos" (que realmente solo aplica para los mensajes en batalla, 
 ese nombre es un poco ambiguo xd) fue hecho por:
 
-kakarotto en WaH
+Kakarotto en WaH
 
 Porteado a pokefirered por mí
 
@@ -36,7 +36,7 @@ Porteado a pokefirered por mí
 * Los contruibuidores de Pret, por la decompilación de pokefirered
 
 
-***Los creditos a partir de aquí son a gente que trabajo oficialmente en los juegos/anime, no es 100% obligatorio mencionar a las personas en esta sección, pero se aprecia su contribución a la franquicia de todas formas :).***
+***Los créditos a partir de aquí son a gente que trabajo oficialmente en los juegos/anime, no es 100% obligatorio mencionar a las personas en esta sección, pero se aprecia su contribución a la franquicia de todas formas :).***
 
 
 * La traducción española original de Pokémon Rojo Fuego/Verde Hoja fue hecha por:
