@@ -15,8 +15,8 @@ También puedes combinarlo con tu propio proyecto si así lo deseas.
 Si tienes alguna pregunta, puede que ya haya dado una respuesta en [P&A.md](P&A.md), así que por favor
 revisa aunque sea un poco dicho archivo para que no preguntes algo que ya tiene respuesta.
 
-Si piensas usar esta traducción en tu proyecto, ya sea con cambios o no, por favor da creditos a las personas mencionadas en [CRÉDITOS.md](CRÉDITOS.md),  
-pues sin sus aportes esto no seria posible.
+Si piensas usar esta traducción en tu proyecto, ya sea con cambios o no, por favor da créditos a las personas mencionadas en [CRÉDITOS.md](CRÉDITOS.md),  
+pues sin sus aportes, esto no seria posible.
 
 ## Véase también
 
