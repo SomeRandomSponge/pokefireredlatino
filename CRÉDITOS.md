@@ -1,7 +1,7 @@
-***Si quieres usar esta traducción en algún proyecto, por favor da creditos a las personas aquí mencionadas, gracias a sus aportes esta traducción es posible.***
+***Si quieres usar esta traducción en algún proyecto, por favor da créditos a las personas aquí mencionadas, gracias a sus aportes esta traducción es posible.***
 
 
-SomeRandomSponge (mi persona) por el proyecto en si + las ediciones mencionadas abajo a varios aportes, me puedes encontrar en Discord cómo RandomSponge#0458.
+SomeRandomSponge (mi persona) por el proyecto en si + las ediciones mencionadas abajo a varios aportes, me puedes encontrar en Discord como RandomSponge#0458.
 
 
 
@@ -9,22 +9,22 @@ SomeRandomSponge (mi persona) por el proyecto en si + las ediciones mencionadas 
 
 Juanjo en Whack a Hack!/J2M2 en Github
 
-Porteado a pokefirered y editado por mi
+Porteado a pokefirered y editado por mí
 
 
 * 16-Character Move Names Using the CFRU (Nombres de movimientos de 16 carácteres usando CFRU) por:
 
 Z-nogyroP en Pokécommunity
 
-Porteado a pokefirered por mi
+Porteado a pokefirered por mí
 
 
 * El tutorial de Traduciendo textos (que realmente solo aplica para los mensajes en batalla, 
-ese nombre es un poco ambiguo xd) fue echo por:
+ese nombre es un poco ambiguo xd) fue hecho por:
 
 kakarotto en WaH
 
-Porteado a pokefirered por mi
+Porteado a pokefirered por mí
 
 
 * El sitio web/portafolio/blog Kantopia, por la traducción del japonés al inglés de algunos diálogos (censurados)
@@ -36,7 +36,7 @@ Porteado a pokefirered por mi
 * Los contruibuidores de Pret, por la decompilación de pokefirered
 
 
-***Los creditos a partir de aquí son a gente que trabajo oficialmente en los juegos/anime, no es 100% obligatorio mencionar a las personas en esta sección, pero se aprecia su contribución a la franquicia de todas formas. :)***
+***Los creditos a partir de aquí son a gente que trabajo oficialmente en los juegos/anime, no es 100% obligatorio mencionar a las personas en esta sección, pero se aprecia su contribución a la franquicia de todas formas :).***
 
 
 * La traducción española original de Pokémon Rojo Fuego/Verde Hoja fue hecha por:
@@ -66,7 +66,7 @@ SDI Media de México, Jarpa Studio Mexico, DuArtFilm & Video
 
 y todos los involucrados en la traducción y adaptación
 del anime de Pokémon en Latinoamérica
-(En particular, los nombres de movimientos, lugares, objetos y abilidades)
+(En particular, los nombres de movimientos, lugares, objetos y habilidades)
 
 
-* ...Y por supuesto, Game Freak y TPC por la versión original de los juegos.
+* ... Y por supuesto, Game Freak y TPC por la versión original de los juegos.
