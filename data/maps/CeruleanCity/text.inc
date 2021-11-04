@@ -48,7 +48,7 @@ CeruleanCity_Text_RivalVictory:: @ 817EDF8
 
 CeruleanCity_Text_GruntIntro:: @ 817EE0E
     .string "¡Ey! ¡Vete de aquí!\n"
-    .string "¡Este no es tu patio!p"
+    .string "¡Este no es tu patio!\p"
     .string "…¿Eh?\n"
     .string "¿Yo?\p"
     .string "¡Yo soy un espectador inocente!\n"
