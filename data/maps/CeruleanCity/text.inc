@@ -47,32 +47,32 @@ CeruleanCity_Text_RivalVictory:: @ 817EDF8
     .string "おれは　てんさい　だからよ！$"
 
 CeruleanCity_Text_GruntIntro:: @ 817EE0E
-    .string "Hey! Stay out!\n"
-    .string "It's not your yard!\p"
-    .string "…Huh?\n"
-    .string "Me?\p"
-    .string "I'm an innocent bystander!\n"
-    .string "Don't you believe me?{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
+    .string "¡Ey! ¡Vete de aquí!\n"
+    .string "¡Este no es tu patio!p"
+    .string "…¿Eh?\n"
+    .string "¿Yo?\p"
+    .string "¡Yo soy un espectador inocente!\n"
+    .string "¿No me crees?{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
 
 CeruleanCity_Text_GruntDefeat:: @ 817EE70
-    .string "GRUNT: Stop! I give up!\n"
-    .string "I'll leave quietly!$"
+    .string "RECLUTA: ¡Basta! ¡Me rindo!\n"
+    .string "¡Me iré silenciosamente!$"
 
 CeruleanCity_Text_OkayIllReturnStolenTM:: @ 817EE9C
-    .string "…Okay.\n"
-    .string "I'll return the TM I stole.$"
+    .string "…De acuerdo.\n"
+    .string "Regresaré la MT que robé.$"
 
 CeruleanCity_Text_RecoveredTM28FromGrunt:: @ 817EEBF
-    .string "{PLAYER} recovered TM28 from\n"
-    .string "the TEAM ROCKET GRUNT.$"
+    .string "{PLAYER} recuperó la MT28 del\n"
+    .string "RECLUTA del EQUIPO ROCKET.$"
 
 CeruleanCity_Text_BetterGetMovingBye:: @ 817EEED
-    .string "I better get moving!\n"
-    .string "Bye!$"
+    .string "¡Será mejor que me vaya!\n"
+    .string "¡Adiós!$"
 
 CeruleanCity_Text_MakeRoomForThisCantRun:: @ 817EF07
-    .string "Make room for this!\n"
-    .string "I can't run until I give it to you!$"
+    .string "¡Haz espacio para esto!\n"
+    .string "¡No puedo escapar hasta que te la de!$"
 
 CeruleanCity_Text_TrainerLifeIsToughIsntIt:: @ 817EF3F
     .string "¿También entrenas POKéMON?\p"
