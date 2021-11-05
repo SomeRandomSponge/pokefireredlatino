@@ -37,7 +37,7 @@ Trade_Text_Thanks:: @ 81A5A9D
 
 Trade_Text_HasTradedMonGrownStronger:: @ 81A5AA5
 	.string "Ese {STR_VAR_2} que te dí,\n"
-	.string "se ha vuelto más fuerte?$"
+	.string "¿se ha vuelto más fuerte?$"
 
 Trade_Text_DoYouHaveMonWantToTradeForMon:: @ 81A5AD6
 	.string "¡Hola!\n"
