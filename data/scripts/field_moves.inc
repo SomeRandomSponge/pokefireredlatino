@@ -47,16 +47,16 @@ EventScript_DontCutTree:: @ 81BDF91
 	end
 
 Text_CutTreeDown:: @ 81BDF94
-	.string "This tree looks like it can be CUT\n"
-	.string "down!\p"
-	.string "Would you like to CUT it?$"
+	.string "¡Parece que puedes CORTAR\n"
+	.string "este ÁRBOL!\p"
+	.string "¿Quieres CORTARLO?$"
 
 Text_MonUsedMove:: @ 81BDFD7
 	.string "{STR_VAR_1} used {STR_VAR_2}!$"
 
 Text_TreeCanBeCutDown:: @ 81BDFE3
-	.string "This tree looks like it can be CUT\n"
-	.string "down!$"
+	.string "¡Parece que este ÁRBOL puede ser\n"
+	.string "CORTADO!$"
 
 EventScript_RockSmash:: @ 81BE00C
 	goto_if_questlog EventScript_ReleaseEnd
@@ -114,12 +114,12 @@ EventScript_DontSmashRock:: @ 81BE09A
 	end
 
 Text_UseRockSmash:: @ 81BE09D
-	.string "This rock appears to be breakable.\n"
-	.string "Would you like to use ROCK SMASH?$"
+	.string "Parece que esta roca es rompible.\n"
+	.string "¿Quieres usar ROMPE ROCAS?$"
 
 Text_MonMaySmashRock:: @ 81BE0E2
-	.string "It's a rugged rock, but a POKéMON\n"
-	.string "may be able to smash it.$"
+	.string "Es una roca dura, pero tal vez un\n"
+	.string "POKéMON la pueda romper.$"
 
 EventScript_StrengthBoulder:: @ 81BE11D
 	goto_if_questlog EventScript_ReleaseEnd
@@ -165,22 +165,22 @@ EventScript_DontUseStrength:: @ 81BE197
 	end
 
 Text_UseStrength:: @ 81BE19A
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.\p"
-	.string "Would you like to use STRENGTH?$"
+	.string "Es una gran piedra, pero un\n"
+	.string "POKéMON la podría mover a un lado.\p"
+	.string "¿Quieres usar FUERZA?$"
 
 Text_MonUsedStrengthCanMoveBoulders:: @ 81BE1FA
-	.string "{STR_VAR_1} used STRENGTH!\p"
-	.string "{STR_VAR_1}'s STRENGTH made it\n"
-	.string "possible to move boulders around!$"
+	.string "¡{STR_VAR_1} usó FUERZA!\p"
+	.string "¡La FUERZA de {STR_VAR_1} hizo\n"
+	.string "posible el mover las piedras!$"
 
 Text_MonMayPushBoulder:: @ 81BE244
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.$"
+	.string "Es una gran piedra, pero tal vez\n"
+	.string "un POKéMON la pueda empujar.$"
 
 Text_StrengthMadeMovingBouldersPossible:: @ 81BE284
-	.string "STRENGTH made it possible to move\n"
-	.string "boulders around.$"
+	.string "FUERZA hizo posible el mover\n"
+	.string "las piedras.$"
 
 EventScript_Waterfall:: @ 81BE2B7
 	goto_if_questlog EventScript_ReleaseEnd
@@ -206,15 +206,15 @@ EventScript_EndWaterfall:
 	end
 
 Text_WallOfWaterCrashingDown:: @ 81BE30A
-	.string "A wall of water is crashing down\n"
-	.string "with a mighty roar.$"
+	.string "Un muro de agua se estrella con\n"
+	.string "un poderoso rugido.$"
 
 Text_UseWaterfall:: @ 81BE33F
-	.string "It's a large waterfall.\n"
-	.string "Would you like to use WATERFALL?$"
+	.string "Es una gran cascada.\n"
+	.string "¿Quieres usar CASCADA?$"
 
 Text_MonUsedWaterfall:: @ 81BE378
-	.string "{STR_VAR_1} used WATERFALL.$"
+	.string "{STR_VAR_1} usó CASCADA.$"
 
 @ Unused leftover from R/S
 EventScript_DeepWater:: @ 81BE38B
@@ -268,31 +268,31 @@ EventScript_EndSurface:
 	end
 
 Text_MonMayGoUnderwater:: @ 81BE42B
-	.string "The sea is deep here. A POKéMON\n"
-	.string "may be able to go underwater.$"
+	.string "El mar es profundo aquí. Tal vez\n"
+	.string "un POKéMON pueda ir bajo el agua.$"
 
 Text_SeaIsDeepUseDive:: @ 81BE469
-	.string "The sea is deep here.\n"
-	.string "Would you like to use DIVE?$"
+	.string "El mar es profundo aquí.\n"
+	.string "¿Quieres usar BUCEO?$"
 
 Text_MonUsedDive:: @ 81BE49B
-	.string "{STR_VAR_1} used DIVE.$"
+	.string "{STR_VAR_1} usó BUCEO.$"
 
 Text_MonMaySurface:: @ 81BE4A9
-	.string "Light is filtering down from above.\n"
-	.string "A POKéMON may be able to surface.$"
+	.string "La luz se filtra desde arriba. Un\n"
+	.string "POKéMON podría subir a superficie.$"
 
 Text_LightFilteringUseDive:: @ 81BE4EF
-	.string "Light is filtering down from above.\n"
-	.string "Would you like to use DIVE?$"
+	.string "La luz se filtra desde arriba.\n"
+	.string "¿Quieres usar BUCEO?$"
 
 Text_DiveCantBeUsedHere:: @ 81BE52F
-	.string "There is an obstacle above.\n"
-	.string "DIVE can't be used here.$"
+	.string "Hay un obstáculo arriba.\n"
+	.string "No puedes usar BUCEO aquí.$"
 
 EventScript_FailSweetScent:: @ 81BE564
 	msgbox Text_LooksLikeNothingHere, MSGBOX_SIGN
 	end
 
 Text_LooksLikeNothingHere:: @ 81BE56D
-	.string "Looks like there's nothing here…$"
+	.string "No parece haber nada aquí…$"

@@ -1,26 +1,26 @@
 Route5_SouthEntrance_Text_ThirstyOnGuardDuty:: @ 819E04B
-    .string "I'm on guard duty.\n"
-    .string "Gee, I'm thirsty, though!\p"
-    .string "Oh, wait there, the road's closed.$"
+    .string "Estoy en mi deber como guardia.\n"
+    .string "Pero uff, ¡estoy sediento!\p"
+    .string "Oh, espera, el camino fue cerrado.$"
 
 Route5_SouthEntrance_Text_ThatTeaLooksTasty:: @ 819E09B
-    .string "Oh, that TEA…\n"
-    .string "It looks awfully tasty…$"
+    .string "Oh, ese TÉ…\n"
+    .string "Parece que está delicioso…$"
 
 Route5_SouthEntrance_Text_ThanksIllShareTeaWithGuards:: @ 819E0C1
-    .string "Huh? I can have this drink?\n"
-    .string "Gee, thanks!\l"
+    .string "¿Uh? ¿Me das la bebida?\n"
+    .string "ey, ¡gracias!\l"
     .string "… …\l"
     .string "Glug, glug…\l"
     .string "… …\l"
     .string "Gulp…\l"
-    .string "If you want to go to SAFFRON\l"
-    .string "CITY…\l"
+    .string "Si quieres ir a CIUDAD\l"
+    .string "AZAFRÁN…\l"
     .string "… …\l"
-    .string "You can go on through.\p"
-    .string "I'll share this TEA with the other\n"
-    .string "guards!$"
+    .string "Puedes pasar.\p"
+    .string "¡Compartiré este TÉ con los otros\n"
+    .string "guardias!$"
 
 Route5_SouthEntrance_Text_HiHowsItGoing:: @ 819E16D
-    .string "Hi, how's it going?$"
+    .string "¿Hola, como te va?$"
 
