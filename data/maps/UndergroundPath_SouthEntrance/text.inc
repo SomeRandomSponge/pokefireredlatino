@@ -1,4 +1,4 @@
 UndergroundPath_SouthEntrance_Text_PeopleLoseThingsInTheDarkness:: @ 8174559
-    .string "People often lose things in the\n"
-    .string "darkness of the UNDERGROUND PATH.$"
+    .string "La gente suele perder cosas en la\n"
+    .string "oscuridad de la VÍA SUBTERRÁNEA.$"
 
