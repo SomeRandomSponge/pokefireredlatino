@@ -1,25 +1,25 @@
 Route6_Text_RickyIntro:: @ 8183E04
-    .string "Who's there?\n"
-    .string "Quit listening in on us!$"
+    .string "¿Quién esta ahí?\n"
+    .string "¡Deja de espiarnos!$"
 
 Route6_Text_RickyDefeat:: @ 8183E2A
-    .string "I just can't win!$"
+    .string "¡No puedo ganar!$"
 
 Route6_Text_RickyPostBattle:: @ 8183E3C
-    .string "Whisper…\n"
-    .string "Whisper…$"
+    .string "Susurro…\n"
+    .string "Susurro…$"
 
 Route6_Text_NancyIntro:: @ 8183E4E
-    .string "Excuse me!\n"
-    .string "This is a private conversation!$"
+    .string "¡Disculpa!\n"
+    .string "¡Esta es una conversación privada!$"
 
 Route6_Text_NancyDefeat:: @ 8183E79
-    .string "Ugh!\n"
-    .string "I hate losing.$"
+    .string "¡Agh!\n"
+    .string "Odio perder.$"
 
 Route6_Text_NancyPostBattle:: @ 8183E8D
-    .string "Whisper…\n"
-    .string "Whisper…$"
+    .string "Susurro…\n"
+    .string "Susurro…$"
 
 Route6_Text_KeigoIntro:: @ 8183E9F
     .string "There aren't many bugs out here.$"
@@ -68,6 +68,6 @@ Route6_Text_ElijahPostBattle:: @ 818402B
     .string "Which do you think?$"
 
 Route6_Text_UndergroundPathSign:: @ 8184067
-    .string "UNDERGROUND PATH\n"
-    .string "CERULEAN CITY - VERMILION CITY$"
+    .string "VÍA SUBTERRÁNEA\n"
+    .string "CIUDAD CELESTE - CIUDAD CARMÍN$"
 
