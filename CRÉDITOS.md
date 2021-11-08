@@ -33,6 +33,9 @@ Porteado a pokefirered por mí
 * InmortalKaktus, por la Decompilation Setup Tool
 
 
+Cefer, por corregir ciertos errores tanto en este archivo como en el README. (+ Con lo que quiera apoyar a futuro, *guiño*).
+
+
 * Los contruibuidores de Pret, por la decompilación de pokefirered
 
 
