@@ -4,4 +4,4 @@
 
 2- Los nombres de categorías de 16 letras se cortan la última letra.
 
-3- Las pantallas de la busqueda en la POKéDEX tienen un error gráfico grave, por el momento este es el bug más grave.
+3- Las pantallas de la busqueda en la POKéDEX tienen un error gráfico grave, por el momento este es el bug más grave. (Ya corregido, no duro nada jaja)
