@@ -1,17 +1,17 @@
 VermilionCity_PokemonFanClub_Text_AdmirePikachusTail:: @ 819446F
-    .string "Won't you admire my PIKACHU's\n"
-    .string "adorable tail?$"
+    .string "¿No quieres admirar la adorable\n"
+    .string "cola de mi PIKACHU?$"
 
 VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute:: @ 819449C
-    .string "Humph!\p"
-    .string "My PIKACHU is twice as cute as\n"
-    .string "that one!$"
+    .string "¡Humph!\p"
+    .string "¡Mi PIKACHU es el doble de lindo\n"
+    .string "que ese!$"
 
 VermilionCity_PokemonFanClub_Text_AdoreMySeel:: @ 81944CC
-    .string "I just adore my SEEL!\n"
-    .string "It's so lovable!\p"
-    .string "It squeals, “Kyuuuh,” when I\n"
-    .string "hug it!$"
+    .string "¡Simplemente adoro a mi SEEL!\n"
+    .string "¡Es tan encantador!\p"
+    .string "¡Chilla “Kyuuuh,” cúando lo\n"
+    .string "abrazo!$"
 
 VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive:: @ 8194518
     .string "Oh, dear!\p"
@@ -19,10 +19,10 @@ VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive:: @ 8194518
     .string "By double, I would say.$"
 
 VermilionCity_PokemonFanClub_Text_Pikachu:: @ 819455A
-    .string "PIKACHU: Chu! Pikachu!$"
+    .string "PIKACHU: ¡Chu! ¡Pikachu!$"
 
 VermilionCity_PokemonFanClub_Text_Seel:: @ 8194571
-    .string "SEEL: Kyuoo!$"
+    .string "SEEL: ¡Kyuoo!$"
 
 VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons:: @ 819457E
     .string "I chair the POKéMON Fan Club!\p"
