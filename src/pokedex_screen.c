@@ -605,7 +605,7 @@ const struct WindowTemplate sWindowTemplate_DexEntry_SpeciesStats = {
     .bg = 1,
     .tilemapLeft = 2,
     .tilemapTop = 3,
-    .width = 13,
+    .width = 16,
     .height = 8,
     .paletteNum = 0,
     .baseBlock = 0x01e8
@@ -2674,9 +2674,9 @@ void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
     if (DexScreen_GetSetPokedexFlag(species, FLAG_GET_CAUGHT, FALSE))
     {
 #if REVISION == 0
-        while ((categoryName[index] != CHAR_SPACE) && (index < 15))
+        while ((categoryName[index] != CHAR_SPACE) && (index < 16))
 #else
-        while ((categoryName[index] != EOS) && (index < 14))
+        while ((categoryName[index] != EOS) && (index < 15))
 #endif
         {
             categoryStr[index] = categoryName[index];
@@ -2685,7 +2685,7 @@ void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
     }
     else
     {
-        while (index < 14)
+        while (index < 15)
         {
             categoryStr[index] = CHAR_QUESTION_MARK;
             index++;

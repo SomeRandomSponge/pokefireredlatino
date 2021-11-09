@@ -111,7 +111,7 @@ const u8 gBeedrillPokedexText[] = _(
 const u8 gBeedrillPokedexTextUnused[] = _("");
 
 const u8 gPidgeyPokedexText[] = _(
-    "No gusta de pelear. Suele esconderse en\n"
+    "No le gusta pelear. Suele esconderse en\n"
     "la hierba alta buscando comida, como\n"
     "insectos pequeños.");
 
