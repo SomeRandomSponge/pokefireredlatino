@@ -14,9 +14,9 @@ VermilionCity_PokemonFanClub_Text_AdoreMySeel:: @ 81944CC
     .string "abrazo!$"
 
 VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive:: @ 8194518
-    .string "Oh, dear!\p"
-    .string "My SEEL is far more attractive.\n"
-    .string "By double, I would say.$"
+    .string "¡Oh, querid{OA}!\p"
+    .string "Mi SEEL es  mucho más atractivo.\n"
+    .string "Incluso el doble de atractivo.$"
 
 VermilionCity_PokemonFanClub_Text_Pikachu:: @ 819455A
     .string "PIKACHU: ¡Chu! ¡Pikachu!$"
@@ -25,22 +25,23 @@ VermilionCity_PokemonFanClub_Text_Seel:: @ 8194571
     .string "SEEL: ¡Kyuoo!$"
 
 VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons:: @ 819457E
-    .string "I chair the POKéMON Fan Club!\p"
-    .string "I raise more than a hundred\n"
+    .string "¡Soy PRESIDENTE del Club de Fans\n"
+    .string "de POKéMON!\p"
+    .string "¡He criado a más de cien\n"
     .string "POKéMON!\p"
-    .string "I'm very fussy when it comes to\n"
-    .string "POKéMON! I surely am!\p"
-    .string "So…\p"
-    .string "Did you come visit to hear about\n"
-    .string "my POKéMON?$"
+    .string "¡Soy muy particular cúando se\n"
+    .string "trata de POKéMON! ¡Sí que lo soy!\p"
+    .string "Así que…\p"
+    .string "¿Viniste de visita a escuchar\n"
+    .string "sobre mis POKéMON?$"
 
 VermilionCity_PokemonFanClub_Text_ChairmansStory:: @ 8194628
-    .string "Good!\n"
-    .string "Then listen up!\p"
-    .string "My favorite RAPIDASH…\p"
-    .string "It's…cute…lovely…smart… \n"
-    .string "plus…amazing…you think so?…\l"
-    .string "oh yes…it's…stunning…\l"
+    .string "¡Biem!\n"
+    .string "¡Entonces escucha!\p"
+    .string "Mi RAPIDASH favorito…\p"
+    .string "Es…lindo…encantador…listo…\n"
+    .string "y además…asombroso…¿no lo crees?…\l"
+    .string "oh sí…es…impresionante…\l"
     .string "kindly…love it!\p"
     .string "Hug it…when…sleeping…warm\n"
     .string "and cuddly…spectacular…\l"

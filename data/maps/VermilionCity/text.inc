@@ -42,7 +42,7 @@ VermilionCity_Text_SnorlaxBlockingRoute12:: @ 817F928
     .string "POLICIA DE CARMÍN$"
 
 VermilionCity_Text_PokemonFanClubSign:: @ 817F9A1
-    .string "CLUB DE FANS DE LOS POKéMON\n"
+    .string "CLUB DE FANS DE POKéMON\n"
     .string "¡Se acepta a todo fan de POKéMON!$"
 
 VermilionCity_Text_GymSign:: @ 817F9CC
