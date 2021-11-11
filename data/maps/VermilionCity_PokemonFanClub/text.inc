@@ -36,62 +36,63 @@ VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons:: @ 819457E
     .string "sobre mis POKéMON?$"
 
 VermilionCity_PokemonFanClub_Text_ChairmansStory:: @ 8194628
-    .string "¡Biem!\n"
+    .string "¡Bien!\n"
     .string "¡Entonces escucha!\p"
     .string "Mi RAPIDASH favorito…\p"
     .string "Es…lindo…encantador…listo…\n"
     .string "y además…asombroso…¿no lo crees?…\l"
     .string "oh sí…es…impresionante…\l"
-    .string "kindly…love it!\p"
-    .string "Hug it…when…sleeping…warm\n"
-    .string "and cuddly…spectacular…\l"
-    .string "ravishing…\l"
-    .string "…Oops! Look at the time!\l"
-    .string "I kept you too long!\p"
-    .string "Thanks for hearing me out!\n"
-    .string "I want you to have this!$"
+    .string "amable…¡lo amo!\p"
+    .string "Abrazarlo…cúando…duermo…cálido\n"
+    .string "y suave…espectacular…\l"
+    .string "maravilloso…\l"
+    .string "…¡Ups! ¡Mira la hora!\l"
+    .string "¡Te mantuve aquí por mucho tiempo!\p"
+    .string "¡Gracias por escucharme!\n"
+    .string "¡Quiero que tengas esto!$"
 
 VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman:: @ 819474E
-    .string "{PLAYER} received a BIKE VOUCHER\n"
-    .string "from the CHAIRMAN.$"
+    .string "{PLAYER} recibió un BONO BICICLETA\n"
+    .string "del PRESIDENTE.$"
 
 VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher:: @ 819477C
-    .string "Take that BIKE VOUCHER to the\n"
-    .string "BIKE SHOP in CERULEAN CITY.\p"
-    .string "Exchange that for a BICYCLE\n"
-    .string "free of charge!\p"
-    .string "Don't worry, my favorite FEAROW\n"
-    .string "will FLY me anywhere I need to go.\p"
-    .string "So, I have no need for a BICYCLE.\p"
-    .string "I hope you like cycling!$"
+    .string "Lleva ese BONO a la TIENDA\n"
+    .string "DE BICICLETAS en CIUDAD CELESTE.\p"
+    .string "¡Cámbialo por una BICICLETA\n"
+    .string "gratuita!\p"
+    .string "No temas, mi FEAROW favorito me\n"
+    .string "llevará VOLANDO adónde necesite.\p"
+    .string "Así que, no necesito una BICI.\p"
+    .string "¡Espero que te guste el ciclismo!$"
 
 VermilionCity_PokemonFanClub_Text_ComeBackToHearStory:: @ 8194860
-    .string "Oh. Come back when you want to\n"
-    .string "hear my story!$"
+    .string "Oh. ¡Vuelve cúando quieras\n"
+    .string "escuchar mi historia!$"
 
 VermilionCity_PokemonFanClub_Text_DidntComeToSeeAboutMonsAgain:: @ 819488E
-    .string "Hello, {PLAYER}!\p"
-    .string "Did you come see me about my\n"
-    .string "POKéMON again?\p"
-    .string "No?\n"
-    .string "Too bad!$"
+    .string "¡Hola, {PLAYER}!\p"
+    .string "¿Viniste a escuchar sobre mis\n"
+    .string "POKéMON otra vez?\p"
+    .string "¿No?\n"
+    .string "¡Qué mal!$"
 
 VermilionCity_PokemonFanClub_Text_MakeRoomForThis:: @ 81948D2
-    .string "Make room for this!$"
+    .string "¡Haz espacio para esto!$"
 
 VermilionCity_PokemonFanClub_Text_ChairmanVeryVocalAboutPokemon:: @ 81948E6
-    .string "Our CHAIRMAN is very vocal about\n"
-    .string "POKéMON.$"
+    .string "Nuestro PRESIDENTE es muy vocal\n"
+    .string "sobre los POKéMON.$"
 
 VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers:: @ 8194910
-    .string "Let's all listen politely to other\n"
-    .string "TRAINERS!$"
+    .string "¡Escuchemos todos a otros\n"
+    .string "ENTRENADORES educadamente!$"
 
 VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack:: @ 819493D
-    .string "If someone brags, brag right back!$"
+    .string "Si alguien alardea, ¡alardea\n"
+    .string "de vuelta!$"
 
 VermilionCity_PokemonFanClub_Text_ChairmanReallyAdoresHisMons:: @ 8194960
-    .string "Our CHAIRMAN really does adore his\n"
-    .string "POKéMON.\p"
-    .string "But the person who is most liked by\n"
-    .string "POKéMON is DAISY, I think.$"
+    .string "Nuestro PRESIDENTE realmente adora\n"
+    .string "a sus POKéMON.\p"
+    .string "Pero de todos, los POKéMON parecen\n"
+    .string "preferir a DAISY.$"
