@@ -24,7 +24,7 @@ CeruleanCity_Text_RivalPostBattle:: @ 817EB95
     .string "Cómo usas su sistema, deberías ir\n"
     .string "a darle las gracias.\p"
     .string "Bueno, ¡será mejor que me vaya!\n"
-    .string "¡Nos vemos luego!$"
+    .string "¡Hasta nunca!$"
 
 CeruleanCity_Text_OhRightLittlePresentAsFavor:: @ 817ECD4
     .string "Oh, sí, cierto.\p"
@@ -39,7 +39,7 @@ CeruleanCity_Text_ExplainFameCheckerSmellYa:: @ 817ED5D
     .string "No la necesito porque no me\n"
     .string "importan mucho los demás.\p"
     .string "De acuerdo, esta vez me voy de\n"
-    .string "verdad. ¡Nos vemos!$"
+    .string "verdad. ¡Hasta nunca!$"
 
 @ RB translation: "Heh! You're no match for my genius!"
 CeruleanCity_Text_RivalVictory:: @ 817EDF8
