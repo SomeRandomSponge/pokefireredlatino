@@ -1,23 +1,23 @@
 SSAnne_2F_Room2_Text_BrooksIntro:: @ 8173D63
-    .string "Competing against the young keeps\n"
-    .string "me youthful.$"
+    .string "Competir contra la juventud me\n"
+    .string "mantiene joven.$"
 
 SSAnne_2F_Room2_Text_BrooksDefeat:: @ 8173D92
-    .string "Good match!\n"
-    .string "Ah, I feel young again!$"
+    .string "¡Buena batalla!\n"
+    .string "¡Ah, me siento joven otra vez!$"
 
 SSAnne_2F_Room2_Text_BrooksPostBattle:: @ 8173DB6
-    .string "Fifteen years ago, I would\n"
-    .string "have won!$"
+    .string "¡Hace quince años, hubiera\n"
+    .string "ganado!$"
 
 SSAnne_2F_Room2_Text_DaleIntro:: @ 8173DDB
-    .string "Check out what I fished up!$"
+    .string "¡Mira lo que acabo de pescar!$"
 
 SSAnne_2F_Room2_Text_DaleDefeat:: @ 8173DF7
-    .string "I'm all out!$"
+    .string "¡Me quede sin nada!$"
 
 SSAnne_2F_Room2_Text_DalePostBattle:: @ 8173E04
-    .string "Party?\p"
-    .string "The cruise ship's party should be\n"
-    .string "over by now.$"
+    .string "¿Fiesta?\p"
+    .string "La fiesta del crucero ya se debió\n"
+    .string "de haber acabado.$"
 

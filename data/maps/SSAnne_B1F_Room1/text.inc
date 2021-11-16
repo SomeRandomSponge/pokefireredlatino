@@ -1,26 +1,26 @@
 SSAnne_B1F_Room1_Text_PhillipIntro:: @ 81740F6
-    .string "Matey, you're walking the plank if\n"
-    .string "you lose!$"
+    .string "Chiquill{OA}, ¡caminarás por\n"
+    .string "el tablón si pierdes!$"
 
 SSAnne_B1F_Room1_Text_PhillipDefeat:: @ 8174123
-    .string "Argh!\n"
-    .string "Beaten by a kid!$"
+    .string "¡Argh!\n"
+    .string "¡Vencido por un{A} niñ{OA}!$"
 
 SSAnne_B1F_Room1_Text_PhillipPostBattle:: @ 817413A
-    .string "When we're out at sea, jellyfish\n"
-    .string "POKéMON sometimes drift by.$"
+    .string "Cuando estamos en el mar, a veces\n"
+    .string "POKéMON medusa pasan cerca.$"
 
 SSAnne_B1F_Room1_Text_BarnyIntro:: @ 8174177
-    .string "Hello, stranger!\p"
-    .string "I can't tell if you're from the seas\n"
-    .string "or mountains, but stop and chat.\p"
-    .string "All my POKéMON are from the sea.$"
+    .string "¡Hola, extrañ{OA}!\p"
+    .string "No sé si eres de los mares o de\n"
+    .string "las montañas, pero ven a charlar.\p"
+    .string "Todos mis POKéMON vienen del mar.$"
 
 SSAnne_B1F_Room1_Text_BarnyDefeat:: @ 81741EF
-    .string "Darn!\n"
-    .string "I let that one get away!$"
+    .string "¡Rayos!\n"
+    .string "¡Deje que ese se escapara!$"
 
 SSAnne_B1F_Room1_Text_BarnyPostBattle:: @ 817420E
-    .string "I was going to make you my\n"
-    .string "assistant, too!$"
+    .string "¡Y también te iba a hacer mi\n"
+    .string "asistente!$"
 

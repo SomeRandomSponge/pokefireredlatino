@@ -1,12 +1,12 @@
 SSAnne_2F_Room3_Text_SeenMonsFerryPeople:: @ 8173E3A
-    .string "Ah, yes, I have seen some POKéMON\n"
-    .string "ferry people across the water!$"
+    .string "¡Ah, sí, he visto a varios POKéMON\n"
+    .string "cargar gente a través del agua!$"
 
 SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown:: @ 8173E7B
-    .string "Small trees can be chopped down\n"
-    .string "using the move CUT.\p"
-    .string "But remember this!\n"
-    .string "CUT is an HM technique.\p"
-    .string "Once learned, it is not so easily\n"
-    .string "discarded.$"
+    .string "Los árboles pequeños pueden\n"
+    .string "cortarse con el movimiento CORTE.\p"
+    .string "¡Pero recuerda esto!\n"
+    .string "CORTE es una técnica de MO.\p"
+    .string "Una vez aprendida, no es fácil\n"
+    .string "de olvidar.$"
 

@@ -1,53 +1,53 @@
 SSAnne_CaptainsOffice_Text_CaptainIFeelSeasick:: @ 8173646
-    .string "CAPTAIN: Ooargh…\n"
-    .string "I feel hideous…\l"
-    .string "Urrp! Seasick…$"
+    .string "CAPITÁN: Ooargh…\n"
+    .string "Me siento horrible…\l"
+    .string "¡Prrp! Mareado…$"
 
 SSAnne_CaptainsOffice_Text_RubbedCaptainsBack:: @ 8173676
-    .string "{PLAYER} rubbed the CAPTAIN's\n"
-    .string "back!\p"
-    .string "Rub-rub…\n"
-    .string "Rub-rub…$"
+    .string "¡{PLAYER} frotó la espalda del\n"
+    .string "CAPITÁN!\p"
+    .string "Frota-frota…\n"
+    .string "Frota-frota…$"
 
 SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut:: @ 81736A6
-    .string "CAPTAIN: Whew! Thank you!\n"
-    .string "I'm feeling much better now.\p"
-    .string "You want to see my hidden CUT\n"
-    .string "technique?\p"
-    .string "I could show you my prized CUT\n"
-    .string "technique if I weren't so ill…\p"
-    .string "I know! You can have this!\n"
-    .string "This HIDDEN MACHINE!\p"
-    .string "Teach CUT to your POKéMON, and\n"
-    .string "you can see it CUT anytime!$"
+    .string "CAPITÁN: ¡Fiu! ¡Gracias!\n"
+    .string "Me siento mucho mejor ahora.\p"
+    .string "¿Quieres ver mi técnica oculta\n"
+    .string "de CORTE?\p"
+    .string "Te podría enseñar mi preciado\n"
+    .string "CORTE si no estuviera tan enfermo…\p"
+    .string "¡Ya sé! ¡Puedes tener esto!\n"
+    .string "¡Esta MÁQUINA OCULTA!\p"
+    .string "¡Enseñale CORTE a tu POKéMON, y\n"
+    .string "podrás ver CORTE cuando quieras!$"
 
 SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain:: @ 81737AF
-    .string "{PLAYER} obtained HM01\n"
-    .string "from the CAPTAIN!$"
+    .string "¡{PLAYER} obtuvo la MO01\n"
+    .string "del CAPITÁN!$"
 
 SSAnne_CaptainsOffice_Text_ExplainCut:: @ 81737D2
-    .string "Using CUT, you can chop down\n"
-    .string "small trees.\p"
-    .string "Why not try it with the trees\n"
-    .string "around VERMILION CITY?$"
+    .string "Usando CORTE, puedes derribar\n"
+    .string "árboles pequeños.\p"
+    .string "¿Porqué no lo intentas con los\n"
+    .string "árboles en CIUDAD CARMÍN?$"
 
 SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon:: @ 8173831
-    .string "CAPTAIN: …Whew!\p"
-    .string "Now that I'm not sick anymore,\n"
-    .string "I guess it's time.\p"
-    .string "The S.S. ANNE will set sail soon!\p"
-    .string "Farewell, until our return to\n"
-    .string "VERMILION CITY!$"
+    .string "CAPITÁN: …¡Fiu!\p"
+    .string "Ahora que ya no estoy enfermo,\n"
+    .string "supongo que es hora.\p"
+    .string "¡El SANTA ANA zarpará pronto!\p"
+    .string "Me despido, ¡hasta nuestro regreso\n"
+    .string "a CIUDAD CARMÍN!$"
 
 SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis:: @ 81738C3
-    .string "Oh, no!\n"
-    .string "You have no room for this!$"
+    .string "¡Oh, no!\n"
+    .string "¡No tienes espacio para esto!$"
 
 SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked:: @ 81738E6
-    .string "Yuck!\n"
-    .string "Shouldn't have looked!$"
+    .string "¡Ack!\n"
+    .string "¡No debí mirar!$"
 
 SSAnne_CaptainsOffice_Text_HowToConquerSeasickness:: @ 8173903
-    .string "How to Conquer Seasickness…\n"
-    .string "The CAPTAIN's reading this!$"
+    .string "Como conquistar la enfermedad…\n"
+    .string "¡El CAPITÁN esta leyendo esto!$"
 

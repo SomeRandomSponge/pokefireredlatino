@@ -1,6 +1,6 @@
 SSAnne_3F_Corridor_Text_CaptainTeachesCutToMons:: @ 817320C
-    .string "Our CAPTAIN is a sword master.\n"
-    .string "He's awesome at using CUT.\p"
-    .string "They say he even teaches CUT\n"
-    .string "to POKéMON!$"
+    .string "El CAPITÁN es un gran espadachín.\n"
+    .string "Es increíble al usar CORTE.\p"
+    .string "¡Incluso se dice que le enseña\n"
+    .string "CORTE a los POKéMON!$"
 
