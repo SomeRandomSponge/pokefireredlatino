@@ -12,14 +12,14 @@ SSAnne_Kitchen_Text_SoBusyImDizzy:: @ 8173462
     .string "¡Tienes que darme espacio!$"
 
 SSAnne_Kitchen_Text_PeelSpudsEveryDay:: @ 81734A0
-    .string "Hum-de-hum-de-ho…\p"
-    .string "I peel spuds every day!\n"
-    .string "Hum-hum…$"
+    .string "Jum-di-jum-di-jo…\p"
+    .string "¡Yo pelo papas todos los días!\n"
+    .string "Jum-jum…$"
 
 SSAnne_Kitchen_Text_HearAboutSnorlaxItsAGlutton:: @ 81734D3
     .string "¿Has escuchado sobre SNORLAX?\n"
     .string "Es un glotón.\p"
-    .string "¡No hay POKéMON que coma y duerme\n"
+    .string "¡No hay POKéMON que coma y duerma\n"
     .string "cómo lo hace SNORLAX!$"
 
 SSAnne_Kitchen_Text_OnlyGetToPeelOnions:: @ 817353E
