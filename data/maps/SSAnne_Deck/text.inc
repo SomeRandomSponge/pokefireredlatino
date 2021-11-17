@@ -1,35 +1,35 @@
 SSAnne_Deck_Text_ShipDepartingSoon:: @ 817326F
-    .string "The party's over.\n"
-    .string "The ship will be departing soon.$"
+    .string "La fiesta se acabó.\n"
+    .string "El barco zarpará pronto.$"
 
 SSAnne_Deck_Text_ScrubbingDecksHardWork:: @ 81732A2
-    .string "Whew!\n"
-    .string "Scrubbing decks is hard work!$"
+    .string "¡Fiu! ¡Fregar las cubiertas es\n"
+    .string "un trabajo duro!$"
 
 SSAnne_Deck_Text_FeelSeasick:: @ 81732C6
-    .string "Urf… I feel ill…\p"
-    .string "I got seasick, so I stepped out to\n"
-    .string "get some air…$"
+    .string "Urf… Me siento mal…\p"
+    .string "Estoy mareado, así que salí a\n"
+    .string "tomar algo de aire…$"
 
 SSAnne_Deck_Text_EdmondIntro:: @ 8173308
-    .string "Hey, matey!\p"
-    .string "Let's do a little jig!$"
+    .string "¡Ey, compañer{OA}!\p"
+    .string "¡Bailemos un poco!$"
 
 SSAnne_Deck_Text_EdmondDefeat:: @ 817332B
-    .string "You're impressive!$"
+    .string "¡Eres impresionante!$"
 
 SSAnne_Deck_Text_EdmondPostBattle:: @ 817333E
-    .string "How many kinds of POKéMON do you\n"
-    .string "think there are in this big world?$"
+    .string "¿Cuántos tipos de POKéMON crees\n"
+    .string "que existan en este gran mundo?$"
 
 SSAnne_Deck_Text_TrevorIntro:: @ 8173382
-    .string "Ahoy, there!\n"
-    .string "Are you seasick?$"
+    .string "¡Ahoy, tú!\n"
+    .string "¿Estás maread{OA}?$"
 
 SSAnne_Deck_Text_TrevorDefeat:: @ 81733A0
-    .string "I was just careless!$"
+    .string "¡No estaba atento!$"
 
 SSAnne_Deck_Text_TrevorPostBattle:: @ 81733B5
-    .string "My pa said there are 100 kinds of\n"
-    .string "POKéMON. I think there are more.$"
+    .string "Mi pa dijo que hay 100 tipos de\n"
+    .string "POKéMON. Yo creo que hay más.$"
 
