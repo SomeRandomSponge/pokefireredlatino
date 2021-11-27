@@ -33,3 +33,10 @@ Proyectos de desamblaje y/o decompilación de pret (en inglés):
 * [**Pokémon Pinball: Ruby & Sapphire**](https://github.com/pret/pokepinballrs)
 * [**Pokémon Emerald**](https://github.com/pret/pokeemerald)
 * [**Pokémon Mystery Dungeon: Red Rescue Team**](https://github.com/pret/pmd-red)
+
+
+
+
+
+
+...NO vayan al discord de Pret a preguntar algo sobre esta traducción por favor, ni hablan español :)
