@@ -24,7 +24,7 @@ CeruleanCity_BikeShop_Text_ThankYouComeAgain:: @ 819280E
 
 CeruleanCity_BikeShop_Text_HowDoYouLikeNewBicycle:: @ 8192833
     .string "¿Te gusta tu nueva BICICLETA?\n"
-    .string "Do you like how it rides?\p"
+    .string "¿Te gusta cómo se maneja?\p"
     .string "¡Puedes llevarla al CAMINO\n"
     .string "DE CICLISTAS e incluso a cuevas!$"
 
