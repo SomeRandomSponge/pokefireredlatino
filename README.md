@@ -15,8 +15,7 @@ También puedes combinarlo con tu propio proyecto si así lo deseas.
 Si tienes alguna pregunta, puede que ya haya dado una respuesta en [P&A.md](P&A.md), así que por favor
 revisa aunque sea un poco dicho archivo para que no preguntes algo que ya tiene respuesta.
 
-Si piensas usar esta traducción en tu proyecto, ya sea con cambios o no, por favor da créditos a las personas mencionadas en [CRÉDITOS.md](CRÉDITOS.md),  
-pues sin sus aportes, esto no seria posible.
+Si piensas usar esta traducción en tu proyecto, ya sea con cambios o no, por favor da créditos a las personas mencionadas en [CRÉDITOS.md](CRÉDITOS.md),  pues sin sus aportes, esto no seria posible.
 
 ## Véase también
 
@@ -33,3 +32,10 @@ Proyectos de desamblaje y/o decompilación de pret (en inglés):
 * [**Pokémon Pinball: Ruby & Sapphire**](https://github.com/pret/pokepinballrs)
 * [**Pokémon Emerald**](https://github.com/pret/pokeemerald)
 * [**Pokémon Mystery Dungeon: Red Rescue Team**](https://github.com/pret/pmd-red)
+
+
+
+
+
+
+...NO vayan al discord de Pret a preguntar algo sobre esta traducción por favor, ni hablan español :)
