@@ -63,7 +63,7 @@ static EWRAM_DATA struct UnkStruct_203B118 * sTMCaseDynamicResources = NULL;
 static EWRAM_DATA struct UnkStruct_203B11C * sPokedudePackBackup = NULL;
 static EWRAM_DATA void * sTilemapBuffer = NULL; // tilemap buffer
 static EWRAM_DATA struct ListMenuItem * sListMenuItemsBuffer = NULL;
-static EWRAM_DATA u8 (* sListMenuStringsBuffer)[35] = NULL;
+static EWRAM_DATA u8 (* sListMenuStringsBuffer)[29] = NULL;
 static EWRAM_DATA u16 * sTMSpritePaletteBuffer = NULL;
 
 static void CB2_SetUpTMCaseUI_Blocking(void);

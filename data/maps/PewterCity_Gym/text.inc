@@ -108,13 +108,13 @@ PewterCity_Gym_Text_YoureChampMaterial:: @ 819143C
     .string "campe{ONONA} POKéMON!$"
 
 PewterCity_Gym_Text_GymStatue:: @ 819146E
-    .string "GIMNASIO POKéMON de PLATEADA\n"
+    .string "GIMNASIO POKéMON DE PLATEADA\n"
     .string "LÍDER: BROCK\p"
     .string "ENTRENADORES VICTORIOSOS:\n"
     .string "{RIVAL}$"
 
 PewterCity_Gym_Text_GymStatuePlayerWon:: @ 81914A4
-    .string "GIMNASIO POKéMON de PLATEADA\n"
+    .string "GIMNASIO POKéMON DE PLATEADA\n"
     .string "LÍDER: BROCK\p"
     .string "ENTRENADORES VICTORIOSOS:\n"
     .string "{RIVAL}, {PLAYER}$"

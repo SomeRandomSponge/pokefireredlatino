@@ -56,6 +56,6 @@ CeruleanCity_House4_Text_EnjoyingMyselfWithAllSortsOfNews:: @ 8192EC5
     .string "No estaré aburrido por un tiempo.$"
    
 CeruleanCity_House4_Text_YourBerryPouchIsFull:: @ 8192F2A
-    .string "¿Hm? Tu BERRY POUCH esta lleno.\n"
+    .string "¿Hm? Tu SACO DE BAYAS esta lleno.\n"
     .string "Mi regalo se queda aquí, entonces.$"
 

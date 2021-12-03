@@ -48,7 +48,7 @@ VermilionCity_Text_PokemonFanClubSign:: @ 817F9A1
 VermilionCity_Text_GymSign:: @ 817F9CC
     .string "GIMNASIO POKéMON de CIUDAD CARMÍN\n"
     .string "LÍDER: TENIENTE SURGE\l"
-    .string "¡El rayo americano!$"
+    .string "¡El Rayo americano!$"
 
 VermilionCity_Text_VermilionHarbor:: @ 817FA11
     .string "PUERTO CARMÍN$"

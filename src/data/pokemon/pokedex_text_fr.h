@@ -146,142 +146,141 @@ const u8 gRaticatePokedexText[] = _(
 const u8 gRaticatePokedexTextUnused[] = _("");
 
 const u8 gSpearowPokedexText[] = _(
-    "It busily flits around here and there.\n"
-    "Even if it is frail, it can be a tough\n"
-    "foe that uses MIRROR MOVE.");
+    "Va revoloteando de aquí para allá.\n"
+    "Incluso si es frágil, puede ser un\n"
+    "duro rival que usa MOVIMIENTO ESPEJO.");
 
 const u8 gSpearowPokedexTextUnused[] = _("");
 
 const u8 gFearowPokedexText[] = _(
-    "Its huge and magnificent wings can keep it\n"
-    "aloft in the sky. It can remain flying a\n"
-    "whole day without landing.");
+    "Sus magníficas alas lo mantienen a\n"
+    "flote en el cielo. Puede seguir volando\n"
+    "por un día entero sin aterrizar.");
 
 const u8 gFearowPokedexTextUnused[] = _("");
 
 const u8 gEkansPokedexText[] = _(
-    "A very common sight in grassland, etc.\n"
-    "It flicks its tongue in and out to sense\n"
-    "danger in its surroundings.");
+    "Es fácil de ver en praderas y zonas\n"
+    "similares. Saca su lengua para detectar\n"
+    "peligro en sus alrededores.");
 
 const u8 gEkansPokedexTextUnused[] = _("");
 
 const u8 gArbokPokedexText[] = _(
-    "The pattern on its belly appears to be a\n"
-    "frightening face. Weak foes will flee just\n"
-    "at the sight of the pattern.");
+    "El patrón en su panza aparenta ser una\n"
+    "cara aterradora. Los oponentes débiles\n"
+    "huyen con solo ver el patrón.");
 
 const u8 gArbokPokedexTextUnused[] = _("");
 
 const u8 gPikachuPokedexText[] = _(
-    "It has small electric sacs on both its\n"
-    "cheeks. If threatened, it looses electric\n"
-    "charges from the sacs.");
+    "Las pequeñas bolsas en sus mejillas están\n"  
+    "llenas de electricidad. Si es amenazado,\n"
+    "libera la carga eléctrica de las bolsas.");
 
 const u8 gPikachuPokedexTextUnused[] = _("");
 
 const u8 gRaichuPokedexText[] = _(
-    "Its electric charges can reach even\n"
-    "100,000 volts. Careless contact can cause\n"
-    "even an Indian elephant to faint.");
+    "Suelta descargas eléctricas de hasta\n"
+    "100,000 voltios, con lo que es capaz de\n"
+    "desmayar incluso a un elefante indio.");
 
 const u8 gRaichuPokedexTextUnused[] = _("");
 
 const u8 gSandshrewPokedexText[] = _(
-    "It burrows and lives underground.\n"
-    "If threatened, it curls itself up into a\n"
-    "ball for protection.");
+    "Se oculta y vive bajo tierra.\n"
+    "Si es amenazado, se enrosca en una bola\n"
+    "como protección.");
 
 const u8 gSandshrewPokedexTextUnused[] = _("");
 
 const u8 gSandslashPokedexText[] = _(
-    "It is adept at attacking with the spines\n"
-    "on its back and its sharp claws while\n"
-    "quickly scurrying about.");
+    "Es experto en atacar con las púas en su\n"
+    "espalda y sus afiladas garras mientras se\n"
+    "mueve rápidamente.");
 
 const u8 gSandslashPokedexTextUnused[] = _("");
 
 const u8 gNidoranFPokedexText[] = _(
-    "Though small, it must be treated with\n"
-    "caution because of its powerfully toxic\n"
-    "barbs. The female has smaller horns.");
+    "Aunque pequeñas, deben ser tratadas con\n"
+    "cuidado debido a sus púas tóxicas.\n"
+    "Las hembras tienen cuernos más pequeños.");
 
 const u8 gNidoranFPokedexTextUnused[] = _("");
 
 const u8 gNidorinaPokedexText[] = _(
-    "The female has a gentle temperament.\n"
-    "It emits ultrasonic cries that have the\n"
-    "power to befuddle foes.");
+    "Las hembras son de temperamento gentil.\n"
+    "Emiten gritos ultrasónicos con el poder\n"
+    "de confundir al oponente.");
 
 const u8 gNidorinaPokedexTextUnused[] = _("");
 
 const u8 gNidoqueenPokedexText[] = _(
-    "The body is covered by stiff, needle-\n"
-    "like scales. If it becomes excited,\n"
-    "the needles bristle outwards.");
+    "Están cubiertas por escamas duras, que\n"
+    "parecen agujas. Si se emociona, las\n"
+    "agujas se erizan hacia afuera.");
 
 const u8 gNidoqueenPokedexTextUnused[] = _("");
 
 const u8 gNidoranMPokedexText[] = _(
-    "Its large ears are flapped like wings\n"
-    "when it is listening to distant sounds.\n"
-    "It extends toxic barbs when angered.");
+    "Sus grandes orejas se agitan como alas\n"
+    "cuándo escucha sonidos distantes.\n"
+    "Si se enfada, sus púas venenosas crecen.");
 
 const u8 gNidoranMPokedexTextUnused[] = _("");
 
 const u8 gNidorinoPokedexText[] = _(
-    "It is easily angered. By swinging its well-\n"
-    "developed horn wildly, it can even punch\n"
-    "through diamond.");
+    "Se enfada con facilidad. Es capaz de\n"
+    "romper incluso diamante usando su cuerno\n"
+    "bien desarrollado.");
 
 const u8 gNidorinoPokedexTextUnused[] = _("");
 
 const u8 gNidokingPokedexText[] = _(
-    "It is recognized by its rock-hard hide\n"
-    "and its extended horn. Be careful with\n"
-    "the horn as it contains venom.");
+    "Es reconocido por su piel dura como la\n"
+    "roca y su alargado cuerno. Ten cuidado\n"
+    "con su cuerno, pues contiene veneno.");
 
 const u8 gNidokingPokedexTextUnused[] = _("");
 
 const u8 gClefairyPokedexText[] = _(
-    "Its adorable appearance makes it popular\n"
-    "as a pet. However, it is rare and\n"
-    "difficult to find.");
+    "Su adorable apariencia lo hace popular\n"
+    "como mascota. Sin embargo, es raro y\n"
+    "difícil de encontrar.");
 
 const u8 gClefairyPokedexTextUnused[] = _("");
 
 const u8 gClefablePokedexText[] = _(
-    "It has an acute sense of hearing. It can\n"
-    "easily hear a pin being dropped nearly\n"
-    "1,100 yards away.");
+    "Tiene un agudo sentido del oído. Puede\n"
+    "escuchar la caída de un alfiler a casi\n"
+    "1 km de distancia con facilidad.");
 
 const u8 gClefablePokedexTextUnused[] = _("");
 
 const u8 gVulpixPokedexText[] = _(
-    "While young, it has six gorgeous tails.\n"
-    "When it grows, several new tails are\n"
-    "sprouted.");
+    "De joven, tiene seis preciosas colas.\n"  
+    "Al crecer, le brotan varias colas más.");
 
 const u8 gVulpixPokedexTextUnused[] = _("");
 
 const u8 gNinetalesPokedexText[] = _(
-    "It has nine long tails and fur that \n"
-    "gleams gold. It is said to live for \n"
-    "1,000 years.");
+    "Tiene nueve largas colas y pelaje que\n"
+    "brilla como el oro. Se dice que llega a\n"
+    "vivir 1,000 años.");
 
 const u8 gNinetalesPokedexTextUnused[] = _("");
 
 const u8 gJigglypuffPokedexText[] = _(
-    "It captivates foes with its huge, round\n"
-    "eyes, then lulls them to sleep by singing\n"
-    "a soothing melody.");
+    "Cautiva oponentes con sus enormes y\n"
+    "redondos ojos, para luego hacerlos dormir\n"
+    "cantando una relajante melodía.");
 
 const u8 gJigglypuffPokedexTextUnused[] = _("");
 
 const u8 gWigglytuffPokedexText[] = _(
-    "Its fur is extremely fine, dense, and\n"
-    "supple. The exquisitely pleasant fur\n"
-    "conveys an image of luxury.");
+    "Tiene pelaje extremadamente fino, denso,\n"
+    "y flexible. El pelaje tan agradable\n"
+    "transmite una imagen de riqueza.");
 
 const u8 gWigglytuffPokedexTextUnused[] = _("");
 
