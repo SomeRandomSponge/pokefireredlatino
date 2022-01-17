@@ -1,9 +1,5 @@
 # Pokémon RojoFuego y VerdeHoja Latino
 
-[![Build Status][travis-badge]][travis]
-
-[travis]: https://travis-ci.org/pret/pokefirered
-[travis-badge]: https://travis-ci.org/pret/pokefirered.svg?branch=master
 
 Esta es una traducción al español latino de la decompilación de Pokémon FireRed & LeafGreen (pokefirered).
 El proyecto está en progreso actualmente.
