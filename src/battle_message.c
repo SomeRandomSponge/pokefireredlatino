@@ -18,7 +18,7 @@
 #include "graphics.h"
 #include "constants/moves.h"
 #include "constants/items.h"
-#include "constants/trainer_classes.h"
+#include "constants/trainers.h"
 
 struct BattleWindowText
 {
@@ -512,7 +512,7 @@ const u8 gText_KeepAnEyeOnHP[] = _("OAK: Mantén los ojos en los PS de\ntus POK�
 const u8 gText_OakNoRunningFromATrainer[] = _("OAK: ¡No! ¡No hay escape de una\nbatalla entre ENTRENADORES!\p");
 const u8 gText_WinEarnsPrizeMoney[] = _("OAK: ¡Hm! ¡Excelente!\p¡Si ganas, obtendrás dinero, y tus\nPOKéMON crecerán!\p¡Lucha con otros ENTRENADORES y\nhaz fuertes a tus POKéMON!\p");
 const u8 gText_HowDissapointing[] = _("OAK: Hm…\nQué decepcionante…\pSi ganas, obtendrás dinero, y tus\nPOKéMON crecerán.\pPero si pierdes, {B_PLAYER_NAME},\ntendrás que pagar dinero…\pSin embargo, cómo esta vez no lo\nsabías, pagaré por ti.\pPero las cosas no serán así cuando\nestés fuera de estas puertas.\pPor eso debes luchar con POKéMON\nsalvajes para hacerte más fuerte.\p");
-                                                                                                                                                                                                                                                                                                                                                
+
 const u8 *const gBattleStringsTable[] = {
     [STRINGID_TRAINER1LOSETEXT - 12]              = sText_Trainer1LoseText,
     [STRINGID_PKMNGAINEDEXP - 12]                 = sText_PkmnGainedEXP,
@@ -2023,9 +2023,9 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                 }
                 else
                 {
-                    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == CLASS_RIVAL
-                     || gTrainers[gTrainerBattleOpponent_A].trainerClass == CLASS_RIVAL_2
-                     || gTrainers[gTrainerBattleOpponent_A].trainerClass == CLASS_CHAMPION_2)
+                    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_RIVAL_EARLY
+                     || gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_RIVAL_LATE
+                     || gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_CHAMPION)
                         toCpy = GetExpandedPlaceholder(PLACEHOLDER_ID_RIVAL);
                     else
                         toCpy = gTrainers[gTrainerBattleOpponent_A].trainerName;
