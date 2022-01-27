@@ -52,7 +52,7 @@ Text_CutTreeDown:: @ 81BDF94
 	.string "¿Quieres CORTARLO?$"
 
 Text_MonUsedMove:: @ 81BDFD7
-	.string "{STR_VAR_1} used {STR_VAR_2}!$"
+	.string "¡{STR_VAR_1} usó {STR_VAR_2}!$"
 
 Text_TreeCanBeCutDown:: @ 81BDFE3
 	.string "¡Parece que este ÁRBOL puede ser\n"

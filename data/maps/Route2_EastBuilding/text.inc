@@ -1,32 +1,33 @@
 Route2_EastBuilding_Text_GiveHM05IfSeen10Mons:: @ 819D64F
-    .string "Hi! Remember me?\n"
-    .string "I'm one of PROF. OAK's AIDES.\p"
-    .string "If your POKéDEX has complete data\n"
-    .string "on ten species, I'm supposed to\l"
-    .string "give you a reward.\p"
-    .string "PROF. OAK entrusted me with\n"
-    .string "HM05 for you.\p"
-    .string "So, {PLAYER}, let me ask you.\p"
-    .string "Have you gathered data on at least\n"
-    .string "ten kinds of POKéMON?$"
+    .string "¡Hola! ¿me recuerdas?\n"
+    .string "Soy un AYUDANTE del PROF. OAK.\p"
+    .string "Si tu POKéDEX tiene datos completos\n"
+    .string "de 10 especies, se supone que\l"
+    .string "debería darte una recompensa.\p"
+    .string "El PROF. OAK me encargo la\n"
+    .string "MO05 para ti.\p"
+    .string "Entonces, {PLAYER}, dime algo.\p"
+    .string "¿Ya recolectaste datos de al menos\n"
+    .string "10 tipos de POKéMON?$"
 
 Route2_EastBuilding_Text_GreatHereYouGo:: @ 819D74E
-    .string "Great! You have caught or owned\n"
-    .string "{STR_VAR_3} kinds of POKéMON!\p"
-    .string "Congratulations!\n"
-    .string "Here you go!$"
+    .string "¡Bien! ¡atrapaste u obtuviste\n"
+    .string "{STR_VAR_3} tipos de POKéMON!\p"
+    .string "¡Felicidades!\n"
+    .string "¡Aquí tienes!$"
 
 Route2_EastBuilding_Text_ReceivedHM05FromAide:: @ 819D7A1
-    .string "{PLAYER} received HM05\n"
-    .string "from the AIDE.$"
+    .string "{PLAYER} recibió MO05\n"
+    .string "del AYUDANTE.$"
 
 Route2_EastBuilding_Text_ExplainHM05:: @ 819D7C1
-    .string "HM05 contains the hidden move\n"
-    .string "FLASH.\p"
-    .string "FLASH lights up even the darkest\n"
-    .string "of caves and dungeons.$"
+    .string "MO05 contiene el movimiento oculto\n"
+    .string "DESTELLO.\p"
+    .string "DESTELLO ilumina incluso las\n"
+    .string "cuevas y mazmorras más oscuras.$"
 
 Route2_EastBuilding_Text_CanGetThroughRockTunnel:: @ 819D81E
-    .string "Once a POKéMON learns FLASH, you\n"
-    .string "can get through ROCK TUNNEL.$"
+    .string "Una vez que un POKéMON aprenda\n"
+    .string "DESTELLO, podrás atravesar el\l"
+    .string "TÚNEL ROCA.$"
 

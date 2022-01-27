@@ -853,7 +853,7 @@ Text_WantWhichFloor:: @ 81A535C
 
 Text_BagItemCanBeRegistered:: @ 81A5375
 	.string "Puedes registrar un objeto en la\n"
-	.string "registered to SELECT for easy use.$"
+	.string "MOCHILA a SELECT para uso fácil.$"
 
 @ Unused (email from R/S Rivals computer)
 Text_TrainerSchoolEmail:: @ 81A53B2
