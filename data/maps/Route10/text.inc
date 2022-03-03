@@ -11,12 +11,12 @@ Route10_Text_MarkPostBattle:: @ 8184BFB
     .string "¡Tengo más POKéMON raros en casa!$"      /* (E) "I have more rare POKéMON at home!$" */
 
 Route10_Text_ClarkIntro:: @ 8184C1D
-    .string "¡Ah-ahah-ah-ah!$"                        /* (E) "Ha-hahah-ah-ha!$" */
+    .string "¡Ja-jaja-ja-ja!$"                        /* (E) "Ha-hahah-ah-ha!$" */
 
 Route10_Text_ClarkDefeat:: @ 8184C2D
-    .string "¡Ah-ahah!\n"                             /* (E) "Ha-haha!\n" */
+    .string "¡Ja-jaja!\n"                             /* (E) "Ha-haha!\n" */
     .string "¡No me río!\l"                           /* (E) "Not laughing!\l" */
-    .string "¡A-a-lergia! ¡A-a-a-chú!$"               /* (E) "Ha-hay fever! Haha-ha-choo!$" */
+    .string "¡A-alergia! ¡A-a-a-chú!$"                /* (E) "Ha-hay fever! Haha-ha-choo!$" */
 
 Route10_Text_ClarkPostBattle:: @ 8184C60
     .string "¡A-a-a-chú!\n"                           /* (E) "Haha-ha-choo!\n" */
@@ -72,7 +72,7 @@ Route10_Text_CarolPostBattle:: @ 8184E5E
     .string "Los POKéMON aquí en las montañas\n"      /* (E) "The POKéMON here in the mountains\n" */
     .string "son tan toscos…\p"                       /* (E) "are so chunky…\p" */
     .string "¡Ojalá existiera un POKéMON\n"           /* (E) "I wish there were pink POKéMON\n" */
-    .string "rosado con flores!$"                       /* (E) "with a floral pattern!$" */
+    .string "rosado con flores!$"                     /* (E) "with a floral pattern!$" */
 
 Route10_Text_RockTunnelDetourToLavender:: @ 8184EC5
     .string "TÚNEL ROCA\n"                            /* (E) "ROCK TUNNEL\n" */

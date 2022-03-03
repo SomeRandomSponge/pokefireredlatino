@@ -1,95 +1,95 @@
 RockTunnel_B1F_Text_SofiaIntro:: @ 8179657
-    .string "Do you know how you can avoid\n"
-    .string "getting lost in the mountains?\p"
-    .string "You can bend twigs as trail\n"
-    .string "markers.$"
+    .string "¿Sabes como puedes evitar perderte\n"    /* (E) "Do you know how you can avoid\n" */
+    .string "en las montañas?\p"                      /* (E) "getting lost in the mountains?\p" */
+    .string "Puedes usar ramitas para marcar\n"       /* (E) "You can bend twigs as trail\n" */
+    .string "tu camino.$"                             /* (E) "markers.$" */
 
 RockTunnel_B1F_Text_SofiaDefeat:: @ 81796B9
-    .string "Ohhh!\n"
-    .string "I did my best!$"
+    .string "¡Ohhh!\n"                                /* (E) "Ohhh!\n" */
+    .string "¡Hice lo que pude!$"                     /* (E) "I did my best!$" */
 
 RockTunnel_B1F_Text_SofiaPostBattle:: @ 81796CE
-    .string "I want to go home!$"
+    .string "¡Quiero irme a casa!$"                   /* (E) "I want to go home!$" */
 
 RockTunnel_B1F_Text_DudleyIntro:: @ 81796E1
-    .string "Hahaha!\n"
-    .string "Can you beat my power?$"
+    .string "¡Ja, ja, ja!\n"                          /* (E) "Hahaha!\n" */
+    .string "¿Puedes vencer mi poder?$"               /* (E) "Can you beat my power?$" */
 
 RockTunnel_B1F_Text_DudleyDefeat:: @ 8179700
-    .string "Oops!\n"
-    .string "Outmuscled!$"
+    .string "¡Ups!\n"                                 /* (E) "Oops!\n" */
+    .string "¡Me superaste!$"                         /* (E) "Outmuscled!$" */
 
 RockTunnel_B1F_Text_DudleyPostBattle:: @ 8179712
-    .string "I go for power because I hate\n"
-    .string "thinking.$"
+    .string "Prefiero la fuerza, porque odio\n"       /* (E) "I go for power because I hate\n" */
+    .string "pensar.$"                                /* (E) "thinking.$" */
 
 RockTunnel_B1F_Text_CooperIntro:: @ 817973A
-    .string "You have a POKéDEX?\n"
-    .string "I want one, too.$"
+    .string "¿Tienes una POKéDEX?\n"                  /* (E) "You have a POKéDEX?\n" */
+    .string "Yo también quiero una.$"                 /* (E) "I want one, too.$" */
 
 RockTunnel_B1F_Text_CooperDefeat:: @ 817975F
-    .string "Shoot!\n"
-    .string "I am so jealous!$"
+    .string "¡Rayos!\n"                               /* (E) "Shoot!\n" */
+    .string "¡Me das tanta envidia!$"                 /* (E) "I am so jealous!$" */
 
 RockTunnel_B1F_Text_CooperPostBattle:: @ 8179777
-    .string "When you finish your POKéDEX,\n"
-    .string "can I have it?$"
+    .string "Cuando termines con tu POKéDEX,\n"       /* (E) "When you finish your POKéDEX,\n" */
+    .string "¿me la puedes dar?$"                     /* (E) "can I have it?$" */
 
 RockTunnel_B1F_Text_SteveIntro:: @ 81797A4
-    .string "Um… Do you know about POKéMON\n"
-    .string "cosplay?$"
+    .string "Um… ¿Conoces el cosplay de\n"            /* (E) "Um… Do you know about POKéMON\n" */
+    .string "POKéMON?$"                               /* (E) "cosplay?$" */
 
 RockTunnel_B1F_Text_SteveDefeat:: @ 81797CB
-    .string "Well, that's that.$"
+    .string "Bueno, eso fue todo.$"                   /* (E) "Well, that's that.$" */
 
 RockTunnel_B1F_Text_StevePostBattle:: @ 81797DE
-    .string "POKéMON cosplay is dressing up as\n"
-    .string "POKéMON for fun.\p"
-    .string "CLEFAIRY is a favorite.$"
+    .string "Cosplay de POKéMON es disfrazarse\n"     /* (E) "POKéMON cosplay is dressing up as\n" */
+    .string "de POKéMON por diversión.\p"             /* (E) "POKéMON for fun.\p" */
+    .string "CLEFAIRY es un favorito para eso.$"      /* (E) "CLEFAIRY is a favorite.$" */
 
 RockTunnel_B1F_Text_AllenIntro:: @ 8179829
-    .string "My POKéMON techniques will leave\n"
-    .string "you crying!$"
+    .string "¡Mis técnicas de POKéMON te\n"           /* (E) "My POKéMON techniques will leave\n" */
+    .string "dejarán llorando!$"                      /* (E) "you crying!$" */
 
 RockTunnel_B1F_Text_AllenDefeat:: @ 8179856
-    .string "I give!\n"
-    .string "You're a better technician!$"
+    .string "¡Me rindo!\n"                            /* (E) "I give!\n" */
+    .string "¡Tus técnicas son mejores!$"             /* (E) "You're a better technician!$" */
 
 RockTunnel_B1F_Text_AllenPostBattle:: @ 817987A
-    .string "In mountains, you'll often find\n"
-    .string "ROCK-type POKéMON.$"
+    .string "En las montañas es fácil encontrar\n"    /* (E) "In mountains, you'll often find\n" */
+    .string "POKéMON de tipo ROCA.$"                  /* (E) "ROCK-type POKéMON.$" */
 
 RockTunnel_B1F_Text_MarthaIntro:: @ 81798AD
-    .string "I don't often come here, but I will\n"
-    .string "battle you.$"
+    .string "No suelo venir aquí, pero lucharé\n"     /* (E) "I don't often come here, but I will\n" */
+    .string "contigo.$"                               /* (E) "battle you.$" */
 
 RockTunnel_B1F_Text_MarthaDefeat:: @ 81798DD
-    .string "Oh!\n"
-    .string "I lost!$"
+    .string "¡Oh!\n"                                  /* (E) "Oh!\n" */
+    .string "¡Perdí!$"                                /* (E) "I lost!$" */
 
 RockTunnel_B1F_Text_MarthaPostBattle:: @ 81798E9
-    .string "I like tiny POKéMON.\n"
-    .string "Big ones are too scary!$"
+    .string "Me gustan los POKéMON pequeños.\n"       /* (E) "I like tiny POKéMON.\n" */
+    .string "¡Los grandes dan mucho miedo!$"          /* (E) "Big ones are too scary!$" */
 
 RockTunnel_B1F_Text_EricIntro:: @ 8179916
-    .string "Hit me with your best shot!$"
+    .string "¡Lánzame tu mejor ataque!$"              /* (E) "Hit me with your best shot!$" */
 
 RockTunnel_B1F_Text_EricDefeat:: @ 8179932
-    .string "Fired away!$"
+    .string "¡Me venciste!$"                          /* (E) "Fired away!$" */
 
 RockTunnel_B1F_Text_EricPostBattle:: @ 817993E
-    .string "I'll raise my POKéMON to beat\n"
-    .string "yours, kid.$"
+    .string "Criaré a mis POKéMON para vencer\n"      /* (E) "I'll raise my POKéMON to beat\n" */
+    .string "a los tuyos, niñ{OA}.$"                  /* (E) "yours, kid.$" */
 
 RockTunnel_B1F_Text_WinstonIntro:: @ 8179968
-    .string "I draw illustrations of POKéMON\n"
-    .string "when I'm home.$"
+    .string "Dibujo a varios POKéMON cuando\n"        /* (E) "I draw illustrations of POKéMON\n" */
+    .string "estoy en casa.$"                         /* (E) "when I'm home.$" */
 
 RockTunnel_B1F_Text_WinstonDefeat:: @ 8179997
-    .string "Whew…\n"
-    .string "I'm exhausted…$"
+    .string "Fiu…\n"                                  /* (E) "Whew…\n" */
+    .string "Estoy exhausto…$"                        /* (E) "I'm exhausted…$" */
 
 RockTunnel_B1F_Text_WinstonPostBattle:: @ 81799AC
-    .string "I'm an artist, not a fighter.\n"
-    .string "I'll go home to draw.$"
+    .string "Soy un artista, no un luchador.\n"       /* (E) "I'm an artist, not a fighter.\n" */
+    .string "Me iré a casa a dibujar.$"               /* (E) "I'll go home to draw.$" */
 
