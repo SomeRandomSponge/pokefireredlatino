@@ -1,8 +1,8 @@
-SSAnne_1F_Room4_Text_WaiterCherryPiePlease:: @ 8173B79
+SSAnne_1F_Room4_Text_WaiterCherryPiePlease::
     .string "¡Camarero, quisiera un pay de\n"
     .string "cereza, por favor!$"
 
-SSAnne_1F_Room4_Text_WaitressCherryPiePlease:: @ 8173BA4
+SSAnne_1F_Room4_Text_WaitressCherryPiePlease::
     .string "¡Camarera, quisiera un pay de\n"
     .string "cereza, por favor!$"
 

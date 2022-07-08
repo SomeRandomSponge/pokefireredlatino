@@ -1,4 +1,4 @@
-DiglettsCave_NorthEntrance_RockTunnelPitchBlack:: @ 817462C
+DiglettsCave_NorthEntrance_RockTunnelPitchBlack::
     .string "Entré al TÚNEL ROCA, pero es muy\n"
     .string "oscuro y aterrador.\p"
     .string "Si pudiera hacer que un POKéMON\n"

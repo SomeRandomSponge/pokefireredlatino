@@ -1,4 +1,4 @@
-SSAnne_1F_Corridor_Text_LeStrongSilentType:: @ 8172EE7
+SSAnne_1F_Corridor_Text_LeStrongSilentType::
     .string "¡Bonjour!\n"
     .string "¡Soy el camarero de este barco!\p"
     .string "¡Estaré feliz de servirte lo\n"
@@ -7,7 +7,7 @@ SSAnne_1F_Corridor_Text_LeStrongSilentType:: @ 8172EE7
     .string "¡Ah! ¡Eres del tipo fuerte y\n"
     .string "silencioso!$"
 
-SSAnne_1F_Corridor_Text_PassengersAreRestless:: @ 8172F60
+SSAnne_1F_Corridor_Text_PassengersAreRestless::
     .string "Los pasajeros estan inquietos por\n"
     .string "este largo viaje.\p"
     .string "¡Puede que seas desafiad{OA} por\n"

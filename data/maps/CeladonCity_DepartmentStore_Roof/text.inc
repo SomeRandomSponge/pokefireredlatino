@@ -1,82 +1,82 @@
-CeladonCity_DepartmentStore_Roof_Text_ImThirstyGiveHerDrink:: @ 8195D22
-    .string "I'm thirsty!\n"
-    .string "I want something to drink!\p"
-    .string "{SIZE}ÁGive her a drink?$"
+CeladonCity_DepartmentStore_Roof_Text_ImThirstyGiveHerDrink::
+    .string "¡Estoy sedienta!\n"
+    .string "¡Quiero algo de beber!\p"
+    .string "{SIZE}Á¿Darle una bebida?$"
 
-CeladonCity_DepartmentStore_Roof_Text_GiveWhichDrink:: @ 8195D5F
-    .string "Give her which drink?$"
+CeladonCity_DepartmentStore_Roof_Text_GiveWhichDrink::
+    .string "¿Cúal bebida?$"
 
-CeladonCity_DepartmentStore_Roof_Text_YayFreshWaterHaveThis:: @ 8195D75
-    .string "Yay!\p"
-    .string "FRESH WATER!\p"
-    .string "Thank you!\n"
-    .string "You can have this from me!$"
+CeladonCity_DepartmentStore_Roof_Text_YayFreshWaterHaveThis::
+    .string "¡Yey!\p"
+    .string "¡AGUA FRESCA!\p"
+    .string "¡Gracias!\n"
+    .string "¡Puedes tener esto!$"
 
-Text_ReceivedItemFromLittleGirl:: @ 8195DAD
-    .string "{PLAYER} received a {STR_VAR_2}\n"
-    .string "from the little girl.$"
+Text_ReceivedItemFromLittleGirl::
+    .string "{PLAYER} recibió {STR_VAR_2}\n"
+    .string "de la pequeña niña.$"
 
-CeladonCity_DepartmentStore_Roof_Text_ExplainTM16:: @ 8195DD4
-    .string "TM16 contains LIGHT SCREEN.\p"
-    .string "It's a move that weakens the power\n"
-    .string "of special attacks by your foe.$"
+CeladonCity_DepartmentStore_Roof_Text_ExplainTM16::
+    .string "MT16 contiene PANTALLA DE LUZ.\p"
+    .string "Es un movimiento que debilita\n"
+    .string "los ataques especiales enemigos.$"
 
-CeladonCity_DepartmentStore_Roof_Text_YaySodaPopHaveThis:: @ 8195E33
-    .string "Yay!\p"
-    .string "SODA POP!\p"
-    .string "Thank you!\n"
-    .string "You can have this from me!$"
+CeladonCity_DepartmentStore_Roof_Text_YaySodaPopHaveThis::
+    .string "¡Yey!\p"
+    .string "¡SODA!\p"
+    .string "¡Gracias!\n"
+    .string "¡Puedes tener esto!$"
 
-CeladonCity_DepartmentStore_Roof_Text_ExplainTM20:: @ 8195E68
-    .string "TM20 contains SAFEGUARD.\p"
-    .string "It's a move that prevents status\n"
-    .string "problems among your POKéMON.$"
+CeladonCity_DepartmentStore_Roof_Text_ExplainTM20::
+    .string "MT20 contiene SALVAGUARDA.\p"
+    .string "El movimiento previene problemas\n"
+    .string "de estado entre tus POKéMON.$"
 
-CeladonCity_DepartmentStore_Roof_Text_YayLemonadeHaveThis:: @ 8195EBF
-    .string "Yay!\p"
-    .string "LEMONADE!\p"
-    .string "Thank you!\n"
-    .string "You can have this from me!$"
+CeladonCity_DepartmentStore_Roof_Text_YayLemonadeHaveThis::
+    .string "¡Yey!\p"
+    .string "¡LIMONADA!\p"
+    .string "¡Gracias!\n"
+    .string "¡Puedes tener esto!$"
 
-CeladonCity_DepartmentStore_Roof_Text_ExplainTM33:: @ 8195EF4
-    .string "TM33 contains REFLECT.\p"
-    .string "It's a move that weakens the power\n"
-    .string "of physical attacks by your foe.$"
+CeladonCity_DepartmentStore_Roof_Text_ExplainTM33::
+    .string "MT33 contiene REFLEJO.\p"
+    .string "Es un movimiento que debilita\n"
+    .string "los ataques físicos enemigos.$"
 
-CeladonCity_DepartmentStore_Roof_Text_DontHaveSpaceForThis:: @ 8195F4F
-    .string "You don't have space for this!$"
+CeladonCity_DepartmentStore_Roof_Text_DontHaveSpaceForThis::
+    .string "¡No tienes espacio para esto!$"
 
-CeladonCity_DepartmentStore_Roof_Text_ImNotThirstyAfterAll:: @ 8195F6E
-    .string "No, thank you!\n"
-    .string "I'm not thirsty after all!$"
+CeladonCity_DepartmentStore_Roof_Text_ImNotThirstyAfterAll::
+    .string "¡No, gracias!\n"
+    .string "¡No tengo sed después de todo!$"
 
-CeladonCity_DepartmentStore_Roof_Text_MySisterIsImmature:: @ 8195F98
-    .string "My sister is a TRAINER, believe it\n"
-    .string "or not.\p"
-    .string "But, she's so immature, she drives\n"
-    .string "me nuts!$"
+CeladonCity_DepartmentStore_Roof_Text_MySisterIsImmature::
+    .string "Mi hermana es una ENTRENADORA,\n"
+    .string "lo creas o no.\p"
+    .string "Pero es tan inmadura, ¡me vuelve\n"
+    .string "loca!$"
 
-CeladonCity_DepartmentStore_Roof_Text_ImThirstyIWantDrink:: @ 8195FEF
-    .string "I'm thirsty!\n"
-    .string "I want something to drink!$"
+CeladonCity_DepartmentStore_Roof_Text_ImThirstyIWantDrink::
+    .string "¡Estoy sedienta!\n"
+    .string "¡Quiero algo de beber!$"
 
-CeladonCity_DepartmentStore_Roof_Text_FloorSign:: @ 8196017
-    .string "ROOFTOP SQUARE:\n"
-    .string "VENDING MACHINES$"
+CeladonCity_DepartmentStore_Roof_Text_FloorSign::
+    .string "AZOTEA:\n"
+    .string "MÁQUINAS EXPENDEDORAS$"
 
-CeladonCity_DepartmentStore_Roof_Text_VendingMachineWhatDoesItHave:: @ 8196038
-    .string "A vending machine!\n"
-    .string "What does it have?$"
+CeladonCity_DepartmentStore_Roof_Text_VendingMachineWhatDoesItHave::
+    .string "¡Una máquina expendedora!\n"
+    .string "¿Qué es lo que tiene?$"
 
-CeladonCity_DepartmentStore_Roof_Text_NotEnoughMoney:: @ 819605E
-    .string "Oops, not enough money!$"
+CeladonCity_DepartmentStore_Roof_Text_NotEnoughMoney::
+    .string "¡Ups, falta dinero!$"
 
-CeladonCity_DepartmentStore_Roof_Text_DrinkCanPoppedOut:: @ 8196076
-    .string "A can of {STR_VAR_1} popped out!$"
+CeladonCity_DepartmentStore_Roof_Text_DrinkCanPoppedOut::
+    .string "¡Salió una lata de {STR_VAR_1}!$"
 
-CeladonCity_DepartmentStore_Roof_Text_NoMoreRoomForStuff:: @ 819608E
-    .string "There's no more room for stuff!$"
+CeladonCity_DepartmentStore_Roof_Text_NoMoreRoomForStuff::
+    .string "¡Ya no hay espacio para cosas!$"
 
-CeladonCity_DepartmentStore_Roof_Text_NotThirsty:: @ 81960AE
-    .string "Not thirsty!$"
+CeladonCity_DepartmentStore_Roof_Text_NotThirsty::
+    .string "¡Sin sed!$"
 

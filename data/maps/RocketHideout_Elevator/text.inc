@@ -1,3 +1,3 @@
-RocketHideout_Elevator_Text_AppearsToNeedAKey:: @ 81754DD
-    .string "It appears to need a key.$"
+RocketHideout_Elevator_Text_AppearsToNeedAKey::
+    .string "Parece que necesita una llave.$"
 

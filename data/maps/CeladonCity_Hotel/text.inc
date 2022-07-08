@@ -1,18 +1,18 @@
-CeladonCity_Hotel_Text_ThisHotelIsForPeople:: @ 8197B77
-    .string "POKéMON?\n"
-    .string "No, this is a hotel for people.\p"
-    .string "We're full up, unfortunately.$"
+CeladonCity_Hotel_Text_ThisHotelIsForPeople::
+    .string "¿POKéMON?\n"
+    .string "No, este hotel es para personas.\p"
+    .string "Estamos llenos, lo siento.$"
 
-CeladonCity_Hotel_Text_OnVacationWithBrotherAndBoyfriend:: @ 8197BBE
-    .string "I'm on vacation with my brother and\n"
-    .string "boyfriend.\p"
-    .string "CELADON is such a pretty city!$"
+CeladonCity_Hotel_Text_OnVacationWithBrotherAndBoyfriend::
+    .string "Estoy de vacaciones con mi hermano\n"
+    .string "y mi novio.\p"
+    .string "¡PRISMA es una ciudad tan bonita!$"
 
-CeladonCity_Hotel_Text_WhyDidSheBringBrother:: @ 8197C0C
-    .string "Why?\n"
-    .string "Why did she bring her brother?$"
+CeladonCity_Hotel_Text_WhyDidSheBringBrother::
+    .string "¿Por qué?\n"
+    .string "¿Por qué trajo a su hermano?$"
 
-CeladonCity_Hotel_Text_SisBroughtMeOnVacation:: @ 8197C30
-    .string "Yippee! I'm on vacation!\n"
-    .string "My sis brought me along! Awesome!$"
+CeladonCity_Hotel_Text_SisBroughtMeOnVacation::
+    .string "¡Yippii! ¡estoy de vacaciones!\n"
+    .string "¡Mi hermana me trajo! ¡genial!$"
 

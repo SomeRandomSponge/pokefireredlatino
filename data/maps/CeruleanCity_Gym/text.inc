@@ -1,4 +1,4 @@
-CeruleanCity_Gym_Text_MistyIntro:: @ 81921EF
+CeruleanCity_Gym_Text_MistyIntro::
     .string "¡Hola, eres una cara nueva!\p"
     .string "Necesitas una estrategia con los\n"
     .string "POKéMON para volverte profesional.\p"
@@ -7,11 +7,11 @@ CeruleanCity_Gym_Text_MistyIntro:: @ 81921EF
     .string "¡Mi estrategia es la ofensiva\n"
     .string "total con POKéMON de tipo AGUA!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
-CeruleanCity_Gym_Text_ExplainTM03:: @ 81922BF
+CeruleanCity_Gym_Text_ExplainTM03::
     .string "MT03 enseña PULSO AGUA.\p"
     .string "¡Úsala en un POKéMON acuático!$"
 
-CeruleanCity_Gym_Text_ExplainCascadeBadge:: @ 81922F7
+CeruleanCity_Gym_Text_ExplainCascadeBadge::
     .string "La MEDALLA CASCADA hace que todo\n"
     .string "POKéMON hasta el Nv. 30 obedezca.\p"
     .string "Eso incluso incluye a los que\n"
@@ -22,47 +22,47 @@ CeruleanCity_Gym_Text_ExplainCascadeBadge:: @ 81922F7
     .string "para abrir nuevos caminos.\p"
     .string "Tambíen te daré mi MT favorita.$"
 
-CeruleanCity_Gym_Text_ReceivedTM03FromMisty:: @ 81923F1
+CeruleanCity_Gym_Text_ReceivedTM03FromMisty::
     .string "{PLAYER} recibió MT03\n"
     .string "de MISTY.$"
 
-CeruleanCity_Gym_Text_BetterMakeRoomForThis:: @ 819240E
+CeruleanCity_Gym_Text_BetterMakeRoomForThis::
     .string "¡Mejor haz espacio para esto!$"
 
-CeruleanCity_Gym_Text_MistyDefeat:: @ 819242D
+CeruleanCity_Gym_Text_MistyDefeat::
     .string "¡Wow!\n"
     .string "¡Eres demasiado!\p"
     .string "¡De acuerdo!\p"
     .string "Puedes tener la MEDALLA CASCADA\n"
     .string "para mostrar que me venciste.$"
 
-CeruleanCity_Gym_Text_DianaIntro:: @ 8192481
+CeruleanCity_Gym_Text_DianaIntro::
     .string "¿Qué? ¿Tú?\n"
     .string "¡Soy demasiado buena para tí!\p"
     .string "MISTY no tendrá que molestarse.$"
 
-CeruleanCity_Gym_Text_DianaDefeat:: @ 81924D0
+CeruleanCity_Gym_Text_DianaDefeat::
     .string "¡Me aplastaste!$"
 
-CeruleanCity_Gym_Text_DianaPostBattle:: @ 81924E4
+CeruleanCity_Gym_Text_DianaPostBattle::
     .string "Tienes que luchar contra otros\n"
     .string "ENTRENADORES para ver que tan\l"
     .string "buen{OA} eres realmente.$"
 
-CeruleanCity_Gym_Text_LuisIntro:: @ 8192524
+CeruleanCity_Gym_Text_LuisIntro::
     .string "¡Splash!\p"
     .string "¡Soy el primero!\n"
     .string "¡Hagámoslo!$"
 
-CeruleanCity_Gym_Text_LuisDefeat:: @ 8192547
+CeruleanCity_Gym_Text_LuisDefeat::
     .string "¡No puede ser!$"
 
-CeruleanCity_Gym_Text_LuisPostBattle:: @ 8192556
+CeruleanCity_Gym_Text_LuisPostBattle::
     .string "MISTY es una ENTRENADORA que va\n"
     .string "a seguir mejorando.\p"
     .string "¡No perderá contra alguien cómo tú!$"
 
-CeruleanCity_Gym_Text_GymGuyAdvice:: @ 81925AC
+CeruleanCity_Gym_Text_GymGuyAdvice::
     .string "¡Yo!\n"
     .string "¡Futur{OA} campe{ONONA}!\p"
     .string "¡Dejáme darte un consejo!\p"
@@ -73,19 +73,19 @@ CeruleanCity_Gym_Text_GymGuyAdvice:: @ 81925AC
     .string "¡O, puedes usar POKéMON de tipo\n"
     .string "ELÉCTRICO para dejarlos fritos!$"
 
-CeruleanCity_Gym_Text_WeMakePrettyGoodTeam:: @ 8192688
+CeruleanCity_Gym_Text_WeMakePrettyGoodTeam::
     .string "¡Venciste a MISTY!\n"
     .string "¿Ves, que te dije?\p"
     .string "¡Tú y yo, niñ{OA}, hacemos un\n"
     .string "equipo bastante bueno!$"
 
-CeruleanCity_Gym_Text_GymStatue:: @ 81926E1
+CeruleanCity_Gym_Text_GymStatue::
     .string "GIMNASIO POKéMON DE CELESTE\n"
     .string "LÍDER: MISTY\p"
     .string "ENTRENADORES VICTORIOSOS:\n"
     .string "{RIVAL}$"
 
-CeruleanCity_Gym_Text_GymStatuePlayerWon:: @ 8192719
+CeruleanCity_Gym_Text_GymStatuePlayerWon::
     .string "GIMNASIO POKéMON DE CELESTE\n"
     .string "LÍDER: MISTY\p"
     .string "ENTRENADORES VICTORIOSOS:\n"

@@ -1,23 +1,23 @@
-CeladonCity_DepartmentStore_5F_Text_ExplainStatEnhancers:: @ 8195BBA
-    .string "POKéMON stat enhancers can be\n"
-    .string "bought only here.\p"
-    .string "HP UP increases the base HP of a\n"
+CeladonCity_DepartmentStore_5F_Text_ExplainStatEnhancers::
+    .string "Los aumentadores de estadísticas\n"
+    .string "de POKéMON solo se venden aquí.\p"
+    .string "MÁS PS aumenta los PS base de un\n"
     .string "POKéMON.\p"
-    .string "CALCIUM raises the base SP. ATK\n"
-    .string "stat of one POKéMON.\p"
-    .string "ZINC boosts the base SP. DEF stat\n"
-    .string "of one POKéMON.\p"
-    .string "CARBOS enhances the base SPEED\n"
-    .string "stat.$"
+    .string "El CALCIO sube el ATQ. ESP. base\n"
+    .string "de un POKéMON.\p"
+    .string "El ZINC incrementa la DEF. ESP.\n"
+    .string "base de un POKéMON.\p"
+    .string "El CARBURANTE mejora la VELOCIDAD\n"
+    .string "base de un POKéMON.$"
 
-CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers:: @ 8195CA0
-    .string "I'm here for POKéMON stat\n"
-    .string "enhancers.\p"
-    .string "PROTEIN increases the base ATTACK\n"
-    .string "power.\p"
-    .string "IRON increases the base DEFENSE\n"
-    .string "stat.$"
+CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers::
+    .string "Estoy aquí por aumentadores\n"
+    .string "de estadísticas de POKéMON.\p"
+    .string "La PROTEÍNA sube el poder ATAQUE\n"
+    .string "base.\p"
+    .string "El HIERRO incrementa la DEFENSA\n"
+    .string "base.$"
 
-CeladonCity_DepartmentStore_5F_Text_Drugstore:: @ 8195D14
-    .string "5F: DRUGSTORE$"
+CeladonCity_DepartmentStore_5F_Text_Drugstore::
+    .string "P5: FARMACIA$"
 

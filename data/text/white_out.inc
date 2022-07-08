@@ -1,8 +1,8 @@
-Text_FirstShouldRestoreMonsHealth:: @ 81A5E89
+Text_FirstShouldRestoreMonsHealth::
 	.string "Primero, debemos restaurar\n"
 	.string "la salud de tus POKéMON.$"
 
-Text_MonsHealedShouldBuyPotions:: @ 81A5EC0
+Text_MonsHealedShouldBuyPotions::
 	.string "Tus POKéMON han sido sanados por\n"
 	.string "completo.\p"
 	.string "Si la energía (PS) de tus POKéMON\n"
@@ -12,12 +12,12 @@ Text_MonsHealedShouldBuyPotions:: @ 81A5EC0
 	.string "una TIENDA.\p"
 	.string "¡Te deseamos lo mejor!$"
 
-Text_MonsHealed:: @ 81A5F9B
+Text_MonsHealed::
 	.string "Tus POKéMON han sido sanados por\n"
 	.string "completo.\p"
 	.string "¡Te deseamos lo mejor!$"
 
-Text_HadQuiteAnExperienceTakeRest:: @ 81A5FDF
+Text_HadQuiteAnExperienceTakeRest::
 	.string "MAMÁ: ¡{PLAYER}!\n"
 	.string "Bienvenid{OA} a casa.\p"
 	.string "It sounds like you had quite\n"
@@ -25,7 +25,7 @@ Text_HadQuiteAnExperienceTakeRest:: @ 81A5FDF
 	.string "Tal vez deberías tomarte un\n"
 	.string "pequeño descanso.$"
 
-Text_MomExplainHPGetPotions:: @ 81A6046
+Text_MomExplainHPGetPotions::
 	.string "MAMÁ: ¡Oh, bien! tú y tus POKéMON\n"
 	.string "parecen estar mejor.\p"
 	.string "Acabo de hablar con el PROF. OAK.\p"
@@ -40,7 +40,7 @@ Text_MomExplainHPGetPotions:: @ 81A6046
 	.string "¡Hazme sentir orgullosa, cariño!\p"
 	.string "¡Cuídate!$"
 
-Text_WhitedOutLostMoney:: @ 81A6197
+Text_WhitedOutLostMoney::
 	.string "¡{PLAYER} se quedo sin\n"
 	.string "POKéMON!\p"
 	.string "{PLAYER} entro en pánico y perdió\n"

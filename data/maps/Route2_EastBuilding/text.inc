@@ -1,4 +1,4 @@
-Route2_EastBuilding_Text_GiveHM05IfSeen10Mons:: @ 819D64F
+Route2_EastBuilding_Text_GiveHM05IfSeen10Mons::
     .string "¡Hola! ¿me recuerdas?\n"
     .string "Soy un AYUDANTE del PROF. OAK.\p"
     .string "Si tu POKéDEX tiene datos completos\n"
@@ -10,23 +10,23 @@ Route2_EastBuilding_Text_GiveHM05IfSeen10Mons:: @ 819D64F
     .string "¿Ya recolectaste datos de al menos\n"
     .string "10 tipos de POKéMON?$"
 
-Route2_EastBuilding_Text_GreatHereYouGo:: @ 819D74E
+Route2_EastBuilding_Text_GreatHereYouGo::
     .string "¡Bien! ¡atrapaste u obtuviste\n"
     .string "{STR_VAR_3} tipos de POKéMON!\p"
     .string "¡Felicidades!\n"
     .string "¡Aquí tienes!$"
 
-Route2_EastBuilding_Text_ReceivedHM05FromAide:: @ 819D7A1
+Route2_EastBuilding_Text_ReceivedHM05FromAide::
     .string "{PLAYER} recibió MO05\n"
     .string "del AYUDANTE.$"
 
-Route2_EastBuilding_Text_ExplainHM05:: @ 819D7C1
+Route2_EastBuilding_Text_ExplainHM05::
     .string "MO05 contiene el movimiento oculto\n"
     .string "DESTELLO.\p"
     .string "DESTELLO ilumina incluso las\n"
     .string "cuevas y mazmorras más oscuras.$"
 
-Route2_EastBuilding_Text_CanGetThroughRockTunnel:: @ 819D81E
+Route2_EastBuilding_Text_CanGetThroughRockTunnel::
     .string "Una vez que un POKéMON aprenda\n"
     .string "DESTELLO, podrás atravesar el\l"
     .string "TÚNEL ROCA.$"

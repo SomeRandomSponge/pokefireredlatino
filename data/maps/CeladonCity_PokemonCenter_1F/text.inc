@@ -1,15 +1,15 @@
-CeladonCity_PokemonCenter_1F_Text_PokeFluteAwakensSleepingMons:: @ 819685B
-    .string "A POKé FLUTE awakens sleeping\n"
-    .string "POKéMON. You know that.\p"
-    .string "It does so with a sound that only\n"
-    .string "they can hear.$"
+CeladonCity_PokemonCenter_1F_Text_PokeFluteAwakensSleepingMons::
+    .string "Una POKé FLAUTA despierta a los\n"
+    .string "POKéMON dormidos. Ya sabes eso.\p"
+    .string "Lo hace con un sonido que solo\n"
+    .string "ellos pueden escuchar.$"
 
-CeladonCity_PokemonCenter_1F_Text_RodeHereFromFuchsia:: @ 81968C2
-    .string "I rode here from FUCHSIA.\p"
-    .string "It's an uphill ride on CYCLING\n"
-    .string "ROAD, so I'm exhausted.$"
+CeladonCity_PokemonCenter_1F_Text_RodeHereFromFuchsia::
+    .string "Pedaleé aquí desde FUCSIA.\p"
+    .string "Es un viaje cuesta arriba en la\n"
+    .string "CICLOVÍA, así que estoy exhausta.$"
 
-CeladonCity_PokemonCenter_1F_Text_GoToCyclingRoadIfIHadBike:: @ 8196913
-    .string "If I had a BIKE, I would go to\n"
-    .string "CYCLING ROAD!$"
+CeladonCity_PokemonCenter_1F_Text_GoToCyclingRoadIfIHadBike::
+    .string "¡Si tuviera una BICICLETA, iría\n"
+    .string "a la CICLOVÍA!$"
 

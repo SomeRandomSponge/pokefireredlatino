@@ -1,50 +1,50 @@
-PokemonTower_7F_Text_Grunt1Intro:: @ 817A380
-    .string "What do you want?\n"
-    .string "Why are you here?$"
+PokemonTower_7F_Text_Grunt1Intro::
+    .string "¿Qué quieres?\n"
+    .string "¿Por qué estás aquí?$"
 
-PokemonTower_7F_Text_Grunt1Defeat:: @ 817A3A4
-    .string "I give up!$"
+PokemonTower_7F_Text_Grunt1Defeat::
+    .string "¡Me rindo!$"
 
-PokemonTower_7F_Text_Grunt1PostBattle:: @ 817A3AF
-    .string "I'm not going to forget this!$"
+PokemonTower_7F_Text_Grunt1PostBattle::
+    .string "¡No olvidaré esto!$"
 
-PokemonTower_7F_Text_Grunt2Intro:: @ 817A3CD
-    .string "This old guy marched right up to\n"
-    .string "our HIDEOUT.\p"
-    .string "Then, he starts ranting about how\n"
-    .string "TEAM ROCKET's abusing POKéMON.\p"
-    .string "So, we're just talking it over as\n"
-    .string "adults.$"
+PokemonTower_7F_Text_Grunt2Intro::
+    .string "Este viejo marchó directo hacia\n"
+    .string "nuestra GUARIDA.\p"
+    .string "Luego, empezó a decir que el\n"
+    .string "EQUIPO ROCKET abusa a los POKéMON.\p"
+    .string "Entonces, lo estamos resolviendo\n"
+    .string "con palabras como adultos.$"
 
-PokemonTower_7F_Text_Grunt2Defeat:: @ 817A466
-    .string "Please!\n"
-    .string "No more!$"
+PokemonTower_7F_Text_Grunt2Defeat::
+    .string "¡Por favor!\n"
+    .string "¡Basta!$"
 
-PokemonTower_7F_Text_Grunt2PostBattle:: @ 817A477
-    .string "POKéMON are only good for making\n"
-    .string "money. Why not use them?\p"
-    .string "You stay out of our business!$"
+PokemonTower_7F_Text_Grunt2PostBattle::
+    .string "Los POKéMON solo sirven para hacer\n"
+    .string "dinero. ¿Por qué no usarlos?\p"
+    .string "¡No te metas en nuestro negocio!$"
 
-PokemonTower_7F_Text_Grunt3Intro:: @ 817A4CF
-    .string "You're not saving anyone, kid!$"
+PokemonTower_7F_Text_Grunt3Intro::
+    .string "¡No salvarás a nadie, niñ{OA}!$"
 
-PokemonTower_7F_Text_Grunt3Defeat:: @ 817A4EE
-    .string "Don't fight us ROCKETS!$"
+PokemonTower_7F_Text_Grunt3Defeat::
+    .string "¡No luches contra nosotros, los ROCKET!$"
 
-PokemonTower_7F_Text_Grunt3PostBattle:: @ 817A506
-    .string "You're not getting away with this!$"
+PokemonTower_7F_Text_Grunt3PostBattle::
+    .string "¡No te saldrás con la tuya!$"
 
-PokemonTower_7F_Text_MrFujiThankYouFollowMe:: @ 817A529
-    .string "MR. FUJI: Heh?\n"
-    .string "You came to save me?\p"
-    .string "Thank you. But, I came here of my\n"
-    .string "own free will.\p"
-    .string "I came to calm the spirit of\n"
-    .string "CUBONE's mother.\p"
-    .string "I think MAROWAK's spirit has\n"
-    .string "finally left us.\p"
-    .string "I must thank you for your kind\n"
-    .string "concern.\p"
-    .string "Follow me to my home, POKéMON\n"
-    .string "HOUSE, at the foot of this tower.$"
+PokemonTower_7F_Text_MrFujiThankYouFollowMe::
+    .string "MR. FUJI: ¿Eh?\n"
+    .string "¿Viniste a salvarme?\p"
+    .string "Gracias. Pero, estoy aquí por mi\n"
+    .string "propia voluntad.\p"
+    .string "Vine a calmar el espíritu de\n"
+    .string "la madre de CUBONE.\p"
+    .string "Creo que el espíritu de MAROWAK\n"
+    .string "finalmente se ha ido.\p"
+    .string "Debo agradecerte por tu amable\n"
+    .string "preocupación.\p"
+    .string "Sígueme a mi hogar, CASA POKéMON,\n"
+    .string "al pie de esta torre.$"
 

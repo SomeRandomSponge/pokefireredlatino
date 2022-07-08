@@ -106,4 +106,4 @@ const u8 gMapSecName_ScufibChamber[] = _("CÁMARA HIBINCA");
 const u8 gMapSecName_RixyChamber[] = _("CÁMARA SEIRIS");
 const u8 gMapSecName_ViapoisChamber[] = _("CÁMARA PASIETE");
 const u8 gMapSecName_EmberSpa[] = _("SPA BRASAS");
-const u8 gMapSecName_CeladonDept[] = _("CC PRISMA");
+const u8 gMapSecName_CeladonDept[] = _("TIENDA DEP. PRISMA");

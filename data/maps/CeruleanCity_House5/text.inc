@@ -1,4 +1,4 @@
-CeruleanCity_House1_Text_AnyInterestInBerries:: @ 8192F67
+CeruleanCity_House1_Text_AnyInterestInBerries::
     .string "Yo preparo una variedad de\n"
     .string "medicinas con POLVO DE BAYA.\p"
     .string "Usando buen POLVO DE BAYA, puedo\n"
@@ -6,11 +6,11 @@ CeruleanCity_House1_Text_AnyInterestInBerries:: @ 8192F67
     .string "Ahora dime, ¿tienes algún interés\n"
     .string "en las BAYAS?$"
 
-CeruleanCity_House1_Text_HaveJustTheThing:: @ 8193003
+CeruleanCity_House1_Text_HaveJustTheThing::
     .string "¡Ah, bien! Entonces, para ti,\n"
     .string "tengo algo perfecto.$"
 
-CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner:: @ 8193033
+CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner::
     .string "Hay algo nuevo en el segundo piso\n"
     .string "de los CENTROS POKéMON, en la\l"
     .string "ZONA DIRECTA.\p"
@@ -28,43 +28,43 @@ CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner:: @ 8193033
     .string "No lo olvides, machaca BAYAS para\n"
     .string "hacerlas POLVO DE BAYA y tráemelo.$"
 
-CeruleanCity_House1_Text_WhyMustYouLieNoBerries:: @ 819321D
+CeruleanCity_House1_Text_WhyMustYouLieNoBerries::
     .string "¿Por qué me mientes?\p"
     .string "¿Cuántas BAYAS tienes?\n"
     .string "¡Ni siquiera una!$"
 
-CeruleanCity_House1_Text_TakeInterestInAllSortsOfThings:: @ 819325E
+CeruleanCity_House1_Text_TakeInterestInAllSortsOfThings::
     .string "¿No tienes interés en las BAYAS?\p"
     .string "Jovencit{OA}, es importante que tomes\n"
     .string "un interés en todo tipo de cosas.$"
 
-CeruleanCity_House1_Text_HaveYouBroughtBerryPowder:: @ 81932C5
+CeruleanCity_House1_Text_HaveYouBroughtBerryPowder::
     .string "¡Ahem! ¿Me trajiste algo de\n"
     .string "POLVO DE BAYA?$"
 
-CeruleanCity_House5_Text_ExchangeWithWhat:: @ 81932F4
+CeruleanCity_House5_Text_ExchangeWithWhat::
     .string "¿Por qué cosa quieres que te\n"
     .string "lo cambie?$"
 
-CeruleanCity_House1_Text_YoullExchangeBerryPowderForItem:: @ 819331E
+CeruleanCity_House1_Text_YoullExchangeBerryPowderForItem::
     .string "Bien, ¿cambiarás tu POLVO DE BAYA\n"
     .string "por {STR_VAR_1}?$"
 
-CeruleanCity_House1_Text_DontHaveEnoughBerryPowder:: @ 8193352
+CeruleanCity_House1_Text_DontHaveEnoughBerryPowder::
     .string "¿Hm? No tienes suficiente\n"
     .string "POLVO DE BAYA.$"
 
-CeruleanCity_House1_Text_TradeMoreBerryPowder:: @ 819337A
+CeruleanCity_House1_Text_TradeMoreBerryPowder::
     .string "Este POLVO DE BAYA es muy bueno.\n"
     .string "Hará una excelente medicina.\p"
     .string "¿Quieres cambiar más POLVO DE BAYA\n"
     .string "por otra cosa?$"
 
-CeruleanCity_House1_Text_HopeToSeeYouAgain:: @ 81933FB
+CeruleanCity_House1_Text_HopeToSeeYouAgain::
     .string "Esta bien, entonces.\n"
     .string "Espero volverte a ver después.$"
 
-CeruleanCity_House1_Text_SeeMeIfYoudLikeToTradePowder:: @ 819342F
+CeruleanCity_House1_Text_SeeMeIfYoudLikeToTradePowder::
     .string "Ven a verme si quieres cambiar tu\n"
     .string "POLVO DE BAYA.$"
 

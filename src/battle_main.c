@@ -428,12 +428,12 @@ const u8 gTypeEffectiveness[336] =
 const u8 gTypeNames[][TYPE_NAME_LENGTH + 1] =
 {
     _("NORMAL"),
-    _("LUCHA"),
+    _("PELEA"),
     _("VOLADOR"),
     _("VENENO"),
     _("TIERRA"),
     _("ROCA"),
-    _("BICHO"),
+    _("INSECTO"),
     _("FANTAS."),
     _("ACERO"),
     _("???"),
@@ -444,7 +444,7 @@ const u8 gTypeNames[][TYPE_NAME_LENGTH + 1] =
     _("PSÍQ."),
     _("HIELO"),
     _("DRAGÓN"),
-    _("SINIES."),
+    _("OSCUR."),
 };
 
 // This is a factor in how much money you get for beating a trainer.

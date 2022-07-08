@@ -1,4 +1,4 @@
-PewterCity_Museum_1F_Text_TeamRocketMtMoonImOnPhone:: @ 81916A9
+PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone::
     .string "¿¡Qué!?\p"
     .string "¿El EQUIPO ROCKET está en\n"
     .string "el MONTE LUNA?\p"
@@ -6,22 +6,23 @@ PewterCity_Museum_1F_Text_TeamRocketMtMoonImOnPhone:: @ 81916A9
     .string "¡Estoy en el teléfono!\n"
     .string "¡Largo!$"
 
-PewterCity_Museum_1F_Text_Jigglypuff:: @ 81916EA
+PewterCity_PokemonCenter_1F_Text_Jigglypuff::
     .string "JIGGLYPUFF: ¡Puu pupuu!$"
 
-PewterCity_Museum_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy:: @ 8191701
+PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy::
     .string "¡Aaah!\p"
     .string "Cuando JIGGLYPUFF canta, los\n"
     .string "POKéMON se duermen…\p"
     .string "…Y yo, también…\n"
     .string "Jjrrrrr…$"
 
-PewterCity_Museum_1F_Text_TradingMyClefairyForPikachu:: @ 8191743
+PewterCity_PokemonCenter_1F_Text_TradingMyClefairyForPikachu::
     .string "Quiero un PIKACHU, así que voy a\n"
     .string "intercambiar a mi CLEFAIRY por uno.$"
 
-PewterCity_Museum_1F_Text_TradingPikachuWithKid:: @ 8191780
+PewterCity_PokemonCenter_1F_Text_TradingPikachuWithKid::
     .string "Estoy intercambiando POKéMON con\n"
     .string "ese niño de ahí.\p"
     .string "Como tenía dos PIKACHU, pense que\n"
     .string "no haría daño pasarle uno.$"
+

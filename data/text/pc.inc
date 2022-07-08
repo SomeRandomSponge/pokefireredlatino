@@ -1,19 +1,19 @@
-Text_BootedUpPC:: @ 81A5075
+Text_BootedUpPC::
 	.string "{PLAYER} encendió la PC.$"
 
-Text_AccessWhichPC:: @ 81A508A
+Text_AccessWhichPC::
 	.string "¿A qué PC quieres acceder?$"
 
-Text_AccessedSomeonesPC:: @ 81A50A7
+Text_AccessedSomeonesPC::
 	.string "Accediste a la PC de Alguien.$"
 
-Text_OpenedPkmnStorage:: @ 81A50BE
-	.string "Acceso al Sistema de\n" 
+Text_OpenedPkmnStorage::
+	.string "Acceso al Sistema de\n"
 	.string "Almacenamiento de POKéMON\l"
 	.string "concedido.$"
 
-Text_AccessedPlayersPC:: @ 81A50DD
+Text_AccessedPlayersPC::
 	.string "Accediste a la PC de {PLAYER}.$"
 
-Text_AccessedBillsPC:: @ 81A50EF
+Text_AccessedBillsPC::
 	.string "Accediste a la PC de BILL.$"

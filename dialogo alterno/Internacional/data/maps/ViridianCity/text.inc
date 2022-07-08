@@ -1,51 +1,51 @@
-ViridianCity_Text_CanCarryMonsAnywhere:: @ 817DABB
+ViridianCity_Text_CanCarryMonsAnywhere::
     .string "¡Esas POKéBOLAS en tu cintura!\n"
     .string "¿Tienes POKéMON, cierto?\p"
-    .string "Es genial poder llevar y usar los\n"         
+    .string "Es genial poder llevar y usar los\n"
     .string "POKéMON en cualquier momento\l"
     .string "y lugar.$"
 
-ViridianCity_Text_GymClosedWonderWhoLeaderIs:: @ 817DB39
+ViridianCity_Text_GymClosedWonderWhoLeaderIs::
     .string "Este GIMNASIO POKéMON siempre\n"
     .string "está cerrado.\p"
     .string "¿Quién será su LÍDER?$"
 
-ViridianCity_Text_ViridiansGymLeaderReturned:: @ 817DB78
+ViridianCity_Text_ViridiansGymLeaderReturned::
     .string "¡El LÍDER de GIMNASIO de VERDE\n"
     .string "regresó!$"
 
-ViridianCity_Text_WantToKnowAboutCaterpillarMons:: @ 817DB98
+ViridianCity_Text_WantToKnowAboutCaterpillarMons::
     .string "¿Quieres saber algo sobre los dos\n"
     .string "tipos de orugas POKéMON?$"
 
-ViridianCity_Text_OhOkayThen:: @ 817DBD5
+ViridianCity_Text_OhOkayThen::
     .string "Oh, ¡de acuerdo!$"
 
-ViridianCity_Text_ExplainCaterpieWeedle:: @ 817DBE4
+ViridianCity_Text_ExplainCaterpieWeedle::
     .string "CATERPIE no tiene veneno,\n"
     .string "pero WEEDLE sí.\p"
     .string "Ten cuidado, puede que tus POKéMON\n"
     .string "reciban el PIQUETE VENENOSO\l"
     .string "de WEEDLE.$"
 
-ViridianCity_Text_GrandpaHasntHadCoffeeYet:: @ 817DC4E
+ViridianCity_Text_GrandpaHasntHadCoffeeYet::
     .string "¡Oh, Abuelo!\n"
     .string "¡No seas tan grosero!\p"
     .string "Lo siento tanto.\n"
     .string "Todavía no se ha tomado su café.$"
 
-ViridianCity_Text_GoShoppingInPewterOccasionally:: @ 817DC99
+ViridianCity_Text_GoShoppingInPewterOccasionally::
     .string "De vez en cuando voy de compras\n"
     .string "a CIUDAD PLATEADA.\p"
     .string "Cuando voy, tengo que tomar el\n"
     .string "sinuoso camino del BOSQUE VERDE.$"
 
-ViridianCity_Text_ThisIsPrivateProperty:: @ 817DD03
+ViridianCity_Text_ThisIsPrivateProperty::
     .string "¡Tienes absolutamente prohibido\n"
     .string "pasar por aquí!\p"
     .string "¡Ésta es propiedad privada!$"
 
-ViridianCity_Text_ShowYouHowToCatchMons:: @ 817DD4E
+ViridianCity_Text_ShowYouHowToCatchMons::
     .string "Bueno, ya tomé mi café, ¡y era lo\n"
     .string "que necesitaba para reactivarme!\p"
     .string "¿Oh?\n"
@@ -61,18 +61,18 @@ ViridianCity_Text_ShowYouHowToCatchMons:: @ 817DD4E
     .string "¡En ese caso, supongo que tendre\n"
     .string "que mostrarte como!$"
 
-ViridianCity_Text_ThatWasEducationalTakeThis:: @ 817DE9B
+ViridianCity_Text_ThatWasEducationalTakeThis::
     .string "¡Listo! no me diras que no\n"
     .string "ha sido educativo, ¿eh?\p"
     .string "Vamos, toma esto.$"
 
-ViridianCity_Text_WatchThatToLearnBasics:: @ 817DEEB
+ViridianCity_Text_WatchThatToLearnBasics::
     .string "Úsala si es que hay algo que\n"
     .string "no entiendas.\p"
     .string "Te enseñara lo básico de ser un{A}\n"
     .string "ENTRENADOR{AM} POKéMON.$"
 
-ViridianCity_Text_WeakenMonsFirstToCatch:: @ 817DF61
+ViridianCity_Text_WeakenMonsFirstToCatch::
     .string "Bueno, ya tomé mi café, ¡y era lo\n"
     .string "que necesitaba para reactivarme!\p"
     .string "Pero lo hice muy cargado.\n"
@@ -83,7 +83,7 @@ ViridianCity_Text_WeakenMonsFirstToCatch:: @ 817DF61
     .string "al POKéMON antes de intentar\l"
     .string "atraparlo.$"
 
-ViridianCity_Text_HowsTeachyTVHelping:: @ 817E046
+ViridianCity_Text_HowsTeachyTVHelping::
     .string "Bueno, ya tomé mi café, ¡y era lo\n"
     .string "que necesitaba para reactivarme!\p"
     .string "Pero lo hice muy cargado.\n"
@@ -91,30 +91,30 @@ ViridianCity_Text_HowsTeachyTVHelping:: @ 817E046
     .string "Por cierto, ¿te esta ayudando\n"
     .string "mi vieja ENSEÑAME TV?$"
 
-ViridianCity_Text_MyGrandsonOnTheShow:: @ 817E0EA
+ViridianCity_Text_MyGrandsonOnTheShow::
     .string "¡Wajaja!\n"
     .string "¡Mi nieto esta en el programa!\p"
     .string "Como él es quien enseña, es\n"
     .string "muy probable que aprendas.$"
 
-ViridianCity_Text_TooBusyForTeachyTV:: @ 817E14E
+ViridianCity_Text_TooBusyForTeachyTV::
     .string "Hm… Estás muy ocupad{OA}, incluso\n"
     .string "para usar la ENSEÑAME TV…\p"
     .string "El tiempo es dinero, y ninguno de\n"
     .string "los dos debería ser malgastado…$"
 
-ViridianCity_Text_CitySign:: @ 817E1BB
+ViridianCity_Text_CitySign::
     .string "CIUDAD VERDE\n"
     .string "El paraíso del eterno verdor.$"
 
-ViridianCity_Text_CatchMonsForEasierBattles:: @ 817E1E7
+ViridianCity_Text_CatchMonsForEasierBattles::
     .string "CONSEJOS PARA ENTRENADORES\p"
     .string "Atrapa POKéMON y amplía tu\n"
     .string "colección.\p"
     .string "Cuantos más tengas, las batallas\n"
     .string "serán más fáciles.$"
 
-ViridianCity_Text_MovesLimitedByPP:: @ 817E24D
+ViridianCity_Text_MovesLimitedByPP::
     .string "CONSEJOS PARA ENTRENADORES\p"
     .string "Los ataques de los POKéMON están\n"
     .string "limitados por sus PUNTOS de PODER,\l"
@@ -123,9 +123,9 @@ ViridianCity_Text_MovesLimitedByPP:: @ 817E24D
     .string "POKéMON cansados descansen en\l"
     .string "un CENTRO POKéMON.$"
 
-ViridianCity_Text_GymSign:: @ 817E2DB
+ViridianCity_Text_GymSign::
     .string "GIMNASIO POKéMON DE CIUDAD VERDE$"
 
-ViridianCity_Text_GymDoorsAreLocked:: @ 817E2F5
+ViridianCity_Text_GymDoorsAreLocked::
     .string "Las puertas del GIMNASIO están\n"
     .string "cerradas…$"

@@ -1,3 +1,3 @@
-CeladonCity_Condominiums_Roof_Text_IKnowEverything:: @ 81964C4
-    .string "I KNOW EVERYTHING!$"
+CeladonCity_Condominiums_Roof_Text_IKnowEverything::
+    .string "¡LO SÉ TODO!$"
 

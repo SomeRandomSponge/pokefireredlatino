@@ -1,4 +1,4 @@
-CeruleanCity_Text_RivalIntro:: @ 817EAD7
+CeruleanCity_Text_RivalIntro::
     .string "{RIVAL}: ¡Hey! ¡{PLAYER}!\p"
     .string "¿Sigues en problemas por aquí?\p"
     .string "¡A mí me va genial! ¡Atrapé muchos\n"
@@ -6,12 +6,12 @@ CeruleanCity_Text_RivalIntro:: @ 817EAD7
     .string "Bueno, ¡déjame ver que atrapaste,\n"
     .string "{PLAYER}!$"
 
-CeruleanCity_Text_RivalDefeat:: @ 817EB71
+CeruleanCity_Text_RivalDefeat::
     .string "¡Hey!\n"
     .string "¡Relájate!\l"
     .string "¡Ya ganaste!$"
 
-CeruleanCity_Text_RivalPostBattle:: @ 817EB95
+CeruleanCity_Text_RivalPostBattle::
     .string "{RIVAL}: ¿Hey, adivina que?\p"
     .string "Fui con BILL e hice que me\n"
     .string "enseñara sus POKéMON raros.\p"
@@ -26,14 +26,14 @@ CeruleanCity_Text_RivalPostBattle:: @ 817EB95
     .string "Bueno, ¡será mejor que me vaya!\n"
     .string "¡Hasta nunca!$"
 
-CeruleanCity_Text_OhRightLittlePresentAsFavor:: @ 817ECD4
+CeruleanCity_Text_OhRightLittlePresentAsFavor::
     .string "Oh, sí, cierto.\p"
     .string "Me siento mal por tí. En serio.\n"
     .string "Siempre estas gateando trás de mi.\p"
     .string "Así que, te daré un pequeño\n"
     .string "regalo cómo un favor.$"
 
-CeruleanCity_Text_ExplainFameCheckerSmellYa:: @ 817ED5D
+CeruleanCity_Text_ExplainFameCheckerSmellYa::
     .string "Un{A} chismos{OA} cómo tu…\n"
     .string "Esa cosa es perfecta.\p"
     .string "No la necesito porque no me\n"
@@ -42,11 +42,11 @@ CeruleanCity_Text_ExplainFameCheckerSmellYa:: @ 817ED5D
     .string "verdad. ¡Hasta nunca!$"
 
 @ RB translation: "Heh! You're no match for my genius!"
-CeruleanCity_Text_RivalVictory:: @ 817EDF8
+CeruleanCity_Text_RivalVictory::
     .string "なんたって！\n"
     .string "おれは　てんさい　だからよ！$"
 
-CeruleanCity_Text_GruntIntro:: @ 817EE0E
+CeruleanCity_Text_GruntIntro::
     .string "¡Ey! ¡Vete de aquí!\n"
     .string "¡Este no es tu patio!\p"
     .string "…¿Eh?\n"
@@ -54,32 +54,32 @@ CeruleanCity_Text_GruntIntro:: @ 817EE0E
     .string "¡Yo soy un espectador inocente!\n"
     .string "¿No me crees?{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
 
-CeruleanCity_Text_GruntDefeat:: @ 817EE70
+CeruleanCity_Text_GruntDefeat::
     .string "RECLUTA: ¡Basta! ¡Me rindo!\n"
     .string "¡Me iré silenciosamente!$"
 
-CeruleanCity_Text_OkayIllReturnStolenTM:: @ 817EE9C
+CeruleanCity_Text_OkayIllReturnStolenTM::
     .string "…De acuerdo.\n"
     .string "Regresaré la MT que robé.$"
 
-CeruleanCity_Text_RecoveredTM28FromGrunt:: @ 817EEBF
+CeruleanCity_Text_RecoveredTM28FromGrunt::
     .string "{PLAYER} recuperó la MT28 del\n"
     .string "RECLUTA del EQUIPO ROCKET.$"
 
-CeruleanCity_Text_BetterGetMovingBye:: @ 817EEED
+CeruleanCity_Text_BetterGetMovingBye::
     .string "¡Será mejor que me vaya!\n"
     .string "¡Adiós!$"
 
-CeruleanCity_Text_MakeRoomForThisCantRun:: @ 817EF07
+CeruleanCity_Text_MakeRoomForThisCantRun::
     .string "¡Haz espacio para esto!\n"
     .string "¡No puedo escapar hasta que te la de!$"
 
-CeruleanCity_Text_TrainerLifeIsToughIsntIt:: @ 817EF3F
+CeruleanCity_Text_TrainerLifeIsToughIsntIt::
     .string "¿También entrenas POKéMON?\p"
     .string "Atrapar, luchar…\n"
     .string "Es una vida dura, ¿no es así?$"
 
-CeruleanCity_Text_YouCanCutDownSmallTrees:: @ 817EF89
+CeruleanCity_Text_YouCanCutDownSmallTrees::
     .string "¿Sabías que puedes CORTAR árboles\n"
     .string "pequeños?\p"
     .string "Incluso puedes CORTARS ese pequeño\n"
@@ -87,42 +87,42 @@ CeruleanCity_Text_YouCanCutDownSmallTrees:: @ 817EF89
     .string "Aunque creo que hay una forma de\n"
     .string "rodearlo.$"
 
-CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree:: @ 817F01D
+CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree::
     .string "Si ese SLOWBRO no estuviera ahí,\n"
     .string "podrías CORTAR ese pequeño árbol.\p"
     .string "Así podrías pasar al otro lado.\p"
     .string "Aunque creo que hay una forma de\n"
     .string "rodearlo.$"
 
-CeruleanCity_Text_PokemonEncyclopediaAmusing:: @ 817F0B2
+CeruleanCity_Text_PokemonEncyclopediaAmusing::
     .string "¿Estás haciendo una enciclopedia\n"
     .string "sobre POKéMON? Suena divertido.$"
 
-CeruleanCity_Text_PeopleHereWereRobbed:: @ 817F0F1
+CeruleanCity_Text_PeopleHereWereRobbed::
     .string "La gente aquí sufrió un robo.\p"
     .string "¡Es obvio que el EQUIPO ROCKET\n"
     .string "está detrás de este crimen atroz!\p"
     .string "¡Incluso nuestra FUERZA POLICIAL\n"
     .string "tiene problemas con los ROCKETS!$"
 
-CeruleanCity_Text_SlowbroUseSonicboom:: @ 817F183
+CeruleanCity_Text_SlowbroUseSonicboom::
     .string "¡Bien! SLOWBRO!\n"
     .string "¡Usa EXPLOSIÓN SÓNICA!$"
 
-CeruleanCity_Text_SlowbroPayAttention:: @ 817F1A1
+CeruleanCity_Text_SlowbroPayAttention::
     .string "¡Vamos, SLOWBRO, pon atención!$"
 
-CeruleanCity_Text_SlowbroPunch:: @ 817F1C2
+CeruleanCity_Text_SlowbroPunch::
     .string "¡SLOWBRO, golpea!$"
 
-CeruleanCity_Text_NoYouBlewItAgain:: @ 817F1D2
+CeruleanCity_Text_NoYouBlewItAgain::
     .string "¡No!\n"
     .string "¡Lo arruinaste otra vez!$"
 
-CeruleanCity_Text_SlowbroWithdraw:: @ 817F1E9
+CeruleanCity_Text_SlowbroWithdraw::
     .string "¡SLOWBRO, REFUGIO!$"
 
-CeruleanCity_Text_HardToControlMonsObedience:: @ 817F1FC
+CeruleanCity_Text_HardToControlMonsObedience::
     .string "¡No! ¡Eso está mal!\n"
     .string "¡Es tan difícil controlar a los\l"
     .string "POKéMON!\p"
@@ -130,24 +130,24 @@ CeruleanCity_Text_HardToControlMonsObedience:: @ 817F1FC
     .string "depende de tus habilidades\l"
     .string "cómo ENTRENADOR{AM}.$"
 
-CeruleanCity_Text_SlowbroTookSnooze:: @ 817F270
+CeruleanCity_Text_SlowbroTookSnooze::
     .string "SLOWBRO se tomó un descanso…$"
 
-CeruleanCity_Text_SlowbroLoafingAround:: @ 817F287
+CeruleanCity_Text_SlowbroLoafingAround::
     .string "SLOWBRO está holgazaneando…$"
 
-CeruleanCity_Text_SlowbroTurnedAway:: @ 817F2A2
+CeruleanCity_Text_SlowbroTurnedAway::
     .string "SLOWBRO volteo hacia otro lado…$"
 
-CeruleanCity_Text_SlowbroIgnoredOrders:: @ 817F2B7
+CeruleanCity_Text_SlowbroIgnoredOrders::
     .string "SLOWBRO ignoró las órdenes…$"
 
-CeruleanCity_Text_WantBrightRedBicycle:: @ 817F2CF
+CeruleanCity_Text_WantBrightRedBicycle::
     .string "Quiero una bonita BICICLETA roja.\p"
     .string "La guardaré en casa, para que\n"
     .string "no se ensucie.$"
 
-CeruleanCity_Text_ThisIsCeruleanCave:: @ 817F319
+CeruleanCity_Text_ThisIsCeruleanCave::
     .string "This is CERULEAN CAVE.\p"
     .string "Horribly strong POKéMON live inside\n"
     .string "there.\p"
@@ -159,23 +159,23 @@ CeruleanCity_Text_ThisIsCeruleanCave:: @ 817F319
     .string "And, you would have to have\n"
     .string "made a great achievement.$"
 
-CeruleanCity_Text_CitySign:: @ 817F420
+CeruleanCity_Text_CitySign::
     .string "CIUDAD CELESTE\n"
     .string "Una misteriosa aura azulada\l"
     .string "la rodea.$"
 
-CeruleanCity_Text_TrainerTipsHeldItems:: @ 817F453
+CeruleanCity_Text_TrainerTipsHeldItems::
     .string "CONSEJOS PARA ENTRENADORES\p"
     .string "Puedes entregar objetos a\n"
     .string "tus POKéMON.\p"
     .string "Incluso, puede que usen el objeto\n"
     .string "en batalla.$"
 
-CeruleanCity_Text_BikeShopSign:: @ 817F4C5
+CeruleanCity_Text_BikeShopSign::
     .string "¡Césped y cuevas bajo control!\n"
     .string "TIENDA DE BICICLETAS$"
 
-CeruleanCity_Text_GymSign:: @ 817F4EF
+CeruleanCity_Text_GymSign::
     .string "GIMNASIO POKéMON de CIUDAD CELESTE\n"
     .string "LÍDER: MISTY\l"
     .string "¡La sirena ruda!$"

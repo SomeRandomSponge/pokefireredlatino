@@ -1,21 +1,21 @@
-gText_WouldYouLikeToSaveTheGame:: @ 81C55C9
+gText_WouldYouLikeToSaveTheGame::
 	.string "¿Quieres guardar la partida?$"
 
-gText_AlreadySaveFile_WouldLikeToOverwrite:: @ 81C55EA
+gText_AlreadySaveFile_WouldLikeToOverwrite::
 	.string "Ya hay una partida guardada.\n"
 	.string "¿Quieres sobrescribirla?$"
 
-gText_SavingDontTurnOffThePower:: @ 81C5625
+gText_SavingDontTurnOffThePower::
 	.string "GUARDANDO…\n"
 	.string "NO APAGUES LA CONSOLA.$"
 
-gText_PlayerSavedTheGame:: @ 81C5647
+gText_PlayerSavedTheGame::
 	.string "{PLAYER} guardó la partida.$"
 
 gText_SaveFailed::
 	.string "セーブに　しっぱい　しました‥$"
 
-gText_DifferentGameFile:: @ 81C566A
+gText_DifferentGameFile::
 	.string "¡ADVERTENCIA!\p"
 	.string "Ya hay una partida guardada.\n"
 	.string "Si guardas ahora, perderás los\n"

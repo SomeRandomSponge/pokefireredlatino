@@ -1,18 +1,18 @@
-Route10_PokemonCenter_1F_Text_EveryTypeStrongerThanOthers:: @ 819E523
+Route10_PokemonCenter_1F_Text_EveryTypeStrongerThanOthers::
     .string "Los tipos de los POKéMON se\n"
     .string "enfrentan de formas distintas.\p"
     .string "Cada tipo es fuerte contra algunos\n"
     .string "tipos y débil ante otros.$"
 
-Route10_PokemonCenter_1F_Text_NuggetUselessSoldFor5000:: @ 819E59D
+Route10_PokemonCenter_1F_Text_NuggetUselessSoldFor5000::
     .string "Una PEPITA es totalmente inútil.\n"
     .string "Así que la vendí por ¥5000.$"
 
-Route10_PokemonCenter_1F_Text_HeardGhostsHauntLavender:: @ 819E5D2
+Route10_PokemonCenter_1F_Text_HeardGhostsHauntLavender::
     .string "Se dice que hay fantasmas que\n"
     .string "espantan en PUEBLO LAVANDA.$"
 
-Route10_PokemonCenter_1F_Text_GiveEverstoneIfCaught20Mons:: @ 819E5FB
+Route10_PokemonCenter_1F_Text_GiveEverstoneIfCaught20Mons::
     .string "Oh… ¡{PLAYER}!\n"
     .string "¡Te he estado buscando!\p"
     .string "Soy yo, uno de los siempre\n" 
@@ -26,17 +26,17 @@ Route10_PokemonCenter_1F_Text_GiveEverstoneIfCaught20Mons:: @ 819E5FB
     .string "¿Ya recolectaste datos de al menos\n"
     .string "20 tipos de POKéMON?$"
 
-Route10_PokemonCenter_1F_Text_GreatHereYouGo:: @ 819E733
+Route10_PokemonCenter_1F_Text_GreatHereYouGo::
     .string "¡Bien! ¡atrapaste u obtuviste\n"
     .string "{STR_VAR_3} tipos de POKéMON!\p"
     .string "¡Felicidades!\n"
     .string "¡Aquí tienes!$"
 
-Route10_PokemonCenter_1F_Text_ReceivedEverstoneFromAide:: @ 819E786
+Route10_PokemonCenter_1F_Text_ReceivedEverstoneFromAide::
     .string "{PLAYER} recibió la PIEDRA ETERNA\n"
     .string "del AYUDANTE.$"
 
-Route10_PokemonCenter_1F_Text_ExplainEverstone:: @ 819E7AF
+Route10_PokemonCenter_1F_Text_ExplainEverstone::
     .string "Hacer evolucionar a los POKéMON\n"
     .string "puede añadir a la POKéDEX.\p"
     .string "Pero, puede que quieras evitar\n"

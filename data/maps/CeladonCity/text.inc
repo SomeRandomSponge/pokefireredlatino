@@ -1,114 +1,114 @@
-CeladonCity_Text_GotMyKoffingInCinnabar:: @ 817FEC3
-    .string "I got my KOFFING in CINNABAR.\p"
-    .string "It's usually nice, but it breathes\n"
-    .string "poison when it's angry.$"
+CeladonCity_Text_GotMyKoffingInCinnabar::
+    .string "Conseguí a mi KOFFING en CANELA.\p"
+    .string "Suele portarse bien, pero expulsa\n"
+    .string "veneno cuando se enoja.$"
 
-CeladonCity_Text_GymIsGreatFullOfWomen:: @ 817FF1C
-    .string "Heheh! This GYM is great!\n"
-    .string "It's full of women!$"
+CeladonCity_Text_GymIsGreatFullOfWomen::
+    .string "¡Jeje! ¡Este GIMNASIO es genial!\n"
+    .string "¡Está lleno de mujeres!$"
 
-CeladonCity_Text_GameCornerIsBadForCitysImage:: @ 817FF4A
-    .string "CELADON takes pride in its efforts\n"
-    .string "to keep the city beautiful.\p"
-    .string "That's why the new GAME CORNER is\n"
-    .string "bad for our city's image.$"
+CeladonCity_Text_GameCornerIsBadForCitysImage::
+    .string "PRISMA presume sus esfuerzos para\n"
+    .string "mantener a la ciudad hermosa.\p"
+    .string "Por eso la nueva SALA DE JUEGOS es\n"
+    .string "mala para la imagen de la cuidad.$"
 
-CeladonCity_Text_BlewItAllAtSlots:: @ 817FFC5
-    .string "Moan…\n"
-    .string "I blew it all at the slots!\p"
-    .string "I knew I should have cashed in my\n"
-    .string "COINS for prizes!$"
+CeladonCity_Text_BlewItAllAtSlots::
+    .string "Ay…\n"
+    .string "¡Lo perdí todo en la tragamonedas!\p"
+    .string "¡Sabía que debí haber cambiado mis\n"
+    .string "MONEDAS por premios!$"
 
-CeladonCity_Text_MyTrustedPalPoliwrath:: @ 818001B
-    .string "This is my trusted pal, POLIWRATH.\p"
-    .string "It evolved from a POLIWHIRL when\n"
-    .string "I used a WATER STONE.$"
+CeladonCity_Text_MyTrustedPalPoliwrath::
+    .string "Éste es mi fiel amigo, POLIWRATH.\p"
+    .string "Evolucionó de un POLIWHIRL cuándo\n"
+    .string "usé una PIEDRA AGUA.$"
 
-CeladonCity_Text_Poliwrath:: @ 8180075
-    .string "POLIWRATH: Ribi ribit!$"
+CeladonCity_Text_Poliwrath::
+    .string "POLIWRATH: ¡Ribi ribit!$"
 
-CeladonCity_Text_GetLostOrIllPunchYou:: @ 818008C
-    .string "What are you staring at?\n"
-    .string "Get lost, or I'll punch you.$"
+CeladonCity_Text_GetLostOrIllPunchYou::
+    .string "¿Qué estás mirando?\n"
+    .string "Piérdete, o te golpearé.$"
 
-CeladonCity_Text_KeepOutOfTeamRocketsWay:: @ 81800C2
-    .string "Keep out of TEAM ROCKET's way!$"
+CeladonCity_Text_KeepOutOfTeamRocketsWay::
+    .string "¡Sal del camino del EQUIPO ROCKET!$"
 
-CeladonCity_Text_ExplainXAccuracyDireHit:: @ 81800E1
-    .string "TRAINER TIPS\p"
-    .string "X ACCURACY boosts the accuracy of\n"
-    .string "techniques.\p"
-    .string "DIRE HIT jacks up the likelihood\n"
-    .string "of critical hits.\p"
-    .string "Get your items at the CELADON\n"
-    .string "DEPT. STORE!$"
+CeladonCity_Text_ExplainXAccuracyDireHit::
+    .string "CONSEJOS PARA ENTRENADORES\p"
+    .string "PRECISIÓN X aumenta la precisión\n"
+    .string "de ataques.\p"
+    .string "CRÍTICO X aumenta la probabilidad\n"
+    .string "de ataques críticos.\p"
+    .string "¡Consigue tus objetos en la TIENDA\n"
+    .string "DEPARTAMENTAL PRISMA!$"
 
-CeladonCity_Text_CitySign:: @ 818017A
-    .string "CELADON CITY\n"
-    .string "The City of Rainbow Dreams$"
+CeladonCity_Text_CitySign::
+    .string "CIUDAD PRISMA\n"
+    .string "La cuidad de sueños arcoíris.$"
 
-CeladonCity_Text_GymSign:: @ 81801A2
-    .string "CELADON CITY POKéMON GYM\n"
-    .string "LEADER: ERIKA\l"
-    .string "The Nature-Loving Princess!$"
+CeladonCity_Text_GymSign::
+    .string "LÍDER de GIMNASIO POKéMON de\n"
+    .string "CIUDAD PRISMA: ERIKA\l"
+    .string "¡Princesa amante de la naturaleza!$"
 
-CeladonCity_Text_MansionSign:: @ 81801E5
-    .string "CELADON MANSION$"
+CeladonCity_Text_MansionSign::
+    .string "MANSIÓN PRISMA$"
 
-CeladonCity_Text_DeptStoreSign:: @ 81801F5
-    .string "Find what you need at the\n"
-    .string "CELADON DEPT. STORE!$"
+CeladonCity_Text_DeptStoreSign::
+    .string "¡Encuentra lo que necesites en la\n"
+    .string "TIENDA DEPARTAMENTAL PRISMA!$"
 
-CeladonCity_Text_GuardSpecProtectsFromStatus:: @ 8180224
-    .string "TRAINER TIPS\p"
-    .string "GUARD SPEC. protects POKéMON\n"
-    .string "from status-reduction moves during\l"
-    .string "battle.\p"
-    .string "Get your items at the\n"
-    .string "CELADON DEPT. STORE!$"
+CeladonCity_Text_GuardSpecProtectsFromStatus::
+    .string "CONSEJOS PARA ENTRENADORES\p"
+    .string "GUARDIA X protege a POKéMON de la\n"
+    .string "reducción de estadísticas durante\l"
+    .string "la batalla.\p"
+    .string "¡Consigue tus objetos en la TIENDA\n"
+    .string "DEPARTAMENTAL PRISMA!$"
 
-CeladonCity_Text_PrizeExchangeSign:: @ 81802A4
-    .string "COINS exchanged for prizes!\n"
-    .string "PRIZE EXCHANGE$"
+CeladonCity_Text_PrizeExchangeSign::
+    .string "¡Se cambian MONEDAS por premios!\n"
+    .string "CAMBIO DE PREMIOS$"
 
-CeladonCity_Text_GameCornerSign:: @ 81802CF
-    .string "ROCKET GAME CORNER\n"
-    .string "The playground for grown-ups!$"
+CeladonCity_Text_GameCornerSign::
+    .string "SALA DE JUEGOS ROCKET\n"
+    .string "¡El patio de juegos para adultos!$"
 
-CeladonCity_Text_ScaldedTongueOnTea:: @ 8180300
+CeladonCity_Text_ScaldedTongueOnTea::
     .string "Aaaagh, ow…\n"
-    .string "I scalded my tongue!\p"
-    .string "This nice old lady in the MANSION\n"
-    .string "gave me some TEA.\p"
-    .string "But it was boiling hot!\n"
-    .string "Gotta cool it to drink it.$"
+    .string "¡Me quemé la lengua!\p"
+    .string "Esa ancianita agradable en la\n"
+    .string "MANSIÓN me dió algo de TÉ.\p"
+    .string "¡Pero estaba hirviendo!\n"
+    .string "Tendré que enfriarlo para beberlo.$"
 
-Text_SoftboiledTeach:: @ 8180388
-    .string "Hello, there!\p"
-    .string "I've seen you about, but I never\n"
-    .string "had a chance to chat.\p"
-    .string "It must be good luck that brought\n"
-    .string "us together finally.\p"
-    .string "I'd like to celebrate by teaching\n"
-    .string "you the move SOFTBOILED.$"
+Text_SoftboiledTeach::
+    .string "¡Hola!\p"
+    .string "Te ví pasar, pero no había tenido\n"
+    .string "la oportunidad de hablar contigo.\p"
+    .string "Debe ser buena suerte que\n"
+    .string "finalmente nos reunieramos.\p"
+    .string "Quiero celebrar enseñándote\n"
+    .string "el movimiento HUEVO COCIDO.$"
 
-Text_SoftboiledDeclined:: @ 818043F
-    .string "I'll always be keeping an eye out\n"
-    .string "for you.\p"
-    .string "I hope we can chat again.$"
+Text_SoftboiledDeclined::
+    .string "Te estaré esperando siempre.\p"
+    .string "Espero que podamos hablar\n"
+    .string "otra vez.$"
 
-Text_SoftboiledWhichMon:: @ 8180484
-    .string "So, who's the POKéMON that gets\n"
-    .string "the chance to learn SOFTBOILED?$"
+Text_SoftboiledWhichMon::
+    .string "¿Qué POKéMON tendrá la oportunidad\n"
+    .string "de aprender HUEVO COCIDO?$"
 
-Text_SoftboiledTaught:: @ 81804C4
-    .string "I wish you the best of luck!$"
+Text_SoftboiledTaught::
+    .string "¡Te deseo la mejor de las suertes!$"
 
-CeladonCity_Text_SomeoneStoleSilphScope:: @ 81804E1
-    .string "Oh, what am I to do…\p"
-    .string "Someone stole our SILPH SCOPE.\p"
-    .string "The thief came running this way,\n"
-    .string "I'm sure of it.\p"
-    .string "But I lost sight of him!\n"
-    .string "Where'd he go?$"
+CeladonCity_Text_SomeoneStoleSilphScope::
+    .string "Oh, que voy a hacer…\p"
+    .string "Alguien robó nuestro VISOR SILPH.\p"
+    .string "El ladrón vino corriendo por aquí,\n"
+    .string "estoy seguro.\p"
+    .string "¡Pero lo perdí de vista!\n"
+    .string "¿A dónde se fue?$"
 

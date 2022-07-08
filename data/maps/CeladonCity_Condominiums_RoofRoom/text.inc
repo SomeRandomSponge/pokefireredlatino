@@ -1,52 +1,54 @@
-CeladonCity_Condominiums_RoofRoom_Text_TheresNothingIDontKnow:: @ 81964D7
-    .string "There is nothing that I don't know,\n"
-    .string "like I wrote on the blackboard.\p"
-    .string "I know about the world of POKéMON\n"
-    .string "in your GAME BOY ADVANCE!\p"
-    .string "Get together with your friends and\n"
-    .string "enjoy trading POKéMON!$"
+CeladonCity_Condominiums_RoofRoom_Text_TheresNothingIDontKnow::
+    .string "No hay nada que no sepa, como\n"
+    .string "escribí en el pizarrón.\p"
+    .string "¡Yo sé sobre el mundo de los\n"
+    .string "POKéMON en tu GAME BOY ADVANCE!\p"
+    .string "¡Reúnete con tus amigos y disfruta\n"
+    .string "intercambiar POKéMON!$"
 
-CeladonCity_Condominiums_RoofRoom_Text_ObtainedAnEevee:: @ 8196591
-    .string "{PLAYER} obtained an EEVEE!$"
+CeladonCity_Condominiums_RoofRoom_Text_ObtainedAnEevee::
+    .string "¡{PLAYER} obtuvo un EEVEE!$"
 
-CeladonCity_Condominiums_RoofRoom_Text_BoxIsFull:: @ 81965A7
+CeladonCity_Condominiums_RoofRoom_Text_BoxIsFull::
     .string "ポケモンが　いっぱいだ\n"
     .string "ボックスを　かえて　きなさい$"
 
-CeladonCity_Condominiums_RoofRoom_Text_WirelessAdapterLecture:: @ 81965C2
-    .string "POKéMON Lecture\p"
-    .string "Playing with the Wireless Adapter$"
+CeladonCity_Condominiums_RoofRoom_Text_WirelessAdapterLecture::
+    .string "Clase POKéMON\p"
+    .string "Usando el Conector Inalámbrico.$"
 
-CeladonCity_Condominiums_RoofRoom_Text_ReadWhichHeading:: @ 81965F4
-    .string "Which heading do you want to read?$"
+CeladonCity_Condominiums_RoofRoom_Text_ReadWhichHeading::
+    .string "¿Qué capítulo quieres leer?$"
 
-CeladonCity_Condominiums_RoofRoom_Text_ExplainWirelessClub:: @ 8196617
-    .string "The POKéMON WIRELESS CLUB is\n"
-    .string "upstairs at any POKéMON CENTER.\p"
-    .string "Visit one to link up with friend(s)\n"
-    .string "using your Wireless Adapter.$"
+CeladonCity_Condominiums_RoofRoom_Text_ExplainWirelessClub::
+    .string "El CLUB INALÁMBRICO POKéMON está\n"
+    .string "en el piso superior de cualquier\l"
+    .string "CENTRO POKéMON.\p"
+    .string "Visita uno para conectarte con\n"
+    .string "tu(s) amigo(s) usando tu\l"
+    .string "Conector Inalámbrico de GBA.$"
 
-CeladonCity_Condominiums_RoofRoom_Text_ExplainDirectCorner:: @ 8196695
-    .string "To link only with a friend, go to\n"
-    .string "the DIRECT CORNER.\p"
-    .string "It is the right counter at the\n"
-    .string "POKéMON WIRELESS CLUB.\p"
-    .string "Go into the TRADE CORNER or the\n"
-    .string "COLOSSEUM with your friend.$"
+CeladonCity_Condominiums_RoofRoom_Text_ExplainDirectCorner::
+    .string "Para conectarte sólo con un amigo,\n"
+    .string "ve a la ZONA DIRECTA.\p"
+    .string "Es el mostrador derecho del\n"
+    .string "CLUB INALÁMBRICO POKéMON.\p"
+    .string "Ve a la SALA DE INTERCAMBIOS\n"
+    .string "o al COLISEO con tu amigo.$"
 
-CeladonCity_Condominiums_RoofRoom_Text_ExplainUnionRoom:: @ 819673C
-    .string "To link and communicate with\n"
-    .string "anyone, go to the UNION ROOM.\p"
-    .string "It is the left counter at the\n"
-    .string "POKéMON WIRELESS CLUB.\p"
-    .string "Go to the UNION ROOM and enjoy\n"
-    .string "meeting other TRAINERS.$"
+CeladonCity_Condominiums_RoofRoom_Text_ExplainUnionRoom::
+    .string "Para conectarte y comunicarte con\n"
+    .string "cualquiera, ve a la SALA UNIÓN.\p"
+    .string "Es el mostrador izquierdo en el\n"
+    .string "CLUB INALÁMBRICO POKéMON.\p"
+    .string "Ve a la SALA UNIÓN y disfruta\n" 
+    .string "encontrarte con más ENTRENADORES.$"
 
-CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs:: @ 81967E3
-    .string "It's a pamphlet on TMs.\p"
+CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs::
+    .string "Es un informe sobre MTs.\p"
     .string "… …\p"
-    .string "There are fifty TMs in all.\p"
-    .string "There are also seven HMs that\n"
-    .string "can be used repeatedly.\p"
-    .string "SILPH CO.$"
+    .string "Hay cincuenta TMs en total.\p"
+    .string "También hay siete MOs que pueden\n"
+    .string "usarse repetidamente.\p"
+    .string "SILPH S.A.$"
 

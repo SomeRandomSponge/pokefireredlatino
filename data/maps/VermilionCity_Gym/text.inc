@@ -1,4 +1,4 @@
-VermilionCity_Gym_Text_LtSurgeIntro:: @ 8194BA4
+VermilionCity_Gym_Text_LtSurgeIntro::
     .string "¡Ey, niñ{OA}! ¿Qué crees que estas\n"
     .string "haciendo aquí?\p"
     .string "¡No resistirás mucho en combate!\n"
@@ -9,13 +9,13 @@ VermilionCity_Gym_Text_LtSurgeIntro:: @ 8194BA4
     .string "con eso los paralizaron!\p"
     .string "¡Y te haré lo mismo a tí!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
-VermilionCity_Gym_Text_LtSurgePostBattle:: @ 8194C8E
+VermilionCity_Gym_Text_LtSurgePostBattle::
     .string "¡Un pequeño consejo, niñ{OA}!\p"
     .string "¡La electricidad es muy poderosa!\p"
     .string "Pero, ¡es inútil contra POKéMON\n"
     .string "de tipo TIERRA!$"
 
-VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis:: @ 8194CFA
+VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis::
     .string "¡La MEDALLA TRUENO mejora la\n"
     .string "VELOCIDAD de tus POKéMON!\p"
     .string "¡Y deja a tus POKéMON volar cómo\n"
@@ -23,58 +23,58 @@ VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis:: @ 8194CFA
     .string "¡Eres especial, niñ{OA}!\n"
     .string "¡Toma esto!$"
 
-VermilionCity_Gym_Text_ReceivedTM34FromLtSurge:: @ 8194D87
+VermilionCity_Gym_Text_ReceivedTM34FromLtSurge::
     .string "{PLAYER} recibió MT34\n"
     .string "del TENIENTE SURGE.$"
 
-VermilionCity_Gym_Text_ExplainTM34:: @ 8194DA8
+VermilionCity_Gym_Text_ExplainTM34::
     .string "¡MT34 contiene ONDA CHOQUE!\p"
     .string "¡Úsala en un POKéMON ELÉCTRICO!$"
 
-VermilionCity_Gym_Text_MakeRoomInYourBag:: @ 8194DE3
+VermilionCity_Gym_Text_MakeRoomInYourBag::
     .string "¡Niñ{OA}, haz espacio en tu MOCHILA!$"
 
-VermilionCity_Gym_Text_LtSurgeDefeat:: @ 8194E03
+VermilionCity_Gym_Text_LtSurgeDefeat::
     .string "¡Esto sí que es una sorpresa!\p"
     .string "¡Sí que eres fuerte, niñ{OA}!\p"
     .string "¡Entonces, toma la MEDALLA TRUENO!$"
 
-VermilionCity_Gym_Text_TuckerIntro:: @ 8194E57
+VermilionCity_Gym_Text_TuckerIntro::
     .string "Cuando estaba en el ejército, el\n"
     .string "TENIENTE SURGE era mi jefe.\p"
     .string "Era un jefe duro.$"
 
-VermilionCity_Gym_Text_TuckerDefeat:: @ 8194EA5
+VermilionCity_Gym_Text_TuckerDefeat::
     .string "¡Basta!\n"
     .string "¡Eres muy buen{OA}!$"
 
-VermilionCity_Gym_Text_TuckerPostBattle:: @ 8194EBD
+VermilionCity_Gym_Text_TuckerPostBattle::
     .string "Abrir esa puerta no es tan fácil.\p"
     .string "El TENIENTE SURGE fue famoso por su\n"
     .string "naturaleza cautelosa en combate.$"
 
-VermilionCity_Gym_Text_BailyIntro:: @ 8194F1F
+VermilionCity_Gym_Text_BailyIntro::
     .string "No soy muy fuerte, ¡pero soy bueno\n"
     .string "con la electricidad!\p"
     .string "Por eso me uní a este GIMNASIO.$"
 
-VermilionCity_Gym_Text_BailyDefeat:: @ 8194F6F
+VermilionCity_Gym_Text_BailyDefeat::
     .string "¡Estoy frito!$"
 
-VermilionCity_Gym_Text_BailyPostBattle:: @ 8194F76
+VermilionCity_Gym_Text_BailyPostBattle::
     .string "¡De acuerdo, hablaré!\p"
     .string "El TENIENTE SURGE dijo que ocultó\n"
     .string "los interruptores dentro de algo.$"
 
-VermilionCity_Gym_Text_DwayneIntro:: @ 8194FBD
+VermilionCity_Gym_Text_DwayneIntro::
     .string "¡Este lugar no es para niños!\n"
     .string "¡No importa si eres buen{OA}!$"
 
-VermilionCity_Gym_Text_DwayneDefeat:: @ 8194FF1
+VermilionCity_Gym_Text_DwayneDefeat::
     .string "¡Wow!\n"
     .string "¡Me sorprendiste!$"
 
-VermilionCity_Gym_Text_DwaynePostBattle:: @ 8195004
+VermilionCity_Gym_Text_DwaynePostBattle::
     .string "El TENIENTE SURGE puso las trampas\n"
     .string "en el GIMNASIO por su cuenta.\p"
     .string "Instaló cerraduras dobles por\n"
@@ -83,7 +83,7 @@ VermilionCity_Gym_Text_DwaynePostBattle:: @ 8195004
     .string "Cuando abras la primer cerradura,\n"
     .string "la segunda esta justo a un lado.$"
 
-VermilionCity_Gym_Text_GymGuyAdvice:: @ 81950B4
+VermilionCity_Gym_Text_GymGuyAdvice::
     .string "¡Yo!\n"
     .string "¡Futur{OA} campe{ONONA}!\p"
     .string "El TENIENTE SURGE tiene un apodo.\p"
@@ -98,42 +98,42 @@ VermilionCity_Gym_Text_GymGuyAdvice:: @ 81950B4
     .string "Se encerró a si mismo, para que\n"
     .string "llegar a él no sea fácil.$"
 
-VermilionCity_Gym_Text_GymGuyPostVictory:: @ 81951EC
+VermilionCity_Gym_Text_GymGuyPostVictory::
     .string "¡Fiu!\n"
     .string "¡Esa batalla fue electrizante!$"
 
-VermilionCity_Gym_Text_GymStatue:: @ 819520B
+VermilionCity_Gym_Text_GymStatue::
     .string "GIMNASIO POKéMON DE CARMÍN\n"
     .string "LÍDER: TENIENTE SURGE\p"
     .string "ENTRENADORES VICTORIOSOS:\n"
     .string "{RIVAL}$"
 
-VermilionCity_Gym_Text_GymStatuePlayerWon:: @ 8195248
+VermilionCity_Gym_Text_GymStatuePlayerWon::
     .string "GIMNASIO POKéMON DE CARMÍN\n"
     .string "LÍDER: TENIENTE SURGE\p"
     .string "ENTRENADORES VICTORIOSOS:\n"
     .string "{RIVAL}, {PLAYER}$"
 
-VermilionCity_Gym_Text_NopeOnlyTrashHere:: @ 8195289
+VermilionCity_Gym_Text_NopeOnlyTrashHere::
     .string "¡Nop!\n"
     .string "Solo hay basura aquí.$"
 
-VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened:: @ 81952A8
+VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened::
     .string "¡Ey! ¡hay un interruptor bajo la\n"
     .string "basura! ¡enciéndelo!\p"
     .string "¡La primer cerradura se abrío!$"
 
-VermilionCity_Gym_Text_AnotherSwitchInTrash:: @ 81952FB
+VermilionCity_Gym_Text_AnotherSwitchInTrash::
     .string "ガサゴソ‥！\n"
     .string "おっと！　ゴミばこの　そこに\l"
     .string "また　スイッチが　あった！\l"
     .string "おして　みよう！　‥　ポチッとな$"
 
-VermilionCity_Gym_Text_SecondLockOpened:: @ 8195330
+VermilionCity_Gym_Text_SecondLockOpened::
     .string "¡La segunda cerradura se abrío!\n"
     .string "¡La puerta motorizada se abre!$"
 
-VermilionCity_Gym_Text_OnlyTrashLocksWereReset:: @ 819536C
+VermilionCity_Gym_Text_OnlyTrashLocksWereReset::
     .string "¡Nop!\n"
     .string "Solo hay basura aquí.\p"
     .string "¡Ey!\n"
