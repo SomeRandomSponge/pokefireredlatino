@@ -47,16 +47,16 @@ EventScript_DontCutTree::
 	end
 
 Text_CutTreeDown::
-	.string "This tree looks like it can be CUT\n"
-	.string "down!\p"
-	.string "Would you like to CUT it?$"
+	.string "¡Parece que este árbol se puede\n"
+	.string "CORTAR!$"
+	.string "¿Quieres CORTARLO?$"
 
 Text_MonUsedMove::
-	.string "{STR_VAR_1} used {STR_VAR_2}!$"
+	.string "¡{STR_VAR_1} usó {STR_VAR_2}!$"
 
 Text_TreeCanBeCutDown::
-	.string "This tree looks like it can be CUT\n"
-	.string "down!$"
+	.string "¡Parece que este árbol se puede\n"
+	.string "CORTAR!$"
 
 EventScript_RockSmash::
 	goto_if_questlog EventScript_ReleaseEnd
