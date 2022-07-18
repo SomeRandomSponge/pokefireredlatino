@@ -1,21 +1,21 @@
 Route12_Text_MonSprawledOutInSlumber::
-    .string "A POKéMON is sprawled out in\n"
-    .string "a deep and comfortable slumber.$"
+    .string "Un POKéMON está tumbado en un\n"
+    .string "cómodo y profundo sueño.$"
 
 Text_SnorlaxWokeUp::
-    .string "SNORLAX woke up!\p"
-    .string "It attacked in a grumpy rage!$"
+    .string "¡SNORLAX se despertó!\p"
+    .string "¡Ataca con gran ira!$"
 
 Text_SnorlaxReturnedToMountains::
-    .string "SNORLAX calmed down.\n"
-    .string "It gave a huge yawn…\l"
-    .string "And returned to the mountains.$"
+    .string "SNORLAX se calmó.\n"
+    .string "Pegó un gran bostezo…\l"
+    .string "Y regresó a las montañas.$"
 
 Text_WantToUsePokeFlute::
-    .string "Want to use the POKé FLUTE?$"
+    .string "¿Quieres usar la POKé FLAUTA?$"
 
 Text_PlayedPokeFlute::
-    .string "{PLAYER} played the POKé FLUTE.$"
+    .string "{PLAYER} tocó la the POKé FLAUTA.$"
 
 Route12_Text_NedIntro::
     .string "Yeah!\n"
