@@ -15,7 +15,7 @@ Text_WantToUsePokeFlute::
     .string "¿Quieres usar la POKé FLAUTA?$"
 
 Text_PlayedPokeFlute::
-    .string "{PLAYER} tocó la the POKé FLAUTA.$"
+    .string "{PLAYER} tocó la POKé FLAUTA.$"
 
 Route12_Text_NedIntro::
     .string "Yeah!\n"
