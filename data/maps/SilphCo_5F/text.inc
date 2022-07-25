@@ -1,81 +1,83 @@
 SilphCo_5F_Text_RocketsInUproarAboutIntruder::
-    .string "TEAM ROCKET is in an uproar over\n"
-    .string "some intruder.\p"
-    .string "That's you, right?$"
+    .string "El EQUIPO ROCKET está haciendo\n"
+    .string "alboroto por un{OA} intrus{OA}.\p"
+    .string "¿Eres tú, verdad?$"
 
 SilphCo_5F_Text_YoureOurHeroThankYou::
-    .string "TEAM ROCKET took off!\n"
-    .string "You're our hero! Thank you!$"
+    .string "¡El EQUIPO ROCKET huyó!\n"
+    .string "¡Eres nuestra h{ET}ro{E}{INAT}! ¡gracias!$"
 
 SilphCo_5F_Text_Grunt1Intro::
-    .string "I heard a kid was wandering\n"
-    .string "around.$"
+    .string "Escuché que un{A} niñ{OA} estaba\n"
+    .string "vagando por aquí.$"
 
 SilphCo_5F_Text_Grunt1Defeat::
-    .string "Boom!$"
+    .string "¡Bum!$"
 
 SilphCo_5F_Text_Grunt1PostBattle::
-    .string "It's not smart to pick a fight with\n"
-    .string "TEAM ROCKET!$"
+    .string "¡Provocar al EQUIPO ROCKET no es\n"
+    .string "algo muy inteligente!$"
 
 SilphCo_5F_Text_BeauIntro::
-    .string "We study POKé BALL technology on\n"
-    .string "this floor.$"
+    .string "Estudiamos la tecnología de las\n"
+    .string "POKéBOLAS en este piso.$"
 
 SilphCo_5F_Text_BeauDefeat::
-    .string "Dang!\n"
-    .string "Blast it!$"
+    .string "¡Rayos!\n"
+    .string "¡Maldita sea!$"
 
 SilphCo_5F_Text_BeauPostBattle::
-    .string "We worked on the ultimate POKé\n"
-    .string "BALL which would catch anything.$"
+    .string "Trabajamos en una POKéBOLA\n"
+    .string "que debería poder atraparlo todo.$"
 
 SilphCo_5F_Text_DaltonIntro::
-    .string "Whaaat?\p"
-    .string "There shouldn't be any children\n"
-    .string "here!$"
+    .string "¿Queeé?\p"
+    .string "¡No debería haber niños aquí!$"
 
 SilphCo_5F_Text_DaltonDefeat::
-    .string "Oh, goodness!$"
+    .string "¡Oh, cielos!$"
 
 SilphCo_5F_Text_DaltonPostBattle::
-    .string "You're only on 5F.\n"
-    .string "It's a long way to my BOSS!$"
+    .string "Solo has llegado al PISO 5.\n"
+    .string "¡Mi JEFE aún está muy lejos!$"
 
 SilphCo_5F_Text_Grunt2Intro::
-    .string "Show TEAM ROCKET a little respect!$"
+    .string "¡Muestra algo de respeto por el\n"
+    .string "EQUIPO ROCKET!$"
 
 SilphCo_5F_Text_Grunt2Defeat::
-    .string "Cough…\n"
-    .string "Cough…$"
+    .string "Cof…\n"
+    .string "Cof…$"
 
 SilphCo_5F_Text_Grunt2PostBattle::
-    .string "Which reminds me.\p"
-    .string "KOFFING evolves into WEEZING!$"
+    .string "Eso me recuerda…\p"
+    .string "¡KOFFING evoluciona en WEEZING!$"
 
 SilphCo_5F_Text_PorygonFirstVRMon::
-    .string "It's a POKéMON REPORT!\p"
-    .string "POKéMON LAB created PORYGON,\n"
-    .string "the first virtual-reality POKéMON.$"
+    .string "¡Es un INFORME sobre los POKéMON!\p"
+    .string "El LABORATORIO POKéMON creó a\n"
+    .string "PORYGON, el primer POKéMON de\l"
+    .string "realidad virtual.$"
 
 SilphCo_5F_Text_Over350TechniquesConfirmed::
-    .string "It's a POKéMON REPORT!\p"
-    .string "Over 350 POKéMON techniques have\n"
-    .string "been confirmed.$"
+    .string "¡Es un INFORME sobre los POKéMON!\p"
+    .string "Se han confirmado más de 350\n"
+    .string "técnicas POKéMON.$"
 
 SilphCo_5F_Text_SomeMonsEvolveWhenTraded::
-    .string "It's a POKéMON REPORT!\p"
-    .string "Some POKéMON have been confirmed\n"
-    .string "to evolve when they are traded.$"
+    .string "¡Es un INFORME sobre los POKéMON!\p"
+    .string "Se ha confirmado que algunos\n"
+    .string "POKéMON evolucionan cuando son\l"
+    .string "intercambiados.$"
 
 SilphCo_5F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
-    .string "5F$"
+    .string "OFICINA CENTRAL DE SILPH S.A.\n"
+    .string "P5$"
 
 SilphCo_5F_Text_RocketBossLookingForStrongMons::
-    .string "Those thugs that took over our\n"
-    .string "building…\p"
-    .string "Their BOSS said he was looking for\n"
-    .string "strong POKéMON.\p"
-    .string "I hope our PRESIDENT managed to\n"
-    .string "avoid trouble…$"
+    .string "Esos matones que invadieron\n"
+    .string "nuestro edificio…\p"
+    .string "Su JEFE dijo que buscaba POKéMON\n"
+    .string "fuertes.\p"
+    .string "Espero que nuestro PRESIDENTE haya\n"
+    .string "logrado evitarse problemas…$"

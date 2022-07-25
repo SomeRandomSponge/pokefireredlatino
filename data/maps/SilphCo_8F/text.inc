@@ -1,49 +1,49 @@
 SilphCo_8F_Text_WonderIfSilphIsFinished::
-    .string "I wonder if SILPH is finished…$"
+    .string "Me pregunto si SILPH está acabada…$"
 
 SilphCo_8F_Text_ThanksForSavingUs::
-    .string "Thanks for saving us!$"
+    .string "¡Gracias por salvarnos!$"
 
 SilphCo_8F_Text_Grunt1Intro::
-    .string "That's as far as you'll go!$"
+    .string "¡No podrás llegar más lejos!$"
 
 SilphCo_8F_Text_Grunt1Defeat::
-    .string "Not enough grit!$"
+    .string "¡Te falta valor!$"
 
 SilphCo_8F_Text_Grunt1PostBattle::
-    .string "If you don't turn back…\n"
-    .string "I'll call for backup!$"
+    .string "Si no retrocedes…\n"
+    .string "¡Pediré refuerzos!$"
 
 SilphCo_8F_Text_ParkerIntro::
-    .string "You're causing us problems!$"
+    .string "¡Nos estás causando problemas!$"
 
 SilphCo_8F_Text_ParkerDefeat::
-    .string "Huh?\n"
-    .string "I lost?$"
+    .string "¿Uh?\n"
+    .string "¿Perdí?$"
 
 SilphCo_8F_Text_ParkerPostBattle::
-    .string "So, what do you think of SILPH\n"
-    .string "BUILDING's maze?$"
+    .string "Así que, ¿que piensas del\n"
+    .string "laberinto del EDIFICIO SILPH?$"
 
 SilphCo_8F_Text_Grunt2Intro::
-    .string "I am one of the four ROCKET\n"
-    .string "BROTHERS!$"
+    .string "¡Soy uno de los cuatro HERMANOS\n"
+    .string "ROCKET!$"
 
 SilphCo_8F_Text_Grunt2Defeat::
-    .string "Whoo!\n"
-    .string "Oh, Brothers!$"
+    .string "¡Uoo!\n"
+    .string "¡Oh, hermanos!$"
 
 SilphCo_8F_Text_Grunt2PostBattle::
-    .string "I'll leave you up to my brothers.$"
+    .string "Te dejaré para mis hermanos.$"
 
 SilphCo_8F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
-    .string "8F$"
+    .string "OFICINA CENTRAL DE SILPH S.A.\n"
+    .string "P8$"
 
 SilphCo_8F_Text_ToRocketBossMonsAreTools::
-    .string "TEAM ROCKET's BOSS is terribly\n"
-    .string "cruel!\p"
-    .string "To him, POKéMON are just tools to\n"
-    .string "be used.\p"
-    .string "What will happen if that tyrant\n"
-    .string "takes over our company…$"
+    .string "¡El JEFE del EQUIPO ROCKET es\n"
+    .string "terriblemente cruel!\p"
+    .string "Para él, los POKéDEX solo son\n"
+    .string "herramientas para ser usadas.\p"
+    .string "Lo que pasaría si ese tirano se\n"
+    .string "apodera de la compañia…$"
