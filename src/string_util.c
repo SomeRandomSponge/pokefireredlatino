@@ -45,11 +45,13 @@ extern u8 gExpandedPlaceholder_El[];
 extern u8 gExpandedPlaceholder_La[];
 extern u8 gExpandedPlaceholder_ITA[];
 extern u8 gExpandedPlaceholder_ITO[];
+extern u8 gExpandedPlaceholder_ET[];
 extern u8 gExpandedPlaceholder_OM[];
 extern u8 gExpandedPlaceholder_AM[];
 extern u8 gExpandedPlaceholder_EM[];
 extern u8 gExpandedPlaceholder_ON[];
 extern u8 gExpandedPlaceholder_ONA[];
+extern u8 gExpandedPlaceholder_INAT[];
 extern u8 gExpandedPlaceholder_ONM[];
 extern u8 gExpandedPlaceholder_ONAM[];
 
@@ -500,6 +502,29 @@ static u8 *ExpandPlaceholder_ONONAM(void)
         return gExpandedPlaceholder_ONAM;
 }
 
+static u8 *ExpandPlaceholder_E(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gExpandedPlaceholder_E;
+    else
+        return gExpandedPlaceholder_Kun;
+}
+
+static u8 *ExpandPlaceholder_ET(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gExpandedPlaceholder_ET;
+    else
+        return gExpandedPlaceholder_E;
+}
+
+static u8 *ExpandPlaceholder_INAT(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gExpandedPlaceholder_Kun;
+    else
+        return gExpandedPlaceholder_INAT;
+}
 static u8 *ExpandPlaceholder_RivalName(void)
 {
     if (gSaveBlock1Ptr->rivalName[0] == EOS)
@@ -610,6 +635,9 @@ u8 *GetExpandedPlaceholder(u32 id)
         [PLACEHOLDER_ID_EAM]          = ExpandPlaceholder_EAM,
         [PLACEHOLDER_ID_ONONA]        = ExpandPlaceholder_ONONA,
         [PLACEHOLDER_ID_ONONAM]       = ExpandPlaceholder_ONONAM,
+        [PLACEHOLDER_ID_E]            = ExpandPlaceholder_E,
+        [PLACEHOLDER_ID_ET]           = ExpandPlaceholder_ET,
+        [PLACEHOLDER_ID_INAT]         = ExpandPlaceholder_INAT,
     };
 
     if (id >= NELEMS(funcs))

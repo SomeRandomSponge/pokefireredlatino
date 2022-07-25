@@ -137,6 +137,9 @@
 #define PLACEHOLDER_ID_EAM           0x17
 #define PLACEHOLDER_ID_ONONA         0x18
 #define PLACEHOLDER_ID_ONONAM        0x19
+#define PLACEHOLDER_ID_E             0x1A
+#define PLACEHOLDER_ID_ET            0x1B
+#define PLACEHOLDER_ID_INAT          0x1C
 
 // battle placeholders are located in battle_message.h
 #define EXT_CTRL_CODE_COLOR                   0x1

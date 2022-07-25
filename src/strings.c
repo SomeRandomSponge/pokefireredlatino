@@ -23,11 +23,13 @@ const u8 gExpandedPlaceholder_El[] = _("El");
 const u8 gExpandedPlaceholder_La[] = _("La");
 const u8 gExpandedPlaceholder_ITA[] = _("ita");
 const u8 gExpandedPlaceholder_ITO[] = _("ito");
+const u8 gExpandedPlaceholder_ET[] = _("é");
 const u8 gExpandedPlaceholder_OM[] = _("O");
 const u8 gExpandedPlaceholder_AM[] = _("A");
 const u8 gExpandedPlaceholder_EM[] = _("E");
 const u8 gExpandedPlaceholder_ON[] = _("ón");
 const u8 gExpandedPlaceholder_ONA[] = _("ona");
+const u8 gExpandedPlaceholder_INAT[] = _("ína");
 const u8 gExpandedPlaceholder_ONM[] = _("ÓN");
 const u8 gExpandedPlaceholder_ONAM[] = _("ONA");
 

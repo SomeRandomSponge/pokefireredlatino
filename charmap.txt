@@ -166,6 +166,9 @@ AM          = FD 16
 EAM         = FD 17
 ONONA       = FD 18
 ONONAM      = FD 19
+E           = FD 1A
+ET          = FD 1B
+INAT        = FD 1C
 
 @ Hiragana
 'あ' = 01
