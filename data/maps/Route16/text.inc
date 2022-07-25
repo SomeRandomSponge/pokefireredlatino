@@ -1,74 +1,74 @@
 Route16_Text_LaoIntro::
-    .string "What do you want?$"
+    .string "¿Qué es lo que quieres?$"
 
 Route16_Text_LaoDefeat::
-    .string "Don't you dare laugh!$"
+    .string "¡No te atrevas a reírte!$"
 
 Route16_Text_LaoPostBattle::
-    .string "We like just hanging here.\n"
-    .string "What's it to you?$"
+    .string "Solo nos gusta estar aquí.\n"
+    .string "¿A ti qué te pasa?$"
 
 Route16_Text_KojiIntro::
-    .string "Nice BIKE!\n"
-    .string "Hand it over!$"
+    .string "¡Bonita BICICLETA!\n"
+    .string "¡Dámela!$"
 
 Route16_Text_KojiDefeat::
-    .string "Knockout!$"
+    .string "¡Fuera de combate!$"
 
 Route16_Text_KojiPostBattle::
-    .string "Forget it, who needs your BIKE!$"
+    .string "¡Olvídalo, nadie necesita tu BICI!$"
 
 Route16_Text_LukeIntro::
-    .string "Come out and play, little mouse!$"
+    .string "¡Ven y sal a jugar, ratoncit{OA}!$"
 
 Route16_Text_LukeDefeat::
-    .string "You little rat!$"
+    .string "¡Pequeña rata!$"
 
 Route16_Text_LukePostBattle::
-    .string "I hate losing!\n"
-    .string "Get out of my face!$"
+    .string "¡Odio perder!\n"
+    .string "¡Sal de mi vista!$"
 
 Route16_Text_HideoIntro::
-    .string "Hey, you just bumped me!$"
+    .string "¡Oye, chocaste conmigo!$"
 
 Route16_Text_HideoDefeat::
-    .string "Kaboom!$"
+    .string "¡Kabum!$"
 
 Route16_Text_HideoPostBattle::
-    .string "We'll always be hanging around here\n"
-    .string "even if you don't like it.\p"
-    .string "You can detour to VERMILION from\n"
-    .string "FUCHSIA going along the coast.$"
+    .string "Siempre estaremos por aquí incluso\n"
+    .string "si no te gusta.\p"
+    .string "También puedes llegar a FUCSIA\n"
+    .string "desde CARMÍN, yendo por la costa.$"
 
 Route16_Text_CamronIntro::
-    .string "I'm feeling hungry and mean!\n"
-    .string "I need a punching bag!$"
+    .string "¡Me siento hambriento y rudo!\n"
+    .string "¡Necesito un saco de boxeo!$"
 
 Route16_Text_CamronDefeat::
-    .string "Bad, bad, bad!$"
+    .string "¡Mal, mal, mal!$"
 
 Route16_Text_CamronPostBattle::
-    .string "If I'm going to have POKéMON, they\n"
-    .string "may as well be ferocious.\p"
-    .string "I'd use them to leave my enemies\n"
-    .string "in tatters.$"
+    .string "Si voy a tener POKéMON, lo mejor\n"
+    .string "es que sean feroces.\p"
+    .string "Los usaría para hacer trizas a mis\n"
+    .string "enemigos.$"
 
 Route16_Text_RubenIntro::
-    .string "Hey, there!\n"
-    .string "Let's have ourselves a good time!$"
+    .string "¡Ey, tú!\n"
+    .string "¡Pasemos un buen rato!$"
 
 Route16_Text_RubenDefeat::
-    .string "Don't make me mad!$"
+    .string "¡No me hagas enojar!$"
 
 Route16_Text_RubenPostBattle::
-    .string "I get my kicks by harassing people\n"
-    .string "with my stinking POKéMON.\p"
-    .string "They're great for startling people.\n"
-    .string "And, they bite, too.$"
+    .string "Disfruto el acosar personas con\n"
+    .string "mis POKéMON apestosos.\p"
+    .string "Son buenos para sobresaltar gente.\n"
+    .string "Y también muerden.$"
 
 Route16_Text_MonSprawledOutInSlumber::
-    .string "A POKéMON is sprawled out in\n"
-    .string "a deep and comfortable slumber.$"
+    .string "Un POKéMON está tumbado en un\n"
+    .string "cómodo y profundo sueño.$"
 
 Route16_Text_CyclingRoadSign::
     .string "¡Disfruta el descenso!\n"
