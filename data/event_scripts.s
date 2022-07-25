@@ -852,7 +852,7 @@ Text_WantWhichFloor::
 	.string "¿Qué piso quieres?$"
 
 Text_BagItemCanBeRegistered::
-	.string "Puedes registrar un objeto en la\n"
+	.string "Puedes asignar un objeto en la\n"
 	.string "MOCHILA a SELECT para uso fácil.$"
 
 @ Unused (email from R/S Rivals computer)
