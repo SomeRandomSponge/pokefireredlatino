@@ -1,102 +1,102 @@
 SaffronCity_Dojo_Text_MasterKoichiIntro::
-    .string "Grunt!\p"
-    .string "I am the KARATE MASTER!\n"
-    .string "I am the LEADER here!\p"
-    .string "You wish to challenge us?\n"
-    .string "Expect no mercy!\p"
-    .string "Fwaaa!$"
+    .string "¡Grr!\p"
+    .string "¡Soy el MAESTRO DEL KÁRATE!\n"
+    .string "¡Soy el LÍDER aquí!\p"
+    .string "¿Nos quieres desafiar?\n"
+    .string "¡No esperes piedad!\p"
+    .string "¡Fuaaa!$"
 
 SaffronCity_Dojo_Text_MasterKoichiDefeat::
-    .string "Hwa!\n"
-    .string "Arrgh! Beaten!$"
+    .string "¡Hwa!\n"
+    .string "¡Arrgh! ¡derrotado!$"
 
 SaffronCity_Dojo_Text_ChoosePrizedFightingMon::
-    .string "Indeed, I have lost!\p"
-    .string "But, I beseech you, do not take\n"
-    .string "our emblem as your trophy!\p"
-    .string "In return, I will give you a prized\n"
-    .string "FIGHTING POKéMON!\p"
-    .string "Choose whichever one you like!$"
+    .string "¡Sí, perdí!\p"
+    .string "Pero, te lo suplico, ¡no te lleves\n"
+    .string "nuestro emblema como trofeo!\p"
+    .string "¡En su lugar, te daré un valioso\n"
+    .string "POKéMON de PELEA!\p"
+    .string "¡Elige el que tú quieras!$"
 
 SaffronCity_Dojo_Text_StayAndTrainWithUs::
-    .string "Grunt!\n"
-    .string "Stay and train at karate with us!$"
+    .string "¡Grr!\n"
+    .string "¡Quédate y entrena con nosotros!$"
 
 SaffronCity_Dojo_Text_MikeIntro::
-    .string "Hoargh!\n"
-    .string "Take your shoes off!$"
+    .string "¡Joargh!\n"
+    .string "¡Quítate los zapatos!$"
 
 SaffronCity_Dojo_Text_MikeDefeat::
-    .string "I give up!$"
+    .string "¡Me rindo!$"
 
 SaffronCity_Dojo_Text_MikePostBattle::
-    .string "You wait 'til you see our MASTER!\n"
-    .string "I'm a small fry compared to him!$"
+    .string "¡Espera a ver a nuestro MAESTRO!\n"
+    .string "¡No soy nadie comparado con él!$"
 
 SaffronCity_Dojo_Text_HidekiIntro::
-    .string "I hear you're good!\n"
-    .string "Show me!$"
+    .string "¡Escuché que eres buen{OA}!\n"
+    .string "¡Muéstrame!$"
 
 SaffronCity_Dojo_Text_HidekiDefeat::
-    .string "Judge!\n"
-    .string "One point!$"
+    .string "¡Juez!\n"
+    .string "¡Un punto!$"
 
 SaffronCity_Dojo_Text_HidekiPostBattle::
-    .string "Our MASTER is a pro fighter.\n"
-    .string "Be prepared to lose!$"
+    .string "Nuestro MAESTRO es un profesional.\n"
+    .string "¡Prepárate para perder!$"
 
 SaffronCity_Dojo_Text_AaronIntro::
-    .string "Hiyah!\n"
-    .string "I have no fear for anything tough!\p"
-    .string "I shatter boulders for training\n"
-    .string "every day!$"
+    .string "¡Jaiyah!\n"
+    .string "¡No tengo miedo de nada difícil!\p"
+    .string "¡Destrozo rocas en mi\n"
+    .string "entrenamiento todos los días!$"
 
 SaffronCity_Dojo_Text_AaronDefeat::
-    .string "Yow!\n"
-    .string "Stubbed fingers!$"
+    .string "¡Yau!\n"
+    .string "¡Dedos golpeados!$"
 
 SaffronCity_Dojo_Text_AaronPostBattle::
-    .string "The only thing that frightens us is\n"
-    .string "psychic power!$"
+    .string "¡Lo único que nos asusta es el\n"
+    .string "poder psíquico!$"
 
 SaffronCity_Dojo_Text_HitoshiIntro::
-    .string "Hwaah!\p"
-    .string "You're trespassing in our\n"
-    .string "FIGHTING DOJO!$"
+    .string "¡Waah!\p"
+    .string "¡Estás invadiendo nuestro DOJO\n"
+    .string "DE PELEA!$"
 
 SaffronCity_Dojo_Text_HitoshiDefeat::
-    .string "Oof!\n"
-    .string "I give up!$"
+    .string "¡Uf!\n"
+    .string "¡Me rindo!$"
 
 SaffronCity_Dojo_Text_HitoshiPostBattle::
-    .string "The prime fighters across the land\n"
-    .string "train here.$"
+    .string "Luchadores excelentes de todas\n"
+    .string "partes entrenan aquí.$"
 
 SaffronCity_Dojo_Text_YouWantHitmonlee::
-    .string "You want the hard-kicking\n"
+    .string "¿Quieres las duras patadas de\n"
     .string "HITMONLEE?$"
 
 SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster::
-    .string "{PLAYER} received the {STR_VAR_1}\n"
-    .string "from the KARATE MASTER.$"
+    .string "{PLAYER} recibió {STR_VAR_1}\n"
+    .string "del MAESTRO DEL KÁRATE.$"
 
 SaffronCity_Dojo_Text_YouWantHitmonchan::
-    .string "You want the piston-punching\n"
-    .string "HITMONCHAN?$"
+    .string "¿Quieres los superpuños de\n"
+    .string "HITMONLEE?$"
 
 SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster2::
     .string "{PLAYER}は　カラテ　だいおう　から\n"
     .string "{STR_VAR_1}を　もらった！$"
 
 SaffronCity_Dojo_Text_BetterNotGetGreedy::
-    .string "Better not get greedy…$"
+    .string "Mejor no ser codicios{OA}…$"
 
 SaffronCity_Dojo_Text_EnemiesOnEverySide::
-    .string "Enemies on every side!$"
+    .string "¡Enemigos en cada lado!$"
 
 SaffronCity_Dojo_Text_GoesAroundComesAround::
-    .string "What goes around comes around.$"
+    .string "Lo que se da se recibe.$"
 
 SaffronCity_Dojo_Text_FightingDojo::
-    .string "FIGHTING DOJO$"
+    .string "DOJO DE PELEA$"
 
