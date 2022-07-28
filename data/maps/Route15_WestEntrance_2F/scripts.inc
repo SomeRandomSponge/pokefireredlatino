@@ -26,17 +26,17 @@ Route15_WestEntrance_2F_EventScript_Aide::
 	goto_if_set FLAG_GOT_EXP_SHARE_FROM_OAKS_AIDE, Route15_WestEntrance_2F_EventScript_AlreadyGotExpShare
 	msgbox Route15_WestEntrance_2F_Text_GiveItemIfCaughtEnough, MSGBOX_YESNO
 	compare VAR_RESULT, NO
-	goto_if_eq Aide_EventScript_DeclineCheckMons
+	goto_if_eq Aide_EventScript_DeclineCheckMons_Exp
 	setvar VAR_0x8004, 0
 	specialvar VAR_RESULT, GetPokedexCount
 	getnumberstring 2, VAR_0x8006
 	call Route15_WestEntrance_2F_EventScript_GetAideRequestInfo
 	compare VAR_0x8006, REQUIRED_CAUGHT_MONS
-	goto_if_lt Aide_EventScript_HaventCaughtEnough
+	goto_if_lt Aide_EventScript_HaventCaughtEnough_Exp
 	msgbox Route15_WestEntrance_2F_Text_GreatHereYouGo
 	checkitemspace ITEM_EXP_SHARE, 1
 	compare VAR_RESULT, FALSE
-	goto_if_eq Aide_EventScript_NoRoomForItem
+	goto_if_eq Aide_EventScript_NoRoomForItem_Exp
 	giveitem_msg Route15_WestEntrance_2F_Text_ReceivedItemFromAide, ITEM_EXP_SHARE
 	setflag FLAG_GOT_EXP_SHARE_FROM_OAKS_AIDE
 	msgbox Route15_WestEntrance_2F_Text_ExplainExpShare
