@@ -1,10 +1,10 @@
 Route18_EastEntrance_2F_Text_PalletTownInWest::
-    .string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "PALLET TOWN is in the west.$"
+    .string "Veamos lo que estos binoculares\n"
+    .string "tienen para mostrar…\p"
+    .string "PUEBLO PALETA está al oeste.$"
 
 Route18_EastEntrance_2F_Text_PeopleSwimming::
-    .string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "There are people swimming.$"
+    .string "Veamos lo que estos binoculares\n"
+    .string "tienen para mostrar…p"
+    .string "Hay gente nadando.$"
 

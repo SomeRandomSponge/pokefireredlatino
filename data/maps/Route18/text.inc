@@ -1,40 +1,40 @@
 Route18_Text_WiltonIntro::
-    .string "I always check every grassy area\n"
-    .string "for new POKéMON.$"
+    .string "Siempre reviso áreas con hierba\n"
+    .string "en busca de nuevos POKéMON.$"
 
 Route18_Text_WiltonDefeat::
-    .string "Tch!$"
+    .string "¡Tch!$"
 
 Route18_Text_WiltonPostBattle::
-    .string "I wish I had a BIKE!$"
+    .string "¡Ojalá tuviera una BICICLETA!$"
 
 Route18_Text_RamiroIntro::
-    .string "Kurukkoo!\n"
-    .string "How do you like my birdcall?$"
+    .string "¡Kurukukuuu!\n"
+    .string "¿Qué te parece mi canto de ave?$"
 
 Route18_Text_RamiroDefeat::
-    .string "I had to bug you!$"
+    .string "¡Lo que me pasa por molestarte!$"
 
 Route18_Text_RamiroPostBattle::
-    .string "I collect sea POKéMON on weekends\n"
-    .string "because the sea is so close.$"
+    .string "Recojo POKéMON marinos los fines\n"
+    .string "de semana, por la cercanía del mar.$"
 
 Route18_Text_JacobIntro::
-    .string "This is my turf!\n"
-    .string "Get out of here!$"
+    .string "¡Esté es mi territorio!\n"
+    .string "¡Fuera de aquí!$"
 
 Route18_Text_JacobDefeat::
-    .string "Darn!$"
+    .string "¡Rayos!$"
 
 Route18_Text_JacobPostBattle::
-    .string "This is my fave area for catching\n"
-    .string "POKéMON.$"
+    .string "Esta es mi área favorita para\n"
+    .string "atrapar POKéMON.$"
 
 Route18_Text_RouteSign::
-    .string "ROUTE 18\n"
-    .string "CELADON CITY - FUCHSIA CITY$"
+    .string "RUTA 18\n"
+    .string "CIUDAD PRISMA - CIUDAD FUCSIA$"
 
 Route18_Text_CyclingRoadSign::
-    .string "CYCLING ROAD\n"
-    .string "No pedestrians permitted!$"
+    .string "CICLOVÍA\n"
+    .string "¡No se permiten peatones!$"
 
