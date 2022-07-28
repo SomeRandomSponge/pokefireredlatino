@@ -1,21 +1,22 @@
 SafariZone_North_Text_RestHouse::
-    .string "REST HOUSE$"
+    .string "CASA DE DESCANSO$"
 
 SafariZone_North_Text_SecretHouseStillAhead::
-    .string "TRAINER TIPS\p"
-    .string "The SECRET HOUSE is still ahead.$"
+    .string "CONSEJOS PARA ENTRENADORES\p"
+    .string "La CASA SECRETA aún está adelante.$"
 
 SafariZone_North_Text_Area2::
-    .string "AREA 2$"
+    .string "ZONA 2$"
 
 SafariZone_North_Text_ZigzagThroughTallGrass::
-    .string "TRAINER TIPS\p"
-    .string "POKéMON hide in tall grass.\p"
-    .string "Zigzag through grassy areas to\n"
-    .string "flush them out.$"
+    .string "CONSEJOS PARA ENTRENADORES\p"
+    .string "Los POKéMON se esconden en la\n"
+    .string "hierba alta.\p"
+    .string "Zigzaguea por zonas de hierba para\n"
+    .string "hacerlos salir.$"
 
 SafariZone_North_Text_WinFreeHMFindSecretHouse::
-    .string "TRAINER TIPS\p"
-    .string "Win a free HM for finding the\n"
-    .string "SECRET HOUSE.$"
+    .string "CONSEJOS PARA ENTRENADORES\p"
+    .string "Gana una MO gratis por encontrar\n"
+    .string "la CASA SECRETA.$"
 
