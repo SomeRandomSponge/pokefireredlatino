@@ -1,112 +1,113 @@
 FuchsiaCity_Text_DidYouTrySafariGame::
-    .string "Did you try the SAFARI GAME?\p"
-    .string "There are some rare POKéMON that\n"
-    .string "can only be caught there.$"
+    .string "¿Probaste el JUEGO SAFARI?\p"
+    .string "Hay algunos POKéMON raros que solo\n"
+    .string "se pueden atrapar ahí.$"
 
 FuchsiaCity_Text_SafariZoneZooInFront::
-    .string "The SAFARI ZONE has a zoo in front\n"
-    .string "of the entrance.\p"
-    .string "Out back is the SAFARI GAME for\n"
-    .string "catching POKéMON.$"
+    .string "La ZONA SAFARI tiene un zoológico\n"
+    .string "frente a la entrada.\p"
+    .string "En la parte de atrás está el\n"
+    .string "JUEGO SAFARI para atrapar POKéMON.$"
 
 FuchsiaCity_Text_WheresSara::
-    .string "ERIK: Where's SARA?\n"
-    .string "I said I'd meet her here.$"
+    .string "ERIK: ¿Dónde está SARA?\n"
+    .string "Dijo que la vería aquí.$"
 
 FuchsiaCity_Text_ItemBallInThere::
-    .string "That item ball in there…\n"
-    .string "Were you wanting that?\p"
-    .string "Me, too!\n"
-    .string "…Huh? That's a POKéMON?$"
+    .string "Ese objeto redondo de ahí…\n"
+    .string "¿Lo quieres?\p"
+    .string "¡Yo también!\n"
+    .string "…¿Ah? ¿es un POKéMON?$"
 
 FuchsiaCity_Text_CitySign::
-    .string "FUCHSIA CITY\n"
-    .string "Behold! It's Passion Pink!$"
+    .string "CIUDAD FUCSIA\n"
+    .string "¡Observa! ¡es pasión rosa!$"
 
 FuchsiaCity_Text_SafariZoneSign::
-    .string "POKéMON PARADISE\n"
-    .string "SAFARI ZONE$"
+    .string "PARAÍSO POKéMON\n"
+    .string "ZONA SAFARI$"
 
 FuchsiaCity_Text_SafariGameSign::
-    .string "SAFARI GAME\n"
-    .string "POKéMON-U-CATCH!$"
+    .string "JUEGO SAFARI\n"
+    .string "¡ATRAPA-POKéMON!$"
 
 FuchsiaCity_Text_WardensHomeSign::
-    .string "SAFARI ZONE\n"
-    .string "WARDEN'S HOME$"
+    .string "ZONA SAFARI\n"
+    .string "CASA DEL GUARDA$"
 
 FuchsiaCity_Text_SafariZoneOfficeSign::
-    .string "POKéMON PARADISE!\n"
-    .string "Welcome to the SAFARI ZONE!\l"
-    .string "SAFARI ZONE OFFICE$"
+    .string "¡PARAÍSO POKéMON!\n"
+    .string "¡BIENVENIDOS A LA ZONA SAFARI!\l"
+    .string "OFICINA DE LA ZONA SAFARI$"
 
 FuchsiaCity_Text_GymSign::
-    .string "FUCHSIA CITY POKéMON GYM\n"
-    .string "LEADER: KOGA\l"
-    .string "The Poisonous Ninja Master$"
+    .string "GIMNASIO POKéMON DE CIUDAD FUCSIA\n"
+    .string "LÍDER: KOGA\l"
+    .string "El venenoso maestro ninja$"
 
 FuchsiaCity_Text_ChanseySign::
-    .string "Name: CHANSEY\n"
-    .string "Catching one is all up to chance.$"
+    .string "Nombre: CHANSEY\n"
+    .string "Atrapar uno depende de la suerte.$"
 
 FuchsiaCity_Text_VoltorbSign::
-    .string "Name: VOLTORB\n"
-    .string "The very image of a POKé BALL.$"
+    .string "Nombre: VOLTORB\n"
+    .string "La viva imagen de una POKÉBOLA.$"
 
 FuchsiaCity_Text_KangaskhanSign::
-    .string "Name: KANGASKHAN\p"
-    .string "A maternal POKéMON that raises its\n"
-    .string "young in a pouch on its belly.$"
+    .string "Nombre: KANGASKHAN\p"
+    .string "POKéMON maternal que cría a sus\n"
+    .string "hijos en una bolsa en su vientre.$"
 
 FuchsiaCity_Text_SlowpokeSign::
-    .string "Name: SLOWPOKE\n"
-    .string "Friendly and very slow moving.$"
+    .string "Nombre: SLOWPOKE\n"
+    .string "Amigable y de movimiento lento.$"
 
 FuchsiaCity_Text_LaprasSign::
-    .string "Name: LAPRAS\n"
-    .string "AKA the king of the seas.$"
+    .string "Nombre: LAPRAS\n"
+    .string "Tambíen conocido como el rey\l"
+    .string "de los mares.$"
 
 FuchsiaCity_Text_OmanyteSign::
-    .string "Name: OMANYTE\n"
-    .string "An extremely rare POKéMON that was\l"
-    .string "regenerated from a fossil.$"
+    .string "Nombre: OMANYTE\n"
+    .string "Un POKéMON extremadamente raro que\l"
+    .string "fue regenerado de un fósil.$"
 
 FuchsiaCity_Text_KabutoSign::
-    .string "Name: KABUTO\n"
-    .string "An extremely rare POKéMON that was\l"
-    .string "regenerated from a fossil.$"
+    .string "Nombre: KABUTO\n"
+    .string "Un POKéMON extremadamente raro que\l"
+    .string "fue regenerado de un fósil.$"
 
 @ Unused. May have been meant to be the placeholder text for the zoo mons, similar to RB's "!" text
 FuchsiaCity_Text_Ellipsis::
     .string "……$"
 
 Text_SubstituteTeach::
-    .string "Aww, I wish I was a KANGASKHAN\n"
-    .string "baby.\p"
-    .string "I'd love to be a substitute for the\n"
-    .string "baby…\p"
-    .string "And snuggle in the mother\n"
-    .string "KANGASKHAN's belly pouch.\p"
-    .string "But only POKéMON can use the\n"
-    .string "technique SUBSTITUTE…\p"
-    .string "Want me to teach SUBSTITUTE to\n"
-    .string "one of your POKéMON?$"
+    .string "Aww, quisiera ser un bebé de\n"
+    .string "KANGASKHAN.\p"
+    .string "Me encantaría sustituir a ese\n"
+    .string "bebé…\p"
+    .string "Y acurrucarme en la bolsa de la\n"
+    .string "KANGASKHAN madre.\p"
+    .string "Pero solo los POKéMON pueden usar\n"
+    .string "técnicas como SUSTITUTO…\p"
+    .string "¿Quieres que le enseñe SUSTITUTO a\n"
+    .string "uno de tus POKéMON?$"
 
 Text_SubstituteDeclined::
-    .string "Oh, really?\n"
-    .string "SUBSTITUTE seems so fun…$"
+    .string "¿Oh, en serio?\n"
+    .string "Si SUSTITUTO parece genial…$"
 
 Text_SubstituteWhichMon::
-    .string "Which POKéMON wants to learn\n"
-    .string "SUBSTITUTE?$"
+    .string "¿Qué POKéMON quiere aprender\n"
+    .string "SUSTITUTO?$"
 
 Text_SubstituteTaught::
-    .string "Boy, what I'd give to crawl inside\n"
-    .string "a KANGASKHAN belly pouch…$"
+    .string "Lo que daría por meterme en la\n"
+    .string "bolsa de un KANGASKHAN…$"
 
 FuchsiaCity_Text_MyFatherIsGymLeader::
-    .string "My father is the GYM LEADER of\n"
-    .string "this town.\p"
-    .string "I'm training to use POISON POKéMON\n"
-    .string "as well as my father.$"
+    .string "Mi padre es el LÍDER DE GIMNASIO\n"
+    .string "de esta ciudad.\p"
+    .string "Entreno para usar POKéMON de tipo\n"
+    .string "VENENO tan bien como mi padre.$"
 
