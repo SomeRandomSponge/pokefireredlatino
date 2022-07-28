@@ -262,7 +262,7 @@ PalletTown_ProfessorOaksLab_Text_EmailMessage::
     .string "desafiar al que se presente!\p"
     .string "¡Traigan a sus mejores POKéMON\n"
     .string "para pobrar su habilidad!\p"
-    .string "CG de la LIGA POKéMON\n"
+    .string "SC de la LIGA POKéMON\n"
     .string "MESETA AÑIL\p"
     .string "¡PROF. OAK, por favor visítenos!\n"
     .string "…$"

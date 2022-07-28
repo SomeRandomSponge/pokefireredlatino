@@ -41,12 +41,12 @@ Text_PokecenterSign::
 Text_Indigo_UltimateGoal::
 	.string "MESETA AÑIL\p"
 	.string "¡La última meta para ENTRENADORES!\n"
-	.string "CG de la LIGA POKéMON$"
+	.string "SC de la LIGA POKéMON$"
 
 Text_Indigo_HighestAuthority::
 	.string "MESETA AÑIL\p"
 	.string "¡La más alta autoridad en POKéMON!\n"
-	.string "CG de la LIGA POKéMON$"
+	.string "SC de la LIGA POKéMON$"
 
 Text_Food::
 	.string "Debería estar lleno de todo tipo\n"
