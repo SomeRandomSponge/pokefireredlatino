@@ -18,127 +18,127 @@ Text_PlayedPokeFlute::
     .string "{PLAYER} tocó la POKé FLAUTA.$"
 
 Route12_Text_NedIntro::
-    .string "Yeah!\n"
-    .string "I got a bite here!$"
+    .string "¡Sí!\n"
+    .string "¡Algo está picando!$"
 
 Route12_Text_NedDefeat::
-    .string "Tch!\n"
-    .string "Just a small fry…$"
+    .string "¡Tch!\n"
+    .string "Solo un pequeñin…$"
 
 Route12_Text_NedPostBattle::
-    .string "Hang on!\n"
-    .string "My line's snagged!$"
+    .string "¡Espera!\n"
+    .string "¡Mi sedal se atoró!$"
 
 Route12_Text_ChipIntro::
-    .string "Be patient.\n"
-    .string "Fishing is a waiting game.$"
+    .string "Ten paciencia.\n"
+    .string "La pesca es un juego de esperar.$"
 
 Route12_Text_ChipDefeat::
-    .string "That one got away!$"
+    .string "¡Ese se escapó!$"
 
 Route12_Text_ChipPostBattle::
-    .string "With a better ROD, I could catch\n"
-    .string "better POKéMON…$"
+    .string "Con una mejor CAÑA, podría atrapar\n"
+    .string "mejores POKéMON…$"
 
 Route12_Text_JustinIntro::
-    .string "I'm searching for a MOON STONE.\n"
-    .string "Have you found one?$"
+    .string "Estoy buscando una PIEDRA LUNAR.\n"
+    .string "¿Has encontrado una?$"
 
 Route12_Text_JustinDefeat::
-    .string "Oww!$"
+    .string "¡Auch!$"
 
 Route12_Text_JustinPostBattle::
-    .string "I could have made my POKéMON\n"
-    .string "evolve with a MOON STONE.\p"
-    .string "I would have won then, I bet.$"
+    .string "Con una PIEDRA LUNAR, podría hacer\n"
+    .string "que mis POKéMON evolucionaran.\p"
+    .string "Apuesto que entonces ganaría.$"
 
 Route12_Text_LucaIntro::
-    .string "Electricity is my specialty.\p"
-    .string "I don't know a thing about POKéMON\n"
-    .string "of the sea, though.$"
+    .string "La electricidad es mi especialidad.\p"
+    .string "Aunque no sé nada sobre los\n"
+    .string "POKéMON del mar.$"
 
 Route12_Text_LucaDefeat::
-    .string "Unplugged!$"
+    .string "¡Desconectado!$"
 
 Route12_Text_LucaPostBattle::
-    .string "Water conducts electricity, so you\n"
-    .string "should zap sea POKéMON.$"
+    .string "El agua conduce electricidad, así\n"
+    .string "que podrías electrocutar POKéMON\l"
+    .string "marinos.$"
 
 Route12_Text_HankIntro::
-    .string "The FISHING FOOL versus POKéMON\n"
-    .string "KID!$"
+    .string "¡El PESCADOR TONTO contra {ELLA} NIÑ{OAM}\n"
+    .string "POKéMON!$"
 
 Route12_Text_HankDefeat::
-    .string "Touch too much!$"
+    .string "¡Eso fue demasiado!$"
 
 Route12_Text_HankPostBattle::
-    .string "I guess you get to be good at\n"
-    .string "what you like.\p"
-    .string "Well, you beat me at POKéMON,\n"
-    .string "but you can't top me at fishing.$"
+    .string "Supongo que tu logras ser buen{OA}\n"
+    .string "en lo que te gusta.\p"
+    .string "Bueno, me vences con los POKéMON,\n"
+    .string "pero no me puedes ganar en\l"
+    .string "la pesca.$"
 
 Route12_Text_ElliotIntro::
-    .string "I love fishing, don't get me wrong.\p"
-    .string "But it'd be best if I also had more\n"
-    .string "work.$"
+    .string "Amo pescar, no me malentiendas.\p"
+    .string "Pero sería mejor si también\n"
+    .string "tuviera más trabajo.$"
 
 Route12_Text_ElliotDefeat::
-    .string "It's not easy…$"
+    .string "No es fácil…$"
 
 Route12_Text_ElliotPostBattle::
-    .string "It's all right.\n"
-    .string "Losing doesn't bug me anymore.$"
+    .string "Está bien.\n"
+    .string "El perder ya no me molesta.$"
 
 Route12_Text_AndrewIntro::
-    .string "What's catching?\p"
-    .string "You never know what you could\n"
-    .string "catch!$"
+    .string "¿Qué pesco?\p"
+    .string "¡Nunca sabes lo que puedes pescar!$"
 
 Route12_Text_AndrewDefeat::
-    .string "Lost it!$"
+    .string "¡Lo perdí!$"
 
 Route12_Text_AndrewPostBattle::
-    .string "What, MAGIKARP?\p"
-    .string "I catch them all the time, sure.\n"
-    .string "But, boy are they wimpy.$"
+    .string "¿Qué, MAGIKARP?\p"
+    .string "Seguro, los pesco todo el tiempo.\n"
+    .string "Pero, si que son debiluchos.$"
 
 Route12_Text_RouteSign::
-    .string "ROUTE 12 \n"
-    .string "North to LAVENDER$"
+    .string "RUTA 12\n"
+    .string "LAVANDA, al norte$"
 
 Route12_Text_SportfishingArea::
-    .string "SPORTFISHING AREA$"
+    .string "ZONA DE PESCA DEPORTIVA$"
 
 Route12_Text_JesIntro::
-    .string "JES: If I win, I'm going to\n"
-    .string "propose to GIA.$"
+    .string "JES: Si gano, le pediré matrimonio\n"
+    .string "a GIA.$"
 
 Route12_Text_JesDefeat::
-    .string "JES: Oh, please, why couldn't you\n"
-    .string "let us win?$"
+    .string "JES: ¿Oh, por favor, por qué no\n"
+    .string "podías dejarnos ganar?$"
 
 Route12_Text_JesPostBattle::
-    .string "JES: Oh, GIA, forgive me,\n"
-    .string "my love!$"
+    .string "JES: ¡Oh, GIA, perdóname, mi amor!$"
 
 Route12_Text_JesNotEnoughMons::
-    .string "JES: GIA and I, we'll be\n"
-    .string "together forever.\p"
-    .string "We won't battle unless you have\n"
-    .string "two POKéMON of your own.$"
+    .string "JES: GIA y yo, estaremos juntos\n"
+    .string "para siempre.\p"
+    .string "No lucharemos, a menos que tengas\n"
+    .string "dos POKéMON.$"
 
 Route12_Text_GiaIntro::
-    .string "GIA: Hey, JES…\p"
-    .string "If we win, I'll marry you!$"
+    .string "GIA: Ey, JES…\p"
+    .string "¡Si ganamos, me casaré contigo!$"
 
 Route12_Text_GiaDefeat::
-    .string "GIA: Oh, but why?$"
+    .string "GIA: ¿Oh, pero por qué?$"
 
 Route12_Text_GiaPostBattle::
-    .string "GIA: JES, you silly!\n"
-    .string "You ruined this!$"
+    .string "GIA: ¡JES, qué tonto!\n"
+    .string "¡Arruinaste esto!$"
 
 Route12_Text_GiaNotEnoughMons::
-    .string "GIA: I can't bear to battle\n"
-    .string "without my JES!\p"
-    .string "Don't you have one more POKéMON?$"
+    .string "GIA: ¡No soportaría luchar sin mi\n"
+    .string "JES!\p"
+    .string "¿No tienes un POKéMON más?$"
