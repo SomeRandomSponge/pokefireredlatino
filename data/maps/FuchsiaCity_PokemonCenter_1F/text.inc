@@ -7,7 +7,7 @@ FuchsiaCity_PokemonCenter_1F_Text_CantBecomeGoodTrainerWithOneMon::
 FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian::
     .string "Hay un camino estrecho al oeste\n"
     .string "de CIUDAD VERDE.\p"
-    .string "Lleva al SC de la LIGA POKéMON.\p"
+    .string "Lleva a la SC de la LIGA POKéMON.\p"
     .string "La SEDE CENTRAL gobierna a\n"
     .string "todos los ENTRENADORES.$"
 
