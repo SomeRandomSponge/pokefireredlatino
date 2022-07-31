@@ -1,156 +1,159 @@
 Route14_Text_CarterIntro::
-    .string "You need to use TMs to teach good\n"
-    .string "moves to POKéMON.$"
+    .string "Necesitas usar MTs para enseñar\n"
+    .string "buenos movimientos a tus POKéMON.$"
 
 Route14_Text_CarterDefeat::
-    .string "Not good enough quite yet.$"
+    .string "No soy tan bueno aún.$"
 
 Route14_Text_CarterPostBattle::
-    .string "You have some HMs, right? POKéMON\n"
-    .string "can't forget those moves easily.$"
+    .string "¿Tienes algunas MOs, cierto?\p"
+    .string "Los POKéMON no pueden olvidar esos\n"
+    .string "movimientos fácilmente.$"
 
 Route14_Text_MitchIntro::
-    .string "My bird POKéMON should be ready\n"
-    .string "for battle.$"
+    .string "Mis POKéMON pájaros deberían estar\n"
+    .string "listos para la batalla.$"
 
 Route14_Text_MitchDefeat::
-    .string "Not ready yet!$"
+    .string "¡Aún no están listos!$"
 
 Route14_Text_MitchPostBattle::
-    .string "My bird POKéMON need to learn\n"
-    .string "better moves.$"
+    .string "Mis POKéMON pájaros necesitan\n"
+    .string "aprender mejores movimientos.$"
 
 Route14_Text_BeckIntro::
-    .string "They have TMs on sale at the\n"
-    .string "CELADON DEPT. STORE.\p"
-    .string "TMs aren't really rare, but not\n"
-    .string "many people have HMs.$"
+    .string "Tienen MTs a la venta en la TIENDA\n"
+    .string "DEPARTAMENTAL PRISMA.\p"
+    .string "Las MTs no son muy raras, pero\n"
+    .string "poca gente tiene MOs.$"
 
 Route14_Text_BeckDefeat::
-    .string "Aww, bummer!$"
+    .string "¡Aww, que mal!$"
 
 Route14_Text_BeckPostBattle::
-    .string "Try teaching POKéMON a move that's\n"
-    .string "the same type as it.\p"
-    .string "That apparently boosts the power\n"
-    .string "of the move.$"
+    .string "Intenta enseñar a tus POKéMON\n"
+    .string "ataques de sus mismos tipos.\p"
+    .string "Eso aparentemente potencia el\n"
+    .string "poder de ese ataque.$"
 
 Route14_Text_MarlonIntro::
-    .string "Have you taught your bird POKéMON\n"
-    .string "how to FLY?\p"
-    .string "You'll be able to soar with it into\n"
-    .string "the sky!$"
+    .string "¿Les enseñaste a VOLAR a tus\n"
+    .string "POKéMON pájaros?\p"
+    .string "¡Serás capaz de elevarte al cielo\n"
+    .string "con ellos!$"
 
 Route14_Text_MarlonDefeat::
-    .string "Shot down in flames!$"
+    .string "¡Caí en llamas!$"
 
 Route14_Text_MarlonPostBattle::
-    .string "Bird POKéMON are my one true love.\n"
-    .string "I don't want to raise anything else.$"
+    .string "Los POKéMON pájaros son mi\n"
+    .string "única y verdadera pasión.\p"
+    .string "No quiero criar otra cosa.$"
 
 Route14_Text_DonaldIntro::
-    .string "Have you heard the legend of the\n"
-    .string "winged mirages?$"
+    .string "¿Has oído de la leyenda de los\n"
+    .string "espejismos alados?$"
 
 Route14_Text_DonaldDefeat::
-    .string "Why?\n"
-    .string "Why'd I lose?$"
+    .string "¿Por qué?\n"
+    .string "¿Por qué perdí?$"
 
 Route14_Text_DonaldPostBattle::
-    .string "Well, the winged mirages are the\n"
-    .string "legendary bird POKéMON.\p"
-    .string "There are three of them: ARTICUNO,\n"
-    .string "ZAPDOS, and MOLTRES.$"
+    .string "Bueno, los espejismos alados son\n"
+    .string "legendarias aves POKéMON.\p"
+    .string "Existen tres: ARTICUNO, ZAPDOS,\n"
+    .string "y MOLTRES.$"
 
 Route14_Text_BennyIntro::
-    .string "I'm not into it, but okay.\n"
-    .string "Let's go!$"
+    .string "No es lo mío, pero esta bien.\n"
+    .string "¡Vamos!$"
 
 Route14_Text_BennyDefeat::
-    .string "I knew it!$"
+    .string "¡Lo sabía!$"
 
 Route14_Text_BennyPostBattle::
-    .string "Winning, losing… It's insignificant\n"
-    .string "under this huge sky.$"
+    .string "Ganar, perder…es insignificante\n"
+    .string "bajo este gran cielo.$"
 
 Route14_Text_LukasIntro::
-    .string "C'mon, c'mon.\n"
-    .string "Let's go, let's go, let's go!$"
+    .string "Adelante, adelante.\n"
+    .string "¡Vamos, vamos, vamos!$"
 
 Route14_Text_LukasDefeat::
-    .string "Arrg!\n"
-    .string "Lost! Get lost!$"
+    .string "¡Arrg!\n"
+    .string "¡Perdí! ¡piérdete!$"
 
 Route14_Text_LukasPostBattle::
-    .string "What, what, what?\n"
-    .string "What do you want still?$"
+    .string "¿Qué, qué, qué?\n"
+    .string "¿Ahora qué quieres?$"
 
 Route14_Text_IsaacIntro::
-    .string "I need to burn some time.\n"
-    .string "Shut up and battle.$"
+    .string "Necesito perder algo de tiempo.\n"
+    .string "Cállate y lucha.$"
 
 Route14_Text_IsaacDefeat::
-    .string "What?\n"
-    .string "You!?$"
+    .string "¿Qué?\n"
+    .string "¿¡Tú!?$"
 
 Route14_Text_IsaacPostBattle::
-    .string "Raising POKéMON is a drag, man.$"
+    .string "Criar POKéMON es muy pesado.$"
 
 Route14_Text_GeraldIntro::
-    .string "We ride out here because of the\n"
-    .string "wide-open spaces.$"
+    .string "Manejamos por aquí por el espacio\n"
+    .string "abierto.$"
 
 Route14_Text_GeraldDefeat::
-    .string "Wipeout!$"
+    .string "¡Aniquilado!$"
 
 Route14_Text_GeraldPostBattle::
-    .string "It's cool you made your POKéMON so\n"
-    .string "strong.\p"
-    .string "Might is right!\n"
-    .string "And you know it!$"
+    .string "Es genial que hicieras a tus\n"
+    .string "POKéMON tan fuertes.\p"
+    .string "¡El poder lo es todo!\n"
+    .string "¡Y lo sabes!$"
 
 Route14_Text_MalikIntro::
-    .string "POKéMON battle?\n"
-    .string "Cool! Rumble!$"
+    .string "¿Batalla POKéMON?\n"
+    .string "¡Genial! ¡vamos!$"
 
 Route14_Text_MalikDefeat::
-    .string "Blown away!$"
+    .string "¡Pulverizado!$"
 
 Route14_Text_MalikPostBattle::
-    .string "You know who'd win, you and me\n"
-    .string "one-on-one!$"
+    .string "¡Tú sabes quien ganaría en un\n"
+    .string "uno-a-uno entre tú y yo!$"
 
 Route14_Text_RouteSign::
-    .string "ROUTE 14\n"
-    .string "West to FUCHSIA CITY$"
+    .string "RUTA 14\n"
+    .string "Al oeste de CIUDAD FUCSIA$"
 
 Route14_Text_KiriIntro::
-    .string "KIRI: JAN, let's try really,\n"
-    .string "really hard together.$"
+    .string "KIRI: JAN, esforcémonos mucho,\n"
+    .string "mucho juntas.$"
 
 Route14_Text_KiriDefeat::
-    .string "KIRI: Whimper…\n"
-    .string "We lost, didn't we?$"
+    .string "KIRI: Ayy…\n"
+    .string "¿Perdimos, verdad?$"
 
 Route14_Text_KiriPostBattle::
-    .string "KIRI: Did we lose because of me?$"
+    .string "KIRI: ¿Perdimos por mi culpa?$"
 
 Route14_Text_KiriNotEnoughMons::
-    .string "KIRI: We can battle if you have\n"
-    .string "two POKéMON.$"
+    .string "KIRI: Podemos luchar si tienes dos\n"
+    .string "POKéMON.$"
 
 Route14_Text_JanIntro::
-    .string "JAN: KIRI, here we go!\n"
-    .string "We have to try hard!$"
+    .string "JAN: ¡KIRI, allá vamos!\n"
+    .string "¡Tenemos que esforzarnos mucho!$"
 
 Route14_Text_JanDefeat::
-    .string "JAN: Eeeeh!\n"
-    .string "No fair!$"
+    .string "JAN: ¡Eeeeh!\n"
+    .string "¡No es justo!$"
 
 Route14_Text_JanPostBattle::
-    .string "JAN: KIRI, don't cry!\n"
-    .string "We'll just try harder next time.$"
+    .string "JAN: ¡KIRI, no llores!\p"
+    .string "Nos esforzaremos más la próxima\n"
+    .string "vez.$"
 
 Route14_Text_JanNotEnoughMons::
-    .string "JAN: You want to battle?\n"
-    .string "You don't have enough POKéMON.$"
+    .string "JAN: ¿Quieres luchar?\n"
+    .string "No tienes POKéMON suficientes.$"
