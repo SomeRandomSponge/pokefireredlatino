@@ -55,10 +55,10 @@ extern u8 gExpandedPlaceholder_INAT[];
 extern u8 gExpandedPlaceholder_ONM[];
 extern u8 gExpandedPlaceholder_ONAM[];
 
-u8 *StringCopy10(u8 *dest, const u8 *src)
+u8 *StringCopy_Nickname(u8 *dest, const u8 *src)
 {
     u8 i;
-    u32 limit = 10;
+    u32 limit = POKEMON_NAME_LENGTH;
 
     for (i = 0; i < limit; i++)
     {
@@ -525,6 +525,7 @@ static u8 *ExpandPlaceholder_INAT(void)
     else
         return gExpandedPlaceholder_INAT;
 }
+
 static u8 *ExpandPlaceholder_RivalName(void)
 {
     if (gSaveBlock1Ptr->rivalName[0] == EOS)
