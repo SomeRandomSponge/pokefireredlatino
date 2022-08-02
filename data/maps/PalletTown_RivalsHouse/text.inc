@@ -63,8 +63,8 @@ PalletTown_RivalsHouse_Text_LookingNiceInNoTime::
     .string "en poco tiempo.$"
 
 PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
-    .string "{SIZE}Á{STR_VAR_1} se ve muy contento…\p"
-    .string "{SIZE}ÈDAISY: ¡Ahí lo tienes! Todo listo.\n"
+    .string "{FONT_2}{STR_VAR_1} se ve muy contento…\p"
+    .string "{FONT_5}DAISY: ¡Ahí lo tienes! Todo listo.\n"
     .string "¿Ves? ¿Tiene un buen aspecto o no?\p"
     .string "Jiji…\n"
     .string "Es un POKéMON muy lindo..$"
