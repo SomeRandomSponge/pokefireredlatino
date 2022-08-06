@@ -1,24 +1,24 @@
 PokemonMansion_1F_Text_TedIntro::
-    .string "Who are you?\n"
-    .string "There shouldn't be anyone here.$"
+    .string "¿Quién eres?\n"
+    .string "No debería haber nadie aquí.$"
 
 PokemonMansion_1F_Text_TedDefeat::
-    .string "Ouch!$"
+    .string "¡Auch!$"
 
 PokemonMansion_1F_Text_TedPostBattle::
-    .string "A key? I don't know what you're\n"
-    .string "talking about.$"
+    .string "¿Una llave? no se de que estás\n"
+    .string "hablando.$"
 
 PokemonMansion_1F_Text_JohnsonIntro::
-    .string "W-w-waah! You startled me!\n"
-    .string "I thought you were a ghost.$"
+    .string "¡G-g-guaa! ¡me asustaste!\n"
+    .string "Pensé que eras un fantasma.$"
 
 PokemonMansion_1F_Text_JohnsonDefeat::
-    .string "Tch!\n"
-    .string "I can't get any wins.$"
+    .string "¡Tch!\n"
+    .string "No puedo ganar ni una vez.$"
 
 PokemonMansion_1F_Text_JohnsonPostBattle::
-    .string "I was exploring here by myself,\n"
-    .string "but I feel spooked.\p"
-    .string "I ought to go soon.$"
+    .string "Estaba explorando por mi cuenta,\n"
+    .string "pero me estoy asustando.\p"
+    .string "Creo que me iré pronto.$"
 

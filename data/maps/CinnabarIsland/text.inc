@@ -1,29 +1,29 @@
 CinnabarIsland_Text_DoorIsLocked::
-    .string "The door is locked…$"
+    .string "La puerta está cerrada…$"
 
 CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab::
-    .string "CINNABAR GYM's BLAINE is quite the\n"
-    .string "odd fellow.\p"
-    .string "He's lived on the island since way\n"
-    .string "before the LAB was built.$"
+    .string "BLAINE, del GIMNASIO de CANELA,\n"
+    .string "es un tipo bastante raro.\p"
+    .string "Vive en la isla desde antes de que\n"
+    .string "se construyera el LABORATORIO.$"
 
 CinnabarIsland_Text_ScientistsExperimentInMansion::
-    .string "Scientists conduct experiments \n"
-    .string "in the burned-out building.\p"
-    .string "You know, the one they call the\n"
-    .string "POKéMON MANSION.$"
+    .string "Hay cientificos que experimentan\n"
+    .string "en el edificio quemado.\p"
+    .string "Ya sabes, ese que llaman\n"
+    .string "MANSIÓN POKéMON.$"
 
 CinnabarIsland_Text_IslandSign::
-    .string "CINNABAR ISLAND\n"
-    .string "The Fiery Town of Burning Desire$"
+    .string "ISLA CANELA\n"
+    .string "El feroz pueblo del ardiente deseo$"
 
 CinnabarIsland_Text_PokemonLab::
-    .string "POKéMON LAB$"
+    .string "LABORATORIO POKéMON$"
 
 CinnabarIsland_Text_GymSign::
-    .string "CINNABAR ISLAND POKéMON GYM\n"
-    .string "LEADER: BLAINE\l"
-    .string "The Hotheaded Quiz Master!$"
+    .string "GIMNASIO POKéMON DE ISLA CANELA\n"
+    .string "LÍDER: BLAINE\l"
+    .string "¡Exaltado maestro de los acertijos!$"
 
 CinnabarIsland_Text_HeyIfItIsntPlayer::
     .string "Huh?\n"
