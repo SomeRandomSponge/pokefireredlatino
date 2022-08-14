@@ -27,12 +27,12 @@ CinnabarIsland_PokemonCenter_1F_Text_EvolutionCanWaitForNewMoves::
     .string "que aprendan nuevos movimientos.$"
 
 CinnabarIsland_PokemonCenter_1F_Text_ReadyToSailToOneIsland::
-    .string "BILL: Hey, you kept me waiting!\n"
-    .string "Ready to set sail to ONE ISLAND?$"
+    .string "BILL: ¡Ey, me dejaste esperando!\n"
+    .string "¿List{OA} para ir a la ISLA PRIMA?$"
 
 CinnabarIsland_PokemonCenter_1F_Text_OhNotDoneYet::
-    .string "Oh, you're still not done yet?$"
+    .string "Oh, ¿aún no estás list{OA}?$"
 
 CinnabarIsland_PokemonCenter_1F_Text_LetsGo::
-    .string "Well, that's it.\n"
-    .string "Let's go!$"
+    .string "Bien, estamos listos.\n"
+    .string "¡Vamos!$"
