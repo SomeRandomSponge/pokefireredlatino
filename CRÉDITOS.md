@@ -39,7 +39,7 @@ Cefer, por corregir ciertos errores tanto en este archivo como en el README. (+ 
 * Los contruibuidores de Pret, por la decompilación de pokefirered
 
 
-***Los créditos a partir de aquí son a gente que trabajo oficialmente en los juegos/anime, no es 100% obligatorio mencionar a las personas en esta sección, pero se aprecia su contribución a la franquicia de todas formas :).***
+## Los créditos a partir de aquí son a gente que trabajo oficialmente en los juegos/anime, no es 100% obligatorio mencionar a las personas en esta sección, pero se aprecia su contribución a la franquicia de todas formas :).
 
 
 * La traducción española original de Pokémon Rojo Fuego/Verde Hoja fue hecha por:
