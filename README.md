@@ -1,7 +1,7 @@
 # Pokémon RojoFuego y VerdeHoja Latino
 
 
-Esta es una traducción al español latino de la decompilación de Pokémon FireRed & LeafGreen (usando pokefirered).
+Esta es una traducción al español latino de la decompilación de Pokémon FireRed & LeafGreen (pokefirered).
 El proyecto está en progreso actualmente.
 
 Para instalar el repositorio por su cuenta, revisa [INSTALL.md](INSTALL.md) (en inglés), o busca un tutorial en español por internet, hay varios muy buenos.
