@@ -1,7 +1,7 @@
 # Trabajo de traducción faltante (a la fecha de la de la edición más reciente de este archivo):
 
 
-Terminar todo lo que se menciona como incompleto en PROGRESO.txt
+Terminar todo lo que se menciona como incompleto en [PROGRESO.md](PROGRESO.md)
 
 Traducir el sistema de vocabulario
 
