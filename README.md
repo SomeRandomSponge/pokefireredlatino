@@ -69,3 +69,9 @@ Disassembly and/or decompilation projects by pret:
 
 ...Please DO NOT go to pret's Discord server to ask anything about this translation, they are not involved in it at all :)
 (Talking to me there directly is fine, though it would be better to not sidetrack any convo or channel use because of the translation).
+
+## Contacto/Contact
+
+(Español) Puedes encontrarme en Discord como RandomSponge#0458.
+
+(English) You can find me on Discord as RandomSponge#0458.
