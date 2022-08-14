@@ -50,7 +50,7 @@ If you want to use this translation for your own project, with or without change
 
 ## See also
 
-Other disassembly and/or decompilation projects by pret:
+Disassembly and/or decompilation projects by pret:
 
 * [**Pokémon Red and Blue**](https://github.com/pret/pokered)
 * [**Pokémon Gold and Silver (Space World '97 demo)**](https://github.com/pret/pokegold-spaceworld)
