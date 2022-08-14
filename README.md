@@ -24,6 +24,7 @@ Proyectos de desamblaje y/o decompilación de pret (en inglés):
 * [**Pokémon Crystal**](https://github.com/pret/pokecrystal)
 * [**Pokémon Ruby and Sapphire**](https://github.com/pret/pokeruby)
 * [**Pokémon Pinball: Ruby & Sapphire**](https://github.com/pret/pokepinballrs)
+* [**Pokémon FireRed and LeafGreen**](https://github.com/pret/pokefirered)
 * [**Pokémon Emerald**](https://github.com/pret/pokeemerald)
 * [**Pokémon Mystery Dungeon: Red Rescue Team**](https://github.com/pret/pmd-red)
 
