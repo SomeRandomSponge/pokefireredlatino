@@ -7,7 +7,7 @@ El proyecto está en progreso actualmente.
 Para instalar el repositorio por su cuenta, revisa [INSTALL.md](INSTALL.md) (en inglés), o busca un tutorial en español por internet, hay varios muy buenos.
 También puedes combinarlo con tu propio proyecto si así lo deseas.
 
-Si tienes alguna pregunta, puede que ya haya dado una respuesta en [P&A.md](P&A.md), así que, por favor, revisa aunque sea un poco dicho archivo para no preguntar algo ya respondido.
+Si tienes alguna pregunta, puede que ya haya dado una respuesta en [P&R.md](P&R.md), así que, por favor, revisa aunque sea un poco dicho archivo para no preguntar algo ya respondido.
 
 Si piensas usar esta traducción en tu proyecto, ya sea con cambios o no, por favor da créditos a las personas mencionadas en [CRÉDITOS.md](CRÉDITOS.md), pues sin sus aportes, esto no sería posible.
 
