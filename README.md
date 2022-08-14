@@ -46,7 +46,7 @@ You can also merge it with your own project if you want.
 
 If you have a question, I may have answered it already in Q&A, so please, check that out.
 
-If you want to use this translation for your own project, with or without changes, please give credit to the people mentioned in CREDITS, because their contributions made this possible.
+If you want to use this translation for your own project, with or without changes, please give credit to the people mentioned in [CREDITS.md](CREDITS.md), because their contributions made this possible.
 
 ## See also
 
