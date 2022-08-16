@@ -1,73 +1,74 @@
-# (Posibles) Preguntas y Respuestas
+# (Possible) Questions and Answers
 
-***1-¿Por qué existe este proyecto?***
-
-A: Porque nunca he estado satisfecho con la traducción española de los juegos de Pokémon 
-(aunque eso en parte se debe a que no soy de España), para aprender a editar en decomp,
-porque, al menos por lo que sé, no existe una versión en español de pokefirered/pokeemerald, 
-porque quise entrar un poco al mundo de las traducciones, y porque tenía/tengo tiempo libre que no sabía como utilizar.
+***1-Why does this project exist?***
 
 
-***2-¿En que idioma se basa esta traducción?***
-
-A: Versión corta: es una combinación de la versión inglesa, la versión española, la versión original japonesa,  
-y un nombre tomado de la versión alemana. 
-
-Versión (probablemente muy) larga:
-
-La mayoría del diálogo se basa en la versión en inglés, con la versión española como referencia en caso de que 
-no pueda acomodar la traducción inicial/no este seguro de cómo adaptar ciertas cosas. Sin embargo, algunos diálogos
-que fueron censurados internacionalmente 
-(hasta ahora solo algunos diálogos sobre ese viejo que te impide el paso en Ciudad Plateada) se tradujeron con dos versiones, 
-una basada en traducciones de la versión japonesa, y otra traducida del inglés.
-
-Los nombres de las ubicaciones en Kanto son en su mayoría sacados del anime en latino 
-(o de la versión española si no han aparecido en el anime), con una notable excepción...
-Celadon City/Ciudad Azulona, que en pokefireredlat tiene el nombre de Ciudad Prisma, inspirado en su nombre en alemán (Prismania)
-Esto lo hice, siendo honesto, por que en mi terquedad no quise que se repitieran colores en los nombres para las ciudades;
-El azul ya está presente en Ciudad Celeste, y el verde ya esta incluido en, obviamente, Ciudad Verde.
-Además, Celadon/Azulona/Prisma no está particularmente relacionada con el azul, y en la primera generación
-se muestra con un tono más cercano al verde. Así que Prisma fue la mejor idea que se me ocurrió para arreglar esto. 
-(Ah, y como último detalle, un prisma en la óptica es un objeto capaz de refractar, reflejar y descomponer la luz 
-en los colores del ARCOÍRIS...ARCOÍRIS como cierta cosa puedes ganar en esta ciudad).
-
-Los nombres de movimientos son una combinación del anime en latino, la versión española, unas cuantas traducciones más
-directas del japonés y algunos que, no son una traducción directa, pero es lo más cercano a ello dentro de los límites del texto.
-Para los movimientos que han cambiado de nombre en el anime en latino, la mayoría de las veces eligí el que me pareció mejor.
-
-Los nombres de las clases para entrenadores son en su mayoría o las que ya estaban en la versión española, o una traducción
-del inglés.
+A: I've never been satisfied with the official spanish translations for Pokémon games, 
+(tough that's partially because I'm not from Spain, and those translations are pretty much made for Spaniards only), 
+to learn how to work with the Pokémon decomp projects, there were no other translations for pokefirered/pokeemerald (that I knew of at the time),
+I wanted to try and translate something, and because I had/have free time that I didn't knew how to use.
 
 
-***3-¿Y por qué no mejor traduces directo del japonés?***
-
-A: Por que no se mucho japonés :(. Mis conocimientos del idioma no están ni cerca de ser suficientes para traducir un juego,
-mucho menos uno con tanto texto como Pokémon.
+***2-Which language/version is this translation based on?***
 
 
-***4-¿Cómo puedo contactarte si quiero reportar un error?***
+A: Short version: it's a mix of the english version, the official spanish version, the original japanese,
+and a name taken from the german version.
 
-A: Puedes contactarme en Discord, donde estoy cómo RandomSponge77#0458.
+Full (probably too long) version:
+
+Most of the dialog is based on the english version, with the official spanish version used as reference 
+if my first attempt doesn't fit in the textboxes/if I'm not sure about how to adapt something. 
+Tough with some text that was censored outside Japan has two versions; one based on translations of the original japanese, 
+and the other one translated from the english version 
+(at the time of writing this it only applies to the dialog of the old man that blocks the path in Viridian City).
+
+The names of the Kanto locations are mostly taken from the anime's Latam Spanish dub 
+(or from the official spanish games if they didn't appear in the anime), with a notable exception...
+Celadon City (translated as Ciudad Azulona in the official spanish version and both spanish dubs of the anime), 
+in this translation I changed it to Ciudad Prisma (Prism City), inspired by it's german name (Prismania City). 
+To be honest, I did that because I didn't want to repeat colors on the city names and was kinda stubborn about it; 
+the color blue was already used for Cerulean City, and green was alredady represented by Viridian City.
+
+Besides, Celadon/Azulona/Prisma is not really related with the color blue, and in the first gen (with SBG colors) is displayed with a greenish tint, 
+so Prisma/Prism was the best choice I thought of to fix both of those issues.
+(Ah, an as a last detail, a prism can be an object which is able to turn withe light into a RAINBOW...
+RAINBOW like some thing that you can win in this city).
 
 
-***5-¿Puedo usar pokefireredlat en mi propio proyecto?***
+Move names are a mix of the ones used in the anime's Latam spanish dub, the ones on the official spanish games, 
+some translated more directly from japanese, tough some adapted to fit within the text limits.
+For the moves that have changed names in the Latam spanish dub of the anime, most time I just chose what seemed the best to me.
 
-A: ¡Claro! solo recuerda dar creditos a mi y a las personas en [CRÉDITOS.md](CRÉDITOS.md)
-(O al menos a Juanjo/J2M2, Z-nogyroP, kakarotto, InmortalKaktus, Kantopia y a los colaboradores de pret,
-por sus tutoriales/recursos/herramientas/traducciones/la descompilación, el incluir a los encargados de las traducciones originales 
-fui yo intentando ser un perfeccionista).
-
-
-***6-¿Se planea traducir el resto?***
-
-A: ¡Por supuesto! Ahora que el proyecto está en Github (porque por un tiempo no lo estaba) podrán ver los cambios que haga casi de inmediato,
-y si sabes compilar el repositorio puedes actualizarlo a ese ritmo. Probablemente siga sacando versiones en ya compiladas en ROM,
-pero solo después de que se haga un progreso considerable respecto a la versión anterior.
+The names for trainer classes are mostly the ones already in the official spanish games, or a translation of the english names.
 
 
-***7-¿Habrá más textos con múltiples versiones, como con la versión sin censura?***
+***3-And why don't you translate from japanese directly?***
 
-A: Por tengo algo planeado algo con los nombres de los Pokémon ;), pero más allá de eso no hay planes para más.
+
+A: Because I don't know enough japanese :(. My knowledge of the language is nowhere near good enough to be able to translate a game, 
+and it's even worse for a game with so much text like a Pokémon one.
+
+
+***4-How can I contact you if I want to report an error? ***
+
+
+A: You can contact me on Discord, as RandomSponge77#0458.
+
+
+***5-Can I use pokefireredlatatino for my own project?***
+
+A: Of course! just remember to give credit to me and the people in [CREDITS.md](CREDITS.md)
+
+
+***6-Is the missing stuff going to be translated as well?***
+
+A: Yes! at the date of writing this I'm somewhat close to finishing (story-wise) so hopefully it doesn't take too long.
+
+
+***7-Are they going to be more alternate versions, like the uncensored stuff?***
+
+As of right now i have a few plans, (one related to Gen 1 weirdness that was kept in these remakes) but nothing concrete yet.
 
 
 ***8-¿Se puede portear pokefireredlat a un romhack binario/RPG Maker/otra plataforma?***
