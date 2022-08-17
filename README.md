@@ -44,7 +44,7 @@ The project is currently in progress.
 To set up the repository on its own, see [INSTALL.md](INSTALL.md), or look up a video tutorial elsewhere, if you prefer a visual guide.
 You can also merge it with your own project if you want.
 
-If you have a question, I may have answered it already in Q&A, so please, check that out.
+If you have a question, I may have answered it already in [Q&A.md](Q&A.md), so please, check that out.
 
 If you want to use this translation for your own project, with or without changes, please give credit to the people mentioned in [CREDITS.md](CREDITS.md), because their contributions made this possible.
 
