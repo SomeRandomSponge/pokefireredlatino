@@ -58,60 +58,67 @@ A: You can contact me on Discord, as RandomSponge77#0458.
 
 ***5-Can I use pokefireredlatatino for my own project?***
 
+
 A: Of course! just remember to give credit to me and the people in [CREDITS.md](CREDITS.md)
 
 
 ***6-Is the missing stuff going to be translated as well?***
+
 
 A: Yes! at the date of writing this I'm somewhat close to finishing (story-wise) so hopefully it doesn't take too long.
 
 
 ***7-Are they going to be more alternate versions, like the uncensored stuff?***
 
-As of right now i have a few plans, (one related to Gen 1 weirdness that was kept in these remakes) but nothing concrete yet.
+
+A: As of right now i have a few plans, (one related to Gen 1 weirdness that was kept in these remakes) but nothing concrete yet.
 
 
-***8-¿Se puede portear pokefireredlat a un romhack binario/RPG Maker/otra plataforma?***
-
-A: De que se puede se puede, aunque probablemente sea tedioso realizarlo en binario. Yo no voy a hacerlo, pero quien quiera
-intentarlo tiene permiso, mientras den creditos como se menciona en la quinta pregunta.
+***8-Is it possible to port pokefireredlatino to a binary hack/RPG Maker game/another platform?*** 
 
 
-***9-¿Planeas traducir pokeemerald?***
-
-A: Probablemente sí, pero eso ya sería cuando este proyecto este mucho más avanzado, al menos respecto al texto que comparten
-ambos juegos (No creo que valga la pena tocar pokeruby teniendo a pokeemerald).
-También pienso hacer algo en un futuro con HeartGold/SoulSilver cuando su descompilación este en un estado editable, 
-ya que ahora mismo le falta mucho para usarla cómodamente. Y ya hecho HeartGold no sería tan dificíl hacer Diamond/Platinum, 
-pero para llegar ahí falta mucho.
+A: It *is* possible, tough it would probably be tedious to do so on a binary hack. I'm not going to do it, 
+tough if anyone wants to try they can, just remember to give credit as mencioned on the fifth question.
 
 
-***10-¿Tienes planes para traducir juegos después de la cuarta generación?***
-
-A: Realmente no, no solo porque no estoy tan interesado en esos juegos, sino por que por el momento están algo limitados respecto
-a lo que se puede editar, al menos por lo que recuerdo.
-Ya si no me canso de esto luego de hacer los juegos de la cuarta generación, lo pensare mejor.
+***9-Do you plan to translate pokeemerald?***
 
 
-***11-¿Tienes planes para traducir juegos de antes de la tercera generación?***
-
-A: No, más que nada por que las primeras 2 generaciones están mucho más limitadas sobre cuanto texto puedes poner en pantalla,
-y estan limitadas en general gracias a la Gameboy/Gameboy Color, además de que los remakes son superiores en prácticamente todo.
-A lo mucho, puede que intente algo con pokecrystal porque hacks como Polished Crystal me gustan mucho 
-y sería interesante tenerlos en español, pero no pienso tocar pokered o pokeyellow.
+A: Yes, but only when the project is finished or very close to being finished (tough i won't touch pokeruby).
+I'm also thinking on doing something similar with when its disassembly/decompilation gets easier to edit,   
+and it will probably take a while to get there. And with HeartGold done it wouldn't be *that* hard to translate Diamond/Platinum, 
+but there's a lot to be done before i get there.
 
 
+***10-Are you going to translate any Pokémon games (post-gen 4)?***
 
 
+A: Not really, not only because I'm not that interested in those games, they're also somewhat limited in what you can edit, 
+as far as i remember.
+Maybe I'll reconsider if I don't get totally tired after doing the gen 4 games.
 
 
+***11-Are you going to translate any Pokémon games (pre-gen 3)?***
+
+A: No, mostly because the first 2 generations are much more limited about how much text you can fit on the screen, 
+on top of just being limited by the Gameboy/Gameboy Color, and the remakes are basically superior in almost every way.
+At most, I may try something with pokecrystal because I enjoy hacks like Polished Crystal a lot and I would like to have them in spanish,
+but I'm not using pokered or pokeyellow anytime soon.
 
 
 
 
-***12-¿Por que no porteaste el texto y gráficos de la versión española original y ya?***
 
-A: Lee la respuesta a la pregunta 1 de nuevo.
+
+
+
+
+
+***12-Why didn't you just port the text and graphics from the official spanish version?***
+
+
+A: Read the answer to question 1 again.
  
-Además, porque no hay de donde sacar los textos de la versión española además de la ROM misma (que yo sepa),
-y no me da la gana usar herramientas de binario para un proyecto en decomp xd
+ 
+~~Besides, theres no other way to extract or get the text from the official version aside from the ROM itself (that i knew of), 
+and i didn't want to use binary hacking tools for this lol.
