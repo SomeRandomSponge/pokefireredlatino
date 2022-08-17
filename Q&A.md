@@ -50,7 +50,7 @@ A: Because I don't know enough japanese :(. My knowledge of the language is nowh
 and it's even worse for a game with so much text like a Pokémon one.
 
 
-***4-How can I contact you if I want to report an error? ***
+***4-How can I contact you if I want to report an error?***
 
 
 A: You can contact me on Discord, as RandomSponge77#0458.
@@ -121,4 +121,4 @@ A: Read the answer to question 1 again.
  
  
 ~~Besides, theres no other way to extract or get the text from the official version aside from the ROM itself (that i knew of), 
-and i didn't want to use binary hacking tools for this lol.
+and i didn't want to use binary hacking tools for this lol.~~
