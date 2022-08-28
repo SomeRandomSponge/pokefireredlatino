@@ -626,14 +626,14 @@ static const u32 sBgTilemap_MovesPage[] = INCBIN_U32( "graphics/interface/pokesu
 
 #include "data/text/nature_names.h"
 
-static const u8 * const sEggHatchTimeTexts[] = {
+static const u8 *const sEggHatchTimeTexts[] = {
     gText_PokeSum_EggHatch_LongTime,
     gText_PokeSum_EggHatch_SomeTime,
     gText_PokeSum_EggHatch_Soon, 
     gText_PokeSum_EggHatch_AlmostReady
 };
 
-static const u8 * const sEggOriginTexts[] = {
+static const u8 *const sEggOriginTexts[] = {
     gText_PokeSum_EggOrigin_DayCare,      
     gText_PokeSum_EggOrigin_Trade,
     gText_PokeSum_EggOrigin_TravelingMan, 
@@ -2110,7 +2110,7 @@ static void BufferMonInfo(void)
 
     GetMonData(&sMonSummaryScreen->currentMon, MON_DATA_NICKNAME, tempStr);
     StringCopyN_Multibyte(sMonSummaryScreen->summary.nicknameStrBuf, tempStr, POKEMON_NAME_LENGTH);
-    StringGetEnd10(sMonSummaryScreen->summary.nicknameStrBuf);
+    StringGet_Nickname(sMonSummaryScreen->summary.nicknameStrBuf);
 
     gender = GetMonGender(&sMonSummaryScreen->currentMon);
     dexNum = GetMonData(&sMonSummaryScreen->currentMon, MON_DATA_SPECIES2);
