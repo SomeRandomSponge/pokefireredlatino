@@ -63,7 +63,7 @@ CinnabarIsland_Text_MyPalsBoatArrived::
     .string "para recogerme.$"
 
 CinnabarIsland_Text_IfYouHaveTriPassYouCanGoAgain::
-    .string "Hey, wasn't that a long cruise?\p"
+    .string "Ey, ¿no fue ese un viaje largo?\p"
     .string "Parece que mi compañero, CELIO,\n"
     .string "disfrutó de tu compañia.\p"
     .string "Estoy seguro de que te dará la\n"

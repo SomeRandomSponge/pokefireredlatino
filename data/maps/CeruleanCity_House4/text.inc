@@ -54,7 +54,7 @@ CeruleanCity_House4_Text_EnjoyingMyselfWithAllSortsOfNews::
     .string "estas noticias.\p"
     .string "¡Sí, estoy satisfecho!\n"
     .string "No estaré aburrido por un tiempo.$"
-   
+
 CeruleanCity_House4_Text_YourBerryPouchIsFull::
     .string "¿Hm? Tu SACO DE BAYAS esta lleno.\n"
     .string "Mi regalo se queda aquí, entonces.$"

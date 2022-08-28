@@ -15,7 +15,7 @@ Route1_Text_PutPotionAway::
     .string "{PLAYER} puso la POCIÓN\n"
     .string "en el BOLSILLO de OBJETOS\l"
     .string "de la MOCHILA.$"
-              
+
 Route1_Text_CanJumpFromLedges::
     .string "¿Ves esos bordes en el camino?\p"
     .string "Dan un poco de miedo, pero puedes\n"

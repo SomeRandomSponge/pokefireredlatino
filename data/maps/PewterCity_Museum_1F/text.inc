@@ -21,7 +21,7 @@ PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs::
     .string "Buen intento, niño, pero no.\p"
     .string "¡Oh, da igual!\n"
     .string "¿Sabes qué es el ÁMBAR?$"
- 
+
 PewterCity_Museum_1F_Text_AmberContainsGeneticMatter::
     .string "El ÁMBAR contiene el material\n"
     .string "genético de POKéMON antiguos.\p"

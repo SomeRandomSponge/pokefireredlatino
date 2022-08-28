@@ -48,7 +48,7 @@ Text_WhitedOutLostMoney::
 	.string "… … … …\p"
 	.string "¡{PLAYER} esta fuera de combate!!$"
 
-Text_WhitedOut:: @ 81A61E5
+Text_WhitedOut::
 	.string "¡{PLAYER} se quedo sin\n"
 	.string "POKéMON!\p"
 	.string "¡{PLAYER} esta fuera de combate!!$"
