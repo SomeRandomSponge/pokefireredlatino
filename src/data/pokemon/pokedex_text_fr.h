@@ -1,5 +1,5 @@
 const u8 gDummyPokedexText[] = _(
-    "Este es un POKéMON recientemente descubierto.\n"  
+    "Este es un POKéMON recientemente descubierto.\n"
     "Actualmente está bajo investigación.\n"
     "No hay detalles disponibles por ahora.");
 
@@ -174,7 +174,7 @@ const u8 gArbokPokedexText[] = _(
 const u8 gArbokPokedexTextUnused[] = _("");
 
 const u8 gPikachuPokedexText[] = _(
-    "Las pequeñas bolsas en sus mejillas están\n"  
+    "Las pequeñas bolsas en sus mejillas están\n"
     "llenas de electricidad. Si es amenazado,\n"
     "libera la carga eléctrica de las bolsas.");
 
@@ -258,7 +258,7 @@ const u8 gClefablePokedexText[] = _(
 const u8 gClefablePokedexTextUnused[] = _("");
 
 const u8 gVulpixPokedexText[] = _(
-    "De joven, tiene seis preciosas colas.\n"  
+    "De joven, tiene seis preciosas colas.\n"
     "Al crecer, le brotan varias colas más.");
 
 const u8 gVulpixPokedexTextUnused[] = _("");
@@ -355,7 +355,7 @@ const u8 gDiglettPokedexText[] = _(
 const u8 gDiglettPokedexTextUnused[] = _("");
 
 const u8 gDugtrioPokedexText[] = _(
-    "En batalla, cava en la tierra y ataca\n" 
+    "En batalla, cava en la tierra y ataca\n"
     "a su distraído rival desde una dirección\n"
     "inesperada.");
 

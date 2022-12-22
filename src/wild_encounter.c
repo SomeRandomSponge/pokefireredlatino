@@ -3,6 +3,7 @@
 #include "wild_encounter.h"
 #include "event_data.h"
 #include "fieldmap.h"
+#include "random.h"
 #include "roamer.h"
 #include "field_player_avatar.h"
 #include "battle_setup.h"
@@ -109,13 +110,6 @@ static u8 ChooseWildMonIndex_WaterRock(void)
         return 4;
 }
 
-enum
-{
-    OLD_ROD,
-    GOOD_ROD,
-    SUPER_ROD
-};
-
 static u8 ChooseWildMonIndex_Fishing(u8 rod)
 {
     u8 wildMonIndex = 0;
@@ -192,7 +186,7 @@ static u16 GetCurrentMapWildMonHeaderId(void)
                 gSaveBlock1Ptr->location.mapNum == MAP_NUM(SIX_ISLAND_ALTERING_CAVE))
             {
                 u16 alteringCaveId = VarGet(VAR_ALTERING_CAVE_WILD_SET);
-                if (alteringCaveId > 8)
+                if (alteringCaveId >= NUM_ALTERING_CAVE_TABLES)
                     alteringCaveId = 0;
 
                 i += alteringCaveId;
@@ -668,8 +662,7 @@ void SeedWildEncounterRng(u16 seed)
 
 static u16 WildEncounterRandom(void)
 {
-    sWildEncounterData.rngState *= 1103515245;
-    sWildEncounterData.rngState += 12345;
+    sWildEncounterData.rngState = ISO_RANDOMIZE2(sWildEncounterData.rngState);
     return sWildEncounterData.rngState >> 16;
 }
 

@@ -6,7 +6,7 @@
 #include "trade.h"
 #include "link.h"
 #include "link_rfu.h"
-#include "mevent.h"
+#include "mystery_gift.h"
 #include "graphics.h"
 #include "strings.h"
 #include "menu.h"
@@ -773,7 +773,7 @@ static void LoadTradeMonPic(u8 whichParty, u8 action)
     }
 }
 
-void CB2_InitTradeAnim_LinkTrade(void)
+void CB2_LinkTrade(void)
 {
     switch (gMain.state)
     {
@@ -937,16 +937,16 @@ static void TradeAnimInit_LoadGfx(void)
     SetBgTilemapBuffer(3, Alloc(BG_SCREEN_SIZE));
     DeactivateAllTextPrinters();
     // Doing the graphics load...
-    DecompressAndLoadBgGfxUsingHeap(0, gBattleTextboxTiles, 0, 0, 0);
-    LZDecompressWram(gBattleTextboxTilemap, gDecompressionBuffer);
+    DecompressAndLoadBgGfxUsingHeap(0, gBattleInterface_Textbox_Gfx, 0, 0, 0);
+    LZDecompressWram(gBattleInterface_Textbox_Tilemap, gDecompressionBuffer);
     CopyToBgTilemapBuffer(0, gDecompressionBuffer, BG_SCREEN_SIZE, 0);
-    LoadCompressedPalette(gBattleTextboxPalette, 0x000, 0x20);
+    LoadCompressedPalette(gBattleInterface_Textbox_Pal, 0x000, 0x20);
     InitWindows(sTradeMessageWindowTemplates);
     // ... and doing the same load again
-    DecompressAndLoadBgGfxUsingHeap(0, gBattleTextboxTiles, 0, 0, 0);
-    LZDecompressWram(gBattleTextboxTilemap, gDecompressionBuffer);
+    DecompressAndLoadBgGfxUsingHeap(0, gBattleInterface_Textbox_Gfx, 0, 0, 0);
+    LZDecompressWram(gBattleInterface_Textbox_Tilemap, gDecompressionBuffer);
     CopyToBgTilemapBuffer(0, gDecompressionBuffer, BG_SCREEN_SIZE, 0);
-    LoadCompressedPalette(gBattleTextboxPalette, 0x000, 0x20);
+    LoadCompressedPalette(gBattleInterface_Textbox_Pal, 0x000, 0x20);
 }
 
 static void CB2_InitTradeAnim_InGameTrade(void)
@@ -1093,7 +1093,7 @@ static void HandleLinkDataSend(void)
     case 1:
         if (IsLinkTaskFinished())
         {
-            SendBlock(bitmask_all_link_players_but_self(), sTradeData->linkData, 20);
+            SendBlock(BitmaskAllOtherLinkPlayers(), sTradeData->linkData, 20);
             sTradeData->scheduleLinkTransfer++;
         }
     case 2:
@@ -1465,7 +1465,7 @@ static bool8 DoTradeAnim_Cable(void)
         if (!IsPokeSpriteNotFlipped(sTradeData->tradeSpecies[0]))
         {
             gSprites[sTradeData->pokePicSpriteIdxs[0]].affineAnims = sSpriteAffineAnimTable_PlayerPokePicAlt;
-            gSprites[sTradeData->pokePicSpriteIdxs[0]].oam.affineMode = 3;
+            gSprites[sTradeData->pokePicSpriteIdxs[0]].oam.affineMode = ST_OAM_AFFINE_DOUBLE;
             CalcCenterToCornerVec(&gSprites[sTradeData->pokePicSpriteIdxs[0]], 0, 3, 3);
             StartSpriteAffineAnim(&gSprites[sTradeData->pokePicSpriteIdxs[0]], 0);
         }
@@ -1968,7 +1968,7 @@ static bool8 DoTradeAnim_Wireless(void)
         if (!IsPokeSpriteNotFlipped(sTradeData->tradeSpecies[0]))
         {
             gSprites[sTradeData->pokePicSpriteIdxs[0]].affineAnims = sSpriteAffineAnimTable_PlayerPokePicAlt;
-            gSprites[sTradeData->pokePicSpriteIdxs[0]].oam.affineMode = 3;
+            gSprites[sTradeData->pokePicSpriteIdxs[0]].oam.affineMode = ST_OAM_AFFINE_DOUBLE;
             CalcCenterToCornerVec(&gSprites[sTradeData->pokePicSpriteIdxs[0]], 0, 3, 3);
             StartSpriteAffineAnim(&gSprites[sTradeData->pokePicSpriteIdxs[0]], 0);
         }
@@ -2526,7 +2526,7 @@ static void CB2_WaitAndAckTradeComplete(void)
     if (mpId == 0 && sTradeData->tradeStatus1 == 1 && sTradeData->tradeStatus2 == 1)
     {
         sTradeData->linkData[0] = 0xDCBA;
-        SendBlock(bitmask_all_link_players_but_self(), sTradeData->linkData, 20);
+        SendBlock(BitmaskAllOtherLinkPlayers(), sTradeData->linkData, 20);
         sTradeData->tradeStatus1 = 2;
         sTradeData->tradeStatus2 = 2;
     }
@@ -2583,9 +2583,7 @@ static void CB2_HandleTradeEnded(void)
             IncrementGameStat(GAME_STAT_POKEMON_TRADES);
         }
         if (gWirelessCommType)
-        {
-            MEvent_RecordIdOfWonderCardSenderByEventType(2, gLinkPlayers[GetMultiplayerId() ^ 1].trainerId);
-        }
+            MysteryGift_TryIncrementStat(CARD_STAT_NUM_TRADES, gLinkPlayers[GetMultiplayerId() ^ 1].trainerId);
         SetContinueGameWarpStatusToDynamicWarp();
         LinkFullSave_Init();
         gMain.state++;
@@ -2670,7 +2668,7 @@ static void CB2_HandleTradeEnded(void)
     case 8:
         if (IsBGMStopped() == TRUE)
         {
-            if (gWirelessCommType && gMain.savedCallback == CB2_ReturnFromLinkTrade)
+            if (gWirelessCommType && gMain.savedCallback == CB2_StartCreateTradeMenu)
             {
                 SetLinkStandbyCallback();
             }
@@ -2682,7 +2680,7 @@ static void CB2_HandleTradeEnded(void)
         }
         break;
     case 9:
-        if (gWirelessCommType && gMain.savedCallback == CB2_ReturnFromLinkTrade)
+        if (gWirelessCommType && gMain.savedCallback == CB2_StartCreateTradeMenu)
         {
             if (IsLinkRfuTaskFinished())
             {
@@ -2767,7 +2765,7 @@ void DrawTextOnTradeWindow(u8 windowId, const u8 *str, s8 speed)
     sTradeData->textColor[0] = 15;
     sTradeData->textColor[1] = 1;
     sTradeData->textColor[2] = 6;
-    AddTextPrinterParameterized4(windowId, FONT_2, 0, 2, 0, 2, sTradeData->textColor, speed, str);
+    AddTextPrinterParameterized4(windowId, FONT_NORMAL, 0, 2, 0, 2, sTradeData->textColor, speed, str);
     CopyWindowToVram(windowId, COPYWIN_FULL);
 }
 

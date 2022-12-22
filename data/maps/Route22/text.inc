@@ -30,26 +30,26 @@ Route22_Text_RivalShouldCatchSomeMons::
 	.string "つかまえれば　いい　じゃん！$"
 
 Route22_Text_LateRivalIntro::
-	.string "{RIVAL}: What? {PLAYER}!\n"
-	.string "What a surprise to see you here!\p"
-	.string "So you're going to the POKéMON\n"
-	.string "LEAGUE?\p"
-	.string "You collected all the BADGES, too?\n"
-	.string "That's cool!\p"
-	.string "Then I'll whip you, {PLAYER}, as a\n"
-	.string "warm-up for the POKéMON LEAGUE!\p"
-	.string "Come on!$"
+	.string "{RIVAL}: ¿Qué? ¿{PLAYER}!\n"
+	.string "¡Qué sorpresa verte aquí!\p"
+	.string "¿Así que vas a la LIGA POKéMON?\p"
+	.string "¿Y obtuviste todas las MEDALLAS?\n"
+	.string "¡Genial!\p"
+	.string "¡Entonces te venceré, {PLAYER},\n"
+	.string "como calentamiento para la\l"
+	.string "LIGA POKéMON!\p"
+	.string "¡Vamos!$"
 
 Route22_Text_LateRivalDefeat::
-	.string "What!?\p"
-	.string "I was just careless, you!$"
+	.string "¿¡Qué!?\p"
+	.string "¡Solo fui descuidado!$"
 
 Route22_Text_LateRivalPostBattle::
-	.string "That loosened me up.\n"
-	.string "I'm ready for the POKéMON LEAGUE!\p"
-	.string "{PLAYER}, you need more practice.\p"
-	.string "But hey, you know that!\n"
-	.string "I'm out of here. Smell ya!$"
+	.string "Eso me sirvió para calentar.\n"
+	.string "¡Estoy listo para la LIGA POKéMON!\p"
+	.string "{PLAYER}, necesitas más práctica.\p"
+	.string "¡Aunque ya lo sabías!\n"
+	.string "Me voy. ¡Hasta nunca!$"
 
 @ Translated in RB as "{RIVAL}: Hahaha! {PLAYER}! That's your best? You're nowhere near as good as me, pal! Go train some more! You loser!"
 Route22_Text_LateRivalVictory::

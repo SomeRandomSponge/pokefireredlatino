@@ -1,7 +1,7 @@
 CeladonCity_DepartmentStore_Roof_Text_ImThirstyGiveHerDrink::
     .string "¡Estoy sedienta!\n"
     .string "¡Quiero algo de beber!\p"
-    .string "{FONT_2}¿Darle una bebida?$"
+    .string "{FONT_NORMAL}¿Darle una bebida?$"
 
 CeladonCity_DepartmentStore_Roof_Text_GiveWhichDrink::
     .string "¿Cúal bebida?$"

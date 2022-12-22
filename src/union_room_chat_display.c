@@ -123,7 +123,7 @@ static const u16 sUnionRoomChatPanelBgPal_C[] = INCBIN_U16("graphics/union_room_
 static const u16 sBg1Pal8[] = INCBIN_U16("graphics/union_room_chat/unk_845AA44.gbapal");
 static const u16 sWin0PalF[] = INCBIN_U16("graphics/union_room_chat/unk_845AA64.gbapal");
 
-static const struct BgTemplate gUnknown_845AA84[] = {
+static const struct BgTemplate sBgTemplates[] = {
     {
         .bg = 0,
         .charBaseIndex = 0,
@@ -159,7 +159,7 @@ static const struct BgTemplate gUnknown_845AA84[] = {
     }
 };
 
-static const struct WindowTemplate gUnknown_845AA94[] = {
+static const struct WindowTemplate sWindowTemplates[] = {
     {
         .bg = 3,
         .tilemapLeft = 8,
@@ -349,8 +349,8 @@ bool8 UnionRoomChat_TryAllocGraphicsWork(void)
     if (sWork && UnionRoomChat_TryAllocSpriteWork())
     {
         ResetBgsAndClearDma3BusyFlags(0);
-        InitBgsFromTemplates(0, gUnknown_845AA84, NELEMS(gUnknown_845AA84));
-        InitWindows(gUnknown_845AA94);
+        InitBgsFromTemplates(0, sBgTemplates, ARRAY_COUNT(sBgTemplates));
+        InitWindows(sWindowTemplates);
         ResetTempTileDataBuffers();
         InitScanlineEffect();
         InitWork(sWork);
@@ -952,10 +952,10 @@ static void PlaceYesNoMenuAt(u8 left, u8 top, u8 initialCursorPos)
     {
         FillWindowPixelBuffer(sWork->yesNoMenuWinId, PIXEL_FILL(1));
         PutWindowTilemap(sWork->yesNoMenuWinId);
-        AddTextPrinterParameterized(sWork->yesNoMenuWinId, FONT_2, gText_Yes, 8, 2, TEXT_SKIP_DRAW, NULL);
-        AddTextPrinterParameterized(sWork->yesNoMenuWinId, FONT_2, gText_No, 8, 16, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized(sWork->yesNoMenuWinId, FONT_NORMAL, gText_Yes, 8, 2, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized(sWork->yesNoMenuWinId, FONT_NORMAL, gText_No, 8, 16, TEXT_SKIP_DRAW, NULL);
         DrawTextBorderOuter(sWork->yesNoMenuWinId, 1, 13);
-        Menu_InitCursor(sWork->yesNoMenuWinId, FONT_2, 0, 2, 14, 2, initialCursorPos);
+        Menu_InitCursor(sWork->yesNoMenuWinId, FONT_NORMAL, 0, 2, 14, 2, initialCursorPos);
     }
 }
 
@@ -1023,7 +1023,7 @@ static void PlaceStdMessageWindow(int id, u16 bg0vofs)
         DrawTextBorderInner(windowId, 0xA, 2);
         AddTextPrinterParameterized5(
             windowId,
-            FONT_2,
+            FONT_NORMAL,
             str,
             sMessageWindowInfo[id].x + 8,
             sMessageWindowInfo[id].y + 8,
@@ -1037,7 +1037,7 @@ static void PlaceStdMessageWindow(int id, u16 bg0vofs)
         DrawTextBorderOuter(windowId, 0xA, 2);
         AddTextPrinterParameterized5(
             windowId,
-            FONT_2,
+            FONT_NORMAL,
             str,
             sMessageWindowInfo[id].x,
             sMessageWindowInfo[id].y,
@@ -1090,7 +1090,7 @@ static void PrintOnWin1Parameterized(u16 x, u8 *str, u8 bgColor, u8 fgColor, u8 
     strbuf[1] = EXT_CTRL_CODE_MIN_LETTER_SPACING;
     strbuf[2] = 8;
     StringCopy(&strbuf[3], str);
-    AddTextPrinterParameterized3(1, FONT_2, x * 8, 1, color, TEXT_SKIP_DRAW, strbuf);
+    AddTextPrinterParameterized3(1, FONT_NORMAL, x * 8, 1, color, TEXT_SKIP_DRAW, strbuf);
 }
 
 static void PrintCurrentKeyboardPage(void)
@@ -1124,7 +1124,7 @@ static void PrintCurrentKeyboardPage(void)
                 return;
 
             StringCopy(&str[3], gUnionRoomKeyboardText[page][i]);
-            AddTextPrinterParameterized3(2, FONT_0, left, top, color, TEXT_SKIP_DRAW, str);
+            AddTextPrinterParameterized3(2, FONT_SMALL, left, top, color, TEXT_SKIP_DRAW, str);
         }
     }
     else
@@ -1133,9 +1133,9 @@ static void PrintCurrentKeyboardPage(void)
         for (i = 0, top = 0; i < 10; i++, top += 12)
         {
             str2 = UnionRoomChat_GetWorkRegisteredText(i);
-            if (GetStringWidth(FONT_0, str2, 0) <= 40)
+            if (GetStringWidth(FONT_SMALL, str2, 0) <= 40)
             {
-                AddTextPrinterParameterized3(2, FONT_0, left, top, color, TEXT_SKIP_DRAW, str2);
+                AddTextPrinterParameterized3(2, FONT_SMALL, left, top, color, TEXT_SKIP_DRAW, str2);
             }
             else
             {
@@ -1144,10 +1144,10 @@ static void PrintCurrentKeyboardPage(void)
                 {
                     length--;
                     StringCopyN_Multibyte(str, str2, length);
-                } while (GetStringWidth(FONT_0, str, 0) > 35);
+                } while (GetStringWidth(FONT_SMALL, str, 0) > 35);
 
-                AddTextPrinterParameterized3(2, FONT_0, left, top, color, TEXT_SKIP_DRAW, str);
-                AddTextPrinterParameterized3(2, FONT_0, left + 35, top, color, TEXT_SKIP_DRAW, gText_Ellipsis);
+                AddTextPrinterParameterized3(2, FONT_SMALL, left, top, color, TEXT_SKIP_DRAW, str);
+                AddTextPrinterParameterized3(2, FONT_SMALL, left + 35, top, color, TEXT_SKIP_DRAW, gText_Ellipsis);
             }
         }
     }
@@ -1195,8 +1195,8 @@ static void PrintKeyboardSwapTextsOnWin3(void)
 {
     FillWindowPixelBuffer(3, PIXEL_FILL(1));
     DrawTextBorderOuter(3, 1, 13);
-    UnionRoomAndTradeMenuPrintOptions(3, FONT_2, 14, 5, sKeyboardSwapTexts);
-    Menu_InitCursor(3, FONT_2, 0, 0, 14, 5, GetCurrentKeyboardPage());
+    UnionRoomAndTradeMenuPrintOptions(3, FONT_NORMAL, 14, 5, sKeyboardSwapTexts);
+    Menu_InitCursor(3, FONT_NORMAL, 0, 0, 14, 5, GetCurrentKeyboardPage());
     PutWindowTilemap(3);
 }
 
@@ -1214,7 +1214,7 @@ static void PrintTextOnWin0Colorized(u16 row, u8 *str, u8 colorIdx)
     color[1] = colorIdx * 2 + 2;
     color[2] = colorIdx * 2 + 3;
     FillWindowPixelRect(0, PIXEL_FILL(1), 0, row * 15, 168, 15);
-    AddTextPrinterParameterized3(0, FONT_2, 0, row * 15, color, TEXT_SKIP_DRAW, str);
+    AddTextPrinterParameterized3(0, FONT_NORMAL, 0, row * 15, color, TEXT_SKIP_DRAW, str);
 }
 
 static void ResetGpuBgState(void)
@@ -1307,9 +1307,9 @@ static void LoadWin1(void)
 static void LoadWin3(void)
 {
     FillWindowPixelBuffer(3, PIXEL_FILL(1));
-    TextWindow_SetUserSelectedFrame(3, 1, 0xD0);
-    TextWindow_SetStdFrame0_WithPal(3, 0xA, 0x20);
-    LoadPalette(gTMCaseMainWindowPalette, 0xE0,  0x20);
+    LoadUserWindowGfx(3, 1, 0xD0);
+    LoadStdWindowGfx(3, 0xA, 0x20);
+    LoadPalette(gStandardMenuPalette, 0xE0,  0x20);
 }
 
 static void InitScanlineEffect(void)

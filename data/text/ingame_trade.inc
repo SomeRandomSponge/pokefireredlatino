@@ -22,7 +22,7 @@ Trade_Text_DoYouHaveMonWouldYouTradeForMon::
 	.string "¡Hola, tu! ¿Tendrás de casualidad\n"
 	.string "a un {STR_VAR_1}?\p"
 	.string "¿Querrías cambiarlo por mi\n"
-    .string "{STR_VAR_2}?$"
+	.string "{STR_VAR_2}?$"
 
 Trade_Text_WellIfYouDontWantTo::
 	.string "Bien, si es que no quieres…$"

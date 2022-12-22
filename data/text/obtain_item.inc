@@ -9,7 +9,7 @@ Text_PutItemAway::
 	.string "en {STR_VAR_3}.$"
 
 Text_FoundOneItem::
-	.string "¡{PLAYER} encontró {STR_VAR_2}!$"
+	.string "¡{PLAYER} encontró 1 {STR_VAR_2}!$"
 
 Text_TooBadBagFull::
 	.string "¡Que mal!\n"

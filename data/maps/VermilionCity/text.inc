@@ -61,14 +61,14 @@ VermilionCity_Text_DoYouHaveATicket::
     .string "Disculpe, ¿tiene un boleto?$"
 
 VermilionCity_Text_FlashedSSTicket::
-    .string "{FONT_2}¡{PLAYER} dió el BOLETO SANTA ANA!\p"
-    .string "{FONT_4}¡Muy bien!\n"
+    .string "{FONT_NORMAL}¡{PLAYER} dió el BOLETO SANTA ANA!\p"
+    .string "{FONT_MALE}¡Muy bien!\n"
     .string "¡Bienvenid{OA} al SANTA ANA!$"
 
 VermilionCity_Text_DontHaveNeededSSTicket::
-    .string "{FONT_2}{PLAYER} no tiene el BOLETO\n"
+    .string "{FONT_NORMAL}{PLAYER} no tiene el BOLETO\n"
     .string "SANTA ANA requerido.\p"
-    .string "{FONT_4}¡Lo siento!\p"
+    .string "{FONT_MALE}¡Lo siento!\p"
     .string "Necesitas boleto para ir a bordo.$"
 
 VermilionCity_Text_TheShipSetSail::

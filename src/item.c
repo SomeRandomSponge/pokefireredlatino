@@ -72,7 +72,14 @@ void SetBagPocketsPointers(void)
 
 void CopyItemName(u16 itemId, u8 * dest)
 {
-    StringCopy(dest, ItemId_GetName(itemId));
+    if (itemId == ITEM_ENIGMA_BERRY)
+    {
+        StringCopy(dest, GetBerryInfo(ITEM_TO_BERRY(ITEM_ENIGMA_BERRY))->name);
+    }
+    else
+    {
+        StringCopy(dest, ItemId_GetName(itemId));
+    }
 }
 
 s8 BagPocketGetFirstEmptySlot(u8 pocketId)
@@ -603,7 +610,7 @@ void TrySetObtainedItemQuestLogEvent(u16 itemId)
 
 u16 SanitizeItemId(u16 itemId)
 {
-    if (itemId >= ITEM_N_A)
+    if (itemId >= ITEMS_COUNT)
         return ITEM_NONE;
     return itemId;
 }
@@ -613,12 +620,13 @@ const u8 * ItemId_GetName(u16 itemId)
     return gItems[SanitizeItemId(itemId)].name;
 }
 
-u16 itemid_get_number(u16 itemId)
+// Unused
+u16 ItemId_GetId(u16 itemId)
 {
     return gItems[SanitizeItemId(itemId)].itemId;
 }
 
-u16 itemid_get_market_price(u16 itemId)
+u16 ItemId_GetPrice(u16 itemId)
 {
     return gItems[SanitizeItemId(itemId)].price;
 }
@@ -638,14 +646,15 @@ const u8 * ItemId_GetDescription(u16 itemId)
     return gItems[SanitizeItemId(itemId)].description;
 }
 
-bool8 itemid_is_unique(u16 itemId)
+u8 ItemId_GetImportance(u16 itemId)
 {
     return gItems[SanitizeItemId(itemId)].importance;
 }
 
-u8 itemid_get_x19(u16 itemId)
+// Unused
+u8 ItemId_GetRegistrability(u16 itemId)
 {
-    return gItems[SanitizeItemId(itemId)].exitsBagOnUse;
+    return gItems[SanitizeItemId(itemId)].registrability;
 }
 
 u8 ItemId_GetPocket(u16 itemId)

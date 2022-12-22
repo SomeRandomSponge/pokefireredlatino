@@ -76,7 +76,7 @@ static void CB2_EndLinkBattle(void);
 static void EndLinkBattleInSteps(void);
 static void SpriteCB_MoveWildMonToRight(struct Sprite *sprite);
 static void SpriteCB_WildMonShowHealthbox(struct Sprite *sprite);
-static void SpriteCB_Unused_8011E28_Step(struct Sprite *sprite);
+static void SpriteCB_Flicker(struct Sprite *sprite);
 static void SpriteCB_AnimFaintOpponent(struct Sprite *sprite);
 static void SpriteCB_BlinkVisible(struct Sprite *sprite);
 static void oac_poke_ally_(struct Sprite *sprite);
@@ -132,7 +132,7 @@ EWRAM_DATA u8 gBattleTextBuff3[TEXT_BUFF_ARRAY_COUNT] = {0};
 static EWRAM_DATA u32 sFlickerArray[25] = {0};
 EWRAM_DATA u32 gBattleTypeFlags = 0;
 EWRAM_DATA u8 gBattleTerrain = 0;
-EWRAM_DATA u32 gUnknown_2022B54 = 0;
+EWRAM_DATA u32 gUnusedFirstBattleVar1 = 0;
 EWRAM_DATA struct MultiBattlePokemonTx gMultiPartnerParty[3] = {0};
 EWRAM_DATA u8 *gBattleAnimBgTileBuffer = NULL;
 EWRAM_DATA u8 *gBattleAnimBgTilemapBuffer = NULL;
@@ -184,7 +184,7 @@ EWRAM_DATA u8 gMoveResultFlags = 0;
 EWRAM_DATA u32 gHitMarker = 0;
 static EWRAM_DATA u8 sUnusedBattlersArray[MAX_BATTLERS_COUNT] = {0};
 EWRAM_DATA u8 gTakenDmgByBattler[MAX_BATTLERS_COUNT] = {0};
-EWRAM_DATA u8 gUnknown_2023DDC = 0;
+EWRAM_DATA u8 gUnusedFirstBattleVar2 = 0;
 EWRAM_DATA u16 gSideStatuses[2] = {0};
 EWRAM_DATA struct SideTimer gSideTimers[2] = {0};
 EWRAM_DATA u32 gStatuses3[MAX_BATTLERS_COUNT] = {0};
@@ -278,31 +278,27 @@ const struct OamData gOamData_BattlerPlayer =
     .affineParam = 0,
 };
 
-// not used
-static const union AnimCmd gUnknown_824F020[] =
+static const union AnimCmd sAnim_Unused[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_JUMP(0),
 };
 
-// not used
-static const union AnimCmd *const gUnknown_824F028[] =
+static const union AnimCmd *const sAnims_Unused[] =
 {
-    gUnknown_824F020,
+    sAnim_Unused,
 };
 
-// not used
-static const union AffineAnimCmd gUnknown_824F02C[] =
+static const union AffineAnimCmd sAffineAnim_Unused[] =
 {
     AFFINEANIMCMD_FRAME(-0x10, 0x0, 0, 4),
     AFFINEANIMCMD_FRAME(0x0, 0x0, 0, 0x3C),
     AFFINEANIMCMD_JUMP(1),
 };
 
-// not used
-static const union AffineAnimCmd *const gUnknown_824F044[] =
+static const union AffineAnimCmd *const sAffineAnims_Unused[] =
 {
-    gUnknown_824F02C,
+    sAffineAnim_Unused,
 };
 
 static const s8 sPlayerThrowXTranslation[] = { -32, -16, -16, -32, -32, 0, 0, 0 };
@@ -973,7 +969,7 @@ static void CB2_HandleStartBattle(void)
                     *(&gBattleStruct->multiBuffer.linkBattlerHeader.versionSignatureHi) = 2;
                     BufferPartyVsScreenHealth_AtStart();
                     SetPlayerBerryDataInBattleStruct();
-                    SendBlock(bitmask_all_link_players_but_self(), &gBattleStruct->multiBuffer.linkBattlerHeader, sizeof(gBattleStruct->multiBuffer.linkBattlerHeader));
+                    SendBlock(BitmaskAllOtherLinkPlayers(), &gBattleStruct->multiBuffer.linkBattlerHeader, sizeof(gBattleStruct->multiBuffer.linkBattlerHeader));
                     gBattleCommunication[MULTIUSE_STATE] = 2;
                 }
                 if (gWirelessCommType != 0)
@@ -1008,7 +1004,7 @@ static void CB2_HandleStartBattle(void)
     case 3:
         if (IsLinkTaskFinished())
         {
-            SendBlock(bitmask_all_link_players_but_self(), gPlayerParty, sizeof(struct Pokemon) * 2);
+            SendBlock(BitmaskAllOtherLinkPlayers(), gPlayerParty, sizeof(struct Pokemon) * 2);
             gBattleCommunication[MULTIUSE_STATE]++;
         }
         break;
@@ -1023,7 +1019,7 @@ static void CB2_HandleStartBattle(void)
     case 7:
         if (IsLinkTaskFinished())
         {
-            SendBlock(bitmask_all_link_players_but_self(), gPlayerParty + 2, sizeof(struct Pokemon) * 2);
+            SendBlock(BitmaskAllOtherLinkPlayers(), gPlayerParty + 2, sizeof(struct Pokemon) * 2);
             gBattleCommunication[MULTIUSE_STATE]++;
         }
         break;
@@ -1038,7 +1034,7 @@ static void CB2_HandleStartBattle(void)
     case 11:
         if (IsLinkTaskFinished())
         {
-            SendBlock(bitmask_all_link_players_but_self(), gPlayerParty + 4, sizeof(struct Pokemon) * 2);
+            SendBlock(BitmaskAllOtherLinkPlayers(), gPlayerParty + 4, sizeof(struct Pokemon) * 2);
             gBattleCommunication[MULTIUSE_STATE]++;
         }
         break;
@@ -1057,7 +1053,7 @@ static void CB2_HandleStartBattle(void)
         }
         break;
     case 15:
-        InitBtlControllers();
+        InitBattleControllers();
         gBattleCommunication[MULTIUSE_STATE]++;
         gBattleCommunication[SPRITES_INIT_STATE1] = 0;
         gBattleCommunication[SPRITES_INIT_STATE2] = 0;
@@ -1140,7 +1136,7 @@ static void CB2_PreInitMultiBattle(void)
         if (gReceivedRemoteLinkPlayers && IsLinkTaskFinished())
         {
             PrepareOwnMultiPartnerBuffer();
-            SendBlock(bitmask_all_link_players_but_self(), gBattleStruct->multiBuffer.multiBattleMons, sizeof(gBattleStruct->multiBuffer.multiBattleMons));
+            SendBlock(BitmaskAllOtherLinkPlayers(), gBattleStruct->multiBuffer.multiBattleMons, sizeof(gBattleStruct->multiBuffer.multiBattleMons));
             gBattleCommunication[MULTIUSE_STATE]++;
         }
         break;
@@ -1229,7 +1225,7 @@ static void CB2_HandleStartMultiBattle(void)
                 *(&gBattleStruct->multiBuffer.linkBattlerHeader.versionSignatureHi) = 2;
                 BufferPartyVsScreenHealth_AtStart();
                 SetPlayerBerryDataInBattleStruct();
-                SendBlock(bitmask_all_link_players_but_self(), &gBattleStruct->multiBuffer.linkBattlerHeader, sizeof(gBattleStruct->multiBuffer.linkBattlerHeader));
+                SendBlock(BitmaskAllOtherLinkPlayers(), &gBattleStruct->multiBuffer.linkBattlerHeader, sizeof(gBattleStruct->multiBuffer.linkBattlerHeader));
                 gBattleCommunication[MULTIUSE_STATE]++;
             }
             if (gWirelessCommType)
@@ -1280,7 +1276,7 @@ static void CB2_HandleStartMultiBattle(void)
     case 3:
         if (IsLinkTaskFinished())
         {
-            SendBlock(bitmask_all_link_players_but_self(), gDecompressionBuffer, sizeof(struct Pokemon) * 2);
+            SendBlock(BitmaskAllOtherLinkPlayers(), gDecompressionBuffer, sizeof(struct Pokemon) * 2);
             gBattleCommunication[MULTIUSE_STATE]++;
         }
         break;
@@ -1343,7 +1339,7 @@ static void CB2_HandleStartMultiBattle(void)
     case 7:
         if (IsLinkTaskFinished())
         {
-            SendBlock(bitmask_all_link_players_but_self(), gDecompressionBuffer + sizeof(struct Pokemon) * 2, sizeof(struct Pokemon));
+            SendBlock(BitmaskAllOtherLinkPlayers(), gDecompressionBuffer + sizeof(struct Pokemon) * 2, sizeof(struct Pokemon));
             gBattleCommunication[MULTIUSE_STATE]++;
         }
         break;
@@ -1416,7 +1412,7 @@ static void CB2_HandleStartMultiBattle(void)
         }
         break;
     case 11:
-        InitBtlControllers();
+        InitBattleControllers();
         gBattleCommunication[MULTIUSE_STATE]++;
         gBattleCommunication[SPRITES_INIT_STATE1] = 0;
         gBattleCommunication[SPRITES_INIT_STATE2] = 0;
@@ -1773,7 +1769,7 @@ void CB2_InitEndLinkBattle(void)
     gBattle_BG3_X = 0;
     gBattle_BG3_Y = 0;
     InitBattleBgsVideo();
-    LoadCompressedPalette(gBattleTextboxPalette, 0, 64);
+    LoadCompressedPalette(gBattleInterface_Textbox_Pal, 0, 64);
     LoadBattleMenuWindowGfx();
     ResetSpriteData();
     ResetTasks();
@@ -1917,24 +1913,26 @@ void SpriteCallbackDummy_2(struct Sprite *sprite)
 {
 }
 
-// not used
-UNUSED static void SpriteCB_Unused_8011E28(struct Sprite *sprite)
+#define sNumFlickers data[3]
+#define sDelay       data[4]
+
+// Unused
+static void SpriteCB_InitFlicker(struct Sprite *sprite)
 {
-    sprite->data[3] = 6;
-    sprite->data[4] = 1;
-    sprite->callback = SpriteCB_Unused_8011E28_Step;
+    sprite->sNumFlickers = 6;
+    sprite->sDelay = 1;
+    sprite->callback = SpriteCB_Flicker;
 }
 
-// not used
-static void SpriteCB_Unused_8011E28_Step(struct Sprite *sprite)
+static void SpriteCB_Flicker(struct Sprite *sprite)
 {
-    --sprite->data[4];
-    if (sprite->data[4] == 0)
+    sprite->sDelay--;
+    if (sprite->sDelay == 0)
     {
-        sprite->data[4] = 8;
+        sprite->sDelay = 8;
         sprite->invisible ^= 1;
-        --sprite->data[3];
-        if (sprite->data[3] == 0)
+        sprite->sNumFlickers--;
+        if (sprite->sNumFlickers == 0)
         {
             sprite->invisible = FALSE;
             sprite->callback = SpriteCallbackDummy_2;
@@ -1942,6 +1940,9 @@ static void SpriteCB_Unused_8011E28_Step(struct Sprite *sprite)
         }
     }
 }
+
+#undef sNumFlickers
+#undef sDelay
 
 void SpriteCB_FaintOpponentMon(struct Sprite *sprite)
 {
@@ -2183,8 +2184,9 @@ static void SpriteCB_PlayerThrowUpdate(struct Sprite *sprite)
         sprite->callback = SpriteCB_Idle;
 }
 
-void BattleDummy(void)
+void BeginBattleIntroDummy(void)
 {
+
 }
 
 void BeginBattleIntro(void)

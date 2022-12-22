@@ -1,56 +1,57 @@
 Help_Text_WhatShouldIDo::
-	.string "What should I do in this situation?$"
+	.string "¿Qué debería hacer en esta situación?$"
 
 Help_Text_HowDoIDoThis::
-	.string "How do I do this?$"
+	.string "¿Cómo hago esto?$"
 
 Help_Text_WhatDoesThisTermMean::
-	.string "What does this term mean?$"
+	.string "¿Qué significa este término?$"
 
 Help_Text_AboutThisGame::
-	.string "About this game$"
+	.string "Sobre este juego$"
 
 Help_Text_TypeMatchupList::
 	.string "Type Matchup List$"
 
 Help_Text_Exit::
-	.string "EXIT$"
+	.string "SALIR$"
 
 Help_Text_Cancel::
-	.string "CANCEL$"
+	.string "ATRÁS$"
 
 Help_Text_TryDoingItOnYourOwn::
 	.string "じぶんの ちからで やってみよう！$"
 
 Help_Text_DescWhatShouldIDo::
-	.string "Select to obtain hints for getting\n"
-	.string "over challenging situations.$"
+	.string "Pistas para superar situaciones\n"
+	.string "difíciles.$"
 
 Help_Text_DescHowDoIDoThis::
-	.string "Detailed instructions are given for\n"
-	.string "various operations.$"
+	.string "Descripciones detalladas de varias\n"
+	.string "operaciones.$"
 
 Help_Text_DescWhatDoesThisTermMean::
-	.string "Detailed descriptions are given for\n"
-	.string "terms that appear in the game.$"
+	.string "Descripciones detalladas de términos\n"
+	.string "que aparecen en el juego.$"
 
 Help_Text_DescAboutThisGame::
-	.string "Detailed descriptions are given\n"
-	.string "about this game.$"
+	.string "Descripciones detalladas sobre\n"
+	.string "este juego.$"
 
 Help_Text_DescTypeMatchupList::
 	.string "The matchups of  POKéMON types\n"
 	.string "and moves are listed.$"
 
 Help_Text_DescExit::
-	.string "Select to exit the HELP System.$"
+	.string "Salir del Sistema de AYUDA.$"
 
 Help_Text_Greetings::
-	.string "Greetings! This is the HELP System.\n"
+	.string "¡Hola! éste es el Sistema de AYUDA.\n"
 	.string "Call me up whenever and wherever you\l"
 	.string "need by pressing the L or R Button.\l"
-	.string "The help messages change to suit the\l"
-	.string "situation, so check them often, please.$"
+	.string "Los mensajes de ayuda varían según\l"
+	.string "la situación, así que revísalos\l"
+	.string "frecuentemente, por favor.$"
 
 Help_Text_PlayingForFirstTime::
 	.string "I'm playing for the first time. Help!$"

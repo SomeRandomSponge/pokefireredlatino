@@ -162,9 +162,9 @@ void BuyMenuInitWindows(bool32 isSellingTM)
     else
         InitWindows(sShopBuyMenuWindowTemplatesTM);
     DeactivateAllTextPrinters();
-    TextWindow_SetUserSelectedFrame(0, 0x1, 0xD0);
-    TextWindow_LoadResourcesStdFrame0(0, 0x13, 0xE0);
-    TextWindow_SetStdFrame0_WithPal(0, 0xA, 0xF0);
+    LoadUserWindowGfx(0, 0x1, 0xD0);
+    LoadMenuMessageWindowGfx(0, 0x13, 0xE0);
+    LoadStdWindowGfx(0, 0xA, 0xF0);
     PutWindowTilemap(0);
     PutWindowTilemap(4);
     PutWindowTilemap(5);
@@ -200,5 +200,5 @@ void BuyMenuQuantityBoxThinBorder(u8 windowId, bool8 copyToVram)
 
 void BuyMenuConfirmPurchase(u8 taskId, const struct YesNoFuncTable *yesNo)
 {
-    CreateYesNoMenuWithCallbacks(taskId, &sShopBuyMenuYesNoWindowTemplate, FONT_2, 0, 2, 1, 0xD, yesNo);
+    CreateYesNoMenuWithCallbacks(taskId, &sShopBuyMenuYesNoWindowTemplate, FONT_NORMAL, 0, 2, 1, 0xD, yesNo);
 }

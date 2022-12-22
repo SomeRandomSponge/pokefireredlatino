@@ -41,13 +41,14 @@ static u16 GetCurrentBattleTowerWinStreak(u8 levelType);
 static void SetEReaderTrainerChecksum(struct BattleTowerEReaderTrainer * eReaderTrainer);
 static void PrintEReaderTrainerFarewellMessage(void);
 
-const u8 unref_83FFAAC[] = {
-    0x05, 0x04, 0x01, 0x10, 0x04, 0x02, 0x05, 0x06,
-    0x03, 0x10, 0x06, 0x04, 0x00, 0x01, 0x02, 0x03,
-    0x00, 0x02, 0x03
+// unknown unused data
+static const u8 sUnused[] = {
+    5, 4, 1, 16, 4, 2, 5, 6,
+    3, 16, 6, 4, 0, 1, 2, 3,
+    0, 2, 3
 };
 
-const u8 unref_83FFABF[] = _("100");
+static const u8 sText_100[] = _("100");
 
 static const struct BattleTowerTrainer sBattleTowerTrainers[] =
 {
@@ -881,7 +882,7 @@ static void CB2_FinishEReaderBattle(void)
 
 static void Task_WaitBT(u8 taskId)
 {
-    if (BT_IsDone() == TRUE)
+    if (IsBattleTransitionDone() == TRUE)
     {
         gMain.savedCallback = CB2_FinishEReaderBattle;
         CleanupOverworldWindowsAndTilemaps();
@@ -909,7 +910,7 @@ void StartSpecialBattle(void)
         CreateTask(Task_WaitBT, 1);
         PlayMapChosenOrBattleBGM(0);
         transition = BattleSetup_GetBattleTowerBattleTransition();
-        BT_StartOnField(transition);
+        BattleTransition_StartOnField(transition);
         break;
     case 1: // secret base battle
         for (i = 0; i < PARTY_SIZE; i++)
@@ -921,7 +922,7 @@ void StartSpecialBattle(void)
         CreateTask(Task_WaitBT, 1);
         PlayMapChosenOrBattleBGM(0);
         transition = BattleSetup_GetBattleTowerBattleTransition();
-        BT_StartOnField(transition);
+        BattleTransition_StartOnField(transition);
         break;
     case 2: // e-reader trainer battle
         ZeroEnemyPartyMons();
@@ -935,7 +936,7 @@ void StartSpecialBattle(void)
         CreateTask(Task_WaitBT, 1);
         PlayMapChosenOrBattleBGM(0);
         transition = BattleSetup_GetBattleTowerBattleTransition();
-        BT_StartOnField(transition);
+        BattleTransition_StartOnField(transition);
         break;
     }
 }

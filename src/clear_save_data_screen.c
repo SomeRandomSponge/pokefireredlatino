@@ -101,16 +101,16 @@ static void Task_DrawClearSaveDataScreen(u8 taskId)
         SaveClearScreen_GpuInit();
         break;
     case 3:
-        TextWindow_SetStdFrame0_WithPal(0, 0x001, 0xF0);
-        TextWindow_SetStdFrame0_WithPal(1, 0x001, 0xF0);
+        LoadStdWindowGfx(0, 0x001, 0xF0);
+        LoadStdWindowGfx(1, 0x001, 0xF0);
         break;
     case 4:
         DrawStdFrameWithCustomTileAndPalette(1, TRUE, 0x001, 0xF);
-        AddTextPrinterParameterized4(1, FONT_2, 0, 3, 1, 1, sTextColor, 0, gUnknown_841B69E);
+        AddTextPrinterParameterized4(1, FONT_NORMAL, 0, 3, 1, 1, sTextColor, 0, gText_ClearAllSaveData);
         CopyWindowToVram(1, COPYWIN_GFX);
         break;
     case 5:
-        CreateYesNoMenu(&sWindowTemplates[0], FONT_2, 0, 2, 0x001, 0xF, 1);
+        CreateYesNoMenu(&sWindowTemplates[0], FONT_NORMAL, 0, 2, 0x001, 0xF, 1);
         CopyBgTilemapBufferToVram(0);
         break;
     default:
@@ -138,7 +138,7 @@ static void Task_HandleYesNoMenu(u8 taskId)
         case 0:
             PlaySE(SE_SELECT);
             FillWindowPixelBuffer(1, PIXEL_FILL(1));
-            AddTextPrinterParameterized4(1, FONT_2, 0, 3, 1, 1, sTextColor, 0, gUnknown_841B6B9);
+            AddTextPrinterParameterized4(1, FONT_NORMAL, 0, 3, 1, 1, sTextColor, 0, gText_ClearingData);
             CopyWindowToVram(1, COPYWIN_FULL);
             ClearSaveData();
             break;

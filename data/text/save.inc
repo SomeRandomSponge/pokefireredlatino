@@ -12,7 +12,7 @@ gText_SavingDontTurnOffThePower::
 gText_PlayerSavedTheGame::
 	.string "{PLAYER} guardó la partida.$"
 
-gText_SaveFailed::
+gText_SaveFailed2::
 	.string "セーブに　しっぱい　しました‥$"
 
 gText_DifferentGameFile::

@@ -405,7 +405,7 @@ static u8 *ExpandPlaceholder_KunChan(void)
         return gExpandedPlaceholder_Chan;
 }
 
-//Género (Linea 406)
+//Género (Linea 408)
 static u8 *ExpandPlaceholder_OA(void)
 {
     if (gSaveBlock2Ptr->playerGender == MALE)

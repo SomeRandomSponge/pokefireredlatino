@@ -47,6 +47,8 @@
 #include "trainer_pokemon_sprites.h"
 #include "vs_seeker.h"
 #include "wild_encounter.h"
+#include "constants/cable_club.h"
+#include "constants/event_objects.h"
 #include "constants/maps.h"
 #include "constants/region_map_sections.h"
 #include "constants/songs.h"
@@ -400,22 +402,22 @@ static void LoadObjEventTemplatesFromHeader(void)
     u8 i, j;
     for (i = 0, j = 0; i < gMapHeader.events->objectEventCount; i++)
     {
-        if (gMapHeader.events->objectEvents[i].inConnection == 0xFF)
+        if (gMapHeader.events->objectEvents[i].kind == OBJ_KIND_CLONE)
         {
-            // load "in_connection" object from the connecting map
-            u8 localId = gMapHeader.events->objectEvents[i].elevation;
-            u8 mapNum = gMapHeader.events->objectEvents[i].trainerType;
-            u8 mapGroup = gMapHeader.events->objectEvents[i].trainerRange_berryTreeId;
+            // load target object from the connecting map
+            u8 localId = gMapHeader.events->objectEvents[i].objUnion.clone.targetLocalId;
+            u8 mapNum = gMapHeader.events->objectEvents[i].objUnion.clone.targetMapNum;
+            u8 mapGroup = gMapHeader.events->objectEvents[i].objUnion.clone.targetMapGroup;
             const struct MapHeader * connectionMap = Overworld_GetMapHeaderByGroupAndId(mapGroup, mapNum);
 
             gSaveBlock1Ptr->objectEventTemplates[j] = connectionMap->events->objectEvents[localId - 1];
             gSaveBlock1Ptr->objectEventTemplates[j].localId = gMapHeader.events->objectEvents[i].localId;
             gSaveBlock1Ptr->objectEventTemplates[j].x = gMapHeader.events->objectEvents[i].x;
             gSaveBlock1Ptr->objectEventTemplates[j].y = gMapHeader.events->objectEvents[i].y;
-            gSaveBlock1Ptr->objectEventTemplates[j].elevation = localId;
-            gSaveBlock1Ptr->objectEventTemplates[j].trainerType = mapNum;
-            gSaveBlock1Ptr->objectEventTemplates[j].trainerRange_berryTreeId = mapGroup;
-            gSaveBlock1Ptr->objectEventTemplates[j].inConnection = 0xFF;
+            gSaveBlock1Ptr->objectEventTemplates[j].objUnion.clone.targetLocalId = localId;
+            gSaveBlock1Ptr->objectEventTemplates[j].objUnion.clone.targetMapNum = mapNum;
+            gSaveBlock1Ptr->objectEventTemplates[j].objUnion.clone.targetMapGroup = mapGroup;
+            gSaveBlock1Ptr->objectEventTemplates[j].kind = OBJ_KIND_CLONE;
             j++;
         }
         else
@@ -463,7 +465,7 @@ void SetObjEventTemplateMovementType(u8 localId, u8 movementType)
         struct ObjectEventTemplate *objectEventTemplate = &savObjTemplates[i];
         if (objectEventTemplate->localId == localId)
         {
-            objectEventTemplate->movementType = movementType;
+            objectEventTemplate->objUnion.normal.movementType = movementType;
             return;
         }
     }
@@ -805,7 +807,7 @@ static void LoadMapFromWarp(bool32 unused)
     InitMap();
 }
 
-static void sub_80559A8(void)
+static void QL_LoadMapNormal(void)
 {
     bool8 isOutdoors;
 
@@ -2136,7 +2138,7 @@ static void InitObjectEventsLocal(void)
 
 static void ReloadObjectsAndRunReturnToFieldMapScript(void)
 {
-    ReloadMapObjectsWithOffset(0, 0);
+    SpawnObjectEventsOnReturnToField(0, 0);
     RunOnReturnToFieldMapScript();
 }
 
@@ -2247,7 +2249,7 @@ static bool32 LoadMap_QLPlayback(u8 *state)
         else
         {
             gExitStairsMovementDisabled = TRUE;
-            sub_80559A8();
+            QL_LoadMapNormal();
         }
         (*state)++;
         break;
@@ -2979,14 +2981,14 @@ static u16 KeyInterCB_SendNothing_2(u32 key)
 u32 GetCableClubPartnersReady(void)
 {
     if (IsAnyPlayerInLinkState(PLAYER_LINK_STATE_EXITING_ROOM) == TRUE)
-        return 2;
+        return CABLE_SEAT_FAILED;
     if (sPlayerKeyInterceptCallback == KeyInterCB_Ready && sPlayerLinkStates[gLocalLinkPlayerId] != PLAYER_LINK_STATE_READY)
-        return 0;
+        return CABLE_SEAT_WAITING;
     if (sPlayerKeyInterceptCallback == KeyInterCB_DoNothingAndKeepAlive && sPlayerLinkStates[gLocalLinkPlayerId] == PLAYER_LINK_STATE_BUSY)
-        return 2;
+        return CABLE_SEAT_FAILED;
     if (AreAllPlayersInLinkState(PLAYER_LINK_STATE_READY) != FALSE)
-        return 1;
-    return 0;
+        return CABLE_SEAT_SUCCESS;
+    return CABLE_SEAT_WAITING;
 }
 
 static bool32 IsAnyPlayerExitingCableClub(void)
@@ -3031,7 +3033,7 @@ static void LoadCableClubPlayer(s32 linkPlayerId, s32 myPlayerId, struct CableCl
     GetLinkPlayerCoords(linkPlayerId, &x, &y);
     player->pos.x = x;
     player->pos.y = y;
-    player->pos.height = GetLinkPlayerElevation(linkPlayerId);
+    player->pos.elevation = GetLinkPlayerElevation(linkPlayerId);
     player->metatileBehavior = MapGridGetMetatileBehaviorAt(x, y);
 }
 
@@ -3084,7 +3086,7 @@ static const u8 *TryInteractWithPlayer(struct CableClubPlayer *player)
     otherPlayerPos = player->pos;
     otherPlayerPos.x += gDirectionToVectors[player->facing].x;
     otherPlayerPos.y += gDirectionToVectors[player->facing].y;
-    otherPlayerPos.height = 0;
+    otherPlayerPos.elevation = 0;
     linkPlayerId = GetLinkPlayerIdAt(otherPlayerPos.x, otherPlayerPos.y);
 
     if (linkPlayerId != 4)
@@ -3237,7 +3239,7 @@ bool32 IsSendingKeysOverCable(void)
 static u32 GetLinkSendQueueLength(void)
 {
     if (gWirelessCommType != 0)
-        return Rfu.sendQueue.count;
+        return gRfu.sendQueue.count;
     else
         return gLink.sendQueue.count;
 }
@@ -3294,7 +3296,7 @@ static void InitLinkPlayerObjectEventPos(struct ObjectEvent *objEvent, s16 x, s1
     objEvent->previousCoords.y = y;
     SetSpritePosToMapCoords(x, y, &objEvent->initialCoords.x, &objEvent->initialCoords.y);
     objEvent->initialCoords.x += 8;
-    ObjectEventUpdateZCoord(objEvent);
+    ObjectEventUpdateElevation(objEvent);
 }
 
 static void SetLinkPlayerObjectRange(u8 linkPlayerId, u8 dir)
@@ -3433,7 +3435,7 @@ static bool8 FacingHandler_DpadMovement(struct LinkPlayerObjectEvent *linkPlayer
     {
         objEvent->directionSequenceIndex = 16;
         ShiftObjectEventCoords(objEvent, x, y);
-        ObjectEventUpdateZCoord(objEvent);
+        ObjectEventUpdateElevation(objEvent);
         return TRUE;
     }
 }
@@ -3499,7 +3501,7 @@ static bool8 LinkPlayerDetectCollision(u8 selfObjEventId, u8 a2, s16 x, s16 y)
             }
         }
     }
-    return MapGridIsImpassableAt(x, y);
+    return MapGridGetCollisionAt(x, y);
 }
 
 static void CreateLinkPlayerSprite(u8 linkPlayerId, u8 gameVersion)
@@ -3513,13 +3515,13 @@ static void CreateLinkPlayerSprite(u8 linkPlayerId, u8 gameVersion)
     {
         if (gameVersion == VERSION_FIRE_RED || gameVersion == VERSION_LEAF_GREEN)
         {
-            objEvent->spriteId = AddPseudoObjectEvent(
+            objEvent->spriteId = CreateObjectGraphicsSprite(
                 GetRivalAvatarGraphicsIdByStateIdAndGender(PLAYER_AVATAR_STATE_NORMAL, linkGender(objEvent)),
                 SpriteCB_LinkPlayer, 0, 0, 0);
         }
         else
         {
-            objEvent->spriteId = AddPseudoObjectEvent(GetRSAvatarGraphicsIdByGender(linkGender(objEvent)), SpriteCB_LinkPlayer, 0, 0, 0);
+            objEvent->spriteId = CreateObjectGraphicsSprite(GetRSAvatarGraphicsIdByGender(linkGender(objEvent)), SpriteCB_LinkPlayer, 0, 0, 0);
         }
 
         sprite = &gSprites[objEvent->spriteId];
@@ -3535,15 +3537,15 @@ static void SpriteCB_LinkPlayer(struct Sprite *sprite)
     struct ObjectEvent *objEvent = &gObjectEvents[linkPlayerObjEvent->objEventId];
     sprite->x = objEvent->initialCoords.x;
     sprite->y = objEvent->initialCoords.y;
-    SetObjectSubpriorityByZCoord(objEvent->previousElevation, sprite, 1);
-    sprite->oam.priority = ZCoordToPriority(objEvent->previousElevation);
+    SetObjectSubpriorityByElevation(objEvent->previousElevation, sprite, 1);
+    sprite->oam.priority = ElevationToPriority(objEvent->previousElevation);
 
     if (!linkPlayerObjEvent->movementMode != MOVEMENT_MODE_FREE)
         StartSpriteAnim(sprite, GetFaceDirectionAnimNum(linkDirection(objEvent)));
     else
         StartSpriteAnimIfDifferent(sprite, GetMoveDirectionAnimNum(linkDirection(objEvent)));
 
-    UpdateObjectEventSpriteVisibility(sprite, 0);
+    UpdateObjectEventSpriteInvisibility(sprite, FALSE);
     if (objEvent->triggerGroundEffectsOnMove)
     {
         sprite->invisible = ((sprite->data[7] & 4) >> 2);

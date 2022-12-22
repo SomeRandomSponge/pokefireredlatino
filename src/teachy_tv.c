@@ -26,6 +26,7 @@
 #include "fieldmap.h"
 #include "strings.h"
 #include "constants/field_effects.h"
+#include "constants/event_objects.h"
 
 struct TeachyTvCtrlBlk
 {
@@ -96,7 +97,7 @@ static void TeachyTvRestorePlayerPartyCallback(void);
 static void TeachyTvPreBattleAnimAndSetBattleCallback(u8 taskId);
 static void TeachyTvLoadMapTilesetToBuffer(struct Tileset *ts, u8 *dstBuffer, u16 size);
 static void TeachyTvPushBackNewMapPalIndexArrayEntry(const struct MapLayout *mStruct, u16 *buf1, u8 *palIndexArray, u16 mapEntry, u16 offset);
-static void TeachyTvComputeMapTilesFromTilesetAndMetaTiles(u16 *metaTilesArray, u8 *blockBuf, u8 *tileset);
+static void TeachyTvComputeMapTilesFromTilesetAndMetaTiles(const u16 *metaTilesArray, u8 *blockBuf, u8 *tileset);
 static void TeachyTvComputeSingleMapTileBlockFromTilesetAndMetaTiles(u8 *blockBuf, u8 *tileset, u8 metaTile);
 static u16 TeachyTvComputePalIndexArrayEntryByMetaTile(u8 *palIndexArrayBuf, u16 metaTile);
 static void TeachyTvLoadMapPalette(const struct MapLayout * mStruct, const u8 *palIndexArray);
@@ -239,7 +240,7 @@ static const struct ListMenuTemplate sListMenuTemplate =
     .lettersSpacing = 0x0,
     .itemVerticalPadding = 0x0,
     .scrollMultiple = 0x1,
-    .fontId = FONT_2,
+    .fontId = FONT_NORMAL,
     .cursorKind = 0x0,
 };
 
@@ -602,7 +603,7 @@ static void TeachyTvInitIo(void)
 
 static u8 TeachyTvSetupObjEventAndOam(void)
 {
-    u8 objId = AddPseudoObjectEvent(90, SpriteCallbackDummy, 0, 0, 8);
+    u8 objId = CreateObjectGraphicsSprite(OBJ_EVENT_GFX_TEACHY_TV_HOST, SpriteCallbackDummy, 0, 0, 8);
     gSprites[objId].oam.priority = 2;
     gSprites[objId].invisible = 1;
     return objId;
@@ -675,7 +676,7 @@ static void TeachyTvSetupPostBattleWindowAndObj(u8 taskId)
 static void TeachyTvInitTextPrinter(const u8 *text)
 {
     gTextFlags.autoScroll = 0;
-    AddTextPrinterParameterized2(0, FONT_4, text, GetTextSpeedSetting(), 0, 1, 0xC, 3);
+    AddTextPrinterParameterized2(0, FONT_MALE, text, GetTextSpeedSetting(), 0, 1, 0xC, 3);
 }
 
 static void TeachyTvFree(void)
@@ -1178,9 +1179,9 @@ static void TeachyTvPrepBattle(u8 taskId)
     InitPokedudePartyAndOpponent();
     PlayMapChosenOrBattleBGM(MUS_DUMMY);
     if (sStaticResources.whichScript == TTVSCR_BATTLE)
-        data[6] = B_TRANSITION_WHITEFADE_IN_STRIPES;
+        data[6] = B_TRANSITION_WHITE_BARS_FADE;
     else
-        data[6] = B_TRANSITION_SLICED_SCREEN;
+        data[6] = B_TRANSITION_SLICE;
     data[7] = 0;
     gTasks[taskId].func = TeachyTvPreBattleAnimAndSetBattleCallback;
 }
@@ -1191,11 +1192,11 @@ static void TeachyTvPreBattleAnimAndSetBattleCallback(u8 taskId)
     switch (data[7])
     {
     case 0:
-        BT_StartOnField(data[6]);
+        BattleTransition_StartOnField(data[6]);
         ++data[7];
         break;
     case 1:
-        if (BT_IsDone())
+        if (IsBattleTransitionDone())
         {
             SetMainCallback2(CB2_InitBattle);
             DestroyTask(taskId);
@@ -1225,12 +1226,12 @@ static void TeachyTvLoadBg3Map(u16 *buffer)
     u16 numMapTilesRows = 0;
     const struct MapLayout *layout = &Route1_Layout;
     u16 * blockIndicesBuffer = AllocZeroed(0x800);
-    tilesetsBuffer = AllocZeroed(0x8000);
+    tilesetsBuffer = AllocZeroed(NUM_TILES_TOTAL * TILE_SIZE_4BPP);
     palIndicesBuffer = Alloc(16);
     memset(palIndicesBuffer, 0xFF, 16);
 
-    TeachyTvLoadMapTilesetToBuffer(layout->primaryTileset, tilesetsBuffer, 0x280);
-    TeachyTvLoadMapTilesetToBuffer(layout->secondaryTileset, tilesetsBuffer + 0x5000, 0x180);
+    TeachyTvLoadMapTilesetToBuffer(layout->primaryTileset, tilesetsBuffer, NUM_TILES_IN_PRIMARY);
+    TeachyTvLoadMapTilesetToBuffer(layout->secondaryTileset, tilesetsBuffer + NUM_TILES_IN_PRIMARY * TILE_SIZE_4BPP, NUM_TILES_TOTAL - NUM_TILES_IN_PRIMARY);
 
     for (i = 0; i < 9; i++)
     {
@@ -1258,14 +1259,10 @@ static void TeachyTvLoadBg3Map(u16 *buffer)
     for (i = 0; i < numMapTilesRows; i++)
     {
         memset(mapTilesRowBuffer, 0, 0x80);
-        if (blockIndicesBuffer[i] < 0x280)
-        {
-            TeachyTvComputeMapTilesFromTilesetAndMetaTiles(layout->primaryTileset->metatiles + blockIndicesBuffer[i] * 16, mapTilesRowBuffer, tilesetsBuffer);
-        }
+        if (blockIndicesBuffer[i] < NUM_METATILES_IN_PRIMARY)
+            TeachyTvComputeMapTilesFromTilesetAndMetaTiles((const void *)layout->primaryTileset->metatiles + blockIndicesBuffer[i] * 16, mapTilesRowBuffer, tilesetsBuffer);
         else
-        {
-            TeachyTvComputeMapTilesFromTilesetAndMetaTiles(layout->secondaryTileset->metatiles + (blockIndicesBuffer[i] - 0x280) * 16, mapTilesRowBuffer, tilesetsBuffer);
-        }
+            TeachyTvComputeMapTilesFromTilesetAndMetaTiles((const void *)layout->secondaryTileset->metatiles + (blockIndicesBuffer[i] - NUM_METATILES_IN_PRIMARY) * 16, mapTilesRowBuffer, tilesetsBuffer);
         CpuFastCopy(mapTilesRowBuffer, bgTilesBuffer + i * 0x40, 0x80);
     }
 
@@ -1292,14 +1289,18 @@ static void TeachyTvLoadMapTilesetToBuffer(struct Tileset *ts, u8 *dstBuffer, u1
 
 static void TeachyTvPushBackNewMapPalIndexArrayEntry(const struct MapLayout *mStruct, u16 *buf1, u8 *palIndexArray, u16 mapEntry, u16 offset)
 {
-    u16 * metaTileEntryAddr = mapEntry < 0x280 ? &((u16 *)(mStruct->primaryTileset->metatiles))[8 * mapEntry] : &((u16 *)(mStruct->secondaryTileset->metatiles))[8 * (mapEntry - 0x280)];
+    const u16 * metaTileEntryAddr;
+    if (mapEntry < NUM_METATILES_IN_PRIMARY)
+        metaTileEntryAddr = &mStruct->primaryTileset->metatiles[8 * mapEntry];
+    else
+        metaTileEntryAddr = &mStruct->secondaryTileset->metatiles[8 * (mapEntry - NUM_METATILES_IN_PRIMARY)];
     buf1[0] = (TeachyTvComputePalIndexArrayEntryByMetaTile(palIndexArray, metaTileEntryAddr[0]) << 12) + 4 * offset;
     buf1[1] = (TeachyTvComputePalIndexArrayEntryByMetaTile(palIndexArray, metaTileEntryAddr[1]) << 12) + 4 * offset + 1;
     buf1[32] = (TeachyTvComputePalIndexArrayEntryByMetaTile(palIndexArray, metaTileEntryAddr[2]) << 12) + 4 * offset + 2;
     buf1[33] = (TeachyTvComputePalIndexArrayEntryByMetaTile(palIndexArray, metaTileEntryAddr[3]) << 12) + 4 * offset + 3;
 }
 
-static void TeachyTvComputeMapTilesFromTilesetAndMetaTiles(u16 *metaTilesArray, u8 *blockBuf, u8 *tileset)
+static void TeachyTvComputeMapTilesFromTilesetAndMetaTiles(const u16 *metaTilesArray, u8 *blockBuf, u8 *tileset)
 {
     TeachyTvComputeSingleMapTileBlockFromTilesetAndMetaTiles(blockBuf, &tileset[0x20 * (*metaTilesArray & 0x3FF)], (*metaTilesArray >> 10) & 3);
     TeachyTvComputeSingleMapTileBlockFromTilesetAndMetaTiles(blockBuf, &tileset[0x20 * (metaTilesArray[4] & 0x3FF)], (metaTilesArray[4] >> 10) & 3);
@@ -1384,16 +1385,16 @@ static void TeachyTvLoadMapPalette(const struct MapLayout * mStruct, const u8 * 
 {
     u8 i;
     const struct Tileset * ts;
-    u16 * dest;
+    const u16 * dest;
 
     for (i = 0; i < 16; i++)
     {
         if (palIndexArray[i] == 0xFF)
             break;
-        if (palIndexArray[i] > 6)
-            dest = (u16 *)mStruct->secondaryTileset->palettes + 0x10 * palIndexArray[i];
+        if (palIndexArray[i] >= NUM_PALS_IN_PRIMARY)
+            dest = mStruct->secondaryTileset->palettes[palIndexArray[i]];
         else
-            dest = (u16 *)mStruct->primaryTileset->palettes + 0x10 * palIndexArray[i];
+            dest = mStruct->primaryTileset->palettes[palIndexArray[i]];
         LoadPalette(dest, 0x10 * (15 - i), 0x20);
     }
 }

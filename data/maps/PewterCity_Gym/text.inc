@@ -16,16 +16,16 @@ PewterCity_Gym_Text_BrockIntro::
 
 @ NOTE: This defeat text actually causes a buffer overflow. It's too long for the gDisplayedStringBattle
 @ buffer that it's put into, and it stomps all over the gBattleTextBuffs after, as well as the otherwise
-@ unused array after that, gUnknown_2022AE8. Perhaps that's the reason why said array exists.
+@ unused array after that, sFlickerArray. Perhaps that's the reason why said array exists.
 PewterCity_Gym_Text_BrockDefeat::
     .string "Te he subestimado, y por\n"
     .string "eso perdí.\p"
     .string "Como prueba de tu victoria, te daré\n"
     .string "esto… La MEDALLA ROCA oficial de\l"
     .string "la LIGA POKéMON.\p"
-    .string "{FONT_2}¡{PLAYER} recibió la MEDALLA ROCA\n"
+    .string "{FONT_NORMAL}¡{PLAYER} recibió la MEDALLA ROCA\n"
     .string "de BROCK!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p"
-    .string "{FONT_4}El tener la MEDALLA ROCA hace que\n"
+    .string "{FONT_MALE}El tener la MEDALLA ROCA hace que\n"
     .string "tus POKéMON sean más poderosos.\p"
     .string "También permite usar el movimiento\n"
     .string "DESTELLO fuera de las batallas.\p"

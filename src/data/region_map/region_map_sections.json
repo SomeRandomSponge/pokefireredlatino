@@ -1,0 +1,880 @@
+{
+  "map_sections": [
+    {
+      "map_section": "MAPSEC_PALLET_TOWN",
+      "name": "PUEBLO PALETA",
+      "x": 4,
+      "y": 11,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_VIRIDIAN_CITY",
+      "name": "CIUDAD VERDE",
+      "x": 4,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_PEWTER_CITY",
+      "name": "CIUDAD PLATEADA",
+      "x": 4,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_CERULEAN_CITY",
+      "name": "CIUDAD CELESTE",
+      "x": 14,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_LAVENDER_TOWN",
+      "name": "PUEBLO LAVANDA",
+      "x": 18,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_VERMILION_CITY",
+      "name": "CIUDAD CARMÍN",
+      "x": 14,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_CELADON_CITY",
+      "name": "CIUDAD PRISMA",
+      "x": 11,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_FUCHSIA_CITY",
+      "name": "CIUDAD FUCSIA",
+      "x": 12,
+      "y": 12,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_CINNABAR_ISLAND",
+      "name": "ISLA CANELA",
+      "x": 4,
+      "y": 14,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_INDIGO_PLATEAU",
+      "name": "MESETA AÑIL",
+      "x": 2,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_SAFFRON_CITY",
+      "name": "CIUDAD AZAFRÁN",
+      "x": 14,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_4_POKECENTER",
+      "name": "RUTA 4",
+      "name_clone": true,
+      "x": 8,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_10_POKECENTER",
+      "name": "RUTA 10",
+      "name_clone": true,
+      "x": 18,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_1",
+      "name": "RUTA 1",
+      "x": 4,
+      "y": 9,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_2",
+      "name": "RUTA 2",
+      "x": 4,
+      "y": 5,
+      "width": 1,
+      "height": 3
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_3",
+      "name": "RUTA 3",
+      "x": 5,
+      "y": 4,
+      "width": 4,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_4",
+      "name": "RUTA 4",
+      "x": 8,
+      "y": 3,
+      "width": 6,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_5",
+      "name": "RUTA 5",
+      "x": 14,
+      "y": 4,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_6",
+      "name": "RUTA 6",
+      "x": 14,
+      "y": 7,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_7",
+      "name": "RUTA 7",
+      "x": 12,
+      "y": 6,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_8",
+      "name": "RUTA 8",
+      "x": 15,
+      "y": 6,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_9",
+      "name": "RUTA 9",
+      "x": 15,
+      "y": 3,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_10",
+      "name": "RUTA 10",
+      "x": 18,
+      "y": 3,
+      "width": 1,
+      "height": 3
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_11",
+      "name": "RUTA 11",
+      "x": 15,
+      "y": 9,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_12",
+      "name": "RUTA 12",
+      "x": 18,
+      "y": 7,
+      "width": 1,
+      "height": 5
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_13",
+      "name": "RUTA 13",
+      "x": 16,
+      "y": 11,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_14",
+      "name": "RUTA 14",
+      "x": 15,
+      "y": 11,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_15",
+      "name": "RUTA 15",
+      "x": 13,
+      "y": 12,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_16",
+      "name": "RUTA 16",
+      "x": 7,
+      "y": 6,
+      "width": 4,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_17",
+      "name": "RUTA 17",
+      "x": 7,
+      "y": 7,
+      "width": 1,
+      "height": 5
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_18",
+      "name": "RUTA 18",
+      "x": 7,
+      "y": 12,
+      "width": 5,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_19",
+      "name": "RUTA 19",
+      "x": 12,
+      "y": 13,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_20",
+      "name": "RUTA 20",
+      "x": 5,
+      "y": 14,
+      "width": 7,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_21",
+      "name": "RUTA 21",
+      "x": 4,
+      "y": 12,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_22",
+      "name": "RUTA 22",
+      "x": 2,
+      "y": 8,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_23",
+      "name": "RUTA 23",
+      "x": 2,
+      "y": 4,
+      "width": 1,
+      "height": 4
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_24",
+      "name": "RUTA 24",
+      "x": 14,
+      "y": 1,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "map_section": "MAPSEC_ROUTE_25",
+      "name": "RUTA 25",
+      "x": 15,
+      "y": 1,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_VIRIDIAN_FOREST",
+      "name": "BOSQUE VERDE",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_MT_MOON",
+      "name": "MONTE LUNA",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_S_S_ANNE",
+      "name": "SANTA ANA",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_UNDERGROUND_PATH",
+      "name": "VÍA SUBTERRÁNEA",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_UNDERGROUND_PATH_2",
+      "name": "VÍA SUBTERRÁNEA",
+      "name_clone": true,
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_DIGLETTS_CAVE",
+      "name": "CUEVA DIGLETT",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_KANTO_VICTORY_ROAD",
+      "name": "CAMINO VICTORIA",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROCKET_HIDEOUT",
+      "name": "GUARIDA ROCKET",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_SILPH_CO",
+      "name": "SILPH S.A.",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_POKEMON_MANSION",
+      "name": "MANSIÓN POKéMON",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_KANTO_SAFARI_ZONE",
+      "name": "ZONA SAFARI",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_POKEMON_LEAGUE",
+      "name": "LIGA POKéMON",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROCK_TUNNEL",
+      "name": "TÚNEL ROCA",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_SEAFOAM_ISLANDS",
+      "name": "ISLAS ESPUMA",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_POKEMON_TOWER",
+      "name": "TORRE POKéMON",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_CERULEAN_CAVE",
+      "name": "CUEVA CELESTE",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_POWER_PLANT",
+      "name": "CENTRAL ENERGÍA",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ONE_ISLAND",
+      "name": "ISLA PRIMA",
+      "x": 1,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_TWO_ISLAND",
+      "name": "ISLA SECUNDA",
+      "x": 9,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_THREE_ISLAND",
+      "name": "ISLA TERA",
+      "x": 18,
+      "y": 12,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_FOUR_ISLAND",
+      "name": "ISLA QUARTA",
+      "x": 3,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_FIVE_ISLAND",
+      "name": "ISLA INTA",
+      "x": 16,
+      "y": 11,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_SEVEN_ISLAND",
+      "name": "ISLA SÉTIMA",
+      "x": 5,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_SIX_ISLAND",
+      "name": "ISLA EXTA",
+      "x": 17,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_KINDLE_ROAD",
+      "name": "CAMINO CANDENTE",
+      "x": 2,
+      "y": 3,
+      "width": 1,
+      "height": 6
+    },
+    {
+      "map_section": "MAPSEC_TREASURE_BEACH",
+      "name": "PLAYA TESORO",
+      "x": 1,
+      "y": 9,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "map_section": "MAPSEC_CAPE_BRINK",
+      "name": "CABO EXTREMO",
+      "x": 9,
+      "y": 7,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "map_section": "MAPSEC_BOND_BRIDGE",
+      "name": "PUENTE UNIÓN",
+      "x": 13,
+      "y": 12,
+      "width": 4,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_THREE_ISLE_PORT",
+      "name": "PUERTO ISLA TERA",
+      "x": 18,
+      "y": 13,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_SEVII_ISLE_6",
+      "name": "SEVII ISLE 6",
+      "x": 4,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_SEVII_ISLE_7",
+      "name": "SEVII ISLE 7",
+      "x": 5,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_SEVII_ISLE_8",
+      "name": "SEVII ISLE 8",
+      "x": 1,
+      "y": 4,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_SEVII_ISLE_9",
+      "name": "SEVII ISLE 9",
+      "x": 4,
+      "y": 5,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "map_section": "MAPSEC_RESORT_GORGEOUS",
+      "name": "RESORT HERMOSO",
+      "x": 16,
+      "y": 9,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_WATER_LABYRINTH",
+      "name": "AQUARINTO",
+      "x": 14,
+      "y": 10,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_FIVE_ISLE_MEADOW",
+      "name": "PRADO ISLA INTA",
+      "x": 17,
+      "y": 10,
+      "width": 1,
+      "height": 3
+    },
+    {
+      "map_section": "MAPSEC_MEMORIAL_PILLAR",
+      "name": "PILAR RECUERDO",
+      "x": 18,
+      "y": 12,
+      "width": 1,
+      "height": 3
+    },
+    {
+      "map_section": "MAPSEC_OUTCAST_ISLAND",
+      "name": "ISLA AISLADA",
+      "x": 15,
+      "y": 0,
+      "width": 1,
+      "height": 3
+    },
+    {
+      "map_section": "MAPSEC_GREEN_PATH",
+      "name": "VÍA VERDE",
+      "x": 15,
+      "y": 3,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_WATER_PATH",
+      "name": "VÍA ACUÁTICA",
+      "x": 18,
+      "y": 3,
+      "width": 1,
+      "height": 5
+    },
+    {
+      "map_section": "MAPSEC_RUIN_VALLEY",
+      "name": "VALLE RUINA",
+      "x": 16,
+      "y": 7,
+      "width": 2,
+      "height": 2
+    },
+    {
+      "map_section": "MAPSEC_TRAINER_TOWER",
+      "name": "TORRE DESAFÍO",
+      "x": 5,
+      "y": 6,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "map_section": "MAPSEC_CANYON_ENTRANCE",
+      "name": "ENTRADA AL CAÑON",
+      "x": 5,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_SEVAULT_CANYON",
+      "name": "CAÑON SÉTANO",
+      "x": 6,
+      "y": 9,
+      "width": 1,
+      "height": 3
+    },
+    {
+      "map_section": "MAPSEC_TANOBY_RUINS",
+      "name": "RUINAS SETE",
+      "x": 3,
+      "y": 12,
+      "width": 7,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_SEVII_ISLE_22",
+      "name": "SEVII ISLE 22",
+      "x": 9,
+      "y": 12,
+      "width": 1,
+      "height": 3
+    },
+    {
+      "map_section": "MAPSEC_SEVII_ISLE_23",
+      "name": "SEVII ISLE 23",
+      "x": 3,
+      "y": 14,
+      "width": 6,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_SEVII_ISLE_24",
+      "name": "SEVII ISLE 24",
+      "x": 2,
+      "y": 12,
+      "width": 1,
+      "height": 3
+    },
+    {
+      "map_section": "MAPSEC_NAVEL_ROCK",
+      "name": "ROCA OMBLIGO",
+      "x": 10,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_MT_EMBER",
+      "name": "MT. BRASAS",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_BERRY_FOREST",
+      "name": "BOSQUE BAYA",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ICEFALL_CAVE",
+      "name": "CUEVA GLACIADA",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROCKET_WAREHOUSE",
+      "name": "ALMACÉN ROCKET",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_TRAINER_TOWER_2",
+      "name": "TORRE DESAFÍO",
+      "name_clone": true,
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_DOTTED_HOLE",
+      "name": "CUEVA PUNTEADA",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_LOST_CAVE",
+      "name": "CUEVA PERDIDA",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_PATTERN_BUSH",
+      "name": "BOSQUEJO",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ALTERING_CAVE",
+      "name": "CUEVA CAMBIANTE",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_TANOBY_CHAMBERS",
+      "name": "CÁMARAS SETE",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_THREE_ISLE_PATH",
+      "name": "THREE ISLE PATH",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_TANOBY_KEY",
+      "name": "LLAVE SETE",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_BIRTH_ISLAND",
+      "name": "ISLA ORIGEN",
+      "x": 18,
+      "y": 13,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_MONEAN_CHAMBER",
+      "name": "CÁMARA AMÉMUNA",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_LIPTOO_CHAMBER",
+      "name": "CÁMARA TULIPDOS",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_WEEPTH_CHAMBER",
+      "name": "CÁMARA TRISANTE",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_DILFORD_CHAMBER",
+      "name": "CÁMARA QUARCISO",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_SCUFIB_CHAMBER",
+      "name": "CÁMARA HIBINCA",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_RIXY_CHAMBER",
+      "name": "CÁMARA SEIRIS",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_VIAPOIS_CHAMBER",
+      "name": "CÁMARA PASIETE",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_EMBER_SPA",
+      "name": "SPA BRASAS",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_SPECIAL_AREA",
+      "name": "TIENDA DEP. PRISMA",
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ]
+}
