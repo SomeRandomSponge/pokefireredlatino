@@ -22,7 +22,7 @@ LavenderTown_Text_GhostsAppearedInTower::
     .string "Creo que son espíritus de POKéMON\n"
     .string "que los ROCKETS mataron.$"
 
-LavenderTown_Text_TownSign:: @ 817F676
+LavenderTown_Text_TownSign::
     .string "PUEBLO LAVANDA\n"
     .string "El noble pueblo púrpura$"
 

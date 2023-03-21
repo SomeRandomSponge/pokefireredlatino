@@ -169,6 +169,7 @@ ONONAM      = FD 19
 E           = FD 1A
 ET          = FD 1B
 INAT        = FD 1C
+RRASOM      = FD 1D
 
 @ Hiragana
 'あ' = 01

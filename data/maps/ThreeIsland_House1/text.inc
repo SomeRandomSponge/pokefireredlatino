@@ -1,9 +1,9 @@
 ThreeIsland_House1_Text_YoureAlwaysSoCool::
-    .string "LOSTELLE: Hi, {PLAYER}!\n"
-    .string "You're always so cool!\p"
-    .string "I'll make lunch for you, too, one\n"
-    .string "day, {PLAYER}.$"
+    .string "LOSTELLE: ¡Hola, {PLAYER}!\n"
+    .string "¡Siempre eres genial!\p"
+    .string "Algún día también haré el almuerzo\n"
+    .string "para tí, {PLAYER}.$"
 
 ThreeIsland_House1_Text_RareRocksGemsDisplayed::
-    .string "Rare rocks and gems are displayed.$"
+    .string "Se ven varias rocas y gemas raras.$"
 

@@ -1,8 +1,8 @@
 CinnabarIsland_Gym_Text_PhotoOfBlaineAndFuji::
     .string "Es una foto de BLAINE y\n"
     .string "el SR. FUJI.\p"
-    .string "They're standing shoulder to\n"
-    .string "shoulder with big grins.$"
+    .string "Están de pie juntos con\n"
+    .string "grandes sonrisas.$"
 
 CinnabarIsland_PokemonLab_Entrance_Text_StudyMonsExtensively::
     .string "Estudiamos a los POKéMON de forma\n"

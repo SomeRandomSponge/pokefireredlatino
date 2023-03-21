@@ -20,7 +20,7 @@ static const u8 sBashfulNatureName[] = _("TÍMIDA");
 static const u8 sRashNatureName[] = _("ALOCADA");
 static const u8 sCalmNatureName[] = _("SERENA");
 static const u8 sGentleNatureName[] = _("AMABLE");
-static const u8 sSassyNatureName[] = _("GROSERA");
+static const u8 sSassyNatureName[] = _("PUTA MADRE");
 static const u8 sCarefulNatureName[] = _("CAUTA");
 static const u8 sQuirkyNatureName[] = _("RARA");
 

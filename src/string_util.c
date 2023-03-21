@@ -54,6 +54,8 @@ extern u8 gExpandedPlaceholder_ONA[];
 extern u8 gExpandedPlaceholder_INAT[];
 extern u8 gExpandedPlaceholder_ONM[];
 extern u8 gExpandedPlaceholder_ONAM[];
+extern u8 gExpandedPlaceholder_RRA[];
+extern u8 gExpandedPlaceholder_SOM[];
 
 u8 *StringCopy_Nickname(u8 *dest, const u8 *src)
 {
@@ -405,7 +407,7 @@ static u8 *ExpandPlaceholder_KunChan(void)
         return gExpandedPlaceholder_Chan;
 }
 
-//Género (Linea 408)
+//Género (Linea 410)
 static u8 *ExpandPlaceholder_OA(void)
 {
     if (gSaveBlock2Ptr->playerGender == MALE)
@@ -526,6 +528,14 @@ static u8 *ExpandPlaceholder_INAT(void)
         return gExpandedPlaceholder_INAT;
 }
 
+static u8 *ExpandPlaceholder_RRASOM(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gExpandedPlaceholder_RRA;
+    else
+        return gExpandedPlaceholder_SOM;
+}
+
 static u8 *ExpandPlaceholder_RivalName(void)
 {
     if (gSaveBlock1Ptr->rivalName[0] == EOS)
@@ -639,6 +649,7 @@ u8 *GetExpandedPlaceholder(u32 id)
         [PLACEHOLDER_ID_E]            = ExpandPlaceholder_E,
         [PLACEHOLDER_ID_ET]           = ExpandPlaceholder_ET,
         [PLACEHOLDER_ID_INAT]         = ExpandPlaceholder_INAT,
+        [PLACEHOLDER_ID_RRASOM]       = ExpandPlaceholder_RRASOM,
     };
 
     if (id >= NELEMS(funcs))

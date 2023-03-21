@@ -124,39 +124,39 @@ gNameChoice_Momo::
 gNameChoice_Suzi::
     .string "SUZI$"
 
-gNewGame_HelpDocs1::
+gControlsGuide_Text_Intro::
     .string "La explicación de los botones\n"
     .string "se dará por orden de importancia.$"
 
-gNewGame_HelpDocs2::
+gControlsGuide_Text_DPad::
     .string "Mueve al protagonista.\n"
     .string "También se usa para seleccionar\n"
     .string "opciones.$"
 
-gNewGame_HelpDocs3::
+gControlsGuide_Text_AButton::
     .string "Confirma opciones, revisa\n"
     .string "cosas, chatea y lee texto.$"
 
-gNewGame_HelpDocs4::
+gControlsGuide_Text_BButton::
     .string "Retrocede, cancela opciones\n"
     .string "y ayuda a salir de varios menús.$"
 
-gNewGame_HelpDocs5::
+gControlsGuide_Text_StartButton::
     .string "Este botón abre el menú.$"
 
-gNewGame_HelpDocs6::
+gControlsGuide_Text_SelectButton::
     .string "Cambia objetos de lugar y usa\n"
     .string "el que se haya registrado.$"
 
-gNewGame_HelpDocs7::
+gControlsGuide_Text_LRButtons::
     .string "Si necesitas AYUDA jugando,\n"
     .string "presiona el botón L or el botón R.$"
 
-gOakText_AskPlayerGender::
+gOakSpeech_Text_AskPlayerGender::
     .string "Primero dime. ¿Eres un chico?\n"
     .string "¿O eres una chica?$"
 
-gNewGameAdventureIntro1::
+gPikachuIntro_Text_Page1::
     .string "Estás a punto de sumergirte en un\n"
     .string "mundo de fantasía, donde serás\n"
     .string "protagonista de una gran aventura.\n"
@@ -166,7 +166,7 @@ gNewGameAdventureIntro1::
     .string "caminos o cuevas. Reúne información\n"
     .string "y pistas de cada fuente.$"
 
-gNewGameAdventureIntro2::
+gPikachuIntro_Text_Page2::
     .string "Nuevos caminos se abrirán al ayudar a\n"
     .string "gente necesitada, enfrentar desafíos\n"
     .string "y resolver misterios.\n"
@@ -175,7 +175,7 @@ gNewGameAdventureIntro2::
     .string "criaturas salvajes te atacarán.\n"
     .string "Se valiente y sigue adelante.$"
 
-gNewGameAdventureIntro3::
+gPikachuIntro_Text_Page3::
     .string "Esperamos que durante tu aventura\n"
     .string "interactúes con todo tipo de gente\n"
     .string "y logres crecer como persona.\n"
@@ -184,49 +184,58 @@ gNewGameAdventureIntro3::
     .string "Presiona el Botón A, ¡y deja que\n"
     .string "tu aventura comience!$"
 
-gOakText_WelcomeToTheWorld::
+gOakSpeech_Text_WelcomeToTheWorld::
     .string "¡Hola!\n"
-    .string "¡Encantado de conocerte!\p¡Este es el mundo de POKéMON!\pMi nombre es OAK.\pPero la gente me llama\n"
+    .string "¡Encantado de conocerte!\p"
+    .string "¡Este es el mundo de POKéMON!\p"
+    .string "Mi nombre es OAK.\p"
+    .string "Pero la gente me llama\n"
     .string "PROFESOR POKéMON.\p$"
 
-gOakText_WorldInhabited1::
+gOakSpeech_Text_ThisWorld::
     .string "Este mundo…$"
 
-gOakText_WorldInhabited2::
+gOakSpeech_Text_IsInhabitedFarAndWide::
     .string "…está habitado por unas\n"
     .string "criaturas llamadas POKéMON.\p$"
 
-gOakText_PetsBattlingStudy::
+gOakSpeech_Text_IStudyPokemon::
     .string "Para algunos, los POKéMON son\n"
     .string "mascotas. Pero otros los usan\l"
-    .string "para pelear.\pEn cuanto a mí…\pEstudio a los POKéMON como\n"
+    .string "para pelear.\p"
+    .string "En cuanto a mí…\p"
+    .string "Estudio a los POKéMON como\n"
     .string "profesión.\p$"
 
-gOakText_TellMeALittleAboutYourself::
+gOakSpeech_Text_TellMeALittleAboutYourself::
     .string "Antes de seguir, cuéntame sobre ti.\p$"
 
-gOakText_AskPlayerName::
+gOakSpeech_Text_YourNameWhatIsIt::
     .string "Sigamos con tu nombre.\p$"
 
-gOakText_FinalizePlayerName::
+gOakSpeech_Text_SoYourNameIsPlayer::
     .string "Bien…\n"
     .string "Así que tu nombre es {PLAYER}.$"
 
-gOakText_IntroduceRival::
-    .string "Éste es mi nieto.\pHa sido tu rival desde que erán\n"
-    .string "pequeños.\pMmm… ¿Cuál era su nombre?$"
+gOakSpeech_Text_WhatWasHisName::
+    .string "Éste es mi nieto.\p"
+    .string "Ha sido tu rival desde que erán\n"
+    .string "pequeños.\p"
+    .string "Mmm… ¿Cuál era su nombre?$"
 
-gOakText_AskRivalName::
+gOakSpeech_Text_YourRivalsNameWhatWasIt::
     .string "¿Cuál era el nombre de tu rival?$"
 
-gOakText_ConfirmRivalName::
+gOakSpeech_Text_ConfirmRivalName::
     .string "…Eh, ¿era {RIVAL}?$"
 
-gOakText_RememberRivalName::
+gOakSpeech_Text_RememberRivalsName::
     .string "¡Es verdad! ¡Ya lo recuerdo!\n"
     .string "¡Su nombre es {RIVAL}!\p$"
 
-gOakText_LegendAboutToUnfold::
-    .string "¡{PLAYER}!\p¡Tu propia leyenda POKéMON está\n"
-    .string "apunto de comenzar!\p¡Te espera un mundo de sueños y\n"
+gOakSpeech_Text_LetsGo::
+    .string "¡{PLAYER}!\p"
+    .string "¡Tu propia leyenda POKéMON está\n"
+    .string "apunto de comenzar!\p"
+    .string "¡Te espera un mundo de sueños y\n"
     .string "aventuras con los POKéMON! ¡Vamos!$"

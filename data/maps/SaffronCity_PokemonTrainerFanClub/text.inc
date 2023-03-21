@@ -142,7 +142,7 @@ SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeYouOneDay::
     .string "¡Quiero llegar a ser como {PLAYER}!$"
 
 SaffronCity_PokemonTrainerFanClub_Text_EveryoneButMeStoppedBeingYourFan::
-    .string "Todos dejaron de ser fans de\n" 
+    .string "Todos dejaron de ser fans de\n"
     .string "{PLAYER}…\p"
     .string "¡Pero eso signfica que tengo a\n"
     .string "{PLAYER} solo para mí!\p"

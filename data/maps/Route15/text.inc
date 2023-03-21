@@ -130,7 +130,7 @@ Route15_Text_MyaIntro::
 
 Route15_Text_MyaDefeat::
     .string "MYA: ¡RON, debes concentrarte!\n"
-    .string "¡Concéntrate en lo que haces!$" 
+    .string "¡Concéntrate en lo que haces!$"
 
 Route15_Text_MyaPostBattle::
     .string "MYA: Bien, mejoraremos.\p"

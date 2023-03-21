@@ -15,7 +15,7 @@ Route10_PokemonCenter_1F_Text_HeardGhostsHauntLavender::
 Route10_PokemonCenter_1F_Text_GiveEverstoneIfCaught20Mons::
     .string "Oh… ¡{PLAYER}!\n"
     .string "¡Te he estado buscando!\p"
-    .string "Soy yo, uno de los siempre\n" 
+    .string "Soy yo, uno de los siempre\n"
     .string "presentes AYUDANTES del PROF. OAK.\p"
     .string "Si tu POKéDEX tiene datos completos\n"
     .string "de 20 especies, se supone que\l"

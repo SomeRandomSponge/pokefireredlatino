@@ -34,7 +34,7 @@ static const struct InGameTrade sInGameTrades[] = {
     [INGAME_TRADE_NIDORAN] = 
     {
 #if defined(FIRERED)
-        .nickname = _("MS. NIDO"),
+        .nickname = _("SRTA. NIDO"),
         .species = SPECIES_NIDORAN_F,
         .ivs = {22, 18, 25, 19, 15, 22},
         .abilityNum = 0,
@@ -48,7 +48,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .sheen = 10,
         .requestedSpecies = SPECIES_NIDORAN_M
 #elif defined(LEAFGREEN)
-        .nickname = _("MR. NIDO"),
+        .nickname = _("SR. NIDO"),
         .species = SPECIES_NIDORAN_M,
         .ivs = {19, 25, 18, 22, 22, 15},
         .abilityNum = 0,
@@ -133,7 +133,7 @@ static const struct InGameTrade sInGameTrades[] = {
     }, 
     [INGAME_TRADE_ELECTRODE] = 
     {
-        .nickname = _("ESPHERE"),
+        .nickname = _("ESFERA"),
         .species = SPECIES_ELECTRODE,
         .ivs = {19, 16, 18, 25, 25, 19},
         .abilityNum = 1,

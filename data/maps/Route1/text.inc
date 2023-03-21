@@ -19,7 +19,7 @@ Route1_Text_PutPotionAway::
 Route1_Text_CanJumpFromLedges::
     .string "¿Ves esos bordes en el camino?\p"
     .string "Dan un poco de miedo, pero puedes\n"
-    .string "saltar por encima de ellos.\p"      
+    .string "saltar por encima de ellos.\p"
     .string "De esa forma podrás volver más\n"
     .string "rápidamente a PUEBLO PALETA.$"
 

@@ -29,7 +29,7 @@ PewterCity_Museum_1F_Text_WhatsSpecialAboutMoonStone::
 PewterCity_Museum_1F_Text_BoughtColorTVForMoonLanding::
     .string "¡20 de Julio, 1969!\p"
     .string "Ese día, la humanidad pisó la luna\n"
-    .string "por primera vez.\p"                   
+    .string "por primera vez.\p"
     .string "Compré una TV a color solo para\n"
     .string "poder ver esa noticia.$"
 

@@ -98,7 +98,7 @@ Route9_Text_ConnerDefeat::
 
 Route9_Text_ConnerPostBattle::
     .string "¡Si no te gustan los POKéMON\n"        /* (E) "If you don't like BUG POKéMON,\n" */
-	.string "INSECTO, me molestas!$"                /* (E) "you bug me!$" */
+    .string "INSECTO, me molestas!$"                /* (E) "you bug me!$" */
 
 Route9_Text_RouteSign::
     .string "RUTA 9\n"                              /* (E) "ROUTE 9\n" */

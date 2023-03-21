@@ -914,13 +914,13 @@ Text_BigHoleInTheWall::
 	.string "おおきな　あなが　あいている！$"
 
 Text_WirelessClubUndergoingAdjustments::
-	.string "I'm terribly sorry.\n"
-	.string "The POKéMON WIRELESS CLUB is\l"
-	.string "undergoing adjustments now.$"
+	.string "Lo siento mucho.\n"
+	.string "El CLUB INALÁMBRICO POKéMON esta\l"
+	.string "siendo modificado.$"
 
 Text_AppearsToBeUndergoingAdjustments::
-	.string "It appears to be undergoing\n"
-	.string "adjustments…$"
+	.string "Parece que se están haciendo\n"
+	.string "ajustes…$"
 
 Text_HandedOverItem::
 	.string "{PLAYER} entregó\n"
@@ -945,20 +945,21 @@ Text_ItNeedsCardKey::
 	.string "¡Necesita una LLAVE MAGNÉTICA!$"
 
 Text_AccessedProfOaksPC::
-	.string "Accessed PROF. OAK's PC…\p"
-	.string "Accessed the POKéDEX Rating\n"
-	.string "System…$"
+	.string "Accediste a la PC del PROF. OAK…\p"
+	.string "Accediste al Sistema de Evaluación\n"
+	.string "de la POKéDEX…$"
 
 Text_HavePokedexRated::
-	.string "Would you like to have your\n"
-	.string "POKéDEX rated?$"
+	.string "¿Quieres que tu POKéDEX sea\n"
+	.string "evaluada?$"
 
 Text_ClosedLinkToProfOaksPC::
-	.string "Closed link to PROF. OAK's PC.$"
+	.string "Se cerró la conexión con la PC\n"
+	.string "del PROFESOR OAK.$"
 
 Text_VoiceRangOutDontRunAway::
-	.string "Someone's voice rang out,\n"
-	.string "“Don't run away!”$"
+	.string "La voz de alguien resonó,\n"
+	.string "“¡No corras!”$"
 
 @ Uncear what the below unused JP texts were for
 Text_IdLikeToSeeRequest::

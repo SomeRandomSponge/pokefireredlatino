@@ -148,16 +148,16 @@ CeruleanCity_Text_WantBrightRedBicycle::
     .string "no se ensucie.$"
 
 CeruleanCity_Text_ThisIsCeruleanCave::
-    .string "This is CERULEAN CAVE.\p"
-    .string "Horribly strong POKéMON live inside\n"
-    .string "there.\p"
-    .string "It takes a very special TRAINER to\n"
-    .string "be allowed inside there.\p"
-    .string "You'd have to be strong enough to\n"
-    .string "become the POKéMON LEAGUE\l"
-    .string "CHAMPION for starters.\p"
-    .string "And, you would have to have\n"
-    .string "made a great achievement.$"
+    .string "Esta es la CUEVA CELESTE.\p"
+    .string "Ahí viven POKéMON horriblemente\n"
+    .string "fuertes.\p"
+    .string "Necesitas ser un{A} ENTRENADOR{AM} muy\n"
+    .string "especial para puedas pasar.\p"
+    .string "Para empezar, necesitas tan fuerte\n"
+    .string "como para volverte CAMPE{ONONAM} de\l"
+    .string "la LIGA POKéMON.\p"
+    .string "Y, tienes que haber realizado un\n"
+    .string "gran logro.$"
 
 CeruleanCity_Text_CitySign::
     .string "CIUDAD CELESTE\n"

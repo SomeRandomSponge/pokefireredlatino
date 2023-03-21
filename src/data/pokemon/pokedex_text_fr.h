@@ -161,7 +161,7 @@ const u8 gFearowPokedexTextUnused[] = _("");
 
 const u8 gEkansPokedexText[] = _(
     "Es fácil de ver en praderas y zonas\n"
-    "similares. Saca su lengua para detectar\n"
+    "similares. Saca su lengüa para detectar\n"
     "peligro en sus alrededores.");
 
 const u8 gEkansPokedexTextUnused[] = _("");
@@ -300,7 +300,7 @@ const u8 gGolbatPokedexTextUnused[] = _("");
 
 const u8 gOddishPokedexText[] = _(
     "Su nombre científico es “Oddium\n"
-    "Wanderus.” En las noches, se dice que\n"
+    "wanderus.” En las noches, se dice que\n"
     "camina 300 metros en sus dos raíces.");
 
 const u8 gOddishPokedexTextUnused[] = _("");
@@ -460,604 +460,604 @@ const u8 gAlakazamPokedexText[] = _(
 const u8 gAlakazamPokedexTextUnused[] = _("");
 
 const u8 gMachopPokedexText[] = _(
-    "Its whole body is composed of muscles.\n"
-    "Even though it's the size of a human\n"
-    "child, it can hurl 100 grown-ups.");
+    "Su cuerpo completo está compuesto de\n"
+    "músculos. Aunque tiene el tamaño de un\n"
+    "niño humano, puede lanzar a 100 adultos.");
 
 const u8 gMachopPokedexTextUnused[] = _("");
 
 const u8 gMachokePokedexText[] = _(
-    "Its formidable body never gets tired.\n"
-    "It helps people by doing work such as\n"
-    "the moving of heavy goods.");
+    "Su formidable cuerpo nunca se cansa.\n"
+    "Ayuda a la gente haciendo trabajos,\n"
+    "como la carga de objetos pesados.");
 
 const u8 gMachokePokedexTextUnused[] = _("");
 
 const u8 gMachampPokedexText[] = _(
-    "Its four ruggedly developed arms can\n"
-    "launch a flurry of 1,000 punches in just\n"
-    "two seconds.");
+    "Sus cuatro brazos desarollados pueden\n"
+    "lanzar una serie de 1,000 puñetazos\n"
+    "en tan solo dos segundos.");
 
 const u8 gMachampPokedexTextUnused[] = _("");
 
 const u8 gBellsproutPokedexText[] = _(
-    "Its bud looks like a human face. Because\n"
-    "of the bud, it is rumored to be a type of\n"
-    "legendary mandrake plant.");
+    "Tiene el aspecto de una cara humana.\n"
+    "Debido a esto, se rumora que es un tipo\n"
+    "de mandrágora legendaria.");
 
 const u8 gBellsproutPokedexTextUnused[] = _("");
 
 const u8 gWeepinbellPokedexText[] = _(
-    "The leafy parts act as cutters for\n"
-    "slashing foes. It spits a fluid that\n"
-    "dissolves everything.");
+    "Sus hojas actúan como cuchillas en\n"
+    "batalla. Escupe un fluido que disuelve\n"
+    "lo que sea.");
 
 const u8 gWeepinbellPokedexTextUnused[] = _("");
 
 const u8 gVictreebelPokedexText[] = _(
-    "Lures prey into its mouth with a honeylike\n"
-    "aroma. The helpless prey is melted with\n"
-    "a dissolving fluid.");
+    "Atrae presas hacia su boca con un aroma\n"
+    "similar a la miel. La indefensa presa\n"
+    "es derretida por un fluido disolvente.");
 
 const u8 gVictreebelPokedexTextUnused[] = _("");
 
 const u8 gTentacoolPokedexText[] = _(
-    "Its eyes are as transparent as crystals.\n"
-    "From them, it shoots mysterious\n"
-    "beams of light.");
+    "Tiene ojos tan transparentes como el\n"
+    "cristal, de los cuales dispara\n"
+    "misteriosos rayos de luz.");
 
 const u8 gTentacoolPokedexTextUnused[] = _("");
 
 const u8 gTentacruelPokedexText[] = _(
-    "It has 80 tentacles that move about\n"
-    "freely. They can sting, causing poisoning\n"
-    "and sharp, stabbing pain.");
+    "Tiene 80 tentáculos capaces de moverse\n"
+    "libremente. Pueden picar, causando\n"
+    "envenenamiento y dolor intenso.");
 
 const u8 gTentacruelPokedexTextUnused[] = _("");
 
 const u8 gGeodudePokedexText[] = _(
-    "Its round form makes it easy to pick up.\n"
-    "Some people have used them to hurl\n"
-    "at each other in a snowball fight.");
+    "Es fácil de atrapar por su forma redonda.\n"
+    "Algunas personas los han usado para\n"
+    "lanzarlo en peleas con bolas de nieve.");
 
 const u8 gGeodudePokedexTextUnused[] = _("");
 
 const u8 gGravelerPokedexText[] = _(
-    "Be careful while hiking on mountain trails.\n"
-    "GRAVELER may come rolling down the path\n"
-    "without slowing.");
+    "Ten cuidado al caminar por senderos de\n"
+    "montañas. GRAVELER puede rodar abajo\n"
+    "por el camino, sin detenerse.");
 
 const u8 gGravelerPokedexTextUnused[] = _("");
 
 const u8 gGolemPokedexText[] = _(
-    "It is enclosed in a hard shell that is as\n"
-    "rugged as slabs of rock. It sheds skin\n"
-    "once a year to grow larger.");
+    "Está encerrado en un caparazón tan duro\n"
+    "como las rocas. Muda de piel una vez\n"
+    "al año para crecer.");
 
 const u8 gGolemPokedexTextUnused[] = _("");
 
 const u8 gPonytaPokedexText[] = _(
-    "Its body is light, and its legs are\n"
-    "incredibly powerful. It can clear\n"
-    "Ayers Rock in one leap.");
+    "Tiene un cuerpo ligero, y sus piernas\n"
+    "son increiblemente fuertes. Sus saltos\n"
+    "pueden superar los 300 metros de altura.");
 
 const u8 gPonytaPokedexTextUnused[] = _("");
 
 const u8 gRapidashPokedexText[] = _(
-    "It can gallop at a top speed of 150\n"
-    "miles per hour. It can race as fast as a\n"
-    "bullet train while ablaze.");
+    "Galopa a una velocidad máxima de 240 km\n"
+    "por hora. Puede correr tan rápido como\n"
+    "un tren bala mientras su crin arde.");
 
 const u8 gRapidashPokedexTextUnused[] = _("");
 
 const u8 gSlowpokePokedexText[] = _(
-    "It is always vacantly lost in thought, but\n"
-    "no one knows what it is thinking about.\n"
-    "It is good at fishing with its tail.");
+    "Siempre está perdido en sus pensamientos,\n"
+    "pero nadie sabe en qué esta pensando.\n"
+    "Es bueno para pescar con su cola.");
 
 const u8 gSlowpokePokedexTextUnused[] = _("");
 
 const u8 gSlowbroPokedexText[] = _(
-    "When a SLOWPOKE went hunting in the sea,\n"
-    "its tail was bitten by a SHELLDER. That\n"
-    "made it evolve into SLOWBRO.");
+    "Cuando SLOWPOKE fue a cazar en el mar,\n"
+    "su cola fue mordida por un SHELLDER.\n"
+    "Eso provocó su evolución en SLOWBRO.");
 
 const u8 gSlowbroPokedexTextUnused[] = _("");
 
 const u8 gMagnemitePokedexText[] = _(
-    "It moves while constantly hovering.\n"
-    "It discharges THUNDER WAVE and so on\n"
-    "from the units at its sides.");
+    "Se mueve mientras flota constantemente.\n"
+    "Dispara ONDA TRUENO y otros movimientos\n"
+    "de sus unidades laterales.");
 
 const u8 gMagnemitePokedexTextUnused[] = _("");
 
 const u8 gMagnetonPokedexText[] = _(
-    "A linked cluster formed of several\n"
-    "MAGNEMITE. It discharges powerful\n"
-    "magnetic waves at high voltage.");
+    "Está conformado por un grupo de\n"
+    "MAGNEMITE. Descarga potentes ondas\n"
+    "magnéticas de alto voltaje.");
 
 const u8 gMagnetonPokedexTextUnused[] = _("");
 
 const u8 gFarfetchdPokedexText[] = _(
-    "It always walks about with a plant stalk\n"
-    "clamped in its beak. The stalk is used for\n"
-    "building its nest.");
+    "Siempre camina con un puerro en su pico.\n"
+    "El puerro es usado para construir\n"
+    "su nido.");
 
 const u8 gFarfetchdPokedexTextUnused[] = _("");
 
 const u8 gDoduoPokedexText[] = _(
-    "A two-headed POKéMON that was discovered\n"
-    "as a sudden mutation. It runs at a pace\n"
-    "of over 60 miles per hour.");
+    "Este POKéMON de dos cabezas es el\n"
+    "resultado de una mutación repentina.\n"
+    "Puede correr a casi 100 km por hora.");
 
 const u8 gDoduoPokedexTextUnused[] = _("");
 
 const u8 gDodrioPokedexText[] = _(
-    "An odd species that is rarely found.\n"
-    "The three heads respectively represent\n"
-    "joy, sadness, and anger.");
+    "Una especie que rara vez se encuentra.\n"
+    "Las tres cabezas representan la alegría,\n"
+    "la tristeza y la ira respectivamente.");
 
 const u8 gDodrioPokedexTextUnused[] = _("");
 
 const u8 gSeelPokedexText[] = _(
-    "Covered with light blue fur, its hide is\n"
-    "thick and tough. It is active in bitter\n"
-    "cold of minus 40 degrees Fahrenheit.");
+    "Está cubierto de un pelaje azul claro,\n"
+    "y una piel gruesa y tosca. Es activo en\n"
+    "temperaturas de 40 grados bajo cero.");
 
 const u8 gSeelPokedexTextUnused[] = _("");
 
 const u8 gDewgongPokedexText[] = _(
-    "Its body is covered with a pure white\n"
-    "fur. The colder the weather, the more\n"
-    "active it becomes.");
+    "Está recubierto de un luminoso pelaje\n"
+    "blanco. Mientras más frío en el\n"
+    "ambiente, más activo se vuelve.");
 
 const u8 gDewgongPokedexTextUnused[] = _("");
 
 const u8 gGrimerPokedexText[] = _(
-    "Sludge exposed to X rays from the moon\n"
-    "transformed into GRIMER. It loves feeding\n"
-    "on filthy things.");
+    "El lodo expuesto a los rayos X de la\n"
+    "luna se transformó en GRIMER. Le encanta\n"
+    "alimentarse de cosas desagradables.");
 
 const u8 gGrimerPokedexTextUnused[] = _("");
 
 const u8 gMukPokedexText[] = _(
-    "It is usually undetectable because it\n"
-    "blends in with the ground. Touching it can\n"
-    "cause terrible poisoning.");
+    "Usualmente pasa desapercibido porque se\n"
+    "mezcla con el suelo. Tocarlo puede\n"
+    "causar un terrible envenenamiento.");
 
 const u8 gMukPokedexTextUnused[] = _("");
 
 const u8 gShellderPokedexText[] = _(
-    "It is encased in a shell that is harder\n"
-    "than diamond. Inside, however, it is\n"
-    "surprisingly tender.");
+    "Está encerrado en un caparazón que es\n"
+    "más duro que el diamente, aunque su\n"
+    "interior es sorprendentemente blando.");
 
 const u8 gShellderPokedexTextUnused[] = _("");
 
 const u8 gCloysterPokedexText[] = _(
-    "Its shell is extremely hard. It cannot be\n"
-    "shattered, even with a bomb. The shell\n"
-    "opens only when it is attacking.");
+    "Su caparazón es extremadamente duro. No\n"
+    "se puede romper, ni siquiera con una\n"
+    "bomba. Solo se abre para atacar.");
 
 const u8 gCloysterPokedexTextUnused[] = _("");
 
 const u8 gGastlyPokedexText[] = _(
-    "A being that exists as a thin gas. It can\n"
-    "topple an Indian elephant by enveloping\n"
-    "the prey in two seconds.");
+    "Un ser que existe como un gas ligero.\n"
+    "Puede derribar a un elefante indio al\n"
+    "cubrir a la presa en dos segundos.");
 
 const u8 gGastlyPokedexTextUnused[] = _("");
 
 const u8 gHaunterPokedexText[] = _(
-    "If you get the feeling of being watched\n"
-    "in darkness when nobody is around,\n"
-    "HAUNTER is there.");
+    "Si tienes la sensación de ser observado\n"
+    "en la oscuridad cuando no hay nadie,\n"
+    "HAUNTER está ahí.");
 
 const u8 gHaunterPokedexTextUnused[] = _("");
 
 const u8 gGengarPokedexText[] = _(
-    "It is said to emerge from darkness to\n"
-    "steal the lives of those who become lost\n"
-    "in mountains.");
+    "Se dice que emerge de la oscuridad para\n"
+    "robar las vidas de los que se pierden en\n"
+    "las montañas.");
 
 const u8 gGengarPokedexTextUnused[] = _("");
 
 const u8 gOnixPokedexText[] = _(
-    "It usually lives underground. It searches\n"
-    "for food while boring its way through the\n"
-    "ground at 50 miles per hour.");
+    "Suele vivir bajo tierra. Busca comida\n"
+    "mientras perfora el suelo a 80 km\n"
+    "por hora.");
 
 const u8 gOnixPokedexTextUnused[] = _("");
 
 const u8 gDrowzeePokedexText[] = _(
-    "A descendent of the legendary animal\n"
-    "baku, which is said to eat dreams. It is\n"
-    "skilled at hypnotism.");
+    "Un descendiente del legendario animal\n"
+    "baku, del cual se dice que come sueños.\n"
+    "Tiene grandes habilidades hipnóticas.");
 
 const u8 gDrowzeePokedexTextUnused[] = _("");
 
 const u8 gHypnoPokedexText[] = _(
-    "It carries a pendulum-like device. There\n"
-    "once was an incident in which it took \n"
-    "away a child it hypnotized.");
+    "Lleva un aparato similar a un péndulo.\n"
+    "Una vez hubo un incidente en el que se\n"
+    "llevó a un niño que había hipnotizado.");
 
 const u8 gHypnoPokedexTextUnused[] = _("");
 
 const u8 gKrabbyPokedexText[] = _(
-    "It can be found near the sea. The large\n"
-    "pincers grow back if they are torn out of\n"
-    "their sockets.");
+    "Se puede encontrar cerca del mar.\n"
+    "Sus grandes tenazas vuelven a crecen si\n"
+    "son arrancadas de su lugar.");
 
 const u8 gKrabbyPokedexTextUnused[] = _("");
 
 const u8 gKinglerPokedexText[] = _(
-    "Its large and hard pincer has 10,000-\n"
-    "horsepower strength. However, being so\n"
-    "big, it is unwieldy to move.");
+    "Su grande y dura tenaza tiene un poder\n"
+    "de 10,000 caballos de fuerza. Pero,\n"
+    "debido a su tamaño, es difícil de mover.");
 
 const u8 gKinglerPokedexTextUnused[] = _("");
 
 const u8 gVoltorbPokedexText[] = _(
-    "A life-form whose identity is unknown.\n"
-    "It is said to SCREECH or suddenly\n"
-    "SELFDESTRUCT.");
+    "Una forma de vida de identidad\n"
+    "desconocida. Se dice que usa ALARIDO o,\n"
+    "repentinamente, AUTODESTRUCCIÓN.");
 
 const u8 gVoltorbPokedexTextUnused[] = _("");
 
 const u8 gElectrodePokedexText[] = _(
-    "It explodes in response to even minor\n"
-    "stimuli. It is feared, with the nickname\n"
-    "of “The Bomb Ball.”");
+    "Explota en respuesta al más mínimo\n"
+    "estímulo. Es temido, se le da el apodo\n"
+    "de “Bola bomba”.");
 
 const u8 gElectrodePokedexTextUnused[] = _("");
 
 const u8 gExeggcutePokedexText[] = _(
-    "Even though it appears to be eggs of\n"
-    "some sort, it was discovered to be a life-\n"
-    "form more like plant seeds.");
+    "Aunque parecen ser huevos de algún\n"
+    "tipo, se descubrió que son formas\n"
+    "de vida similares a las semillas.");
 
 const u8 gExeggcutePokedexTextUnused[] = _("");
 
 const u8 gExeggutorPokedexText[] = _(
-    "It is called “The Walking Tropical\n"
-    "Rainforest.” Each of the nuts has\n"
-    "a face and a will of its own.");
+    "Se le llama “Selva tropical andante.”\n"
+    "Cada cabeza tiene una cara y\n"
+    "voluntad propias.");
 
 const u8 gExeggutorPokedexTextUnused[] = _("");
 
 const u8 gCubonePokedexText[] = _(
-    "It wears the skull of its dead mother on\n"
-    "its head. When it becomes lonesome, it is\n"
-    "said to cry loudly.");
+    "Lleva el cráneo de su madre muerta en\n"
+    "la cabeza. Se dice que llora\n"
+    "fuertemente cuando se siente solo.");
 
 const u8 gCubonePokedexTextUnused[] = _("");
 
 const u8 gMarowakPokedexText[] = _(
-    "It is small and was originally very weak.\n"
-    "Its temperament turned ferocious when it\n"
-    "began using bones.");
+    "Es pequeño, y al principio era muy débil.\n"
+    "Su carácter se volvió agresivo cuando\n"
+    "empezó a utilizar huesos.");
 
 const u8 gMarowakPokedexTextUnused[] = _("");
 
 const u8 gHitmonleePokedexText[] = _(
-    "The legs freely contract and stretch.\n"
-    "The stretchy legs allow it to hit a\n"
-    "distant foe with a rising kick.");
+    "Sus piernas se contraen y estiran\n"
+    "libremente. Puede atacar a un oponente\n"
+    "lejano con una patada ascendente.");
 
 const u8 gHitmonleePokedexTextUnused[] = _("");
 
 const u8 gHitmonchanPokedexText[] = _(
-    "The spirit of a pro boxer has infused this\n"
-    "POKéMON. It throws punches that are\n"
-    "faster than a bullet train.");
+    "El espiritu de un boxeador profesional\n"
+    "vive en este POKéMON. Da puñetazos más\n"
+    "rápidos que un tren bala.");
 
 const u8 gHitmonchanPokedexTextUnused[] = _("");
 
 const u8 gLickitungPokedexText[] = _(
-    "Its tongue is twice the length of its\n"
-    "body. It can be moved like an arm for\n"
-    "grabbing food and attacking.");
+    "Su lengüa es el doble de larga que su\n"
+    "cuerpo. Puede moverla como un brazo\n"
+    "para tomar comida y para atacar.");
 
 const u8 gLickitungPokedexTextUnused[] = _("");
 
 const u8 gKoffingPokedexText[] = _(
-    "Its thin, balloon-like body is inflated by\n"
-    "horribly toxic gases. It reeks when it is\n"
-    "nearby.");
+    "Su cuerpo ligero con forma de globo es\n"
+    "inflado por gases horriblemente tóxicos.\n"
+    "Deja un mal olor cuando está cerca.");
 
 const u8 gKoffingPokedexTextUnused[] = _("");
 
 const u8 gWeezingPokedexText[] = _(
-    "Very rarely, a sudden mutation can result\n"
-    "in two small KOFFING twins becoming\n"
-    "conjoined as a WEEZING.");
+    "Muy raramente, una mutación repentina\n"
+    "puede resultar en dos pequeños KOFFING\n"
+    "uniéndose en un WEEZING.");
 
 const u8 gWeezingPokedexTextUnused[] = _("");
 
 const u8 gRhyhornPokedexText[] = _(
-    "Strong, but not too bright, this POKéMON\n"
-    "can shatter even a skyscraper with its\n"
-    "charging TACKLES.");
+    "Este POKéMON es fuerte, pero no muy\n"
+    "listo. Puede destrozar incluso un\n"
+    "rascacielos usando TACLEADAS.");
 
 const u8 gRhyhornPokedexTextUnused[] = _("");
 
 const u8 gRhydonPokedexText[] = _(
-    "It begins walking on its hind legs after\n"
-    "evolution. It can punch holes through\n"
-    "boulders with its horn.");
+    "Después de evolucionar empieza a\n"
+    "caminar en sus piernas traseras. Puede\n"
+    "hacer agujeros en rocas con su cuernos.");
 
 const u8 gRhydonPokedexTextUnused[] = _("");
 
 const u8 gChanseyPokedexText[] = _(
-    "It lays several eggs a day. The eggs are\n"
-    "apparently rich in nutrients and extremely\n"
-    "delicious.");
+    "Pone múltiples huevos por día.\n"
+    "Los huevos aparentemente son\n"
+    "nutritivos y deliciosos.");
 
 const u8 gChanseyPokedexTextUnused[] = _("");
 
 const u8 gTangelaPokedexText[] = _(
-    "Blue plant vines cloak the POKéMON's\n"
-    "identity in a tangled mass. It entangles\n"
-    "anything that gets close.");
+    "La identidad de este POKéMON se oculta\n"
+    "tras algas azules que forman una masa.\n"
+    "Enreda a todo lo que se acerque.");
 
 const u8 gTangelaPokedexTextUnused[] = _("");
 
 const u8 gKangaskhanPokedexText[] = _(
-    "The female raises its offspring in a pouch\n"
-    "on its belly. It is skilled at attacking\n"
-    "using COMET PUNCH.");
+    "Las hembras cuidan a sus crías en la\n"
+    "bolsa que tiene en su panza. Son buenas\n"
+    "atacando mientras usan PUÑO COMETA.");
 
 const u8 gKangaskhanPokedexTextUnused[] = _("");
 
 const u8 gHorseaPokedexText[] = _(
-    "It maintains balance using its tail, which\n"
-    "is wound up like a coil. It may spray ink\n"
-    "from its mouth.");
+    "Mantiene el equilibrio usando su cola,\n"
+    "que está enrollada como un resorte.\n"
+    "Escupe tinta de su boca ocasionalmente.");
 
 const u8 gHorseaPokedexTextUnused[] = _("");
 
 const u8 gSeadraPokedexText[] = _(
-    "Its body bristles with sharp spikes.\n"
-    "Carelessly trying to touch it could cause\n"
-    "fainting from the spikes.");
+    "Su cuerpo esta cubierto de púas afiladas.\n"
+    "Intentar tocarlo sin cuidado puede\n"
+    "causar debilitamiento debido a las púas.");
 
 const u8 gSeadraPokedexTextUnused[] = _("");
 
 const u8 gGoldeenPokedexText[] = _(
-    "Its dorsal and pectoral fins are strongly\n"
-    "developed like muscles. It can swim at a\n"
-    "speed of five knots.");
+    "Sus aletas dorsales y pectorales están\n"
+    "tan desarrolladas como músculos. Puede\n"
+    "nadar a una velocidad de cinco nudos.");
 
 const u8 gGoldeenPokedexTextUnused[] = _("");
 
 const u8 gSeakingPokedexText[] = _(
-    "The horn on its head is sharp like a\n"
-    "drill. It bores a hole in a boulder to\n"
-    "make its nest.");
+    "El cuerno en su cabeza es tan afilado\n"
+    "como un taladro. Hace un agujero en\n"
+    "una roca para construir su nido.");
 
 const u8 gSeakingPokedexTextUnused[] = _("");
 
 const u8 gStaryuPokedexText[] = _(
-    "It appears in large numbers by seashores.\n"
-    "At night, its central core flashes with a\n"
-    "red light.");
+    "Aparecen en grupos en la orillas de\n"
+    "las playas. De noche, su núcleo emite\n"
+    "un brillo de color rojo.");
 
 const u8 gStaryuPokedexTextUnused[] = _("");
 
 const u8 gStarmiePokedexText[] = _(
-    "This POKéMON has a geometric body.\n"
-    "Because of its body, the locals suspect\n"
-    "that it is an alien creature.");
+    "Este POKéMON tiene un cuerpo geométrico.\n"
+    "Debido a esto, hay gente que sospecha\n"
+    "que es una criatura alienígena.");
 
 const u8 gStarmiePokedexTextUnused[] = _("");
 
 const u8 gMrmimePokedexText[] = _(
-    "It is adept at conning people. It is said\n"
-    "to be able to create walls out of thin\n"
-    "air by miming.");
+    "Es hábil para engañar a las personas.\n"
+    "Se dice que puede crear muros a partir\n"
+    "del aire mediante la pantomima.");
 
 const u8 gMrmimePokedexTextUnused[] = _("");
 
 const u8 gScytherPokedexText[] = _(
-    "It tears and shreds prey with its wickedly\n"
-    "sharp scythes. It very rarely spreads its\n"
-    "wings to fly.");
+    "Corta y destroza a su presa con sus\n"
+    "guadañas extremadamente afiladas. No es\n"
+    "común que use sus alas para volar.");
 
 const u8 gScytherPokedexTextUnused[] = _("");
 
 const u8 gJynxPokedexText[] = _(
-    "It speaks using a language that sounds\n"
-    "human. Research is under way to determine\n"
-    "what is being said.");
+    "Habla en un lenguaje que suena humano.\n"
+    "Existe una investigación para\n"
+    "determinar lo que dice.");
 
 const u8 gJynxPokedexTextUnused[] = _("");
 
 const u8 gElectabuzzPokedexText[] = _(
-    "It loves to feed on strong electricity.\n"
-    "It occasionally appears around large\n"
-    "power plants and so on.");
+    "Le encanta alimentarse de electricidad.\n"
+    "Ocasionalmente aparece cerca de\n"
+    "centrales eléctricas y zonas similares.");
 
 const u8 gElectabuzzPokedexTextUnused[] = _("");
 
 const u8 gMagmarPokedexText[] = _(
-    "Found near the mouth of a volcano.\n"
-    "This fire-breather's body temperature is\n"
-    "nearly 2,200 degrees Fahrenheit.");
+    "Se puede encontar cerca de la cima de\n"
+    "volcanes. La temperatura corporal de este\n"
+    "escupe fuego es de unos 1,200 grados.");
 
 const u8 gMagmarPokedexTextUnused[] = _("");
 
 const u8 gPinsirPokedexText[] = _(
-    "Its two long pincer horns are powerful.\n"
-    "Once they grip an enemy, they won't\n"
-    "release until the foe is torn.");
+    "Sus dos cuernos similares a pinzas son\n"
+    "poderosos. Si atrapan a un enemigo,\n"
+    "no lo soltarán hasta destrozarlo.");
 
 const u8 gPinsirPokedexTextUnused[] = _("");
 
 const u8 gTaurosPokedexText[] = _(
-    "When it is about to TACKLE, it whips\n"
-    "its body repeatedly with its three\n"
-    "long tails.");
+    "Cuando está a punto de TACLEAR, se\n"
+    "azota repetidamente con sus tres\n"
+    "largas colas.");
 
 const u8 gTaurosPokedexTextUnused[] = _("");
 
 const u8 gMagikarpPokedexText[] = _(
-    "It is virtually worthless in terms of both\n"
-    "power and speed. It is the most weak and\n"
-    "pathetic POKéMON in the world.");
+    "Es prácticamente inútil en cuanto a\n"
+    "poder y velocidad se refiere. Es el\n"
+    "POKéMON más débil y patético del mundo.");
 
 const u8 gMagikarpPokedexTextUnused[] = _("");
 
 const u8 gGyaradosPokedexText[] = _(
-    "It has an extremely aggressive nature.\n"
-    "The HYPER BEAM it shoots from its mouth\n"
-    "totally incinerates all targets.");
+    "Es muy agresivo por naturaleza.\n"
+    "Los HIPERRAYOS que dispara de la boca\n"
+    "incineran por completo a sus objetivos.");
 
 const u8 gGyaradosPokedexTextUnused[] = _("");
 
 const u8 gLaprasPokedexText[] = _(
-    "Its high intelligence enables it to\n"
-    "understand human speech. It likes to ferry\n"
-    "people on its back.");
+    "Su alta inteligencia le permite entender\n"
+    "el lenguaje humano. Le gusta viajar\n"
+    "por el agua con gente en su espalda.");
 
 const u8 gLaprasPokedexTextUnused[] = _("");
 
 const u8 gDittoPokedexText[] = _(
-    "It can freely recombine its own cellular\n"
-    "structure to transform into other life-\n"
-    "forms.");
+    "Puede reorganizar su estructura\n"
+    "celular libremente para transformarse\n"
+    "en otras formas de vida.");
 
 const u8 gDittoPokedexTextUnused[] = _("");
 
 const u8 gEeveePokedexText[] = _(
-    "An extremely rare POKéMON that may\n"
-    "evolve in a number of different ways\n"
-    "depending on stimuli.");
+    "Un POKéMON excesivamente raro que\n"
+    "puede evolucionar de varias formas\n"
+    "distintas, dependiendo de estímulos.");
 
 const u8 gEeveePokedexTextUnused[] = _("");
 
 const u8 gVaporeonPokedexText[] = _(
-    "Its body's cellular structure is similar to\n"
-    "the molecular composition of water.\n"
-    "It can melt invisibly in water.");
+    "La estructura celular de su cuerpo es\n"
+    "similar a la a la composición molecular\n"
+    "del agua. Puede fundirse en el agua.");
 
 const u8 gVaporeonPokedexTextUnused[] = _("");
 
 const u8 gJolteonPokedexText[] = _(
-    "If it is angered or startled, the fur all\n"
-    "over its body bristles like sharp needles\n"
-    "that pierce foes.");
+    "Si está enojado o asustado, el pelo en\n"
+    "su cuerpo se eriza en afiladas púas\n"
+    "que perforan a sus oponentes.");
 
 const u8 gJolteonPokedexTextUnused[] = _("");
 
 const u8 gFlareonPokedexText[] = _(
-    "It has a flame bag inside its body. After\n"
-    "inhaling deeply, it blows out flames of\n"
-    "nearly 3,100 degrees Fahrenheit.");
+    "Tiene una bolsa de fuego en su cuerpo.\n"
+    "Tras inhalar profundamente, lanza llamas\n"
+    "con una temperatura de 1,700 grados.");
 
 const u8 gFlareonPokedexTextUnused[] = _("");
 
 const u8 gPorygonPokedexText[] = _(
-    "Using the most advanced technologies,\n"
-    "scientists finally succeeded in making the\n"
-    "first artificial POKéMON.");
+    "Usando las tecnologías más avanzadas,\n"
+    "unos científicos finalmente lograron\n"
+    "crear al primer POKéMON artificial.");
 
 const u8 gPorygonPokedexTextUnused[] = _("");
 
 const u8 gOmanytePokedexText[] = _(
-    "A prehistoric POKéMON that lived in the\n"
-    "primordial sea, it swims by twisting its\n"
-    "10 tentacles about.");
+    "Un POKéMON prehistórico que vivió en\n"
+    "el océano primordial. Para nadar,\n"
+    "retuerce sus diez tentáculos.");
 
 const u8 gOmanytePokedexTextUnused[] = _("");
 
 const u8 gOmastarPokedexText[] = _(
-    "Its tentacles are highly developed as if\n"
-    "they are hands and feet. As soon as it\n"
-    "ensnares prey, it bites.");
+    "Tiene los tentáculos tan desarrollados\n"
+    "que actúan como manos y pies. Tan pronto\n"
+    "como atrapa una presa, empieza a morder.");
 
 const u8 gOmastarPokedexTextUnused[] = _("");
 
 const u8 gKabutoPokedexText[] = _(
-    "This POKéMON was regenerated from the\n"
-    "fossil of an ancient creature. It protects\n"
-    "itself with a hard shell.");
+    "Este POKéMON fue regenerado del fósil\n"
+    "de una criatura antigua. Se protege\n"
+    "a si mismo con un caparazón duro.");
 
 const u8 gKabutoPokedexTextUnused[] = _("");
 
 const u8 gKabutopsPokedexText[] = _(
-    "It swims freely through water. It catches\n"
-    "prey with its scythe-like arms and drains\n"
-    "the victim's fluids.");
+    "Nada libremente por el agua. Atrapa a su\n"
+    "presa con sus brazos parecidos a guadañas\n"
+    "y drena los fluidos de la víctima.");
 
 const u8 gKabutopsPokedexTextUnused[] = _("");
 
 const u8 gAerodactylPokedexText[] = _(
-    "It was regenerated from a dinosaur's\n"
-    "genetic matter that was found in amber.\n"
-    "It flies with high-pitched cries.");
+    "Fue regenerado del material genético de\n"
+    "un dinosario, que fue encontrado en ámbar.\n"
+    "Emite alaridos agudos al volar.");
 
 const u8 gAerodactylPokedexTextUnused[] = _("");
 
 const u8 gSnorlaxPokedexText[] = _(
-    "It is not satisfied unless it eats over 880\n"
-    "pounds of food every day. When it is done\n"
-    "eating, it goes promptly to sleep.");
+    "No está satisfecho hasta que come 400\n"
+    "kilogramos de comida cada día. Cuando\n"
+    "termina de comer, se va directo a dormir.");
 
 const u8 gSnorlaxPokedexTextUnused[] = _("");
 
 const u8 gArticunoPokedexText[] = _(
-    "One of the legendary bird POKéMON.\n"
-    "With its long tail trailing behind, its\n"
-    "flying form is magnificent.");
+    "Una de las legendarias aves POKéMON.\n"
+    "Con su larga cola al viento,\n"
+    "su aspecto al volar es magnífico.");
 
 const u8 gArticunoPokedexTextUnused[] = _("");
 
 const u8 gZapdosPokedexText[] = _(
-    "One of the legendary bird POKéMON.\n"
-    "While it is flying, it makes crackling and\n"
-    "snapping sounds.");
+    "Una de las legendarias aves POKéMON.\n"
+    "Cuando vuela, hace ruidos de\n"
+    "chasquidos y crujidos.");
 
 const u8 gZapdosPokedexTextUnused[] = _("");
 
 const u8 gMoltresPokedexText[] = _(
-    "One of the legendary bird POKéMON.\n"
-    "Those seeing it are overwhelmed by its\n"
-    "orange wings that seem to be on fire.");
+    "Una de las legendarias aves POKéMON.\n"
+    "Los que lo ven quedan abrumados por sus\n"
+    "alas naranjas, que parecen estar ardiendo.");
 
 const u8 gMoltresPokedexTextUnused[] = _("");
 
 const u8 gDratiniPokedexText[] = _(
-    "Even the young can exceed 6.5 feet in\n"
-    "length. It grows larger by repeatedly\n"
-    "shedding skin.");
+    "Incluso los más jovenes pueden superar\n"
+    "los dos metros de longitud.\n"
+    "Crece al mudar de piel repetidamente.");
 
 const u8 gDratiniPokedexTextUnused[] = _("");
 
 const u8 gDragonairPokedexText[] = _(
-    "It is said to live in seas and lakes.\n"
-    "Even though it has no wings, it has been\n"
-    "seen flying occasionally.");
+    "Se dice que vive en mares y lagos.\n"
+    "Aunque no tiene alas, se le ha visto\n"
+    "volar ocasionalmente.");
 
 const u8 gDragonairPokedexTextUnused[] = _("");
 
 const u8 gDragonitePokedexText[] = _(
-    "It can fly in spite of its big and bulky\n"
-    "physique. It circles the globe in just\n"
-    "16 hours.");
+    "Puede volar a pesar de su cuerpo grande\n"
+    "y corpulento. Es capaz de darle la\n"
+    "vuelta al mundo en tan solo 16 horas.");
 
 const u8 gDragonitePokedexTextUnused[] = _("");
 
 const u8 gMewtwoPokedexText[] = _(
-    "A POKéMON whose genetic code was\n"
-    "repeatedly recombined for research.\n"
-    "It turned vicious as a result.");
+    "Su código genético fue recombinado\n"
+    "repetidamente para ser investigado.\n"
+    "Como resultado, se volvió agresivo.");
 
 const u8 gMewtwoPokedexTextUnused[] = _("");
 
 const u8 gMewPokedexText[] = _(
-    "A POKéMON of South America that was\n"
-    "thought to have been extinct. It is very\n"
-    "intelligent and learns any move.");
+    "Un POKéMON de Sudamérica que se creía\n"
+    "extinto. Es muy inteligente y puede\n"
+    "aprender cualquier movimiento.");
 
 const u8 gMewPokedexTextUnused[] = _("");
 

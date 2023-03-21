@@ -80,7 +80,7 @@ Route3_Text_JamesIntro::
     .string "Lucharas contra mis nuevos\n"
     .string "POKéMON.$"
 
-Route3_Text_JamesDefeat:: @ 8183837
+Route3_Text_JamesDefeat::
     .string "¡Estoy acabado!$"
 
 Route3_Text_JamesPostBattle::

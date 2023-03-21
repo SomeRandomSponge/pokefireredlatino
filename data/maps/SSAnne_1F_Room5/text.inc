@@ -1,5 +1,5 @@
 SSAnne_1F_Room5_Text_ArthurIntro::
-    .string "¡Tu mocos{OA} insolente!\n"
+    .string "¡Tu, mocos{OA} insolente!\n"
     .string "¡Cómo te atreves a entrometerte!$"
 
 SSAnne_1F_Room5_Text_ArthurDefeat::

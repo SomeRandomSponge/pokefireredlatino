@@ -17,5 +17,5 @@ Route2_ViridianForest_NorthEntrance_Text_CanCancelEvolution::
     .string "Cuando un POKéMON está\n"
     .string "evolucionando, puedes parar\l"
     .string "el proceso.\p"
-    .string "Es una tecnica para criar POKéMON\n" 
+    .string "Es una tecnica para criar POKéMON\n"
     .string "en su forma actual.$"

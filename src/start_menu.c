@@ -963,7 +963,14 @@ static void PrintSaveStats(void)
     x = (u32)(112 - GetStringWidth(FONT_NORMAL, gStringVar4, -1)) / 2;
     AddTextPrinterParameterized3(sSaveStatsWindowId, FONT_NORMAL, x, 0, sTextColor_LocationHeader, -1, gStringVar4);
     x = (u32)(112 - GetStringWidth(FONT_NORMAL, gStringVar4, -1)) / 2;
-    AddTextPrinterParameterized3(sSaveStatsWindowId, FONT_SMALL, 1, 14, sTextColor_StatName, -1, gSaveStatName_Player);
+    if (gSaveBlock2Ptr->playerGender == MALE)
+    {
+        AddTextPrinterParameterized3(sSaveStatsWindowId, FONT_SMALL, 1, 14, sTextColor_StatName, -1, gSaveStatName_Player);
+    }
+    else
+    {
+        AddTextPrinterParameterized3(sSaveStatsWindowId, FONT_SMALL, 1, 14, sTextColor_StatName, -1, gSaveStatName_Player_Female);
+    }
     SaveStatToString(SAVE_STAT_NAME, gStringVar4, 2);
     Menu_PrintFormatIntlPlayerName(sSaveStatsWindowId, gStringVar4, 60, 14);
     AddTextPrinterParameterized3(sSaveStatsWindowId, FONT_SMALL, 2, 28, sTextColor_StatName, -1, gSaveStatName_Badges);

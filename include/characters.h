@@ -294,5 +294,6 @@
 #define PLACEHOLDER_ID_E             0x1A
 #define PLACEHOLDER_ID_ET            0x1B
 #define PLACEHOLDER_ID_INAT          0x1C
+#define PLACEHOLDER_ID_RRASOM        0x1D
 
 #endif // GUARD_CHARACTERS_H

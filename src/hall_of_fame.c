@@ -640,7 +640,14 @@ static void Task_Hof_WaitAndPrintPlayerInfo(u8 taskId)
         FillBgTilemapBufferRect_Palette0(0, 0, 0, 0, 0x20, 0x20);
         HallOfFame_PrintPlayerInfo(1, 2);
         DrawDialogueFrame(0, 0);
-        AddTextPrinterParameterized2(0, FONT_NORMAL, gText_LeagueChamp, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+        if (gSaveBlock2Ptr->playerGender == MALE)
+            { 
+                AddTextPrinterParameterized2(0, FONT_NORMAL, gText_LeagueChamp, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+            }
+        else
+            { 
+                AddTextPrinterParameterized2(0, FONT_NORMAL, gText_LeagueChamp_Female, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+            }            
         CopyWindowToVram(0, COPYWIN_FULL);
         gTasks[taskId].func = Task_Hof_ExitOnKeyPressed;
     }
@@ -986,7 +993,14 @@ static void HallOfFame_PrintWelcomeText(u8 not, u8 used)
     u8 x = (0xD0 - GetStringWidth(FONT_NORMAL, gText_WelcomeToHOF, 0)) / 2;
     FillWindowPixelBuffer(0, PIXEL_FILL(0));
     PutWindowTilemap(0);
-    AddTextPrinterParameterized3(0, FONT_NORMAL, x, 1, sTextColors[0], 0, gText_WelcomeToHOF);
+    if (gSaveBlock2Ptr->playerGender == MALE)
+    {
+        AddTextPrinterParameterized3(0, FONT_NORMAL, x, 1, sTextColors[0], 0, gText_WelcomeToHOF);
+    }
+    else    
+    {
+        AddTextPrinterParameterized3(0, FONT_NORMAL, x, 1, sTextColors[0], 0, gText_WelcomeToHOF_Female);
+    }
     CopyWindowToVram(0, COPYWIN_FULL);
 }
 

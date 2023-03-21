@@ -47,17 +47,17 @@ Help_Text_DescExit::
 
 Help_Text_Greetings::
 	.string "¡Hola! éste es el Sistema de AYUDA.\n"
-	.string "Call me up whenever and wherever you\l"
-	.string "need by pressing the L or R Button.\l"
+	.string "Ábrelo donde y cuando lo necesites\l"
+	.string "presionando los botones L o R.\l"
 	.string "Los mensajes de ayuda varían según\l"
 	.string "la situación, así que revísalos\l"
 	.string "frecuentemente, por favor.$"
 
 Help_Text_PlayingForFirstTime::
-	.string "I'm playing for the first time. Help!$"
+	.string "Estoy jugando por primera vez. ¡Ayuda!$"
 
 Help_Text_WhatShouldIBeDoing::
-	.string "What should I be doing?$"
+	.string "¿Que debo hacer?$"
 
 Help_Text_CantGetOutOfRoom::
 	.string "I can't get out of a room!$"
@@ -69,10 +69,10 @@ Help_Text_TalkedToEveryoneNowWhat::
 	.string "I've talked to everyone. Now what?$"
 
 Help_Text_SomeoneBlockingMyWay::
-	.string "There's someone blocking my way!$"
+	.string "¡Hay alguien bloqueando mi camino!$"
 
 Help_Text_ICantGoOn::
-	.string "I can't go on!$"
+	.string "¡No puedo avanzar!$"
 
 Help_Text_OutOfThingsToDo::
 	.string "I'm out of things to do.$"
@@ -96,7 +96,7 @@ Help_Text_WhenCanIUseItem::
 	.string "When can I use items?$"
 
 Help_Text_WhatsABattle::
-	.string "What's a battle?$"
+	.string "¿Qué es una batalla?$"
 
 Help_Text_HowDoIPrepareForBattle::
 	.string "How do I prepare for battle?$"
@@ -105,28 +105,28 @@ Help_Text_WhatIsAMonsVitality::
 	.string "What is a POKéMON's vitality?$"
 
 Help_Text_MyMonsAreHurt::
-	.string "My POKéMON are hurt!$"
+	.string "¡Mis POKéMON están heridos!$"
 
 Help_Text_WhatIsStatusProblem::
 	.string "What is a status problem?$"
 
 Help_Text_WhatHappensIfAllMyMonsFaint::
-	.string "What happens if all my POKéMON faint?$"
+	.string "¿Qué pasa si mis POKéMON se debilitan?$"
 
 Help_Text_CantCatchMons::
-	.string "I can't catch POKéMON!$"
+	.string "¡No puedo atrapar POKéMON!$"
 
 Help_Text_RanOutOfPotions::
-	.string "I ran out of POTIONS.$"
+	.string "Me quedé sin POCIONES.$"
 
 Help_Text_CanIBuyPokeBalls::
-	.string "Can I buy POKé BALLS?$"
+	.string "¿Puedo comprar POKé BOLAS?$"
 
 Help_Text_WhatsATrainer::
-	.string "What's a TRAINER?$"
+	.string "¿Qué es un ENTRENADOR?$"
 
 Help_Text_HowDoIWinAgainstTrainer::
-	.string "How do I win against a TRAINER?$"
+	.string "¿Cómo gano contra un ENTRENADOR?$"
 
 Help_Text_WhereDoMonsAppear::
 	.string "Where do POKéMON appear?$"
@@ -138,10 +138,10 @@ Help_Text_WhatAreHiddenMoves::
 	.string "What are HIDDEN moves?$"
 
 Help_Text_WhatMovesShouldIUse::
-	.string "What moves should I use?$"
+	.string "¿Qué movimientos debería usar?$"
 
 Help_Text_WantToAddMoreMoves::
-	.string "I want to add more moves.$"
+	.string "Quiero añadir más movimientos.$"
 
 Help_Text_WantToMakeMonStronger::
 	.string "I want to make my POKéMON stronger.$"
@@ -150,40 +150,41 @@ Help_Text_FoeMonsTooStrong::
 	.string "The foe POKéMON are too strong!$"
 
 Help_Text_WhatDoIDoInCave::
-	.string "What do I do in a cave?$"
+	.string "¿Qué hago en una cueva?$"
 
 Help_Text_NothingIWantToKnow::
-	.string "There's nothing that I want to know!$"
+	.string "¡No hay nada que quiera saber!$"
 
 Help_Text_WhatsPokemonCenter::
-	.string "What's a POKéMON CENTER?$"
+	.string "¿Qué es un CENTRO POKéMON?$"
 
 Help_Text_WhatsPokemonMart::
-	.string "What's a POKéMON MART?$"
+	.string "¿Qué es una TIENDA POKéMON?$"
 
 Help_Text_WantToEndGame::
-	.string "I want to end the game.$"
+	.string "Quiero terminar la partida.$"
 
 Help_Text_WhatsAMon::
-	.string "What's a POKéMON?$"
+	.string "¿Qué es un POKéMON?$"
 
 Help_Text_WhatIsThatPersonLike::
-	.string "What is that person like?$"
+	.string "¿Cómo es esta persona?$"
 
 Help_Text_WhatDoesHiddenMoveDo::
 	.string "What does a HIDDEN move do?$"
 
 Help_Text_WhatDoIDoInSafari::
-	.string "What do I do in a SAFARI GAME?$"
+	.string "¿Que debo hacer en un JUEGO SAFARI?$"
 
 Help_Text_WhatAreSafariRules::
-	.string "What are the SAFARI GAME rules?$"
+	.string "¿Cuales son las reglas del\n"
+	.string "JUEGO SAFARI?$"
 
 Help_Text_WantToEndSafari::
-	.string "I want to end this SAFARI GAME!$"
+	.string "¡Quiero terminar este JUEGO SAFARI!$"
 
 Help_Text_WhatIsAGym::
-	.string "What is a GYM?$"
+	.string "¿Qué es un GIMNASIO?$"
 
 Help_Text_AnswerPlayingForFirstTime::
 	.string "You become the main character,\n"

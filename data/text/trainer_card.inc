@@ -2,7 +2,7 @@ CeladonCity_GameCorner_Text_TryPokemonPrinter::
 	.string "¡Es una IMPRESORA POKéMON!\p"
 	.string "Puede poner fotos de tu equipo\n"
 	.string "POKéMON en el reverso de tu\l"
-	.string "TARJETA DE ENTRENADOR.\p"
+	.string "FICHA DE ENTRENADOR.\p"
 	.string "Solo cuesta ¥50.\n"
 	.string "¿Te gustaría probarla?$"
 
@@ -19,7 +19,7 @@ CeladonCity_GameCorner_Text_BigSmileForPhoto::
 
 CeladonCity_GameCorner_Text_PrintIsReadyCheckTrainerCard::
 	.string "¡La impresión POKéMON está lista!\n"
-	.string "Revisa tu TARJETA DE ENTRENADOR.$"
+	.string "Revisa tu FICHA DE ENTRENADOR.$"
 
 FourIsland_House2_Text_WishICouldShowOffStickers::
 	.string "Giggle…\n"
